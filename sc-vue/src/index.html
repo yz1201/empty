@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Index</title>
+    <script src="../node_modules/vue/dist/vue.js"></script>
+    <script src="js/login.js"></script>
+    <script src="js/register.js"></script>
+    <script src="../node_modules/vue-router/dist/vue-router.js"></script>
+</head>
+<body>
+<div id="app14">
+    <span><router-link to="/login">Login</router-link></span>
+    <span><router-link to="/register">Register</router-link></span>
+    <hr/>
+    <!--    <login-form></login-form>-->
+    <!--    <register-form></register-form>-->
+    <router-view></router-view>
+</div>
+
+<script>
+
+
+    const vue_router = new VueRouter({
+        routes: [
+            {
+                path: "/login",
+                component: loginForm
+            },
+            {
+                path: "/register",
+                component: registerForm
+            }
+        ]
+    });
+    new Vue({
+        el: "#app14",
+        // components: {
+        //     loginForm,
+        //     registerForm
+        // },
+        router: vue_router
+    });
+
+</script>
+</body>
+</html>

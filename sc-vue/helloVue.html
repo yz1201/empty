@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello Vue</title>
+    <script src="node_modules/vue/dist/vue.js"></script>
+    <style>
+        .active {
+            background-color: darkgreen;
+        }
+
+    </style>
+</head>
+<body>
+<div id="app">
+    <button @click="add">click me</button>
+    <button v-on:click="mod">click m1e</button>
+    <input type="text" v-model="num">
+
+    <input type="text" v-model="testname">
+    <h2>{{name}}, how are you? {{num}} times</h2>
+    <p>{{Sout("axiba")}}</p>
+    <p>{{Sout1()}}</p>
+
+    <br/>
+    <br/>
+    <br/>
+
+    <p><span v-text="name">, chong</span></p>
+    <p><span v-html="testname">, chong</span></p>
+    <br/>
+    <input type="checkbox" value="ios" v-model="language">ios
+    <input type="checkbox" value="java" v-model="language">java
+    <input type="checkbox" value="php" v-model="language">php<br/>
+    Go, {{language}}
+
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+
+    <ul>
+        <li v-for="(lang,index) in language">
+            {{lang}}--{{++index}}
+        </li>
+    </ul>
+
+    <hr/>
+    <ul>
+        <li v-for="(val, key,index) in person" :key="index">
+            {{++index}}-->{{key}}->{{val}}
+        </li>
+    </ul>
+
+    <hr/>
+    <hr/>
+    <hr/>
+    <hr/>
+    <button type="button" @click="show=!show">click</button>
+    <span v-if="show">??</span><br/>
+    <span v-show="!show">!!</span>
+    <hr/>
+    <hr/>
+    <hr/>
+    <button type="button" @click="random=Math.random()">random</button>
+    {{random}}<br/>
+    <span v-if="random>0.8"> >0.8 </span>
+    <span v-else-if="random>0.5"> >0.5 </span>
+    <span v-else-if="random>0.2"> >0.2 </span>
+    <span v-else>he he</span>
+    <hr/>
+    <hr/>
+    <hr/>
+    <input type="text" v-model="store">
+    <button type="button" :class="{active: store > 0}" @click="store--">{{store}}</button>
+
+    <hr>
+    <hr>
+    <p>{{new Date().getTime()}}</p>
+    <p>{{new Date(birthday)}}</p>
+    <p>{{birth}}</p>
+    <hr>
+    <input type="text" v-model="message">
+</div>
+<script>
+    const app = new Vue({
+        el: "#app",
+        data: {
+            name: "大黄蜂",
+            num: 5,
+            testname: "la la",
+            language: ["cn", "eu", "na", "kr", "japan", "italy"],
+            person: {name: "tesla", age: 2525, sex: "male", dream: "ha"},
+            show: true,
+            range: 0,
+            random: 0,
+            store: 10,
+            birthday: 1584371040680,
+            message: ""
+        },
+        methods: {
+            add: () => app.num++,
+            mod: () => console.log("??"),
+            Sout: (data) => {
+                let text = "test";
+                return data + "???" + text
+            },
+            Sout1: function () {
+                return "test";
+            }
+        },
+        created() {
+            this.num = 232453
+        },
+        computed: {
+            birth() {
+                const date = new Date(this.birthday);
+                return date.getFullYear() + "-" + date.getUTCMonth() + "-" + date.getUTCDay();
+            }
+        },
+        watch: {
+            message(val1, val2) {
+                console.log(val1, val2)
+            }
+        }
+
+    });
+
+
+</script>
+</body>
+</html>

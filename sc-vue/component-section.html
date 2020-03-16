@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>section</title>
+    <script src="node_modules/vue/dist/vue.js"></script>
+</head>
+<body>
+
+<div id="app1">
+    <component_hello></component_hello>
+    <!--    <runoob></runoob>-->
+    <counter></counter>
+</div>
+
+
+<script>
+    const hello = {
+        template: "<p>hello, i am {{name}}</p>",
+        data() {
+            return {
+                name: "apache"
+            }
+        }
+    };
+    new Vue({
+        el: "#app1",
+        data: {
+            name1231: "??"
+        },
+        components: {
+            'component_hello': hello,
+        }
+    });
+
+    const Child = {
+        template: '<h1>自定义组件!{{name}}</h1>'
+    };
+
+    // 创建根实例
+    // new Vue({
+    //     el: '#app',
+    //     components: {
+    //         // <runoob> 将只在父模板可用
+    //         'runoob': Child,
+    //         'component_hello': hello
+    //     }
+    // })
+</script>
+</body>
+</html>

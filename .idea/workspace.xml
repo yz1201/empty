@@ -2,21 +2,74 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed85c090-aefa-43e3-acbf-d3f7dd4a1eb7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/es6/es6.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/es6/hello.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-item/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-item/sc-item-interface/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-item/sc-item-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/java/cn/dbdj1201/service/ScItemServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-manage-web/.babelrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-manage-web/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-manage-web/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-manage-web/.postcssrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-manage-web/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-manage-web/build/build.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-manage-web/build/check-versions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-manage-web/build/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-manage-web/build/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-manage-web/build/vue-loader.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-manage-web/build/webpack.base.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-manage-web/build/webpack.dev.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-manage-web/build/webpack.prod.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-manage-web/config/dev.env.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-manage-web/config/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-manage-web/config/prod.env.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-manage-web/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-manage-web/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-manage-web/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-manage-web/sc-manage-web.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-manage-web/src/.gitrepo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-manage-web/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-manage-web/src/assets/1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-manage-web/src/assets/2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-manage-web/src/assets/KFOlCnqEu92Fr1MmEU9fBBc4.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-manage-web/src/assets/baby.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-manage-web/src/assets/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-manage-web/src/assets/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-manage-web/src/assets/material.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-manage-web/src/components/MyComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-manage-web/src/components/cascader/Cascader.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-manage-web/src/components/form/Editor.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-manage-web/src/components/form/Upload.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-manage-web/src/components/messages/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-manage-web/src/components/tree/Tree.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-manage-web/src/components/tree/TreeItem.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-manage-web/src/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-manage-web/src/http.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-manage-web/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-manage-web/src/menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-manage-web/src/mockDB.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-manage-web/src/pages/Dashboard.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-manage-web/src/pages/Layout.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-manage-web/src/pages/Login.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-manage-web/src/pages/item/Brand.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-manage-web/src/pages/item/BrandForm.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-manage-web/src/pages/item/Category.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-manage-web/src/pages/item/Goods.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-manage-web/src/pages/item/GoodsForm.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-manage-web/src/pages/item/specification/SpecGroup.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-manage-web/src/pages/item/specification/SpecParam.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-manage-web/src/pages/item/specification/Specification.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-manage-web/src/pages/trade/Promotion.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-manage-web/src/pages/user/Statistics.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-manage-web/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-manage-web/static/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-vue/component-section.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-vue/component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-vue/helloVue.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-vue/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-vue/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-vue/sc-vue.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-vue/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-vue/src/js/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-vue/src/js/register.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sc-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sc-gateway/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sc-registry/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sc-registry/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +81,7 @@
       <list>
         <option value="Class" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -79,13 +133,24 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/sc-manage-web" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="ts.external.directory.path" value="F:\IntelliJ IDEA 2019.2.4\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\maven_project\empty\sc-vue\src\js" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
@@ -192,11 +257,6 @@
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
             </expand>
             <select />
           </treeState>
@@ -214,7 +274,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584330686046</updated>
-      <workItem from="1584330687512" duration="8432000" />
+      <workItem from="1584330687512" duration="9333000" />
+      <workItem from="1584361974090" duration="645000" />
+      <workItem from="1584362757083" duration="17283000" />
     </task>
     <task id="LOCAL-00001" summary="shopping city -bec">
       <created>1584332491647</created>
@@ -223,7 +285,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584332491647</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="shopping city -st es6">
+      <created>1584348783723</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1584348783723</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,52 +300,69 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="shopping city -bec" />
-    <option name="LAST_COMMIT_MESSAGE" value="shopping city -bec" />
+    <MESSAGE value="shopping city -st es6" />
+    <option name="LAST_COMMIT_MESSAGE" value="shopping city -st es6" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="560" y="112" key="CommitChangelistDialog2" timestamp="1584332489224">
+    <state x="560" y="112" key="CommitChangelistDialog2" timestamp="1584348780910">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="560" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1584332489224" />
-    <state width="1438" height="299" key="GridCell.Tab.0.bottom" timestamp="1584339391358">
+    <state x="560" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1584348780910" />
+    <state x="740" y="209" key="FileChooserDialogImpl" timestamp="1584379980120">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1438" height="299" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584339391358" />
-    <state width="1438" height="299" key="GridCell.Tab.0.center" timestamp="1584339391358">
+    <state x="740" y="209" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1584379980120" />
+    <state width="1438" height="299" key="GridCell.Tab.0.bottom" timestamp="1584359802178">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1438" height="299" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584339391358" />
-    <state width="1438" height="299" key="GridCell.Tab.0.left" timestamp="1584339391358">
+    <state width="1438" height="299" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584359802178" />
+    <state width="1438" height="299" key="GridCell.Tab.0.center" timestamp="1584359802177">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1438" height="299" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584339391358" />
-    <state width="1438" height="299" key="GridCell.Tab.0.right" timestamp="1584339391358">
+    <state width="1438" height="299" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584359802177" />
+    <state width="1438" height="299" key="GridCell.Tab.0.left" timestamp="1584359802177">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1438" height="299" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584339391358" />
-    <state width="1438" height="299" key="GridCell.Tab.1.bottom" timestamp="1584339391359">
+    <state width="1438" height="299" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584359802177" />
+    <state width="1438" height="299" key="GridCell.Tab.0.right" timestamp="1584359802178">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1438" height="299" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584339391359" />
-    <state width="1438" height="299" key="GridCell.Tab.1.center" timestamp="1584339391359">
+    <state width="1438" height="299" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584359802178" />
+    <state width="1438" height="299" key="GridCell.Tab.1.bottom" timestamp="1584359802178">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1438" height="299" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584339391359" />
-    <state width="1438" height="299" key="GridCell.Tab.1.left" timestamp="1584339391358">
+    <state width="1438" height="299" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584359802178" />
+    <state width="1438" height="299" key="GridCell.Tab.1.center" timestamp="1584359802178">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1438" height="299" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584339391358" />
-    <state width="1438" height="299" key="GridCell.Tab.1.right" timestamp="1584339391359">
+    <state width="1438" height="299" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584359802178" />
+    <state width="1438" height="299" key="GridCell.Tab.1.left" timestamp="1584359802178">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1438" height="299" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584339391359" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1584332498052">
+    <state width="1438" height="299" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584359802178" />
+    <state width="1438" height="299" key="GridCell.Tab.1.right" timestamp="1584359802178">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1584332498052" />
-    <state x="334" y="215" key="new project wizard" timestamp="1584345222269">
+    <state width="1438" height="299" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584359802178" />
+    <state x="600" y="217" key="NewModule_or_Project.wizard" timestamp="1584380000434">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="334" y="215" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1584345222269" />
+    <state x="600" y="217" key="NewModule_or_Project.wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1584380000434" />
+    <state x="440" y="94" key="SettingsEditor" timestamp="1584380011329">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1584380011329" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1584348789949">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1584348789949" />
+    <state x="334" y="215" key="new project wizard" timestamp="1584362838300">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="334" y="215" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1584362838300" />
+    <state x="816" y="361" width="672" height="678" key="search.everywhere.popup" timestamp="1584364115288">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="816" y="361" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1584364115288" />
   </component>
 </project>

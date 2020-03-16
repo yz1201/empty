@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>component</title>
+    <script src="node_modules/vue/dist/vue.js"></script>
+</head>
+<body>
+
+<div id="app">
+    <counter :num1="num" @add1="add">++</counter>
+</div>
+
+
+<script>
+    Vue.component("counter", {
+        template: "<button type='button' style='background-color: deeppink' @click='subAdd'>click me,{{num1}}</button>",
+        // data() {
+        //     return {
+        //         num: 0
+        //     }
+        // }
+        props: {
+            num1: {
+                type: Number,
+                default: 0
+            }
+
+        },
+        methods:{
+            subAdd(){
+                this.$emit("add1")
+            }
+        }
+    });
+    new Vue({
+        el: "#app",
+        data: {
+            num: 123
+        },
+        methods: {
+            add() {
+                this.num++
+            }
+        }
+    });
+
+
+</script>
+</body>
+</html>
