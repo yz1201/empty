@@ -2,19 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed85c090-aefa-43e3-acbf-d3f7dd4a1eb7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-gateway/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-gateway/src/main/java/cn/dbdj1201/sc/ScGatewayApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-gateway/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-registry/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-registry/src/main/java/cn/dbdj1201/sc/ScRegistryApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-registry/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/es6/es6.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/es6/hello.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-item/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-item/sc-item-interface/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-item/sc-item-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/java/cn/dbdj1201/service/ScItemServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sc-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-registry/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sc-registry/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +27,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -61,19 +64,37 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.sorted" value="false" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunManager">
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ScItemServiceApplication">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -97,6 +118,26 @@
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="moduleWithDependencies" />
       </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sc-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.dbdj1201.sc.ScGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScItemServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="sc-item-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.dbdj1201.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.dbdj1201.service.ScItemServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -129,6 +170,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Spring Boot.ScRegistryApplication" />
+      <item itemvalue="Spring Boot.ScGatewayApplication" />
+      <item itemvalue="Spring Boot.ScItemServiceApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ScItemServiceApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.22132035" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -140,17 +214,69 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584330686046</updated>
-      <workItem from="1584330687512" duration="1714000" />
+      <workItem from="1584330687512" duration="8432000" />
     </task>
+    <task id="LOCAL-00001" summary="shopping city -bec">
+      <created>1584332491647</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1584332491647</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="shopping city -bec" />
+    <option name="LAST_COMMIT_MESSAGE" value="shopping city -bec" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="334" y="215" key="new project wizard" timestamp="1584332179520">
+    <state x="560" y="112" key="CommitChangelistDialog2" timestamp="1584332489224">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="334" y="215" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1584332179520" />
+    <state x="560" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1584332489224" />
+    <state width="1438" height="299" key="GridCell.Tab.0.bottom" timestamp="1584339391358">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1438" height="299" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584339391358" />
+    <state width="1438" height="299" key="GridCell.Tab.0.center" timestamp="1584339391358">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1438" height="299" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584339391358" />
+    <state width="1438" height="299" key="GridCell.Tab.0.left" timestamp="1584339391358">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1438" height="299" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584339391358" />
+    <state width="1438" height="299" key="GridCell.Tab.0.right" timestamp="1584339391358">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1438" height="299" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584339391358" />
+    <state width="1438" height="299" key="GridCell.Tab.1.bottom" timestamp="1584339391359">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1438" height="299" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584339391359" />
+    <state width="1438" height="299" key="GridCell.Tab.1.center" timestamp="1584339391359">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1438" height="299" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584339391359" />
+    <state width="1438" height="299" key="GridCell.Tab.1.left" timestamp="1584339391358">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1438" height="299" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584339391358" />
+    <state width="1438" height="299" key="GridCell.Tab.1.right" timestamp="1584339391359">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1438" height="299" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584339391359" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1584332498052">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1584332498052" />
+    <state x="334" y="215" key="new project wizard" timestamp="1584345222269">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="334" y="215" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1584345222269" />
   </component>
 </project>

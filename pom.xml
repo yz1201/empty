@@ -11,6 +11,8 @@
     <modules>
         <module>sc-registry</module>
         <module>sc-gateway</module>
+        <module>sc-item</module>
+        <module>sc-common</module>
     </modules>
 
 
