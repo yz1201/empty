@@ -1,8 +1,8 @@
 server:
-  port: 80
+  port: 12011
 spring:
   application:
-    name: leyou-gateway
+    name: sc-gateway
 eureka:
   client:
     registry-fetch-interval-seconds: 5
@@ -11,4 +11,6 @@ eureka:
 zuul:
   prefix: /api # 路由路径前缀
   routes:
-    item-service: /item/** # 商品微服务的映射路径
+    item-service:  /item/** # 商品微服务的映射路径
+#      path:  /item/**
+#      url:  http://127.0.0.1:8081
