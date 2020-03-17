@@ -1,8 +1,9 @@
-package cn.dbdj1201.service;
+package cn.dbdj1201.sc;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
+import tk.mybatis.spring.annotation.MapperScan;
 
 /**
  * @author tyz1201
@@ -10,6 +11,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
  **/
 @SpringBootApplication
 @EnableDiscoveryClient
+@MapperScan("cn.dbdj1201.sc.mapper")
 public class ScItemServiceApplication {
     public static void main(String[] args) {
         SpringApplication.run(ScItemServiceApplication.class, args);

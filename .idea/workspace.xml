@@ -2,74 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed85c090-aefa-43e3-acbf-d3f7dd4a1eb7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sc-manage-web/.babelrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-manage-web/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-manage-web/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-manage-web/.postcssrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-manage-web/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-manage-web/build/build.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-manage-web/build/check-versions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-manage-web/build/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-manage-web/build/utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-manage-web/build/vue-loader.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-manage-web/build/webpack.base.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-manage-web/build/webpack.dev.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-manage-web/build/webpack.prod.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-manage-web/config/dev.env.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-manage-web/config/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-manage-web/config/prod.env.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-manage-web/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-manage-web/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-manage-web/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-manage-web/sc-manage-web.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-manage-web/src/.gitrepo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-manage-web/src/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-manage-web/src/assets/1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-manage-web/src/assets/2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-manage-web/src/assets/KFOlCnqEu92Fr1MmEU9fBBc4.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-manage-web/src/assets/baby.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-manage-web/src/assets/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-manage-web/src/assets/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-manage-web/src/assets/material.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-manage-web/src/components/MyComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-manage-web/src/components/cascader/Cascader.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-manage-web/src/components/form/Editor.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-manage-web/src/components/form/Upload.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-manage-web/src/components/messages/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-manage-web/src/components/tree/Tree.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-manage-web/src/components/tree/TreeItem.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-manage-web/src/config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-manage-web/src/http.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-manage-web/src/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-manage-web/src/menu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-manage-web/src/mockDB.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-manage-web/src/pages/Dashboard.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-manage-web/src/pages/Layout.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-manage-web/src/pages/Login.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-manage-web/src/pages/item/Brand.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-manage-web/src/pages/item/BrandForm.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-manage-web/src/pages/item/Category.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-manage-web/src/pages/item/Goods.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-manage-web/src/pages/item/GoodsForm.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-manage-web/src/pages/item/specification/SpecGroup.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-manage-web/src/pages/item/specification/SpecParam.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-manage-web/src/pages/item/specification/Specification.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-manage-web/src/pages/trade/Promotion.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-manage-web/src/pages/user/Statistics.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-manage-web/src/router/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-manage-web/static/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-vue/component-section.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-vue/component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-vue/helloVue.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-vue/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-vue/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-vue/sc-vue.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-vue/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-vue/src/js/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-vue/src/js/register.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-item/sc-item-interface/src/main/java/cn/dbdj1201/sc/pojo/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/java/cn/dbdj1201/sc/mapper/CategoryMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-item/sc-item-interface/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sc-item/sc-item-interface/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/java/cn/dbdj1201/service/ScItemServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/java/cn/dbdj1201/sc/ScItemServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-manage-web/build/webpack.dev.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/sc-manage-web/build/webpack.dev.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-manage-web/config/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/sc-manage-web/config/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-manage-web/src/pages/Layout.vue" beforeDir="false" afterPath="$PROJECT_DIR$/sc-manage-web/src/pages/Layout.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,9 +20,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -198,11 +140,11 @@
       <module name="sc-item-service" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.dbdj1201.service.*" />
+          <option name="PATTERN" value="cn.dbdj1201.sc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.dbdj1201.service.ScItemServiceApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.dbdj1201.sc.ScItemServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -276,7 +218,8 @@
       <updated>1584330686046</updated>
       <workItem from="1584330687512" duration="9333000" />
       <workItem from="1584361974090" duration="645000" />
-      <workItem from="1584362757083" duration="17283000" />
+      <workItem from="1584362757083" duration="17529000" />
+      <workItem from="1584411396504" duration="4196000" />
     </task>
     <task id="LOCAL-00001" summary="shopping city -bec">
       <created>1584332491647</created>
@@ -292,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584348783723</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="shopping city -st vue">
+      <created>1584381955242</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1584381955242</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -301,13 +251,18 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="shopping city -bec" />
     <MESSAGE value="shopping city -st es6" />
-    <option name="LAST_COMMIT_MESSAGE" value="shopping city -st es6" />
+    <MESSAGE value="shopping city -st vue" />
+    <option name="LAST_COMMIT_MESSAGE" value="shopping city -st vue" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="560" y="112" key="CommitChangelistDialog2" timestamp="1584348780910">
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1584417886187">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="560" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1584348780910" />
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1584417886187" />
+    <state x="560" y="112" key="CommitChangelistDialog2" timestamp="1584381951172">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="560" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1584381951172" />
     <state x="740" y="209" key="FileChooserDialogImpl" timestamp="1584379980120">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -352,10 +307,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1584380011329" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1584348789949">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1584381963500">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1584348789949" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1584381963500" />
     <state x="334" y="215" key="new project wizard" timestamp="1584362838300">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
