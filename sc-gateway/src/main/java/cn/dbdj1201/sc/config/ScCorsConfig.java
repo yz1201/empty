@@ -16,6 +16,8 @@ public class ScCorsConfig {
 
     @Bean
     public CorsFilter corsFilter() {
+        System.out.println("????");
+
         //1.添加CORS配置信息
         CorsConfiguration config = new CorsConfiguration();
         //1) 允许的域,不要写*，否则cookie就无法使用了

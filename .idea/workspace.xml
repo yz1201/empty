@@ -2,16 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed85c090-aefa-43e3-acbf-d3f7dd4a1eb7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sc-gateway/src/main/java/cn/dbdj1201/sc/config/ScCorsConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/java/cn/dbdj1201/sc/controller/CategoryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/java/cn/dbdj1201/sc/service/ICategoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/java/cn/dbdj1201/sc/service/impl/CategoryService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-common/src/main/java/cn/dbdj120/sc/common/pojo/PageResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-item/sc-item-interface/src/main/java/cn/dbdj1201/sc/pojo/Brand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/java/cn/dbdj1201/sc/controller/BrandController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/java/cn/dbdj1201/sc/mapper/BrandMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/java/cn/dbdj1201/sc/service/IBrandService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/java/cn/dbdj1201/sc/service/impl/BrandService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sc-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sc-gateway/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sc-manage-web/src/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/sc-manage-web/src/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-gateway/src/main/java/cn/dbdj1201/sc/config/ScCorsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/sc-gateway/src/main/java/cn/dbdj1201/sc/config/ScCorsConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-item/sc-item-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sc-item/sc-item-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/java/cn/dbdj1201/sc/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/java/cn/dbdj1201/sc/controller/CategoryController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,7 +203,7 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -226,7 +226,7 @@
       <workItem from="1584361974090" duration="645000" />
       <workItem from="1584362757083" duration="17529000" />
       <workItem from="1584411396504" duration="7441000" />
-      <workItem from="1584440164524" duration="1521000" />
+      <workItem from="1584440164524" duration="6554000" />
     </task>
     <task id="LOCAL-00001" summary="shopping city -bec">
       <created>1584332491647</created>
@@ -256,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584418375640</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="shopping city -st cors">
+      <created>1584441813433</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1584441813433</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -267,53 +274,54 @@
     <MESSAGE value="shopping city -st es6" />
     <MESSAGE value="shopping city -st vue" />
     <MESSAGE value="shopping city -st category nginx proxy" />
-    <option name="LAST_COMMIT_MESSAGE" value="shopping city -st category nginx proxy" />
+    <MESSAGE value="shopping city -st cors" />
+    <option name="LAST_COMMIT_MESSAGE" value="shopping city -st cors" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1584432017183">
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1584455506367">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1584432017183" />
-    <state x="560" y="112" key="CommitChangelistDialog2" timestamp="1584418372296">
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1584455506367" />
+    <state x="560" y="112" key="CommitChangelistDialog2" timestamp="1584441809480">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="560" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1584418372296" />
+    <state x="560" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1584441809480" />
     <state x="740" y="209" key="FileChooserDialogImpl" timestamp="1584379980120">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="209" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1584379980120" />
-    <state width="1564" height="195" key="GridCell.Tab.0.bottom" timestamp="1584441788542">
+    <state width="1564" height="329" key="GridCell.Tab.0.bottom" timestamp="1584452313940">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1564" height="195" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584441788542" />
-    <state width="1564" height="195" key="GridCell.Tab.0.center" timestamp="1584441788542">
+    <state width="1564" height="329" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584452313940" />
+    <state width="1564" height="329" key="GridCell.Tab.0.center" timestamp="1584452313940">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1564" height="195" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584441788542" />
-    <state width="1564" height="195" key="GridCell.Tab.0.left" timestamp="1584441788542">
+    <state width="1564" height="329" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584452313940" />
+    <state width="1564" height="329" key="GridCell.Tab.0.left" timestamp="1584452313940">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1564" height="195" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584441788542" />
-    <state width="1564" height="195" key="GridCell.Tab.0.right" timestamp="1584441788542">
+    <state width="1564" height="329" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584452313940" />
+    <state width="1564" height="329" key="GridCell.Tab.0.right" timestamp="1584452313940">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1564" height="195" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584441788542" />
-    <state width="1564" height="195" key="GridCell.Tab.1.bottom" timestamp="1584441788542">
+    <state width="1564" height="329" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584452313940" />
+    <state width="1564" height="329" key="GridCell.Tab.1.bottom" timestamp="1584452313940">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1564" height="195" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584441788542" />
-    <state width="1564" height="195" key="GridCell.Tab.1.center" timestamp="1584441788542">
+    <state width="1564" height="329" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584452313940" />
+    <state width="1564" height="329" key="GridCell.Tab.1.center" timestamp="1584452313940">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1564" height="195" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584441788542" />
-    <state width="1564" height="195" key="GridCell.Tab.1.left" timestamp="1584441788542">
+    <state width="1564" height="329" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584452313940" />
+    <state width="1564" height="329" key="GridCell.Tab.1.left" timestamp="1584452313940">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1564" height="195" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584441788542" />
-    <state width="1564" height="195" key="GridCell.Tab.1.right" timestamp="1584441788542">
+    <state width="1564" height="329" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584452313940" />
+    <state width="1564" height="329" key="GridCell.Tab.1.right" timestamp="1584452313940">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1564" height="195" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584441788542" />
+    <state width="1564" height="329" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584452313940" />
     <state x="600" y="217" key="NewModule_or_Project.wizard" timestamp="1584380000434">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -322,10 +330,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1584380011329" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1584418387843">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1584441817261">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1584418387843" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1584441817261" />
     <state x="334" y="215" key="new project wizard" timestamp="1584362838300">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

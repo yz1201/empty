@@ -29,7 +29,7 @@ public class CategoryController {
      * @return
      */
     @GetMapping("/list")
-    public ResponseEntity<List<Category>> queryCategoriesByPid(@RequestParam(value = "id", defaultValue = "1") Long pid) {
+    public ResponseEntity<List<Category>> queryCategoriesByPid(@RequestParam(value = "pid", defaultValue = "1") Long pid) {
 
         if (pid == null || pid < 0) {
             // 响应400，相当于ResponseEntity.status(HttpStatus.BAD_REQUEST).build();
