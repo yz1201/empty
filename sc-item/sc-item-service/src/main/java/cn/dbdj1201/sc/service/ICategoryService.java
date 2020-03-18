@@ -11,4 +11,14 @@ import java.util.List;
 public interface ICategoryService {
 
     List<Category> queryCategoriesByPid(Long pid);
+
+    Category queryCategoryById(Long id);
+
+    Category queryCategoryByName(String name);
+
+    Category updateCategory(Long id, String name);
+
+    void addSubCategory(Category category);
+
+    void deleteCurrentCategory(Long id);
 }

@@ -1,7 +1,7 @@
 package cn.dbdj1201.sc.controller;
 
 import cn.dbdj1201.sc.pojo.Category;
-import cn.dbdj1201.sc.service.impl.CategoryService;
+import cn.dbdj1201.sc.service.ICategoryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.util.CollectionUtils;
@@ -21,14 +21,15 @@ import java.util.List;
 public class CategoryController {
 
     @Autowired
-    private CategoryService service;
+    private ICategoryService service;
 
     /**
      * 根据父节点id查询子节点
+     *
      * @param pid
      * @return
      */
-    @GetMapping("/list")
+    @GetMapping("list")
     public ResponseEntity<List<Category>> queryCategoriesByPid(@RequestParam(value = "pid", defaultValue = "1") Long pid) {
 
         if (pid == null || pid < 0) {
@@ -41,6 +42,44 @@ public class CategoryController {
             return ResponseEntity.notFound().build();
         }
         return ResponseEntity.ok(categories);
+    }
+
+    @GetMapping("add")
+    public ResponseEntity<Category> addCategory(
+            @RequestParam String name,
+            @RequestParam Long parentId,
+            @RequestParam Integer sort,
+            @RequestParam(value = "isParent", defaultValue = "false") Boolean isParent
+    ) {
+        if (service.queryCategoryByName(name) != null) {
+            return ResponseEntity.badRequest().build();
+        }
+        Category category = new Category();
+        category.setName(name);
+        category.setParentId(parentId);
+        category.setSort(sort);
+        category.setIsParent(isParent);
+        service.addSubCategory(category);
+        return ResponseEntity.ok(service.queryCategoryByName(name));
+    }
+
+
+    @GetMapping("edit")
+    public ResponseEntity<Category> editCurrentCategory(
+            @RequestParam Long id,
+            @RequestParam String name
+    ) {
+        if (id == null || id < 0)
+            return ResponseEntity.badRequest().build();
+        return ResponseEntity.ok(service.updateCategory(id, name));
+    }
+
+    @GetMapping("delete")
+    public ResponseEntity<String> deleteCurrentCategory(@RequestParam Long id) {
+        if (id <= 1000)
+            return ResponseEntity.badRequest().body("这个删不了吧？");
+        service.deleteCurrentCategory(id);
+        return ResponseEntity.ok().body("bye~");
     }
 
 }

@@ -1,14 +1,14 @@
 <template>
   <v-card>
-      <v-flex xs12 sm10>
-        <v-tree url="/item/category/list"
-                :isEdit="isEdit"
-                @handleAdd="handleAdd"
-                @handleEdit="handleEdit"
-                @handleDelete="handleDelete"
-                @handleClick="handleClick"
-        />
-      </v-flex>
+    <v-flex xs12 sm10>
+      <v-tree url="/item/category/list"
+              :isEdit="isEdit"
+              @handleAdd="handleAdd"
+              @handleEdit="handleEdit"
+              @handleDelete="handleDelete"
+              @handleClick="handleClick"
+      />
+    </v-flex>
   </v-card>
 </template>
 
@@ -17,19 +17,46 @@
     name: "category",
     data() {
       return {
-        isEdit:true
+        isEdit: true
       }
     },
     methods: {
       handleAdd(node) {
         console.log("add .... ");
         console.log(node);
+        this.$http.get('item/category/add', {
+          params: {
+            // id: node.data.id,
+            name: node.name,
+            parentId: node.parentId,
+            sort: node.sort,
+            isParent: node.isParent
+          }
+        }).then(resp => {
+          console.log(resp.data.id);
+          this.id = resp.data.id
+        })
       },
       handleEdit(id, name) {
-        console.log("edit... id: " + id + ", name: " + name)
+        this.$http.get('/item/category/edit', {
+          params: {
+            id: id,
+            name: name
+          }
+        }).then(resp => {
+          // this.edit = true;
+          this.name = resp.data.name;
+          this.loading = false
+        })
+
       },
       handleDelete(id) {
-        console.log("delete ... " + id)
+        console.log("delete ... " + id);
+        this.$http.get('/item/category/delete', {
+          params: {
+            id: id
+          }
+        }).then(resp => console.log(resp))
       },
       handleClick(node) {
         console.log(node)

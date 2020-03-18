@@ -17,10 +17,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="sc-gateway" />
-        <module name="sc-item-interface" />
-        <module name="sc-item-service" />
-        <module name="sc-common" />
         <module name="sc-registry" />
+        <module name="sc-item-service" />
+        <module name="sc-item-interface" />
+        <module name="sc-common" />
       </profile>
     </annotationProcessing>
   </component>

@@ -132,7 +132,7 @@
             // 控制弹窗可见：
             this.show = true;
             // 获取要编辑的brand
-            this.oldBrand = oldBrand
+            this.oldBrand = oldBrand;
             // 回显商品分类
             this.oldBrand.categories = data;
           })
