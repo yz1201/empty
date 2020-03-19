@@ -22,5 +22,5 @@ public interface ICategoryService {
 
     void deleteCurrentCategory(Long id);
 
-    Category queryCategoryByBrandId(Long bid);
+    List<Category> queryCategoriesByBrandId(Long bid);
 }

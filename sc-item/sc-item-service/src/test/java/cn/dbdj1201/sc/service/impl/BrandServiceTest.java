@@ -32,7 +32,7 @@ public class BrandServiceTest {
     @Test
     public void addBrand() {
         Brand brand = new Brand();
-        brand.setImage("asdhakd");
+        brand.setImage("http://image.sc1.com/test1.jpg");
         brand.setLetter('A');
         brand.setName("test1");
         List<Long> longs = new ArrayList<>();
@@ -41,5 +41,10 @@ public class BrandServiceTest {
         longs.add(23335L);
         longs.add(23336L);
         service.addBrand(brand, longs);
+    }
+
+    @Test
+    public void delete() {
+        service.delete(325403L);
     }
 }

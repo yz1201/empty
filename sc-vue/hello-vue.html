@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hello</title>
+    <script src="node_modules/vue/dist/vue.js"></script>
+</head>
+<body>
+
+<div id="app">
+    <!--    <h1>{{hello}}</h1>-->
+    <!--    <h1>{{person}}</h1>-->
+    <p v-bind:class="color">hello motor</p>
+    <button v-on:click="change">click</button>
+    <p>{{ok?'true':'false'}}</p>
+</div>
+
+<script>
+    let times = 1;
+    const person = {name: "test"};
+    const vm = new Vue({
+        el: "#app",
+        data: {
+            hello: "hello, world",
+            person,
+            color: "red",
+            times,
+            ok: NaN
+        },
+        methods: {
+            change() {
+                if (this.times % 2 !== 0) {
+                    this.color = "blue";
+                    this.times++
+                } else {
+                    this.color = "red";
+                    this.times++
+                }
+            }
+        }
+
+    });
+    person.name = "test1";
+    vm.$watch('hello', (newVal, oldVal) => {
+        console.log(newVal + "--->" + oldVal)
+    })
+</script>
+<style type="text/css">
+    .red {
+        color: red;
+    }
+
+    .blue {
+        color: blue;
+    }
+</style>
+</body>
+</html>

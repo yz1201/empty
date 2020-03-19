@@ -5,7 +5,9 @@ import cn.dbdj1201.sc.pojo.Category;
 import cn.dbdj1201.sc.service.ICategoryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -69,10 +71,11 @@ public class CategoryService implements ICategoryService {
     }
 
     @Override
-    public Category queryCategoryByBrandId(Long bid) {
-        List<Long> cids = mapper.queryCategoryIdByBrandID(bid);
-//        cids.forEach();
-        return null;
+    @Transactional
+    public List<Category> queryCategoriesByBrandId(Long bid) {
+        List<Category> list = new ArrayList<>();
+        mapper.queryCategoryIdByBrandID(bid).forEach(cid -> list.add(mapper.selectByPrimaryKey(cid)));
+        return list;
     }
 
 }

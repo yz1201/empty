@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>All</title>
+    <script src="node_modules/vue/dist/vue.js"></script>
+</head>
+<body>
+
+<div id="app7">
+    <test :number1="number" @fun1="decrease1" ></test>
+</div>
+
+<script>
+    Vue.component('test', {
+            template: '<button @click="subDecrease">test--{{number1}}</button>',
+            props: {
+                number1: {
+                    type: Number,
+                    default: 0
+                }
+            },
+            data() {
+                return {
+                    num: 0
+                }
+            },
+            methods: {
+                subDecrease() {
+                    this.$emit("fun1")
+                }
+            }
+
+        }
+    );
+    const vm1 = new Vue({
+        el: "#app7",
+        data: {
+            number: 321
+        },
+        methods: {
+            decrease1() {
+                this.number--;
+            }
+        }
+    })
+
+</script>
+</body>
+</html>

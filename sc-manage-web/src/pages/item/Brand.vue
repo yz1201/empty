@@ -122,15 +122,8 @@
         this.isEdit = false;
         // 控制弹窗可见：
         this.show = true;
-        console.log("add->" + this.brands);
         // 把oldBrand变为null
         this.oldBrand = null;
-        // this.$http.get('/item/brand/add', {
-        //   params: {
-        //     name: this.brands.name,
-        //     letter: this.brands.letter
-        //   }
-        // });
       },
       editBrand(oldBrand) {
         // 根据品牌信息查询商品分类
@@ -144,6 +137,12 @@
             this.oldBrand = oldBrand;
             // 回显商品分类
             this.oldBrand.categories = data;
+          })
+      },
+      deleteBrand(oldBrand) {
+        this.$http.get('/item/brand/delete/' + oldBrand.id)
+          .then(resp => {
+            console.log(resp)
           })
       },
       closeWindow() {

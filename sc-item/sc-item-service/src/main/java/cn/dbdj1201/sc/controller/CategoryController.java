@@ -80,11 +80,9 @@ public class CategoryController {
         return ResponseEntity.ok().body("bye~");
     }
 
-    @GetMapping("bid/{id}")
-    public ResponseEntity<Category> queryCategoryByBid(@PathVariable Long id) {
-
-        Category category = new Category();
-        return ResponseEntity.ok(category);
+    @GetMapping("bid/{bid}")
+    public ResponseEntity<List<Category>> queryCategoryByBid(@PathVariable Long bid) {
+        return ResponseEntity.ok(service.queryCategoriesByBrandId(bid));
     }
 
 }

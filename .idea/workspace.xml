@@ -1,36 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed85c090-aefa-43e3-acbf-d3f7dd4a1eb7" name="Default Changelist" comment="shopping city -st category">
-      <change afterPath="$PROJECT_DIR$/sc-gateway/src/main/java/cn/dbdj1201/sc/gateway/config/ScCorsConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-item/sc-item-service/src/test/java/cn/dbdj1201/sc/service/impl/BrandServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-upload/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-upload/src/main/java/cn/dbdj1201/sc/upload/ScUploadApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-upload/src/main/java/cn/dbdj1201/sc/upload/config/FastClientImporter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-upload/src/main/java/cn/dbdj1201/sc/upload/controller/UploadController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-upload/src/main/java/cn/dbdj1201/sc/upload/service/IUploadService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-upload/src/main/java/cn/dbdj1201/sc/upload/service/impl/UploadService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-upload/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-upload/src/test/java/cn/dbdj1201/sc/upload/FastDFSTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="ed85c090-aefa-43e3-acbf-d3f7dd4a1eb7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/sc-item/sc-item-service/src/test/java/cn/dbdj1201/sc/service/impl/CategoryServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-vue/component1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-vue/component2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-vue/hello-vue.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sc-gateway/src/main/java/cn/dbdj1201/sc/config/ScCorsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/sc-upload/src/main/java/cn/dbdj1201/sc/upload/config/ScCorsConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sc-item/sc-item-interface/src/main/java/cn/dbdj1201/sc/pojo/Brand.java" beforeDir="false" afterPath="$PROJECT_DIR$/sc-item/sc-item-interface/src/main/java/cn/dbdj1201/sc/pojo/Brand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sc-item/sc-item-interface/src/main/java/cn/dbdj1201/sc/pojo/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/sc-item/sc-item-interface/src/main/java/cn/dbdj1201/sc/pojo/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sc-item/sc-item-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sc-item/sc-item-service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/java/cn/dbdj1201/sc/controller/BrandController.java" beforeDir="false" afterPath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/java/cn/dbdj1201/sc/controller/BrandController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/java/cn/dbdj1201/sc/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/java/cn/dbdj1201/sc/controller/CategoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/java/cn/dbdj1201/sc/mapper/BrandMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/java/cn/dbdj1201/sc/mapper/BrandMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/java/cn/dbdj1201/sc/mapper/CategoryMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/java/cn/dbdj1201/sc/mapper/CategoryMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/java/cn/dbdj1201/sc/service/IBrandService.java" beforeDir="false" afterPath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/java/cn/dbdj1201/sc/service/IBrandService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/java/cn/dbdj1201/sc/service/ICategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/java/cn/dbdj1201/sc/service/ICategoryService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/java/cn/dbdj1201/sc/service/impl/BrandService.java" beforeDir="false" afterPath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/java/cn/dbdj1201/sc/service/impl/BrandService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/java/cn/dbdj1201/sc/service/impl/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/java/cn/dbdj1201/sc/service/impl/CategoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-item/sc-item-service/src/test/java/cn/dbdj1201/sc/service/impl/BrandServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/sc-item/sc-item-service/src/test/java/cn/dbdj1201/sc/service/impl/BrandServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sc-manage-web/src/pages/item/Brand.vue" beforeDir="false" afterPath="$PROJECT_DIR$/sc-manage-web/src/pages/item/Brand.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sc-manage-web/src/pages/item/BrandForm.vue" beforeDir="false" afterPath="$PROJECT_DIR$/sc-manage-web/src/pages/item/BrandForm.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sc-manage-web/src/pages/item/Category.vue" beforeDir="false" afterPath="$PROJECT_DIR$/sc-manage-web/src/pages/item/Category.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-vue/component-section.html" beforeDir="false" afterPath="$PROJECT_DIR$/sc-vue/component-section.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-vue/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/sc-vue/src/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,12 +28,12 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
         <option value="JUnit5 Test Class" />
-        <option value="JUnit4 Test Class" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -118,11 +106,11 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="cn.dbdj1201.sc.service.impl" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="cn.dbdj1201.sc.upload.config" />
-    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.dbdj1201.sc.upload.config" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\maven_project\empty\sc-vue\src\js" />
@@ -135,7 +123,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FastDFSTest.testUpload">
+  <component name="RunManager" selected="JUnit.BrandServiceTest.delete">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -173,17 +161,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FastDFSTest.testUpload" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sc-upload" />
+    <configuration name="BrandServiceTest.delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sc-item-service" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.dbdj1201.sc.upload.*" />
+          <option name="PATTERN" value="cn.dbdj1201.sc.service.impl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="cn.dbdj1201.sc.upload" />
-      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.sc.upload.FastDFSTest" />
-      <option name="METHOD_NAME" value="testUpload" />
+      <option name="PACKAGE_NAME" value="cn.dbdj1201.sc.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.sc.service.impl.BrandServiceTest" />
+      <option name="METHOD_NAME" value="delete" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
@@ -193,17 +181,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FastDFSTest.testUploadAndCreateThumb" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sc-upload" />
+    <configuration name="CategoryServiceTest.queryCategoriesByBrandId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sc-item-service" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.dbdj1201.sc.upload.*" />
+          <option name="PATTERN" value="cn.dbdj1201.sc.service.impl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="cn.dbdj1201.sc.upload" />
-      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.sc.upload.FastDFSTest" />
-      <option name="METHOD_NAME" value="testUploadAndCreateThumb" />
+      <option name="PACKAGE_NAME" value="cn.dbdj1201.sc.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.sc.service.impl.CategoryServiceTest" />
+      <option name="METHOD_NAME" value="queryCategoriesByBrandId" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
@@ -285,21 +273,21 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.BrandServiceTest.addBrand" />
-      <item itemvalue="JUnit.FastDFSTest.testUpload" />
-      <item itemvalue="JUnit.FastDFSTest.testUploadAndCreateThumb" />
       <item itemvalue="Spring Boot.ScRegistryApplication" />
       <item itemvalue="Spring Boot.ScGatewayApplication" />
       <item itemvalue="Spring Boot.ScItemServiceApplication" />
       <item itemvalue="Spring Boot.ScUploadApplication" />
+      <item itemvalue="JUnit.CategoryServiceTest.queryCategoriesByBrandId" />
+      <item itemvalue="JUnit.BrandServiceTest.addBrand" />
+      <item itemvalue="JUnit.BrandServiceTest.delete" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BrandServiceTest.delete" />
+        <item itemvalue="JUnit.BrandServiceTest.addBrand" />
+        <item itemvalue="JUnit.CategoryServiceTest.queryCategoriesByBrandId" />
         <item itemvalue="Spring Boot.ScUploadApplication" />
         <item itemvalue="Spring Boot.ScItemServiceApplication" />
-        <item itemvalue="JUnit.FastDFSTest.testUpload" />
-        <item itemvalue="JUnit.FastDFSTest.testUploadAndCreateThumb" />
-        <item itemvalue="JUnit.BrandServiceTest.addBrand" />
       </list>
     </recent_temporary>
   </component>
@@ -345,7 +333,7 @@
       <workItem from="1584513959564" duration="10107000" />
       <workItem from="1584549852478" duration="1014000" />
       <workItem from="1584551054507" duration="1421000" />
-      <workItem from="1584589402248" duration="1344000" />
+      <workItem from="1584589402248" duration="14890000" />
     </task>
     <task id="LOCAL-00001" summary="shopping city -bec">
       <created>1584332491647</created>
@@ -396,7 +384,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584504970655</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="shopping city -st upload fastDFS qs-stringfy-parse">
+      <created>1584591018470</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1584591018470</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -410,41 +405,42 @@
     <MESSAGE value="shopping city -st cors" />
     <MESSAGE value="shopping city -st brand" />
     <MESSAGE value="shopping city -st category-crud" />
-    <option name="LAST_COMMIT_MESSAGE" value="shopping city -st category-crud" />
+    <MESSAGE value="shopping city -st upload fastDFS qs-stringfy-parse" />
+    <option name="LAST_COMMIT_MESSAGE" value="shopping city -st upload fastDFS qs-stringfy-parse" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1584541077372">
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1584594296732">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1584541077372" />
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1584594296732" />
     <state x="587" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1584543164154">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="587" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584543164154" />
-    <state x="560" y="112" key="CommitChangelistDialog2" timestamp="1584522405542">
+    <state x="560" y="112" key="CommitChangelistDialog2" timestamp="1584591009639">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="560" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1584522405542" />
+    <state x="560" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1584591009639" />
     <state x="740" y="209" key="FileChooserDialogImpl" timestamp="1584379980120">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="209" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1584379980120" />
-    <state width="1504" height="86" key="GridCell.Tab.0.bottom" timestamp="1584590629812">
+    <state width="1877" height="204" key="GridCell.Tab.0.bottom" timestamp="1584603798560">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1504" height="86" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584590629812" />
-    <state width="1504" height="86" key="GridCell.Tab.0.center" timestamp="1584590629812">
+    <state width="1877" height="204" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584603798560" />
+    <state width="1877" height="204" key="GridCell.Tab.0.center" timestamp="1584603798560">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1504" height="86" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584590629812" />
-    <state width="1504" height="86" key="GridCell.Tab.0.left" timestamp="1584590629812">
+    <state width="1877" height="204" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584603798560" />
+    <state width="1877" height="204" key="GridCell.Tab.0.left" timestamp="1584603798560">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1504" height="86" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584590629812" />
-    <state width="1504" height="86" key="GridCell.Tab.0.right" timestamp="1584590629812">
+    <state width="1877" height="204" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584603798560" />
+    <state width="1877" height="204" key="GridCell.Tab.0.right" timestamp="1584603798560">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1504" height="86" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584590629812" />
+    <state width="1877" height="204" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584603798560" />
     <state width="1504" height="86" key="GridCell.Tab.1.bottom" timestamp="1584590629812">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -473,14 +469,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1584380011329" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1584505060022">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1584591056136">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1584505060022" />
-    <state x="727" y="222" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1584531973069">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1584591056136" />
+    <state x="727" y="222" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1584594336999">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="727" y="222" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584531973069" />
+    <state x="727" y="222" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584594336999" />
     <state x="334" y="215" key="new project wizard" timestamp="1584540264908">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

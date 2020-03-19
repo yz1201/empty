@@ -12,6 +12,6 @@ import java.util.List;
  **/
 public interface CategoryMapper extends Mapper<Category> {
 
-    @Select("select category_id from tab_category_brand where bid = #{bid}")
+    @Select("select category_id from tb_category_brand where brand_id = #{bid}")
     List<Long> queryCategoryIdByBrandID(Long bid);
 }

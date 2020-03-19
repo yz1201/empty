@@ -66,4 +66,9 @@ public class BrandService implements IBrandService {
         this.brandMapper.insert(brand);
         cids.forEach(cid -> this.brandMapper.addCategoryAndBrand(cid, brand.getId()));
     }
+
+    @Override
+    public void delete(Long bid) {
+        brandMapper.deleteByPrimaryKey(bid);
+    }
 }

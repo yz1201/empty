@@ -14,4 +14,6 @@ public interface IBrandService {
     PageResult<Brand> queryBrandsByPage(String key, Integer page, Integer rows, String sortBy, Boolean desc);
 
     void addBrand(Brand brand, List<Long> cids);
+
+    void delete(Long bid);
 }

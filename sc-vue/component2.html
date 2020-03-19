@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>section</title>
+    <script src="node_modules/vue/dist/vue.js"></script>
+</head>
+<body>
+<div id="app23">
+    <com1 :nums="testNum" :dec="desc"></com1>
+</div>
+
+<script>
+    const c1 = {
+        template: "<div><button @click='sub'>click num--> {{nums}}</button></div>",
+        props: {
+            nums: {
+                type: Number,
+                default: 123
+            }
+        },
+        data() {
+            return {
+                haha: 0
+            }
+        },
+        methods: {
+            sub() {
+                console.log("sub");
+                this.$emit("dec")
+            }
+        }
+    };
+
+    new Vue({
+        el: "#app23",
+        data: {
+            testNum: 9999
+        },
+        methods: {
+            desc() {
+                console.log(this.testNum);
+                this.testNum--;
+            }
+        },
+        components: {
+            "com1": c1
+        }
+    })
+
+</script>
+
+</body>
+</html>
