@@ -21,4 +21,6 @@ public interface ICategoryService {
     void addSubCategory(Category category);
 
     void deleteCurrentCategory(Long id);
+
+    Category queryCategoryByBrandId(Long bid);
 }

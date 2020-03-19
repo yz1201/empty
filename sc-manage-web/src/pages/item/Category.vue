@@ -34,7 +34,8 @@
           }
         }).then(resp => {
           console.log(resp.data.id);
-          this.id = resp.data.id
+          console.log("this.id->" + node.id);
+          this.loading=true
         })
       },
       handleEdit(id, name) {
@@ -43,11 +44,10 @@
             id: id,
             name: name
           }
-        }).then(resp => {
-          // this.edit = true;
-          this.name = resp.data.name;
-          this.loading = false
         })
+        //   .then(() => {
+        //   this.loading = false
+        // })
 
       },
       handleDelete(id) {
@@ -60,7 +60,7 @@
       },
       handleClick(node) {
         console.log(node)
-      }
+      },
     }
   };
 </script>

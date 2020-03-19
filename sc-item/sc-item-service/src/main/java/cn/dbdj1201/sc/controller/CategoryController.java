@@ -3,12 +3,10 @@ package cn.dbdj1201.sc.controller;
 import cn.dbdj1201.sc.pojo.Category;
 import cn.dbdj1201.sc.service.ICategoryService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.util.CollectionUtils;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -45,22 +43,22 @@ public class CategoryController {
     }
 
     @GetMapping("add")
-    public ResponseEntity<Category> addCategory(
+    public ResponseEntity<String> addCategory(
             @RequestParam String name,
             @RequestParam Long parentId,
             @RequestParam Integer sort,
             @RequestParam(value = "isParent", defaultValue = "false") Boolean isParent
     ) {
-        if (service.queryCategoryByName(name) != null) {
-            return ResponseEntity.badRequest().build();
-        }
+//        if (service.queryCategoryByName(name) != null) {
+//            return ResponseEntity.badRequest().build();
+//        }
         Category category = new Category();
         category.setName(name);
         category.setParentId(parentId);
         category.setSort(sort);
         category.setIsParent(isParent);
         service.addSubCategory(category);
-        return ResponseEntity.ok(service.queryCategoryByName(name));
+        return ResponseEntity.status(HttpStatus.ACCEPTED).build();
     }
 
 
@@ -80,6 +78,13 @@ public class CategoryController {
             return ResponseEntity.badRequest().body("这个删不了吧？");
         service.deleteCurrentCategory(id);
         return ResponseEntity.ok().body("bye~");
+    }
+
+    @GetMapping("bid/{id}")
+    public ResponseEntity<Category> queryCategoryByBid(@PathVariable Long id) {
+
+        Category category = new Category();
+        return ResponseEntity.ok(category);
     }
 
 }

@@ -5,13 +5,17 @@ import cn.dbdj1201.sc.pojo.Brand;
 import cn.dbdj1201.sc.service.IBrandService;
 import cn.dbdj1201.sc.service.impl.BrandService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Controller;
 import org.springframework.util.CollectionUtils;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+
+import java.util.List;
 
 /**
  * @author tyz1201
@@ -26,11 +30,11 @@ public class BrandController {
     /**
      * 根据查询条件分页并排序查询品牌信息
      *
-     * @param key 搜索关键字
-     * @param page 当前页码
-     * @param rows 当面页数据行数
-     * @param sortBy 根据什么排序
-     * @param desc 是否降序
+     * @param key    搜索关键字
+     * @param page   当前页码
+     * @param rows   当面页数据行数
+     * @param sortBy 根据哪个字段排序
+     * @param desc   是否降序
      * @return 分页结果集
      */
     @GetMapping("page")
@@ -47,4 +51,11 @@ public class BrandController {
         }
         return ResponseEntity.ok(result);
     }
+
+    @PostMapping
+    public ResponseEntity<Void> addBrand(Brand brand, @RequestParam("cids") List<Long> cids) {
+        brandService.addBrand(brand, cids);
+        return ResponseEntity.status(HttpStatus.CREATED).build();
+    }
+
 }

@@ -1,4 +1,4 @@
-package cn.dbdj1201.sc.config;
+package cn.dbdj1201.sc.upload.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -16,7 +16,6 @@ public class ScCorsConfig {
 
     @Bean
     public CorsFilter corsFilter() {
-        System.out.println("????");
 
         //1.添加CORS配置信息
         CorsConfiguration config = new CorsConfiguration();
@@ -26,12 +25,7 @@ public class ScCorsConfig {
         config.setAllowCredentials(true);
         //3) 允许的请求方式
         config.addAllowedMethod("OPTIONS");
-        config.addAllowedMethod("HEAD");
-        config.addAllowedMethod("GET");
-        config.addAllowedMethod("PUT");
         config.addAllowedMethod("POST");
-        config.addAllowedMethod("DELETE");
-        config.addAllowedMethod("PATCH");
         // 4）允许的头信息
         config.addAllowedHeader("*");
 

@@ -13,6 +13,7 @@
         <module>sc-gateway</module>
         <module>sc-item</module>
         <module>sc-common</module>
+        <module>sc-upload</module>
     </modules>
 
 
@@ -36,7 +37,7 @@
         <druid.starter.version>1.1.9</druid.starter.version>
         <mysql.version>8.0.19</mysql.version>
         <pageHelper.starter.version>1.2.13</pageHelper.starter.version>
-        <leyou.latest.version>1.0.0-SNAPSHOT</leyou.latest.version>
+        <sc.latest.version>1.0.0-SNAPSHOT</sc.latest.version>
     </properties>
 
     <dependencyManagement>
@@ -78,6 +79,14 @@
                 <groupId>com.github.tobato</groupId>
                 <artifactId>fastdfs-client</artifactId>
                 <version>${fastDFS.client.version}</version>
+            </dependency>
+
+            <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-test -->
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-test</artifactId>
+                <version>2.2.5.RELEASE</version>
+                <scope>test</scope>
             </dependency>
         </dependencies>
     </dependencyManagement>

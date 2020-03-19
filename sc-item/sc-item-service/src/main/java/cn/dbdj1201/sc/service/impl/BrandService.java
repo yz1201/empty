@@ -9,6 +9,7 @@ import com.github.pagehelper.PageInfo;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 import tk.mybatis.mapper.entity.Example;
 
 import java.util.List;
@@ -35,7 +36,6 @@ public class BrandService implements IBrandService {
      */
     @Override
     public PageResult<Brand> queryBrandsByPage(String key, Integer page, Integer rows, String sortBy, Boolean desc) {
-
         // 初始化example对象
         Example example = new Example(Brand.class);
         Example.Criteria criteria = example.createCriteria();
@@ -58,5 +58,12 @@ public class BrandService implements IBrandService {
         PageInfo<Brand> pageInfo = new PageInfo<>(brands);
         // 包装成分页结果集返回
         return new PageResult<>(pageInfo.getTotal(), pageInfo.getList());
+    }
+
+    @Override
+    @Transactional
+    public void addBrand(Brand brand, List<Long> cids) {
+        this.brandMapper.insert(brand);
+        cids.forEach(cid -> this.brandMapper.addCategoryAndBrand(cid, brand.getId()));
     }
 }

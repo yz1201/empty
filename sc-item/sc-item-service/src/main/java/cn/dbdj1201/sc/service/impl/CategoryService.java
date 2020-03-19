@@ -68,4 +68,11 @@ public class CategoryService implements ICategoryService {
         mapper.delete(category);
     }
 
+    @Override
+    public Category queryCategoryByBrandId(Long bid) {
+        List<Long> cids = mapper.queryCategoryIdByBrandID(bid);
+//        cids.forEach();
+        return null;
+    }
+
 }
