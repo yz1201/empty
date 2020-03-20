@@ -147,7 +147,8 @@ export default {
           segments:[],
           numeric:false,
           searching:false,
-          generic:false}
+          generic:false};
+      this.isEdit = false;
       this.show = true;
     },
     deleteParam(id) {

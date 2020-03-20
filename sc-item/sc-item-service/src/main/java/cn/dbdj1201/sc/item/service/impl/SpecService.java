@@ -32,9 +32,42 @@ public class SpecService implements ISpecGroupService, ISpecParamService {
     }
 
     @Override
+    public void addGroup(Long cid, String name) {
+        SpecGroup specGroup = new SpecGroup();
+        specGroup.setCid(cid);
+        specGroup.setName(name);
+        groupMapper.insertSelective(specGroup);
+    }
+
+    @Override
+    public void deleteGroup(Long id) {
+        groupMapper.deleteByPrimaryKey(id);
+    }
+
+    @Override
+    public void editGroup(SpecGroup specGroup) {
+        groupMapper.updateByPrimaryKeySelective(specGroup);
+    }
+
+    @Override
     public List<SpecParam> queryParamsByGroupId(Long gid) {
         SpecParam param = new SpecParam();
         param.setGroupId(gid);
         return paramMapper.select(param);
+    }
+
+    @Override
+    public void editParam(SpecParam specParam) {
+        paramMapper.updateByPrimaryKeySelective(specParam);
+    }
+
+    @Override
+    public void addParam(SpecParam specParam) {
+        paramMapper.insertSelective(specParam);
+    }
+
+    @Override
+    public void deleteParam(Long id) {
+        paramMapper.deleteByPrimaryKey(id);
     }
 }

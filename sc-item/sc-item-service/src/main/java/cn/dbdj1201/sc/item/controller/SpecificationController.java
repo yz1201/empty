@@ -8,10 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.util.CollectionUtils;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -37,6 +34,25 @@ public class SpecificationController {
         return ResponseEntity.ok(groups);
     }
 
+    @PostMapping("group")
+    public ResponseEntity<Void> addGroup(@RequestParam("cid") Long cid, @RequestParam("name") String name) {
+        groupService.addGroup(cid, name);
+        return ResponseEntity.ok().build();
+    }
+
+    @PutMapping("group")
+    public ResponseEntity<Void> editGroup(SpecGroup specGroup) {
+        groupService.editGroup(specGroup);
+        return ResponseEntity.ok().build();
+    }
+
+    @DeleteMapping("group/{id}")
+    public ResponseEntity<Void> deleteGroup(@PathVariable Long id) {
+        groupService.deleteGroup(id);
+        return ResponseEntity.ok().build();
+    }
+
+
     @GetMapping("params")
     public ResponseEntity<List<SpecParam>> listParamsByGroupId(@RequestParam("gid") Long gid) {
         List<SpecParam> params = paramService.queryParamsByGroupId(gid);
@@ -44,4 +60,25 @@ public class SpecificationController {
             return ResponseEntity.notFound().build();
         return ResponseEntity.ok(params);
     }
+
+
+    @PutMapping("param")
+    public ResponseEntity<Void> editParam(SpecParam specParam) {
+        paramService.editParam(specParam);
+        return ResponseEntity.ok().build();
+    }
+
+    @PostMapping("param")
+    public ResponseEntity<Void> addParam(SpecParam specParam) {
+       paramService.addParam(specParam);
+        return ResponseEntity.ok().build();
+    }
+
+    @DeleteMapping("param/{id}")
+    public ResponseEntity<Void> deleteParam(@PathVariable Long id) {
+        paramService.deleteParam(id);
+        return ResponseEntity.ok().build();
+    }
+
+
 }

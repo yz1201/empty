@@ -16,4 +16,10 @@ public interface ISpecParamService {
      * @return
      */
     List<SpecParam> queryParamsByGroupId(Long gid);
+
+    void editParam(SpecParam specParam);
+
+    void addParam(SpecParam specParam);
+
+    void deleteParam(Long id);
 }
