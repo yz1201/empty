@@ -49,12 +49,12 @@ public class SpecService implements ISpecGroupService, ISpecParamService {
         groupMapper.updateByPrimaryKeySelective(specGroup);
     }
 
-    @Override
-    public List<SpecParam> queryParamsByGroupId(Long gid) {
-        SpecParam param = new SpecParam();
-        param.setGroupId(gid);
-        return paramMapper.select(param);
-    }
+//    @Override
+//    public List<SpecParam> queryParamsByGroupId(Long gid) {
+//        SpecParam param = new SpecParam();
+//        param.setGroupId(gid);
+//        return paramMapper.select(param);
+//    }
 
     @Override
     public void editParam(SpecParam specParam) {
@@ -70,4 +70,21 @@ public class SpecService implements ISpecGroupService, ISpecParamService {
     public void deleteParam(Long id) {
         paramMapper.deleteByPrimaryKey(id);
     }
+
+    @Override
+    public List<SpecParam> queryParams(Long gid, Long cid, Boolean generic, Boolean searching) {
+        SpecParam param = new SpecParam();
+        param.setGroupId(gid);
+        param.setCid(cid);
+        param.setGeneric(generic);
+        param.setSearching(searching);
+        return paramMapper.select(param);
+    }
+
+//    @Override
+//    public List<SpecParam> queryParamsByCid(Long cid) {
+//        SpecParam record = new SpecParam();
+//        record.setCid(cid);
+//        return paramMapper.select(record);
+//    }
 }

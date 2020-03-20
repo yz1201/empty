@@ -54,13 +54,25 @@ public class SpecificationController {
 
 
     @GetMapping("params")
-    public ResponseEntity<List<SpecParam>> listParamsByGroupId(@RequestParam("gid") Long gid) {
-        List<SpecParam> params = paramService.queryParamsByGroupId(gid);
+    public ResponseEntity<List<SpecParam>> listParams(
+            @RequestParam(value = "gid", required = false) Long gid,
+            @RequestParam(value = "cid", required = false) Long cid,
+            @RequestParam(value = "generic", required = false) Boolean generic,
+            @RequestParam(value = "searching", required = false) Boolean searching
+    ) {
+        List<SpecParam> params = this.paramService.queryParams(gid, cid, generic, searching);
         if (CollectionUtils.isEmpty(params))
             return ResponseEntity.notFound().build();
         return ResponseEntity.ok(params);
     }
 
+//    @GetMapping("params")
+//    public ResponseEntity<List<SpecParam>> querySpecParamsByCid(@RequestParam Long cid) {
+//        List<SpecParam> params = paramService.queryParamsByCid(cid);
+//        if (CollectionUtils.isEmpty(params))
+//            return ResponseEntity.notFound().build();
+//        return ResponseEntity.ok(params);
+//    }
 
     @PutMapping("param")
     public ResponseEntity<Void> editParam(SpecParam specParam) {
@@ -70,7 +82,7 @@ public class SpecificationController {
 
     @PostMapping("param")
     public ResponseEntity<Void> addParam(SpecParam specParam) {
-       paramService.addParam(specParam);
+        paramService.addParam(specParam);
         return ResponseEntity.ok().build();
     }
 

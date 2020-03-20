@@ -23,4 +23,6 @@ public interface ICategoryService {
     void deleteCurrentCategory(Long id);
 
     List<Category> queryCategoriesByBrandId(Long bid);
+
+    List<String> queryNamesByCids(List<Long> cids);
 }

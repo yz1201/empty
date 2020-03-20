@@ -2,12 +2,70 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed85c090-aefa-43e3-acbf-d3f7dd4a1eb7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/sc-item/sc-item-interface/src/main/java/cn/dbdj1201/sc/item/bo/SpuBo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-item/sc-item-interface/src/main/java/cn/dbdj1201/sc/item/pojo/Sku.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-item/sc-item-interface/src/main/java/cn/dbdj1201/sc/item/pojo/Spu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-item/sc-item-interface/src/main/java/cn/dbdj1201/sc/item/pojo/SpuDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-item/sc-item-interface/src/main/java/cn/dbdj1201/sc/item/pojo/Stock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/java/cn/dbdj1201/sc/item/controller/GoodsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/java/cn/dbdj1201/sc/item/mapper/SkuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/java/cn/dbdj1201/sc/item/mapper/SpuDetailMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/java/cn/dbdj1201/sc/item/mapper/SpuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/java/cn/dbdj1201/sc/item/mapper/StockMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/java/cn/dbdj1201/sc/item/service/IGoodsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/java/cn/dbdj1201/sc/item/service/impl/GoodsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-item/sc-item-service/src/test/java/cn/dbdj1201/sc/item/service/impl/GoodsServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-portal/cart.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-portal/copyright.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-portal/foot.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-portal/getOrderInfo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-portal/home-index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-portal/home-order-evaluate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-portal/home-order-pay.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-portal/home-order-receive.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-portal/home-order-send.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-portal/home-orderDetail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-portal/home-person-collect.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-portal/home-person-footmark.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-portal/home-setting-address-complete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-portal/home-setting-address-phone.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-portal/home-setting-address.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-portal/home-setting-info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-portal/home-setting-safe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-portal/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-portal/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-portal/item.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-portal/items/4/5/145.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-portal/items/8/1/81.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-portal/leyou-portal.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-portal/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-portal/pay.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-portal/payfail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-portal/paysuccess.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-portal/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-portal/sc-portal.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-portal/search.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-portal/seckill-index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-portal/seckill-item.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-portal/shortcut.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-portal/side.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-portal/success-cart.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-portal/success.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-portal/top.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-common/src/main/java/cn/dbdj120/sc/common/pojo/PageResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/sc-common/src/main/java/cn/dbdj120/sc/common/pojo/PageResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/java/cn/dbdj1201/sc/item/controller/BrandController.java" beforeDir="false" afterPath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/java/cn/dbdj1201/sc/item/controller/BrandController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/java/cn/dbdj1201/sc/item/controller/SpecificationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/java/cn/dbdj1201/sc/item/controller/SpecificationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/java/cn/dbdj1201/sc/item/service/ISpecGroupService.java" beforeDir="false" afterPath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/java/cn/dbdj1201/sc/item/service/ISpecGroupService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/java/cn/dbdj1201/sc/item/mapper/BrandMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/java/cn/dbdj1201/sc/item/mapper/BrandMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/java/cn/dbdj1201/sc/item/mapper/CategoryMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/java/cn/dbdj1201/sc/item/mapper/CategoryMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/java/cn/dbdj1201/sc/item/service/IBrandService.java" beforeDir="false" afterPath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/java/cn/dbdj1201/sc/item/service/IBrandService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/java/cn/dbdj1201/sc/item/service/ICategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/java/cn/dbdj1201/sc/item/service/ICategoryService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/java/cn/dbdj1201/sc/item/service/ISpecParamService.java" beforeDir="false" afterPath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/java/cn/dbdj1201/sc/item/service/ISpecParamService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/java/cn/dbdj1201/sc/item/service/impl/BrandService.java" beforeDir="false" afterPath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/java/cn/dbdj1201/sc/item/service/impl/BrandService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/java/cn/dbdj1201/sc/item/service/impl/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/java/cn/dbdj1201/sc/item/service/impl/CategoryService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/java/cn/dbdj1201/sc/item/service/impl/SpecService.java" beforeDir="false" afterPath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/java/cn/dbdj1201/sc/item/service/impl/SpecService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sc-manage-web/src/pages/item/specification/SpecParam.vue" beforeDir="false" afterPath="$PROJECT_DIR$/sc-manage-web/src/pages/item/specification/SpecParam.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-manage-web/src/http.js" beforeDir="false" afterPath="$PROJECT_DIR$/sc-manage-web/src/http.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +79,8 @@
         <option value="JUnit5 Test Class" />
         <option value="HTML File" />
         <option value="JUnit4 Test Class" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -77,7 +135,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/sc-manage-web" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/sc-portal" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -96,13 +154,14 @@
       <recent name="cn.dbdj1201.sc.item.service.impl" />
       <recent name="cn.dbdj1201.sc.service.impl" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="cn.dbdj1201.sc.upload.config" />
-    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.dbdj1201.sc.upload.config" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\maven_project\empty\sc-portal" />
       <recent name="F:\maven_project\empty\sc-vue\src\js" />
     </key>
   </component>
@@ -124,7 +183,7 @@
       </map>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ScItemServiceApplication ">
+  <component name="RunManager" selected="JUnit.GoodsServiceTest.querySkusBySpuId">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -142,47 +201,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BrandServiceTest.addBrand" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sc-item-service" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.dbdj1201.sc.service.impl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.dbdj1201.sc.service.impl" />
-      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.sc.service.impl.BrandServiceTest" />
-      <option name="METHOD_NAME" value="addBrand" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BrandServiceTest.delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sc-item-service" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.dbdj1201.sc.service.impl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.dbdj1201.sc.service.impl" />
-      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.sc.service.impl.BrandServiceTest" />
-      <option name="METHOD_NAME" value="delete" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpecServiceTest.queryGroupsByCid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GoodsServiceTest.querySkusBySpuId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sc-item-service" />
       <extension name="coverage">
         <pattern>
@@ -191,8 +210,48 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="cn.dbdj1201.sc.item.service.impl" />
-      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.sc.item.service.impl.SpecServiceTest" />
-      <option name="METHOD_NAME" value="queryGroupsByCid" />
+      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.sc.item.service.impl.GoodsServiceTest" />
+      <option name="METHOD_NAME" value="querySkusBySpuId" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GoodsServiceTest.querySpuByPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sc-item-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.dbdj1201.sc.item.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.dbdj1201.sc.item.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.sc.item.service.impl.GoodsServiceTest" />
+      <option name="METHOD_NAME" value="querySpuByPage" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GoodsServiceTest.querySpuDetailBySpuId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sc-item-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.dbdj1201.sc.item.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.dbdj1201.sc.item.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.sc.item.service.impl.GoodsServiceTest" />
+      <option name="METHOD_NAME" value="querySpuDetailBySpuId" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
@@ -277,21 +336,21 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.BrandServiceTest.addBrand" />
-      <item itemvalue="JUnit.BrandServiceTest.delete" />
+      <item itemvalue="JUnit.GoodsServiceTest.querySpuByPage" />
+      <item itemvalue="JUnit.GoodsServiceTest.querySpuDetailBySpuId" />
+      <item itemvalue="JUnit.GoodsServiceTest.querySkusBySpuId" />
       <item itemvalue="Spring Boot.ScRegistryApplication" />
       <item itemvalue="Spring Boot.ScGatewayApplication" />
       <item itemvalue="Spring Boot.ScItemServiceApplication" />
-      <item itemvalue="JUnit.SpecServiceTest.queryGroupsByCid" />
       <item itemvalue="Spring Boot.ScItemServiceApplication " />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.ScItemServiceApplication " />
+        <item itemvalue="JUnit.GoodsServiceTest.querySkusBySpuId" />
+        <item itemvalue="JUnit.GoodsServiceTest.querySpuDetailBySpuId" />
+        <item itemvalue="JUnit.GoodsServiceTest.querySpuByPage" />
         <item itemvalue="Spring Boot.ScItemServiceApplication" />
-        <item itemvalue="JUnit.SpecServiceTest.queryGroupsByCid" />
-        <item itemvalue="JUnit.BrandServiceTest.delete" />
-        <item itemvalue="JUnit.BrandServiceTest.addBrand" />
       </list>
     </recent_temporary>
   </component>
@@ -305,16 +364,6 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Failed" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -343,7 +392,8 @@
       <workItem from="1584549852478" duration="1014000" />
       <workItem from="1584551054507" duration="1421000" />
       <workItem from="1584589402248" duration="15153000" />
-      <workItem from="1584671721657" duration="8032000" />
+      <workItem from="1584671721657" duration="9809000" />
+      <workItem from="1584715868653" duration="16137000" />
     </task>
     <task id="LOCAL-00001" summary="shopping city -bec">
       <created>1584332491647</created>
@@ -415,7 +465,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584676953232</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="shopping city -st spec crud">
+      <created>1584699318792</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1584699318792</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -432,7 +489,8 @@
     <MESSAGE value="shopping city -st upload fastDFS qs-stringfy-parse" />
     <MESSAGE value="shopping city -st vue.js" />
     <MESSAGE value="shopping city -st spu sku spec" />
-    <option name="LAST_COMMIT_MESSAGE" value="shopping city -st spu sku spec" />
+    <MESSAGE value="shopping city -st spec crud" />
+    <option name="LAST_COMMIT_MESSAGE" value="shopping city -st spec crud" />
   </component>
   <component name="WindowStateProjectService">
     <state x="590" y="144" key="#ScGatewayApplication" timestamp="1584696132198">
@@ -447,10 +505,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="590" y="144" key="#ScRegistryApplication/0.0.1920.1040@0.0.1920.1040" timestamp="1584696124718" />
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1584698673182">
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1584730011151">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1584698673182" />
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1584730011151" />
     <state x="689" y="302" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1584696130343">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -459,46 +517,50 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="587" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584543164154" />
-    <state x="518" y="112" key="CommitChangelistDialog2" timestamp="1584676945829">
+    <state x="254" y="0" key="#org.jetbrains.kotlin.idea.refactoring.safeDelete.KotlinOverridingDialog" timestamp="1584727699906">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="518" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1584676945829" />
+    <state x="254" y="0" key="#org.jetbrains.kotlin.idea.refactoring.safeDelete.KotlinOverridingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584727699906" />
+    <state x="518" y="112" key="CommitChangelistDialog2" timestamp="1584699315886">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="518" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1584699315886" />
     <state x="740" y="209" key="FileChooserDialogImpl" timestamp="1584379980120">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="209" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1584379980120" />
-    <state width="1504" height="341" key="GridCell.Tab.0.bottom" timestamp="1584699254791">
+    <state width="1504" height="244" key="GridCell.Tab.0.bottom" timestamp="1584732285877">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1504" height="341" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584699254791" />
-    <state width="1504" height="341" key="GridCell.Tab.0.center" timestamp="1584699254791">
+    <state width="1504" height="244" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584732285877" />
+    <state width="1504" height="244" key="GridCell.Tab.0.center" timestamp="1584732285877">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1504" height="341" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584699254791" />
-    <state width="1504" height="341" key="GridCell.Tab.0.left" timestamp="1584699254791">
+    <state width="1504" height="244" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584732285877" />
+    <state width="1504" height="244" key="GridCell.Tab.0.left" timestamp="1584732285877">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1504" height="341" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584699254791" />
-    <state width="1504" height="341" key="GridCell.Tab.0.right" timestamp="1584699254791">
+    <state width="1504" height="244" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584732285877" />
+    <state width="1504" height="244" key="GridCell.Tab.0.right" timestamp="1584732285877">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1504" height="341" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584699254791" />
-    <state width="1504" height="341" key="GridCell.Tab.1.bottom" timestamp="1584699254791">
+    <state width="1504" height="244" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584732285877" />
+    <state width="1504" height="244" key="GridCell.Tab.1.bottom" timestamp="1584732285878">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1504" height="341" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584699254791" />
-    <state width="1504" height="341" key="GridCell.Tab.1.center" timestamp="1584699254791">
+    <state width="1504" height="244" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584732285878" />
+    <state width="1504" height="244" key="GridCell.Tab.1.center" timestamp="1584732285877">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1504" height="341" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584699254791" />
-    <state width="1504" height="341" key="GridCell.Tab.1.left" timestamp="1584699254791">
+    <state width="1504" height="244" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584732285877" />
+    <state width="1504" height="244" key="GridCell.Tab.1.left" timestamp="1584732285877">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1504" height="341" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584699254791" />
-    <state width="1504" height="341" key="GridCell.Tab.1.right" timestamp="1584699254791">
+    <state width="1504" height="244" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584732285877" />
+    <state width="1504" height="244" key="GridCell.Tab.1.right" timestamp="1584732285878">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1504" height="341" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584699254791" />
+    <state width="1504" height="244" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584732285878" />
     <state x="490" y="175" key="Maven.ArtifactSearchDialog" timestamp="1584512999766">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -511,21 +573,35 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1584380011329" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1584676958399">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1584699331042">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1584676958399" />
-    <state x="727" y="222" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1584675220506">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1584699331042" />
+    <state x="1173" y="284" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1584728792333">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="727" y="222" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584675220506" />
-    <state x="334" y="215" key="new project wizard" timestamp="1584540264908">
+    <state x="1173" y="284" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584728792333" />
+    <state x="334" y="215" key="new project wizard" timestamp="1584731310769">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="334" y="215" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1584540264908" />
+    <state x="334" y="215" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1584731310769" />
     <state x="816" y="361" width="672" height="678" key="search.everywhere.popup" timestamp="1584503136611">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="816" y="361" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1584503136611" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/sc-item/sc-item-service/src/test/java/cn/dbdj1201/sc/item/service/impl/GoodsServiceTest.java</url>
+          <line>25</line>
+          <properties class="cn.dbdj1201.sc.item.service.impl.GoodsServiceTest" method="querySpuByPage">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

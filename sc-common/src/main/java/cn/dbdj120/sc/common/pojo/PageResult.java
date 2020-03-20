@@ -49,5 +49,14 @@ public class PageResult<T> {
     public void setTotalPage(Integer totalPage) {
         this.totalPage = totalPage;
     }
+
+    @Override
+    public String toString() {
+        return "PageResult{" +
+                "total=" + total +
+                ", totalPage=" + totalPage +
+                ", items=" + items +
+                '}';
+    }
 }
 

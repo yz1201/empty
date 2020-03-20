@@ -13,6 +13,7 @@ import org.springframework.transaction.annotation.Transactional;
 import tk.mybatis.mapper.entity.Example;
 
 import java.util.List;
+import java.util.stream.Collectors;
 
 /**
  * @author tyz1201
@@ -70,5 +71,12 @@ public class BrandService implements IBrandService {
     @Override
     public void delete(Long bid) {
         brandMapper.deleteByPrimaryKey(bid);
+    }
+
+    @Override
+    public List<Brand> queryBrandsByCid(Long cid) {
+        return brandMapper.queryBrandIdsByCid(cid).stream().map(brandId -> brandMapper.selectByPrimaryKey(brandId))
+                .collect(Collectors.toList());
+
     }
 }

@@ -9,6 +9,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 /**
  * @author tyz1201
@@ -76,6 +77,14 @@ public class CategoryService implements ICategoryService {
         List<Category> list = new ArrayList<>();
         mapper.queryCategoryIdByBrandID(bid).forEach(cid -> list.add(mapper.selectByPrimaryKey(cid)));
         return list;
+    }
+
+    @Override
+    public List<String> queryNamesByCids(List<Long> cids) {
+        List<Category> categories = mapper.selectByIdList(cids);
+//        cids.forEach(cid -> names.add(mapper.selectByPrimaryKey(cid).getName()));
+//        mapper.selectByIdList(cids).forEach(category -> names.add(category.getName()));
+        return categories.stream().map(Category::getName).collect(Collectors.toList());
     }
 
 }

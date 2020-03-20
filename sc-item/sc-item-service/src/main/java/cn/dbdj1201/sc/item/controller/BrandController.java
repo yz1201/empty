@@ -63,4 +63,12 @@ public class BrandController {
         return ResponseEntity.ok("已经删除了");
     }
 
+    @GetMapping("cid/{cid}")
+    public ResponseEntity<List<Brand>> queryBrandByCid(@PathVariable Long cid) {
+        List<Brand> brands = brandService.queryBrandsByCid(cid);
+        if (CollectionUtils.isEmpty(brands))
+            return ResponseEntity.notFound().build();
+        return ResponseEntity.ok(brands);
+    }
+
 }
