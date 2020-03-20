@@ -128,7 +128,7 @@ export default {
         .then(({ data }) => {
           data.forEach(p => {
               p.segments = p.segments ? p.segments.split(",").map(s => s.split("-")) : [];
-          })
+          });
           this.params = data;
         })
         .catch(() => {
