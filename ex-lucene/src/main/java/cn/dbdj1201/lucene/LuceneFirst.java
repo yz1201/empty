@@ -29,7 +29,7 @@ public class LuceneFirst {
         //把索引库保存在磁盘
         Directory directory = FSDirectory.open(new File("F:\\temp\\index").toPath());
         //2、基于Directory对象创建一个IndexWriter对象
-        IndexWriterConfig config = new IndexWriterConfig(new IKAnalyzer());
+        IndexWriterConfig config = new IndexWriterConfig(new IKAnalyzer(true));
         IndexWriter indexWriter = new IndexWriter(directory, config);
         //3、读取磁盘上的文件，对应每个文件创建一个文档对象。
         File dir = new File("F:\\searchsource");
@@ -71,14 +71,14 @@ public class LuceneFirst {
 
     @Test
     public void searchIndex() throws Exception {
-        //1、创建一个Director对象，指定索引库的位置
+        //1、创建一个Directory对象，指定索引库的位置
         Directory directory = FSDirectory.open(new File("F:\\temp\\index").toPath());
         //2、创建一个IndexReader对象
         IndexReader indexReader = DirectoryReader.open(directory);
         //3、创建一个IndexSearcher对象，构造方法中的参数indexReader对象。
         IndexSearcher indexSearcher = new IndexSearcher(indexReader);
         //4、创建一个Query对象，TermQuery
-        Query query = new TermQuery(new Term("name", "spring"));
+        Query query = new TermQuery(new Term("size", "47L"));
         //5、执行查询，得到一个TopDocs对象
         //参数1：查询对象 参数2：查询结果返回的最大记录数
         TopDocs topDocs = indexSearcher.search(query, 10);
@@ -108,7 +108,7 @@ public class LuceneFirst {
     public void testTokenStream() throws Exception {
         //1）创建一个Analyzer对象，StandardAnalyzer对象
 //        Analyzer analyzer = new StandardAnalyzer();
-        Analyzer analyzer = new IKAnalyzer();
+        Analyzer analyzer = new IKAnalyzer(true);
         //2）使用分析器对象的tokenStream方法获得一个TokenStream对象
         TokenStream tokenStream = analyzer.tokenStream("", "2017年12月14日 - 传智播客Lucene概述公安局Lucene是一款高性能的、可扩展的信息检索(IR)工具库。信息检索是指文档搜索、文档内信息搜索或者文档相关的元数据搜索等操作。");
         //3）向TokenStream对象中设置一个引用，相当于数一个指针
