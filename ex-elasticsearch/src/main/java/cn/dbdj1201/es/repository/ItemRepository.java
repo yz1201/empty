@@ -12,4 +12,6 @@ import java.util.List;
 public interface ItemRepository extends ElasticsearchRepository<Item, Long> {
 
     List<Item> findByTitle(String title);
+
+    List<Item> findByPriceBetween(Double p1, Double p2);
 }

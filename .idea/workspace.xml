@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed85c090-aefa-43e3-acbf-d3f7dd4a1eb7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ex-elasticsearch/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-elasticsearch/src/main/java/cn/dbdj1201/es/EsApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-elasticsearch/src/main/java/cn/dbdj1201/es/pojo/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-elasticsearch/src/main/java/cn/dbdj1201/es/repository/ItemRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-elasticsearch/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-elasticsearch/src/test/java/cn/dbdj1201/es/IndexTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex-lucene/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ex-lucene/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex-elasticsearch/src/main/java/cn/dbdj1201/es/pojo/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex-elasticsearch/src/main/java/cn/dbdj1201/es/pojo/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex-elasticsearch/src/main/java/cn/dbdj1201/es/repository/ItemRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex-elasticsearch/src/main/java/cn/dbdj1201/es/repository/ItemRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex-elasticsearch/src/test/java/cn/dbdj1201/es/IndexTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex-elasticsearch/src/test/java/cn/dbdj1201/es/IndexTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +117,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.IndexTest.testQueryIndex">
+  <component name="RunManager" selected="JUnit.IndexTest.testSubAgg">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -161,6 +155,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="IndexTest.testAgg" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ex-elasticsearch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.dbdj1201.es.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.dbdj1201.es" />
+      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.es.IndexTest" />
+      <option name="METHOD_NAME" value="testAgg" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="IndexTest.testDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ex-elasticsearch" />
       <extension name="coverage">
@@ -172,26 +186,6 @@
       <option name="PACKAGE_NAME" value="cn.dbdj1201.es" />
       <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.es.IndexTest" />
       <option name="METHOD_NAME" value="testDelete" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IndexTest.testIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ex-elasticsearch" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.dbdj1201.es.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.dbdj1201.es" />
-      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.es.IndexTest" />
-      <option name="METHOD_NAME" value="testIndex" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
@@ -221,17 +215,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchIndex.testRangeQuery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ex-lucene" />
+    <configuration name="IndexTest.testSubAgg" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ex-elasticsearch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.dbdj1201.lucene.*" />
+          <option name="PATTERN" value="cn.dbdj1201.es.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="cn.dbdj1201.lucene" />
-      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.lucene.SearchIndex" />
-      <option name="METHOD_NAME" value="testRangeQuery" />
+      <option name="PACKAGE_NAME" value="cn.dbdj1201.es" />
+      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.es.IndexTest" />
+      <option name="METHOD_NAME" value="testSubAgg" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
@@ -303,23 +297,23 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.SearchIndex.testRangeQuery" />
+      <item itemvalue="JUnit.IndexTest.testDelete" />
+      <item itemvalue="JUnit.IndexTest.testAddDoc" />
+      <item itemvalue="JUnit.IndexTest.testQueryIndex" />
       <item itemvalue="Spring Boot.ScRegistryApplication" />
       <item itemvalue="Spring Boot.ScGatewayApplication" />
       <item itemvalue="Spring Boot.ScUploadApplication" />
       <item itemvalue="Spring Boot.EsApplication" />
-      <item itemvalue="JUnit.IndexTest.testIndex" />
-      <item itemvalue="JUnit.IndexTest.testDelete" />
-      <item itemvalue="JUnit.IndexTest.testAddDoc" />
-      <item itemvalue="JUnit.IndexTest.testQueryIndex" />
+      <item itemvalue="JUnit.IndexTest.testAgg" />
+      <item itemvalue="JUnit.IndexTest.testSubAgg" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.IndexTest.testSubAgg" />
+        <item itemvalue="JUnit.IndexTest.testAgg" />
         <item itemvalue="JUnit.IndexTest.testQueryIndex" />
         <item itemvalue="JUnit.IndexTest.testAddDoc" />
         <item itemvalue="JUnit.IndexTest.testDelete" />
-        <item itemvalue="JUnit.IndexTest.testIndex" />
-        <item itemvalue="JUnit.SearchIndex.testRangeQuery" />
       </list>
     </recent_temporary>
   </component>
@@ -367,7 +361,8 @@
       <workItem from="1584841852844" duration="1004000" />
       <workItem from="1584843708991" duration="24000" />
       <workItem from="1584845273128" duration="14684000" />
-      <workItem from="1584930831720" duration="5948000" />
+      <workItem from="1584930831720" duration="6695000" />
+      <workItem from="1584955112351" duration="6855000" />
     </task>
     <task id="LOCAL-00001" summary="shopping city -bec">
       <created>1584332491647</created>
@@ -467,7 +462,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584886136423</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="shopping city -st elasticsearch crud">
+      <created>1584936998069</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1584936998069</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -488,7 +490,8 @@
     <MESSAGE value="shopping city -st spu spuDetail sku stock crud" />
     <MESSAGE value="shopping city -st lucene" />
     <MESSAGE value="shopping city -st lucene CRUD" />
-    <option name="LAST_COMMIT_MESSAGE" value="shopping city -st lucene CRUD" />
+    <MESSAGE value="shopping city -st elasticsearch crud" />
+    <option name="LAST_COMMIT_MESSAGE" value="shopping city -st elasticsearch crud" />
   </component>
   <component name="WindowStateProjectService">
     <state x="590" y="144" key="#ScGatewayApplication" timestamp="1584696132198">
@@ -527,30 +530,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="254" y="0" key="#org.jetbrains.kotlin.idea.refactoring.safeDelete.KotlinOverridingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584727699906" />
-    <state x="518" y="112" key="CommitChangelistDialog2" timestamp="1584886133768">
+    <state x="518" y="112" key="CommitChangelistDialog2" timestamp="1584936994650">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="518" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1584886133768" />
+    <state x="518" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1584936994650" />
     <state x="740" y="209" key="FileChooserDialogImpl" timestamp="1584379980120">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="209" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1584379980120" />
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1584936685014">
+    <state width="1877" height="195" key="GridCell.Tab.0.bottom" timestamp="1584972465665">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584936685014" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1584936685014">
+    <state width="1877" height="195" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584972465665" />
+    <state width="1877" height="195" key="GridCell.Tab.0.center" timestamp="1584972465665">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584936685014" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1584936685013">
+    <state width="1877" height="195" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584972465665" />
+    <state width="1877" height="195" key="GridCell.Tab.0.left" timestamp="1584972465665">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584936685013" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1584936685014">
+    <state width="1877" height="195" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584972465665" />
+    <state width="1877" height="195" key="GridCell.Tab.0.right" timestamp="1584972465665">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584936685014" />
+    <state width="1877" height="195" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584972465665" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1584936708565">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -579,10 +582,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1584380011329" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1584886141892">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1584937014134">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1584886141892" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1584937014134" />
     <state x="1173" y="284" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1584728792333">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -609,19 +612,11 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/ex-elasticsearch/src/test/java/cn/dbdj1201/es/IndexTest.java</url>
-          <line>38</line>
+          <line>46</line>
           <properties class="cn.dbdj1201.es.IndexTest" method="testDelete">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/ex-elasticsearch/src/test/java/cn/dbdj1201/es/IndexTest.java</url>
-          <line>66</line>
-          <properties class="cn.dbdj1201.es.IndexTest" method="testQueryIndex">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/ex-elasticsearch/src/main/java/cn/dbdj1201/es/repository/ItemRepository.java</url>
@@ -630,11 +625,6 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ex-elasticsearch/src/test/java/cn/dbdj1201/es/IndexTest.java</url>
-          <line>70</line>
-          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
