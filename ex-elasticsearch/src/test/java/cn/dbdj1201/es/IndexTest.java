@@ -2,6 +2,7 @@ package cn.dbdj1201.es;
 
 import cn.dbdj1201.es.pojo.Item;
 import cn.dbdj1201.es.repository.ItemRepository;
+import org.elasticsearch.client.RestHighLevelClient;
 import org.elasticsearch.index.query.QueryBuilders;
 import org.elasticsearch.search.aggregations.AggregationBuilders;
 import org.elasticsearch.search.aggregations.bucket.terms.StringTerms;
@@ -117,6 +118,7 @@ public class IndexTest {
         // 3、解析
         // 3.1、从结果中取出名为brands的那个聚合，
         // 因为是利用String类型字段来进行的term聚合，所以结果要强转为StringTerm类型
+
         StringTerms agg = (StringTerms) aggPage.getAggregation("brands");
         // 3.2、获取桶
         List<StringTerms.Bucket> buckets = agg.getBuckets();
@@ -129,6 +131,5 @@ public class IndexTest {
             InternalAvg avg = (InternalAvg) bucket.getAggregations().asMap().get("priceAvg");
             System.out.println("平均售价：" + avg.getValue());
         }
-
     }
 }

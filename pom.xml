@@ -15,6 +15,7 @@
         <module>sc-common</module>
         <module>sc-upload</module>
         <module>ex-lucene</module>
+        <module>sc-search</module>
     </modules>
 
 
