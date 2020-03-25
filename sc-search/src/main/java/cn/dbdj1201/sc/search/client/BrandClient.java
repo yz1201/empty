@@ -1,5 +1,6 @@
 package cn.dbdj1201.sc.search.client;
 
+import cn.dbdj1201.sc.item.api.BrandApi;
 import cn.dbdj1201.sc.item.api.GoodsApi;
 import org.springframework.cloud.openfeign.FeignClient;
 
@@ -8,5 +9,5 @@ import org.springframework.cloud.openfeign.FeignClient;
  * @datetime 2020-03-25 17:39
  **/
 @FeignClient(value = "item-service")
-public interface GoodsClient extends GoodsApi {
+public interface BrandClient extends BrandApi {
 }

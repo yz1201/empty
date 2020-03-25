@@ -79,4 +79,9 @@ public class BrandService implements IBrandService {
                 .collect(Collectors.toList());
 
     }
+
+    @Override
+    public Brand queryBrandById(Long id) {
+        return this.brandMapper.selectByPrimaryKey(id);
+    }
 }

@@ -1,20 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed85c090-aefa-43e3-acbf-d3f7dd4a1eb7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sc-search/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-search/sc-search.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-search/src/main/java/cn/dbdj1201/sc/search/ScSearchApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-search/src/main/java/cn/dbdj1201/sc/search/client/GoodsClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-search/src/main/java/cn/dbdj1201/sc/search/pojo/Goods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-search/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="ed85c090-aefa-43e3-acbf-d3f7dd4a1eb7" name="Default Changelist" comment="shopping city -st sc-search">
+      <change afterPath="$PROJECT_DIR$/sc-item/sc-item-interface/src/main/java/cn/dbdj1201/sc/item/api/BrandApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-item/sc-item-interface/src/main/java/cn/dbdj1201/sc/item/api/CategoryApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-item/sc-item-interface/src/main/java/cn/dbdj1201/sc/item/api/GoodsApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-item/sc-item-interface/src/main/java/cn/dbdj1201/sc/item/api/SpecificationApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-search/src/main/java/cn/dbdj1201/sc/search/client/BrandClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-search/src/main/java/cn/dbdj1201/sc/search/client/CategoryClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-search/src/main/java/cn/dbdj1201/sc/search/client/FeignClientController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-search/src/main/java/cn/dbdj1201/sc/search/client/SpecificationClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-search/src/main/java/cn/dbdj1201/sc/search/controller/SearchController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-search/src/main/java/cn/dbdj1201/sc/search/repository/GoodsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-search/src/main/java/cn/dbdj1201/sc/search/service/IIndexService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-search/src/main/java/cn/dbdj1201/sc/search/service/ISearchService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-search/src/main/java/cn/dbdj1201/sc/search/service/impl/IndexService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-search/src/main/java/cn/dbdj1201/sc/search/service/impl/SearchService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-search/src/test/java/cn/dbdj1201/sc/search/client/GoodsClientTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex-elasticsearch/src/main/java/cn/dbdj1201/es/EsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex-elasticsearch/src/main/java/cn/dbdj1201/es/EsApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex-elasticsearch/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ex-elasticsearch/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex-elasticsearch/src/test/java/cn/dbdj1201/es/IndexTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex-elasticsearch/src/test/java/cn/dbdj1201/es/IndexTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sc-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-item/sc-item-interface/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sc-item/sc-item-interface/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/java/cn/dbdj1201/sc/item/controller/BrandController.java" beforeDir="false" afterPath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/java/cn/dbdj1201/sc/item/controller/BrandController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/java/cn/dbdj1201/sc/item/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/java/cn/dbdj1201/sc/item/controller/CategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/java/cn/dbdj1201/sc/item/service/IBrandService.java" beforeDir="false" afterPath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/java/cn/dbdj1201/sc/item/service/IBrandService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/java/cn/dbdj1201/sc/item/service/impl/BrandService.java" beforeDir="false" afterPath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/java/cn/dbdj1201/sc/item/service/impl/BrandService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-search/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sc-search/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-search/src/main/java/cn/dbdj1201/sc/search/client/GoodsClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/sc-search/src/main/java/cn/dbdj1201/sc/search/client/GoodsClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-search/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sc-search/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,8 +41,8 @@
         <option value="JUnit5 Test Class" />
         <option value="HTML File" />
         <option value="JUnit4 Test Class" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -95,22 +108,24 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="F:\IntelliJ IDEA 2019.2.4\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="cn.dbdj1201.sc.search.client" />
       <recent name="cn.dbdj1201.sc.item.service.impl" />
       <recent name="cn.dbdj1201.sc.service.impl" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="cn.dbdj1201.es" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.dbdj1201.sc.search.client" />
       <recent name="cn.dbdj1201.sc.upload.config" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\maven_project\empty\ex-lucene\src\main\resources" />
@@ -125,7 +140,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.IndexTest.testSubAgg">
+  <component name="RunManager" selected="JUnit.GoodsClientTest.testQuery">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -143,17 +158,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IndexTest.testAddDoc" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ex-elasticsearch" />
+    <configuration name="CategoryServiceTest.queryCategoriesByBrandId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sc-item-service" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.dbdj1201.es.*" />
+          <option name="PATTERN" value="cn.dbdj1201.sc.item.service.impl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="cn.dbdj1201.es" />
-      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.es.IndexTest" />
-      <option name="METHOD_NAME" value="testAddDoc" />
+      <option name="PACKAGE_NAME" value="cn.dbdj1201.sc.item.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.sc.item.service.impl.CategoryServiceTest" />
+      <option name="METHOD_NAME" value="queryCategoriesByBrandId" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GoodsClientTest.testQuery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sc-search" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.dbdj1201.sc.search.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.dbdj1201.sc.search.client" />
+      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.sc.search.client.GoodsClientTest" />
+      <option name="METHOD_NAME" value="testQuery" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
@@ -174,26 +209,6 @@
       <option name="PACKAGE_NAME" value="cn.dbdj1201.es" />
       <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.es.IndexTest" />
       <option name="METHOD_NAME" value="testAgg" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IndexTest.testDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ex-elasticsearch" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.dbdj1201.es.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.dbdj1201.es" />
-      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.es.IndexTest" />
-      <option name="METHOD_NAME" value="testDelete" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
@@ -319,8 +334,6 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.IndexTest.testDelete" />
-      <item itemvalue="JUnit.IndexTest.testAddDoc" />
       <item itemvalue="JUnit.IndexTest.testQueryIndex" />
       <item itemvalue="JUnit.IndexTest.testAgg" />
       <item itemvalue="JUnit.IndexTest.testSubAgg" />
@@ -330,14 +343,16 @@
       <item itemvalue="Spring Boot.EsApplication" />
       <item itemvalue="Spring Boot.ScItemServiceApplication" />
       <item itemvalue="Spring Boot.ScSearchApplication" />
+      <item itemvalue="JUnit.GoodsClientTest.testQuery" />
+      <item itemvalue="JUnit.CategoryServiceTest.queryCategoriesByBrandId" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GoodsClientTest.testQuery" />
+        <item itemvalue="JUnit.CategoryServiceTest.queryCategoriesByBrandId" />
         <item itemvalue="JUnit.IndexTest.testSubAgg" />
         <item itemvalue="JUnit.IndexTest.testAgg" />
         <item itemvalue="JUnit.IndexTest.testQueryIndex" />
-        <item itemvalue="JUnit.IndexTest.testAddDoc" />
-        <item itemvalue="JUnit.IndexTest.testDelete" />
       </list>
     </recent_temporary>
   </component>
@@ -351,6 +366,11 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Not Started" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -387,7 +407,7 @@
       <workItem from="1584845273128" duration="14684000" />
       <workItem from="1584930831720" duration="6695000" />
       <workItem from="1584955112351" duration="7456000" />
-      <workItem from="1585113665146" duration="6360000" />
+      <workItem from="1585113665146" duration="25927000" />
     </task>
     <task id="LOCAL-00001" summary="shopping city -bec">
       <created>1584332491647</created>
@@ -501,7 +521,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584972647077</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="shopping city -st sc-search">
+      <created>1585130101787</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1585130101787</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -524,7 +551,8 @@
     <MESSAGE value="shopping city -st lucene CRUD" />
     <MESSAGE value="shopping city -st elasticsearch crud" />
     <MESSAGE value="shopping city -st spring data elasticsearch 聚合" />
-    <option name="LAST_COMMIT_MESSAGE" value="shopping city -st spring data elasticsearch 聚合" />
+    <MESSAGE value="shopping city -st sc-search" />
+    <option name="LAST_COMMIT_MESSAGE" value="shopping city -st sc-search" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#Project_Structure" timestamp="1585130060885">
@@ -543,10 +571,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="590" y="144" key="#ScRegistryApplication/0.0.1920.1040@0.0.1920.1040" timestamp="1584696124718" />
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1585128454551">
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1585156532684">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1585128454551" />
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1585156532684" />
     <state x="689" y="302" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1584696130343">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -567,46 +595,46 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="254" y="0" key="#org.jetbrains.kotlin.idea.refactoring.safeDelete.KotlinOverridingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584727699906" />
-    <state x="518" y="112" key="CommitChangelistDialog2" timestamp="1584972643648">
+    <state x="518" y="112" key="CommitChangelistDialog2" timestamp="1585160870197">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="518" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1584972643648" />
+    <state x="518" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1585160870197" />
     <state x="740" y="209" key="FileChooserDialogImpl" timestamp="1584379980120">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="209" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1584379980120" />
-    <state width="1877" height="216" key="GridCell.Tab.0.bottom" timestamp="1585126837612">
+    <state width="1504" height="417" key="GridCell.Tab.0.bottom" timestamp="1585161127576">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="216" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585126837612" />
-    <state width="1877" height="216" key="GridCell.Tab.0.center" timestamp="1585126837612">
+    <state width="1504" height="417" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585161127576" />
+    <state width="1504" height="417" key="GridCell.Tab.0.center" timestamp="1585161127576">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="216" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585126837612" />
-    <state width="1877" height="216" key="GridCell.Tab.0.left" timestamp="1585126837612">
+    <state width="1504" height="417" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585161127576" />
+    <state width="1504" height="417" key="GridCell.Tab.0.left" timestamp="1585161127576">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="216" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585126837612" />
-    <state width="1877" height="216" key="GridCell.Tab.0.right" timestamp="1585126837612">
+    <state width="1504" height="417" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585161127576" />
+    <state width="1504" height="417" key="GridCell.Tab.0.right" timestamp="1585161127576">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="216" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585126837612" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1584936708565">
+    <state width="1504" height="417" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585161127576" />
+    <state width="1504" height="417" key="GridCell.Tab.1.bottom" timestamp="1585161127576">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584936708565" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1584936708565">
+    <state width="1504" height="417" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585161127576" />
+    <state width="1504" height="417" key="GridCell.Tab.1.center" timestamp="1585161127576">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584936708565" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1584936708564">
+    <state width="1504" height="417" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585161127576" />
+    <state width="1504" height="417" key="GridCell.Tab.1.left" timestamp="1585161127576">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584936708564" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1584936708565">
+    <state width="1504" height="417" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585161127576" />
+    <state width="1504" height="417" key="GridCell.Tab.1.right" timestamp="1585161127576">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584936708565" />
+    <state width="1504" height="417" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585161127576" />
     <state x="490" y="175" key="Maven.ArtifactSearchDialog" timestamp="1584846464490">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -615,26 +643,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="600" y="217" key="NewModule_or_Project.wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1584380000434" />
-    <state x="440" y="94" key="SettingsEditor" timestamp="1584380011329">
+    <state x="440" y="94" key="SettingsEditor" timestamp="1585151177785">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1584380011329" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1584972658251">
+    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1585151177785" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1585130127399">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1584972658251" />
-    <state x="1173" y="284" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1584728792333">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1585130127399" />
+    <state x="1173" y="284" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1585147763094">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1173" y="284" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584728792333" />
+    <state x="1173" y="284" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585147763094" />
     <state x="305" y="89" key="new project wizard" timestamp="1585127649932">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="305" y="89" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1585127649932" />
-    <state x="816" y="361" width="672" height="678" key="search.everywhere.popup" timestamp="1584880455445">
+    <state x="816" y="361" width="672" height="678" key="search.everywhere.popup" timestamp="1585147739797">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="816" y="361" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1584880455445" />
+    <state x="816" y="361" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1585147739797" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
