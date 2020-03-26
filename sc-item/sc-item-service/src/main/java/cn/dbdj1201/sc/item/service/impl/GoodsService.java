@@ -56,8 +56,9 @@ public class GoodsService implements IGoodsService {
         Example example = new Example(Spu.class);
         Example.Criteria criteria = example.createCriteria();
         //条件查询
-        if (StringUtils.isBlank(key))
+        if (StringUtils.isNotBlank(key)) {
             criteria.andLike("title", "%" + key + "%");
+        }
         //是否上架，还是默认全部
         if (saleable != null)
             criteria.andEqualTo("saleable", saleable);
@@ -72,7 +73,6 @@ public class GoodsService implements IGoodsService {
         //spu集合转化为spubo集合，区别在分类名称跟品牌名称
         List<SpuBo> spuBos = new ArrayList<>();
 
-//        spus.stream().map()
         spus.forEach(spu -> {
             SpuBo temp = new SpuBo();
             BeanUtils.copyProperties(spu, temp);

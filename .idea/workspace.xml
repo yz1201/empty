@@ -1,33 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed85c090-aefa-43e3-acbf-d3f7dd4a1eb7" name="Default Changelist" comment="shopping city -st sc-search">
-      <change afterPath="$PROJECT_DIR$/sc-item/sc-item-interface/src/main/java/cn/dbdj1201/sc/item/api/BrandApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-item/sc-item-interface/src/main/java/cn/dbdj1201/sc/item/api/CategoryApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-item/sc-item-interface/src/main/java/cn/dbdj1201/sc/item/api/GoodsApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-item/sc-item-interface/src/main/java/cn/dbdj1201/sc/item/api/SpecificationApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-search/src/main/java/cn/dbdj1201/sc/search/client/BrandClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-search/src/main/java/cn/dbdj1201/sc/search/client/CategoryClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-search/src/main/java/cn/dbdj1201/sc/search/client/FeignClientController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-search/src/main/java/cn/dbdj1201/sc/search/client/SpecificationClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-search/src/main/java/cn/dbdj1201/sc/search/controller/SearchController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-search/src/main/java/cn/dbdj1201/sc/search/repository/GoodsRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-search/src/main/java/cn/dbdj1201/sc/search/service/IIndexService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-search/src/main/java/cn/dbdj1201/sc/search/service/ISearchService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-search/src/main/java/cn/dbdj1201/sc/search/service/impl/IndexService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-search/src/main/java/cn/dbdj1201/sc/search/service/impl/SearchService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-search/src/test/java/cn/dbdj1201/sc/search/client/GoodsClientTest.java" afterDir="false" />
+    <list default="true" id="ed85c090-aefa-43e3-acbf-d3f7dd4a1eb7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/sc-search/src/main/java/cn/dbdj1201/sc/search/pojo/SearchRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sc-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sc-gateway/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sc-item/sc-item-interface/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sc-item/sc-item-interface/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/java/cn/dbdj1201/sc/item/controller/BrandController.java" beforeDir="false" afterPath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/java/cn/dbdj1201/sc/item/controller/BrandController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/java/cn/dbdj1201/sc/item/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/java/cn/dbdj1201/sc/item/controller/CategoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/java/cn/dbdj1201/sc/item/service/IBrandService.java" beforeDir="false" afterPath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/java/cn/dbdj1201/sc/item/service/IBrandService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/java/cn/dbdj1201/sc/item/service/impl/BrandService.java" beforeDir="false" afterPath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/java/cn/dbdj1201/sc/item/service/impl/BrandService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-gateway/src/main/java/cn/dbdj1201/sc/item/gateway/config/ScCorsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/sc-gateway/src/main/java/cn/dbdj1201/sc/item/gateway/config/ScCorsConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/java/cn/dbdj1201/sc/item/controller/GoodsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/java/cn/dbdj1201/sc/item/controller/GoodsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/java/cn/dbdj1201/sc/item/service/impl/GoodsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/java/cn/dbdj1201/sc/item/service/impl/GoodsService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sc-search/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sc-search/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-portal/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/sc-portal/search.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sc-search/src/main/java/cn/dbdj1201/sc/search/client/GoodsClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/sc-search/src/main/java/cn/dbdj1201/sc/search/client/GoodsClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sc-search/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sc-search/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-search/src/main/java/cn/dbdj1201/sc/search/controller/SearchController.java" beforeDir="false" afterPath="$PROJECT_DIR$/sc-search/src/main/java/cn/dbdj1201/sc/search/controller/SearchController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-search/src/main/java/cn/dbdj1201/sc/search/pojo/Goods.java" beforeDir="false" afterPath="$PROJECT_DIR$/sc-search/src/main/java/cn/dbdj1201/sc/search/pojo/Goods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-search/src/main/java/cn/dbdj1201/sc/search/service/ISearchService.java" beforeDir="false" afterPath="$PROJECT_DIR$/sc-search/src/main/java/cn/dbdj1201/sc/search/service/ISearchService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-search/src/main/java/cn/dbdj1201/sc/search/service/impl/SearchService.java" beforeDir="false" afterPath="$PROJECT_DIR$/sc-search/src/main/java/cn/dbdj1201/sc/search/service/impl/SearchService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,6 +97,9 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="F:\IntelliJ IDEA 2019.2.4\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -337,14 +327,14 @@
       <item itemvalue="JUnit.IndexTest.testQueryIndex" />
       <item itemvalue="JUnit.IndexTest.testAgg" />
       <item itemvalue="JUnit.IndexTest.testSubAgg" />
+      <item itemvalue="JUnit.GoodsClientTest.testQuery" />
+      <item itemvalue="JUnit.CategoryServiceTest.queryCategoriesByBrandId" />
       <item itemvalue="Spring Boot.ScRegistryApplication" />
       <item itemvalue="Spring Boot.ScGatewayApplication" />
       <item itemvalue="Spring Boot.ScUploadApplication" />
       <item itemvalue="Spring Boot.EsApplication" />
       <item itemvalue="Spring Boot.ScItemServiceApplication" />
       <item itemvalue="Spring Boot.ScSearchApplication" />
-      <item itemvalue="JUnit.GoodsClientTest.testQuery" />
-      <item itemvalue="JUnit.CategoryServiceTest.queryCategoriesByBrandId" />
     </list>
     <recent_temporary>
       <list>
@@ -366,6 +356,11 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
@@ -407,7 +402,8 @@
       <workItem from="1584845273128" duration="14684000" />
       <workItem from="1584930831720" duration="6695000" />
       <workItem from="1584955112351" duration="7456000" />
-      <workItem from="1585113665146" duration="25927000" />
+      <workItem from="1585113665146" duration="26539000" />
+      <workItem from="1585189859641" duration="9881000" />
     </task>
     <task id="LOCAL-00001" summary="shopping city -bec">
       <created>1584332491647</created>
@@ -528,7 +524,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585130101787</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="shopping city -st sc-search indexs">
+      <created>1585161176812</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1585161176812</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -552,7 +555,8 @@
     <MESSAGE value="shopping city -st elasticsearch crud" />
     <MESSAGE value="shopping city -st spring data elasticsearch 聚合" />
     <MESSAGE value="shopping city -st sc-search" />
-    <option name="LAST_COMMIT_MESSAGE" value="shopping city -st sc-search" />
+    <MESSAGE value="shopping city -st sc-search indexs" />
+    <option name="LAST_COMMIT_MESSAGE" value="shopping city -st sc-search indexs" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#Project_Structure" timestamp="1585130060885">
@@ -571,10 +575,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="590" y="144" key="#ScRegistryApplication/0.0.1920.1040@0.0.1920.1040" timestamp="1584696124718" />
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1585156532684">
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1585197978528">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1585156532684" />
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1585197978528" />
     <state x="689" y="302" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1584696130343">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -595,46 +599,62 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="254" y="0" key="#org.jetbrains.kotlin.idea.refactoring.safeDelete.KotlinOverridingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584727699906" />
-    <state x="518" y="112" key="CommitChangelistDialog2" timestamp="1585160870197">
+    <state x="518" y="112" key="CommitChangelistDialog2" timestamp="1585161171939">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="518" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1585160870197" />
+    <state x="518" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1585161171939" />
     <state x="740" y="209" key="FileChooserDialogImpl" timestamp="1584379980120">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="209" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1584379980120" />
-    <state width="1504" height="417" key="GridCell.Tab.0.bottom" timestamp="1585161127576">
+    <state width="1504" height="406" key="GridCell.Tab.0.bottom" timestamp="1585199062879">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1504" height="417" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585161127576" />
-    <state width="1504" height="417" key="GridCell.Tab.0.center" timestamp="1585161127576">
+    <state width="1504" height="406" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585199062879" />
+    <state width="1504" height="406" key="GridCell.Tab.0.center" timestamp="1585199062878">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1504" height="417" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585161127576" />
-    <state width="1504" height="417" key="GridCell.Tab.0.left" timestamp="1585161127576">
+    <state width="1504" height="406" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585199062878" />
+    <state width="1504" height="406" key="GridCell.Tab.0.left" timestamp="1585199062878">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1504" height="417" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585161127576" />
-    <state width="1504" height="417" key="GridCell.Tab.0.right" timestamp="1585161127576">
+    <state width="1504" height="406" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585199062878" />
+    <state width="1504" height="406" key="GridCell.Tab.0.right" timestamp="1585199062879">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1504" height="417" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585161127576" />
-    <state width="1504" height="417" key="GridCell.Tab.1.bottom" timestamp="1585161127576">
+    <state width="1504" height="406" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585199062879" />
+    <state width="1504" height="406" key="GridCell.Tab.1.bottom" timestamp="1585199062879">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1504" height="417" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585161127576" />
-    <state width="1504" height="417" key="GridCell.Tab.1.center" timestamp="1585161127576">
+    <state width="1504" height="406" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585199062879" />
+    <state width="1504" height="406" key="GridCell.Tab.1.center" timestamp="1585199062879">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1504" height="417" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585161127576" />
-    <state width="1504" height="417" key="GridCell.Tab.1.left" timestamp="1585161127576">
+    <state width="1504" height="406" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585199062879" />
+    <state width="1504" height="406" key="GridCell.Tab.1.left" timestamp="1585199062879">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1504" height="417" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585161127576" />
-    <state width="1504" height="417" key="GridCell.Tab.1.right" timestamp="1585161127576">
+    <state width="1504" height="406" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585199062879" />
+    <state width="1504" height="406" key="GridCell.Tab.1.right" timestamp="1585199062879">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1504" height="417" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585161127576" />
+    <state width="1504" height="406" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585199062879" />
+    <state width="1504" height="356" key="GridCell.Tab.2.bottom" timestamp="1585192020336">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1504" height="356" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585192020336" />
+    <state width="1504" height="356" key="GridCell.Tab.2.center" timestamp="1585192020336">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1504" height="356" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585192020336" />
+    <state width="1504" height="356" key="GridCell.Tab.2.left" timestamp="1585192020336">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1504" height="356" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585192020336" />
+    <state width="1504" height="356" key="GridCell.Tab.2.right" timestamp="1585192020336">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1504" height="356" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585192020336" />
     <state x="490" y="175" key="Maven.ArtifactSearchDialog" timestamp="1584846464490">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -647,10 +667,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1585151177785" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1585130127399">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1585161184737">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1585130127399" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1585161184737" />
     <state x="1173" y="284" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1585147763094">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

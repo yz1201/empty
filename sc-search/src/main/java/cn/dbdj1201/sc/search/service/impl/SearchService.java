@@ -1,18 +1,28 @@
 package cn.dbdj1201.sc.search.service.impl;
 
+import cn.dbdj120.sc.common.pojo.PageResult;
 import cn.dbdj1201.sc.item.pojo.*;
 import cn.dbdj1201.sc.search.client.BrandClient;
 import cn.dbdj1201.sc.search.client.CategoryClient;
 import cn.dbdj1201.sc.search.client.GoodsClient;
 import cn.dbdj1201.sc.search.client.SpecificationClient;
 import cn.dbdj1201.sc.search.pojo.Goods;
+import cn.dbdj1201.sc.search.pojo.SearchRequest;
+import cn.dbdj1201.sc.search.repository.GoodsRepository;
 import cn.dbdj1201.sc.search.service.ISearchService;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.commons.lang.StringUtils;
 import org.apache.commons.lang.math.NumberUtils;
+import org.elasticsearch.index.query.Operator;
+import org.elasticsearch.index.query.QueryBuilders;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.elasticsearch.core.query.FetchSourceFilter;
+import org.springframework.data.elasticsearch.core.query.NativeSearchQuery;
+import org.springframework.data.elasticsearch.core.query.NativeSearchQueryBuilder;
 import org.springframework.stereotype.Service;
 
 import java.util.*;
@@ -26,12 +36,19 @@ public class SearchService implements ISearchService {
 
     @Autowired
     private CategoryClient categoryClient;
+
     @Autowired
     private GoodsClient goodsClient;
+
     @Autowired
     private BrandClient brandClient;
+
     @Autowired
     private SpecificationClient specificationClient;
+
+    @Autowired
+    private GoodsRepository goodsRepository;
+
     private static final ObjectMapper MAPPER = new ObjectMapper();
 
     @Override
@@ -45,6 +62,8 @@ public class SearchService implements ISearchService {
         List<Sku> skus = this.goodsClient.querySkusBySpuId(spu.getId());
         //封装sku的必要字段信息
         List<Map<String, Object>> skuMapList = new ArrayList<>();
+
+        this.goodsClient.querySpuByPage(null, true, 1, 10).getItems().forEach(System.out::println);
 
         //根据sku获得其价格
         List<Long> prices = new ArrayList<>();
@@ -68,17 +87,17 @@ public class SearchService implements ISearchService {
         //特殊规格参数集合反序列化
         Map<String, List<Object>> specialSpecMap = MAPPER.readValue(spuDetail.getSpecialSpec(), new TypeReference<>() {
         });
-        Map<String,Object> specs = new HashMap<>();
-        params.forEach(param->{
-            if(param.getGeneric()) {
+        Map<String, Object> specs = new HashMap<>();
+        params.forEach(param -> {
+            if (param.getGeneric()) {
                 String value = genericSpecMap.get(param.getId().toString()).toString();
-                if(param.getNumeric()){
+                if (param.getNumeric()) {
                     value = chooseSegment(value, param);
                 }
-                specs.put(param.getName(),value);
-            }else {
+                specs.put(param.getName(), value);
+            } else {
                 List<Object> value = specialSpecMap.get(param.getId().toString());
-                specs.put(param.getName(),value);
+                specs.put(param.getName(), value);
             }
         });
 
@@ -100,6 +119,23 @@ public class SearchService implements ISearchService {
         return goods;
     }
 
+    @Override
+    public PageResult<Goods> search(SearchRequest searchRequest) {
+        if (StringUtils.isBlank(searchRequest.getKey()))
+            return null;
+        //自定义查询构建器
+        NativeSearchQueryBuilder queryBuilder = new NativeSearchQueryBuilder();
+        //分词查询
+        queryBuilder.withQuery(QueryBuilders.matchQuery("all", searchRequest.getKey()).operator(Operator.AND));
+        //分页查询，页码从0开始
+        queryBuilder.withPageable(PageRequest.of(searchRequest.getPage() - 1, searchRequest.getSize()));
+        //添加结果集过滤
+        queryBuilder.withSourceFilter(new FetchSourceFilter(new String[]{"id", "skus", "subTitle"}, null));
+        //执行查询，获得结果集，封装到我们自己的分页结果集
+        Page<Goods> goodsPage = this.goodsRepository.search(queryBuilder.build());
+        return new PageResult<>(goodsPage.getTotalElements(), goodsPage.getTotalPages(), goodsPage.getContent());
+    }
+
     private String chooseSegment(String value, SpecParam p) {
         double val = NumberUtils.toDouble(value);
         String result = "其它";
@@ -109,16 +145,16 @@ public class SearchService implements ISearchService {
             // 获取数值范围
             double begin = NumberUtils.toDouble(segs[0]);
             double end = Double.MAX_VALUE;
-            if(segs.length == 2){
+            if (segs.length == 2) {
                 end = NumberUtils.toDouble(segs[1]);
             }
             // 判断是否在范围内
-            if(val >= begin && val < end){
-                if(segs.length == 1){
+            if (val >= begin && val < end) {
+                if (segs.length == 1) {
                     result = segs[0] + p.getUnit() + "以上";
-                }else if(begin == 0){
+                } else if (begin == 0) {
                     result = segs[1] + p.getUnit() + "以下";
-                }else{
+                } else {
                     result = segment + p.getUnit();
                 }
                 break;

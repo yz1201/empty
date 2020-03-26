@@ -13,7 +13,8 @@ import java.util.Map;
  * @author tyz1201
  * @datetime 2020-03-25 17:26
  **/
-@Document(indexName = "goods", type = "docs", shards = 1, replicas = 0)
+@Document(indexName = "" +
+        "goods", type = "docs", shards = 1, replicas = 0)
 public class Goods {
     @Id
     private Long id; // spuId

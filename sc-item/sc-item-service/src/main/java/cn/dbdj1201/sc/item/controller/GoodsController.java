@@ -41,7 +41,7 @@ public class GoodsController {
             @RequestParam(required = false, defaultValue = "5") Integer rows
     ) {
         PageResult<SpuBo> result = this.goodsService.querySpuByPage(key, saleable, page, rows);
-        if (result == null || CollectionUtils.isEmpty(result.getItems()))
+        if (CollectionUtils.isEmpty(result.getItems()))
             return ResponseEntity.notFound().build();
         return ResponseEntity.ok(result);
     }

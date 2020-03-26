@@ -1,7 +1,9 @@
 package cn.dbdj1201.sc.search.controller;
 
+import cn.dbdj120.sc.common.pojo.PageResult;
 import cn.dbdj1201.sc.item.pojo.Spu;
 import cn.dbdj1201.sc.search.pojo.Goods;
+import cn.dbdj1201.sc.search.pojo.SearchRequest;
 import cn.dbdj1201.sc.search.service.IIndexService;
 import cn.dbdj1201.sc.search.service.ISearchService;
 import com.fasterxml.jackson.core.JsonProcessingException;
@@ -9,7 +11,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
+import org.springframework.util.CollectionUtils;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import java.util.Date;
@@ -18,7 +23,7 @@ import java.util.Date;
  * @author tyz1201
  * @datetime 2020-03-25 23:56
  **/
-@RequestMapping("/search")
+//@RequestMapping("/search")
 @Controller
 public class SearchController {
 
@@ -41,10 +46,23 @@ public class SearchController {
         return ResponseEntity.ok(this.searchService.buildGoods(spu));
     }
 
-    @GetMapping("createIndex")
+    /**
+     * 创建索引库，轻易勿动。
+     *
+     * @return
+     */
+    @GetMapping("createIndex/create/index/put/mapping/dont/touch/this/interface/ok")
     public ResponseEntity<Void> createIndex() {
         indexService.saveGoods();
         return ResponseEntity.status(HttpStatus.CREATED).build();
+    }
+
+    @PostMapping("page")
+    public ResponseEntity<PageResult<Goods>> search(@RequestBody SearchRequest searchRequest) {
+        PageResult<Goods> pageResult = this.searchService.search(searchRequest);
+        if (CollectionUtils.isEmpty(pageResult.getItems()))
+            return ResponseEntity.notFound().build();
+        return ResponseEntity.ok(pageResult);
     }
 
 

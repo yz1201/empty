@@ -20,6 +20,7 @@ public class ScCorsConfig {
         CorsConfiguration config = new CorsConfiguration();
         //1) 允许的域,不要写*，否则cookie就无法使用了
         config.addAllowedOrigin("http://manage.sc1.com");
+        config.addAllowedOrigin("http://www.sc1.com");
         //2) 是否发送Cookie信息
         config.setAllowCredentials(true);
         //3) 允许的请求方式
