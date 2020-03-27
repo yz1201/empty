@@ -8,8 +8,9 @@ import java.io.Serializable;
  **/
 public class SearchRequest implements Serializable {
     private String key;// 搜索条件
-
     private Integer page;// 当前页
+    private String sortBy;//排序字段
+    private Boolean desc; //是否降序
 
     private static final Integer DEFAULT_SIZE = 20;// 每页大小，不从页面接收，而是固定大小
     private static final Integer DEFAULT_PAGE = 1;// 默认页
@@ -23,7 +24,7 @@ public class SearchRequest implements Serializable {
     }
 
     public Integer getPage() {
-        if(page == null){
+        if (page == null) {
             return DEFAULT_PAGE;
         }
         // 获取页码时做一些校验，不能小于1
@@ -36,5 +37,31 @@ public class SearchRequest implements Serializable {
 
     public Integer getSize() {
         return DEFAULT_SIZE;
+    }
+
+    public String getSortBy() {
+        return sortBy;
+    }
+
+    public void setSortBy(String sortBy) {
+        this.sortBy = sortBy;
+    }
+
+    public Boolean getDesc() {
+        return desc;
+    }
+
+    public void setDesc(Boolean desc) {
+        this.desc = desc;
+    }
+
+    @Override
+    public String toString() {
+        return "SearchRequest{" +
+                "key='" + key + '\'' +
+                ", page=" + page +
+                ", sortBy='" + sortBy + '\'' +
+                ", desc=" + desc +
+                '}';
     }
 }

@@ -59,9 +59,11 @@ public class SearchController {
 
     @PostMapping("page")
     public ResponseEntity<PageResult<Goods>> search(@RequestBody SearchRequest searchRequest) {
+        System.out.println("page query->"+searchRequest);
         PageResult<Goods> pageResult = this.searchService.search(searchRequest);
         if (CollectionUtils.isEmpty(pageResult.getItems()))
             return ResponseEntity.notFound().build();
+
         return ResponseEntity.ok(pageResult);
     }
 
