@@ -65,6 +65,7 @@ public class SearchRequest implements Serializable {
         this.filter = filter;
     }
 
+
     @Override
     public String toString() {
         return "SearchRequest{" +
@@ -72,6 +73,7 @@ public class SearchRequest implements Serializable {
                 ", page=" + page +
                 ", sortBy='" + sortBy + '\'' +
                 ", desc=" + desc +
+                ", filter=" + filter +
                 '}';
     }
 }

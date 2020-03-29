@@ -8,6 +8,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -85,6 +86,14 @@ public class CategoryService implements ICategoryService {
 //        cids.forEach(cid -> names.add(mapper.selectByPrimaryKey(cid).getName()));
 //        mapper.selectByIdList(cids).forEach(category -> names.add(category.getName()));
         return categories.stream().map(Category::getName).collect(Collectors.toList());
+    }
+
+    @Override
+    public List<Category> queryAllByCid3(Long cid3) {
+        Category c3 = this.mapper.selectByPrimaryKey(cid3);
+        Category c2 = this.mapper.selectByPrimaryKey(c3.getParentId());
+        Category c1 = this.mapper.selectByPrimaryKey(c2.getParentId());
+        return Arrays.asList(c1, c2, c3);
     }
 
 }

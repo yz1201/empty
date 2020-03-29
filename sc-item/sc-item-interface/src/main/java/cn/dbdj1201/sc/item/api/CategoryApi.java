@@ -1,5 +1,6 @@
 package cn.dbdj1201.sc.item.api;
 
+import cn.dbdj1201.sc.item.pojo.Category;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -22,4 +23,6 @@ public interface CategoryApi {
      */
     @GetMapping("names")
     List<String> queryNamesByIds(@RequestParam("ids") List<Long> ids);
+
+//    List<Category> queryAllByCid3(@RequestParam("id") Long cid3);
 }

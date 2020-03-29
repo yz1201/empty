@@ -138,9 +138,9 @@ public class SearchService implements ISearchService {
         NativeSearchQueryBuilder queryBuilder = new NativeSearchQueryBuilder();
         BoolQueryBuilder boolQueryBuilder = buildBooleanQueryBuilder(searchRequest);
         queryBuilder.withQuery(boolQueryBuilder);
-        //分词查询
-        MatchQueryBuilder basicQuery = QueryBuilders.matchQuery("all", searchRequest.getKey()).operator(Operator.AND);
-        queryBuilder.withQuery(basicQuery);
+//        //分词查询
+//        MatchQueryBuilder basicQuery = QueryBuilders.matchQuery("all", searchRequest.getKey()).operator(Operator.AND);
+//        queryBuilder.withQuery(basicQuery);
         //分页查询，页码从0开始
         queryBuilder.withPageable(PageRequest.of(page - 1, size));
         //添加结果集过滤
@@ -272,10 +272,8 @@ public class SearchService implements ISearchService {
      */
     private BoolQueryBuilder buildBooleanQueryBuilder(SearchRequest request) {
         BoolQueryBuilder boolQueryBuilder = QueryBuilders.boolQuery();
-
         // 添加基本查询条件
         boolQueryBuilder.must(QueryBuilders.matchQuery("all", request.getKey()).operator(Operator.AND));
-
         // 添加过滤条件
         if (CollectionUtils.isEmpty(request.getFilter())) {
             return boolQueryBuilder;

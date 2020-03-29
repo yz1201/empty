@@ -95,4 +95,13 @@ public class CategoryController {
         return ResponseEntity.ok(names);
     }
 
+    @GetMapping("all/level")
+    public ResponseEntity<List<Category>> getBreadNavigation(@RequestParam("id") Long cid3) {
+        List<Category> list = this.service.queryAllByCid3(cid3);
+        if (list == null || list.size() < 1) {
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+        }
+        return ResponseEntity.ok(list);
+    }
+
 }

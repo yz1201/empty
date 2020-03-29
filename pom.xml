@@ -16,6 +16,7 @@
         <module>sc-upload</module>
         <module>ex-lucene</module>
         <module>sc-search</module>
+        <module>sc-goods-web</module>
     </modules>
 
 

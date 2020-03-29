@@ -1,6 +1,7 @@
 package cn.dbdj1201.sc.search.controller;
 
 import cn.dbdj120.sc.common.pojo.PageResult;
+import cn.dbdj1201.sc.item.pojo.Category;
 import cn.dbdj1201.sc.item.pojo.Spu;
 import cn.dbdj1201.sc.search.pojo.Goods;
 import cn.dbdj1201.sc.search.pojo.SearchRequest;
@@ -12,12 +13,10 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.util.CollectionUtils;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.Date;
+import java.util.List;
 
 /**
  * @author tyz1201
@@ -59,13 +58,10 @@ public class SearchController {
 
     @PostMapping("page")
     public ResponseEntity<PageResult<Goods>> search(@RequestBody SearchRequest searchRequest) {
-        System.out.println("page query->"+searchRequest);
         PageResult<Goods> pageResult = this.searchService.search(searchRequest);
         if (CollectionUtils.isEmpty(pageResult.getItems()))
             return ResponseEntity.notFound().build();
-
         return ResponseEntity.ok(pageResult);
     }
-
 
 }

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>hello</title>
+</head>
+<body>
+<h1 th:text="${msg}">出事了</h1>
+
+<h2 th:text="${user.name}">?mid gap?</h2>
+<h2 th:text="${user.age}">?mid gap?</h2>
+<h2 th:text="${user.friend}">?mid gap?</h2>
+
+<div th:object="${user}">
+    <h1 th:text="*{name.split(' ')[0]}">T O T</h1>
+    <p th:text="*{age}"></p>
+    <p th:text="*{friend.name}"></p>
+    <p th:text="*{friend.age}"></p>
+    <p th:if="*{friend.friend eq null}">孤儿</p>
+    <p th:text="${#dates.format(date,'yyyy-MM-dd')}"></p>
+    <p th:text="|呵呵,*{name}其实不帅的|"></p>
+    <p th:text="*{age}  eq 25 ? '可以，老b' : '确实年轻'"></p>
+    <p th:text="*{name ne 'zhangsan'}?: 'lisi'"></p>
+</div>
+
+<div>
+    <table>
+        <thead>HEAD ache</thead>
+        <tr>
+            <th>id</th>
+            <th>name</th>
+            <th>age</th>
+            <th>friend name</th>
+            <th>friend age</th>
+        </tr>
+        <tr th:each="user, stat : ${list}">
+            <td th:text="${stat.index+1}"></td>
+            <td th:text="${user.name}">??</td>
+            <td th:text="${user.age}">??</td>
+            <td th:text="${user.friend.name}">??</td>
+            <td th:text="${user.friend.age}">??</td>
+        </tr>
+    </table>
+</div>
+
+<div th:switch="${user.name}">
+    <p th:case="zhangsan">开冲1</p>
+    <p th:case="lisi">开冲2</p>
+    <p th:case="JackChen">开冲3</p>
+    <p th:case="*">出问题了</p>
+</div>
+
+<script th:inline="javascript">
+    const user = /*[[${user}]]*/ {};
+    const age = /*[[${user.age}]]*/ 20;
+    console.log(user);
+    console.log(age)
+</script>
+</body>
+</html>
