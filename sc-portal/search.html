@@ -268,11 +268,11 @@
                     </div>
                 </div>
                 <div class="type-wrap" style="text-align: center">
-                    <v-btn small flat>
+                    <v-btn small flat @click="show=true" v-show="!show">
                         更多
                         <v-icon>arrow_drop_down</v-icon>
                     </v-btn>
-                    <v-btn small="" flat>
+                    <v-btn small="" flat @click="show=false" v-show="show">
                         收起
                         <v-icon>arrow_drop_up</v-icon>
                     </v-btn>
@@ -481,7 +481,8 @@
             goodsList: [], // 接收搜索得到的结果
             total: 0, // 总条数
             totalPage: 0, // 总页数
-            filters: [] // 过滤参数集合
+            filters: [], // 过滤参数集合,
+            show: false
         },
         created() {
             if (!location.search)
@@ -515,6 +516,12 @@
                         options: data.brands
                     });
 
+                    data.specs.forEach(spec => {
+                        spec.options = spec.options.map(o => {
+                            ({name: o})
+                        });
+                        this.filters.push(spec)
+                    });
                     data.items.forEach(goods => {
                         goods.skus = JSON.parse(goods.skus);
                         goods.selected = goods.skus[0];

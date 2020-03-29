@@ -16,10 +16,7 @@ import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.commons.lang.StringUtils;
 import org.apache.commons.lang.math.NumberUtils;
-import org.elasticsearch.index.query.MatchQueryBuilder;
-import org.elasticsearch.index.query.Operator;
-import org.elasticsearch.index.query.QueryBuilder;
-import org.elasticsearch.index.query.QueryBuilders;
+import org.elasticsearch.index.query.*;
 import org.elasticsearch.search.aggregations.Aggregation;
 import org.elasticsearch.search.aggregations.AggregationBuilders;
 import org.elasticsearch.search.aggregations.bucket.terms.LongTerms;
@@ -34,6 +31,7 @@ import org.springframework.data.elasticsearch.core.query.FetchSourceFilter;
 import org.springframework.data.elasticsearch.core.query.NativeSearchQuery;
 import org.springframework.data.elasticsearch.core.query.NativeSearchQueryBuilder;
 import org.springframework.stereotype.Service;
+import org.springframework.util.CollectionUtils;
 
 import java.util.*;
 
@@ -138,6 +136,8 @@ public class SearchService implements ISearchService {
         int size = searchRequest.getSize();
         //自定义查询构建器
         NativeSearchQueryBuilder queryBuilder = new NativeSearchQueryBuilder();
+        BoolQueryBuilder boolQueryBuilder = buildBooleanQueryBuilder(searchRequest);
+        queryBuilder.withQuery(boolQueryBuilder);
         //分词查询
         MatchQueryBuilder basicQuery = QueryBuilders.matchQuery("all", searchRequest.getKey()).operator(Operator.AND);
         queryBuilder.withQuery(basicQuery);
@@ -163,7 +163,7 @@ public class SearchService implements ISearchService {
 
         List<Map<String, Object>> specs = null;
         if (categories.size() == 1) {
-            specs = getParamAggResult((Long)categories.get(0).get("id"), basicQuery);
+            specs = getParamAggResult((Long) categories.get(0).get("id"), boolQueryBuilder);
         }
 
         return new SearchResult(goodsPage.getContent(), goodsPage.getTotalElements(), goodsPage.getTotalPages(), categories, brands, specs);
@@ -223,11 +223,12 @@ public class SearchService implements ISearchService {
 
     /**
      * 聚合出规格参数过滤条件
+     *
      * @param id
      * @param basicQuery
      * @return
      */
-    private List<Map<String,Object>> getParamAggResult(Long id, QueryBuilder basicQuery) {
+    private List<Map<String, Object>> getParamAggResult(Long id, QueryBuilder basicQuery) {
         // 创建自定义查询构建器
         NativeSearchQueryBuilder queryBuilder = new NativeSearchQueryBuilder();
         // 基于基本的查询条件，聚合规格参数
@@ -240,7 +241,7 @@ public class SearchService implements ISearchService {
         queryBuilder.withSourceFilter(new FetchSourceFilter(new String[]{}, null));
 
         // 执行聚合查询
-        AggregatedPage<Goods> goodsPage = (AggregatedPage<Goods>)this.goodsRepository.search(queryBuilder.build());
+        AggregatedPage<Goods> goodsPage = (AggregatedPage<Goods>) this.goodsRepository.search(queryBuilder.build());
 
         // 定义一个集合，收集聚合结果集
         List<Map<String, Object>> paramMapList = new ArrayList<>();
@@ -253,7 +254,7 @@ public class SearchService implements ISearchService {
             // 收集规格参数值
             List<Object> options = new ArrayList<>();
             // 解析每个聚合
-            StringTerms terms = (StringTerms)entry.getValue();
+            StringTerms terms = (StringTerms) entry.getValue();
             // 遍历每个聚合中桶，把桶中key放入收集规格参数的集合中
             terms.getBuckets().forEach(bucket -> options.add(bucket.getKeyAsString()));
             map.put("options", options);
@@ -261,6 +262,39 @@ public class SearchService implements ISearchService {
         }
 
         return paramMapList;
+    }
+
+    /**
+     * 构建bool查询构建器
+     *
+     * @param request
+     * @return
+     */
+    private BoolQueryBuilder buildBooleanQueryBuilder(SearchRequest request) {
+        BoolQueryBuilder boolQueryBuilder = QueryBuilders.boolQuery();
+
+        // 添加基本查询条件
+        boolQueryBuilder.must(QueryBuilders.matchQuery("all", request.getKey()).operator(Operator.AND));
+
+        // 添加过滤条件
+        if (CollectionUtils.isEmpty(request.getFilter())) {
+            return boolQueryBuilder;
+        }
+        for (Map.Entry<String, Object> entry : request.getFilter().entrySet()) {
+            String key = entry.getKey();
+            // 如果过滤条件是“品牌”, 过滤的字段名：brandId
+            if (StringUtils.equals("品牌", key)) {
+                key = "brandId";
+            } else if (StringUtils.equals("分类", key)) {
+                // 如果是“分类”，过滤字段名：cid3
+                key = "cid3";
+            } else {
+                // 如果是规格参数名，过滤字段名：specs.key.keyword
+                key = "specs." + key + ".keyword";
+            }
+            boolQueryBuilder.filter(QueryBuilders.termQuery(key, entry.getValue()));
+        }
+        return boolQueryBuilder;
     }
 
     private String chooseSegment(String value, SpecParam p) {

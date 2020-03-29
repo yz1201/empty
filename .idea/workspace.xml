@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed85c090-aefa-43e3-acbf-d3f7dd4a1eb7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sc-search/src/main/java/cn/dbdj1201/sc/search/pojo/SearchResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sc-gateway/src/main/java/cn/dbdj1201/sc/item/gateway/config/ScCorsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/sc-gateway/src/main/java/cn/dbdj1201/sc/item/gateway/config/ScCorsConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sc-portal/leyou-portal.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/sc-portal/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/sc-portal/search.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sc-search/src/main/java/cn/dbdj1201/sc/search/controller/SearchController.java" beforeDir="false" afterPath="$PROJECT_DIR$/sc-search/src/main/java/cn/dbdj1201/sc/search/controller/SearchController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sc-search/src/main/java/cn/dbdj1201/sc/search/pojo/SearchRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/sc-search/src/main/java/cn/dbdj1201/sc/search/pojo/SearchRequest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sc-search/src/main/java/cn/dbdj1201/sc/search/service/impl/SearchService.java" beforeDir="false" afterPath="$PROJECT_DIR$/sc-search/src/main/java/cn/dbdj1201/sc/search/service/impl/SearchService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sc-search/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sc-search/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -358,11 +352,6 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
                 <item name="Not Started" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
@@ -404,7 +393,9 @@
       <workItem from="1585189859641" duration="13388000" />
       <workItem from="1585218168072" duration="10393000" />
       <workItem from="1585287316628" duration="3971000" />
-      <workItem from="1585293665465" duration="14022000" />
+      <workItem from="1585293665465" duration="14314000" />
+      <workItem from="1585395488005" duration="3153000" />
+      <workItem from="1585466284958" duration="4573000" />
     </task>
     <task id="LOCAL-00001" summary="shopping city -bec">
       <created>1584332491647</created>
@@ -539,7 +530,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585200052637</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="shopping city -st sc-search category brand specs aggregation">
+      <created>1585326935984</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1585326935984</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -565,7 +563,8 @@
     <MESSAGE value="shopping city -st sc-search" />
     <MESSAGE value="shopping city -st sc-search indexs" />
     <MESSAGE value="shopping city -st sc-search query impl" />
-    <option name="LAST_COMMIT_MESSAGE" value="shopping city -st sc-search query impl" />
+    <MESSAGE value="shopping city -st sc-search category brand specs aggregation" />
+    <option name="LAST_COMMIT_MESSAGE" value="shopping city -st sc-search category brand specs aggregation" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#Project_Structure" timestamp="1585130060885">
@@ -584,10 +583,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="590" y="144" key="#ScRegistryApplication/0.0.1920.1040@0.0.1920.1040" timestamp="1584696124718" />
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1585325873577">
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1585469083778">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1585325873577" />
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1585469083778" />
     <state x="689" y="302" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1584696130343">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -608,46 +607,46 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="254" y="0" key="#org.jetbrains.kotlin.idea.refactoring.safeDelete.KotlinOverridingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584727699906" />
-    <state x="518" y="112" key="CommitChangelistDialog2" timestamp="1585200046038">
+    <state x="518" y="112" key="CommitChangelistDialog2" timestamp="1585326931457">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="518" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1585200046038" />
+    <state x="518" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1585326931457" />
     <state x="740" y="209" key="FileChooserDialogImpl" timestamp="1584379980120">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="209" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1584379980120" />
-    <state width="1504" height="311" key="GridCell.Tab.0.bottom" timestamp="1585325854989">
+    <state width="1504" height="184" key="GridCell.Tab.0.bottom" timestamp="1585326979272">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1504" height="311" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585325854989" />
-    <state width="1504" height="311" key="GridCell.Tab.0.center" timestamp="1585325854989">
+    <state width="1504" height="184" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585326979272" />
+    <state width="1504" height="184" key="GridCell.Tab.0.center" timestamp="1585326979269">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1504" height="311" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585325854989" />
-    <state width="1504" height="311" key="GridCell.Tab.0.left" timestamp="1585325854989">
+    <state width="1504" height="184" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585326979269" />
+    <state width="1504" height="184" key="GridCell.Tab.0.left" timestamp="1585326979269">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1504" height="311" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585325854989" />
-    <state width="1504" height="311" key="GridCell.Tab.0.right" timestamp="1585325854989">
+    <state width="1504" height="184" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585326979269" />
+    <state width="1504" height="184" key="GridCell.Tab.0.right" timestamp="1585326979272">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1504" height="311" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585325854989" />
-    <state width="1504" height="311" key="GridCell.Tab.1.bottom" timestamp="1585325854993">
+    <state width="1504" height="184" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585326979272" />
+    <state width="1504" height="184" key="GridCell.Tab.1.bottom" timestamp="1585326979272">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1504" height="311" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585325854993" />
-    <state width="1504" height="311" key="GridCell.Tab.1.center" timestamp="1585325854993">
+    <state width="1504" height="184" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585326979272" />
+    <state width="1504" height="184" key="GridCell.Tab.1.center" timestamp="1585326979272">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1504" height="311" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585325854993" />
-    <state width="1504" height="311" key="GridCell.Tab.1.left" timestamp="1585325854993">
+    <state width="1504" height="184" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585326979272" />
+    <state width="1504" height="184" key="GridCell.Tab.1.left" timestamp="1585326979272">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1504" height="311" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585325854993" />
-    <state width="1504" height="311" key="GridCell.Tab.1.right" timestamp="1585325854993">
+    <state width="1504" height="184" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585326979272" />
+    <state width="1504" height="184" key="GridCell.Tab.1.right" timestamp="1585326979272">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1504" height="311" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585325854993" />
+    <state width="1504" height="184" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585326979272" />
     <state width="1504" height="356" key="GridCell.Tab.2.bottom" timestamp="1585192020336">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -676,10 +675,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1585151177785" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1585200057275">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1585326945601">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1585200057275" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1585326945601" />
     <state x="1173" y="284" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1585147763094">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

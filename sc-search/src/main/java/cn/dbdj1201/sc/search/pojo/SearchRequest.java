@@ -1,6 +1,7 @@
 package cn.dbdj1201.sc.search.pojo;
 
 import java.io.Serializable;
+import java.util.Map;
 
 /**
  * @author tyz1201
@@ -11,6 +12,7 @@ public class SearchRequest implements Serializable {
     private Integer page;// 当前页
     private String sortBy;//排序字段
     private Boolean desc; //是否降序
+    private Map<String, Object> filter;//过滤条件
 
     private static final Integer DEFAULT_SIZE = 20;// 每页大小，不从页面接收，而是固定大小
     private static final Integer DEFAULT_PAGE = 1;// 默认页
@@ -53,6 +55,14 @@ public class SearchRequest implements Serializable {
 
     public void setDesc(Boolean desc) {
         this.desc = desc;
+    }
+
+    public Map<String, Object> getFilter() {
+        return filter;
+    }
+
+    public void setFilter(Map<String, Object> filter) {
+        this.filter = filter;
     }
 
     @Override
