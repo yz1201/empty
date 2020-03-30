@@ -5,7 +5,7 @@
     <inspection_tool class="HtmlUnknownAttribute" enabled="true" level="WARNING" enabled_by_default="true">
       <option name="myValues">
         <value>
-          <list size="9">
+          <list size="10">
             <item index="0" class="java.lang.String" itemvalue="v-for" />
             <item index="1" class="java.lang.String" itemvalue=":key" />
             <item index="2" class="java.lang.String" itemvalue="@mouseover" />
@@ -15,6 +15,7 @@
             <item index="6" class="java.lang.String" itemvalue="v-show" />
             <item index="7" class="java.lang.String" itemvalue="v-else" />
             <item index="8" class="java.lang.String" itemvalue="v-if" />
+            <item index="9" class="java.lang.String" itemvalue=":href" />
           </list>
         </value>
       </option>

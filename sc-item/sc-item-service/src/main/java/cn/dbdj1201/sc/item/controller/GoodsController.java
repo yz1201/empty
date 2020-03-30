@@ -3,6 +3,7 @@ package cn.dbdj1201.sc.item.controller;
 import cn.dbdj120.sc.common.pojo.PageResult;
 import cn.dbdj1201.sc.item.bo.SpuBo;
 import cn.dbdj1201.sc.item.pojo.Sku;
+import cn.dbdj1201.sc.item.pojo.Spu;
 import cn.dbdj1201.sc.item.pojo.SpuDetail;
 import cn.dbdj1201.sc.item.service.IGoodsService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -79,6 +80,14 @@ public class GoodsController {
     public ResponseEntity<Void> editGoods(@RequestBody SpuBo spuBo) {
         goodsService.updateGoods(spuBo);
         return ResponseEntity.status(HttpStatus.NO_CONTENT).build();
+    }
+
+    @GetMapping("spu/{id}")
+    public ResponseEntity<Spu> querySpuById(@PathVariable("id") Long id) {
+        Spu spu = this.goodsService.querySpuById(id);
+        if(spu == null)
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).build();
+        return ResponseEntity.ok(spu);
     }
 
 }

@@ -4,6 +4,7 @@ import cn.dbdj120.sc.common.pojo.PageResult;
 import cn.dbdj1201.sc.item.bo.SpuBo;
 import cn.dbdj1201.sc.item.pojo.Brand;
 import cn.dbdj1201.sc.item.pojo.Sku;
+import cn.dbdj1201.sc.item.pojo.Spu;
 import cn.dbdj1201.sc.item.pojo.SpuDetail;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -53,4 +54,7 @@ public interface GoodsApi {
      */
     @RequestMapping("sku/list")
     List<Sku> querySkusBySpuId(@RequestParam("id") Long spuId);
+
+    @GetMapping("spu/{id}")
+    Spu querySpuById(@PathVariable("id") Long id);
 }

@@ -3,6 +3,7 @@ package cn.dbdj1201.sc.item.service;
 import cn.dbdj120.sc.common.pojo.PageResult;
 import cn.dbdj1201.sc.item.bo.SpuBo;
 import cn.dbdj1201.sc.item.pojo.Sku;
+import cn.dbdj1201.sc.item.pojo.Spu;
 import cn.dbdj1201.sc.item.pojo.SpuDetail;
 
 import java.util.List;
@@ -28,4 +29,6 @@ public interface IGoodsService {
     List<Sku> querySkusBySpuId(Long spuId);
 
     void updateGoods(SpuBo spuBo);
+
+    Spu querySpuById(Long id);
 }
