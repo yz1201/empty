@@ -24,4 +24,5 @@ public interface ISpecGroupService {
 
     void editGroup(SpecGroup specGroup);
 
+    List<SpecGroup> querySpecsByCid(Long cid);
 }

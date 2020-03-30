@@ -21,7 +21,7 @@ public class SpecGroup implements Serializable {
     private String name;
 
     @Transient
-    private List<SpecParam> params;
+    private List<SpecParam> params; //该组下的规格参数
 
     public Long getId() {
         return id;

@@ -3,6 +3,8 @@ server:
 spring:
   application:
     name: goods-web
+  main:
+    allow-bean-definition-overriding: true
   thymeleaf:
     cache: false
 eureka:

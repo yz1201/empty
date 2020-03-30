@@ -10,6 +10,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.stream.Collectors;
 
 /**
  * @author tyz1201
@@ -47,6 +48,19 @@ public class SpecService implements ISpecGroupService, ISpecParamService {
     @Override
     public void editGroup(SpecGroup specGroup) {
         groupMapper.updateByPrimaryKeySelective(specGroup);
+    }
+
+    @Override
+    public List<SpecGroup> querySpecsByCid(Long cid) {
+        SpecGroup specGroup = new SpecGroup();
+        specGroup.setCid(cid);
+        List<SpecGroup> specGroups = this.groupMapper.select(specGroup);
+        return specGroups.stream().peek(group -> {
+            SpecParam record = new SpecParam();
+            record.setCid(cid);
+            record.setGroupId(group.getId());
+            group.setParams(this.paramMapper.select(record));
+        }).collect(Collectors.toList());
     }
 
 //    @Override
