@@ -57,6 +57,11 @@ public class GoodsService implements IGoodsService {
         List<SpecParam> specParams = this.specificationClient.listParams(null, spu.getCid3(), false, null);
         Map<Long, Object> paramMap = new HashMap<>();
         specParams.forEach(param -> paramMap.put(param.getId(), param.getName()));
+
+        // 查询通用的规格参数
+        List<SpecParam> genericSpecParams = this.specificationClient.listParams(null, spu.getCid3(), true, null);
+        Map<Long, Object> genericParamMap = new HashMap<>();
+        genericSpecParams.forEach(param -> genericParamMap.put(param.getId(), param.getName()));
         // 封装spu
         map.put("spu", spu);
         // 封装spuDetail
@@ -71,6 +76,8 @@ public class GoodsService implements IGoodsService {
         map.put("groups", specGroups);
         // 查询特殊规格参数
         map.put("paramMap", paramMap);
+        //查询通用规格参数
+        map.put("genericParamMap", genericParamMap);
         return map;
     }
 }

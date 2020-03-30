@@ -1,5 +1,6 @@
 package cn.dbdj1201.goods.web.controller;
 
+import cn.dbdj1201.goods.web.service.IGoodsHtmlService;
 import cn.dbdj1201.goods.web.service.IGoodsService;
 import cn.dbdj1201.goods.web.service.impl.GoodsService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,6 +23,9 @@ public class GoodsController {
     @Autowired
     private IGoodsService goodsService;
 
+    @Autowired
+    private IGoodsHtmlService goodsHtmlService;
+
     /**
      * 跳转到商品详情页
      *
@@ -30,12 +34,13 @@ public class GoodsController {
      * @return
      */
     @GetMapping("{id}.html")
-    public String toItemPage(Model model, @PathVariable("id") Long id) {
+    public String toItemPage(@PathVariable("id") Long id, Model model) {
         // 加载所需的数据
-        Map<String, Object> modelMap = this.goodsService.loadData(id);
-//        modelMap.forEach((k, v) -> System.out.println(k + "->" + v));
-        // 放入模型
-        model.addAllAttributes(modelMap);
+        Map<String, Object> map = this.goodsService.loadData(id);
+        // 把数据放入数据模型
+        model.addAllAttributes(map);
+        // 页面静态化
+        this.goodsHtmlService.asyncExecute(id);
         return "item";
     }
 }
