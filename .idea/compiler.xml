@@ -17,15 +17,17 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="sc-item-interface" />
-        <module name="ex-lucene" />
-        <module name="sc-common" />
+        <module name="sc-registry" />
+        <module name="ex-java-ee" />
         <module name="sc-goods-web" />
         <module name="sc-search" />
-        <module name="sc-upload" />
+        <module name="sc-common" />
+        <module name="ex-rabbitmq" />
         <module name="ex-elasticsearch" />
         <module name="sc-item-service" />
+        <module name="sc-upload" />
         <module name="sc-gateway" />
-        <module name="sc-registry" />
+        <module name="ex-lucene" />
       </profile>
     </annotationProcessing>
   </component>
@@ -34,6 +36,7 @@
       <module name="empty" options="-parameters" />
       <module name="ex-elasticsearch" options="-parameters" />
       <module name="ex-lucene" options="-parameters" />
+      <module name="ex-rabbitmq" options="-parameters" />
       <module name="sc-common" options="-parameters" />
       <module name="sc-gateway" options="-parameters" />
       <module name="sc-goods-web" options="-parameters" />

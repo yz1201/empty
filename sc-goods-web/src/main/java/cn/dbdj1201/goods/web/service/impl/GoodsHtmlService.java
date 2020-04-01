@@ -12,6 +12,8 @@ import org.thymeleaf.context.Context;
 import java.io.File;
 import java.io.PrintWriter;
 import java.util.Map;
+import java.util.concurrent.Executor;
+import java.util.concurrent.Executors;
 
 /**
  * @author tyz1201
@@ -27,6 +29,7 @@ public class GoodsHtmlService implements IGoodsHtmlService {
     private TemplateEngine templateEngine;
 
     private static final Logger LOGGER = LoggerFactory.getLogger(GoodsHtmlService.class);
+
     @Override
     public void createHtml(Long spuId) {
         PrintWriter writer = null;
@@ -46,7 +49,7 @@ public class GoodsHtmlService implements IGoodsHtmlService {
             // 执行页面静态化方法
             templateEngine.process("item", context, writer);
         } catch (Exception e) {
-            LOGGER.error("页面静态化出错：{}，"+ e, spuId);
+            LOGGER.error("页面静态化出错：{}，" + e, spuId);
         } finally {
             if (writer != null) {
                 writer.close();
@@ -56,7 +59,8 @@ public class GoodsHtmlService implements IGoodsHtmlService {
 
     @Override
     public void asyncExecute(Long spuId) {
-        ThreadUtils.execute(()->createHtml(spuId));
+        Executors.newFixedThreadPool(10).execute(() -> createHtml(spuId));
+//        ThreadUtils.execute(() -> createHtml(spuId));
         /*ThreadUtils.execute(new Runnable() {
             @Override
             public void run() {
