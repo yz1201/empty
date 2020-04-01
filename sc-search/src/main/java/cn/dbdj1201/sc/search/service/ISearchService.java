@@ -19,4 +19,7 @@ public interface ISearchService {
 
     PageResult<Goods> search(SearchRequest searchRequest);
 
+    void createIndex(Long id) throws JsonProcessingException;
+
+    void deleteIndex(Long id);
 }

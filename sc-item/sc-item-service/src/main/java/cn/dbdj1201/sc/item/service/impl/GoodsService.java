@@ -11,6 +11,9 @@ import cn.dbdj1201.sc.item.service.IGoodsService;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import org.apache.commons.lang.StringUtils;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.amqp.core.AmqpTemplate;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -33,16 +36,26 @@ public class GoodsService implements IGoodsService {
 
     @Autowired
     private SpuMapper spuMapper;
+
     @Autowired
     private SpuDetailMapper spuDetailMapper;
+
     @Autowired
     private SkuMapper skuMapper;
+
     @Autowired
     private StockMapper stockMapper;
+
     @Autowired
     private BrandMapper brandMapper;
+
     @Autowired
     private CategoryService categoryService;
+
+    @Autowired
+    private AmqpTemplate amqpTemplate;
+
+    private static final Logger LOGGER = LoggerFactory.getLogger(GoodsService.class);
 
     /**
      * @param key      查询关键字，从title字段查
@@ -91,18 +104,20 @@ public class GoodsService implements IGoodsService {
 
     @Override
     public void saveGoods(SpuBo spuBo) {
-        spuBo.setId(null);
+//        spuBo.setId(null);
         spuBo.setSaleable(true);
         spuBo.setValid(true);
         spuBo.setCreateTime(new Date());
         spuBo.setLastUpdateTime(spuBo.getCreateTime());
-        this.spuMapper.insertSelective(spuBo);
+        this.spuMapper.insert(spuBo);
 
         // 新增spuDetail
         SpuDetail spuDetail = spuBo.getSpuDetail();
         spuDetail.setSpuId(spuBo.getId());
         this.spuDetailMapper.insertSelective(spuDetail);
         saveSkuAndStock(spuBo);
+        //发送生产insert消息
+        this.sendMessage(spuBo.getId(), "insert");
     }
 
     @Override
@@ -135,7 +150,6 @@ public class GoodsService implements IGoodsService {
             Sku record = new Sku();
             record.setSpuId(spuBo.getId());
             this.skuMapper.delete(record);
-
         }
         // 新增sku和库存
         saveSkuAndStock(spuBo);
@@ -148,6 +162,9 @@ public class GoodsService implements IGoodsService {
         this.spuMapper.updateByPrimaryKeySelective(spuBo);
         // 更新spuBo详情
         this.spuDetailMapper.updateByPrimaryKeySelective(spuBo.getSpuDetail());
+
+        //发送生产update消息
+        this.sendMessage(spuBo.getId(), "update");
     }
 
     @Override
@@ -170,5 +187,15 @@ public class GoodsService implements IGoodsService {
             this.stockMapper.insertSelective(stock);
         });
     }
+
+    private void sendMessage(Long id, String type) {
+        // 发送消息
+        try {
+            this.amqpTemplate.convertAndSend("item." + type, id);
+        } catch (Exception e) {
+            LOGGER.error("{}商品消息发送异常，商品id：{}", type, id, e);
+        }
+    }
+
 
 }

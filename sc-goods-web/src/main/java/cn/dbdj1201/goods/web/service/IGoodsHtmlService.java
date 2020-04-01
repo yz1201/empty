@@ -20,4 +20,7 @@ public interface IGoodsHtmlService {
      * @param spuId
      */
     void asyncExecute(Long spuId);
+
+    void deleteHtml(Long id);
 }
+

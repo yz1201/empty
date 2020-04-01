@@ -2,37 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed85c090-aefa-43e3-acbf-d3f7dd4a1eb7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ex-java-ee/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/concurrent/Demo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-rabbitmq/ex-rabbitmq.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-rabbitmq/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-rabbitmq/src/main/java/cn/dbdj1201/rabbitmq/direct/Receiver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-rabbitmq/src/main/java/cn/dbdj1201/rabbitmq/direct/ReceiverAck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-rabbitmq/src/main/java/cn/dbdj1201/rabbitmq/direct/Recv.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-rabbitmq/src/main/java/cn/dbdj1201/rabbitmq/direct/Recv2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-rabbitmq/src/main/java/cn/dbdj1201/rabbitmq/direct/Send.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-rabbitmq/src/main/java/cn/dbdj1201/rabbitmq/direct/SendHello.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-rabbitmq/src/main/java/cn/dbdj1201/rabbitmq/fanout/Recv.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-rabbitmq/src/main/java/cn/dbdj1201/rabbitmq/fanout/Recv2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-rabbitmq/src/main/java/cn/dbdj1201/rabbitmq/fanout/Send.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-rabbitmq/src/main/java/cn/dbdj1201/rabbitmq/simple/Recv.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-rabbitmq/src/main/java/cn/dbdj1201/rabbitmq/simple/Recv2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-rabbitmq/src/main/java/cn/dbdj1201/rabbitmq/simple/Send.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-rabbitmq/src/main/java/cn/dbdj1201/rabbitmq/spring/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-rabbitmq/src/main/java/cn/dbdj1201/rabbitmq/spring/Listener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-rabbitmq/src/main/java/cn/dbdj1201/rabbitmq/topic/Recv.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-rabbitmq/src/main/java/cn/dbdj1201/rabbitmq/topic/Recv2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-rabbitmq/src/main/java/cn/dbdj1201/rabbitmq/topic/Send.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-rabbitmq/src/main/java/cn/dbdj1201/rabbitmq/util/ConnectionUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-rabbitmq/src/main/java/cn/dbdj1201/rabbitmq/work/Recv.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-rabbitmq/src/main/java/cn/dbdj1201/rabbitmq/work/Recv2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-rabbitmq/src/main/java/cn/dbdj1201/rabbitmq/work/WorkSend.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-rabbitmq/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex-rabbitmq/src/test/java/cn/dbdj1201/rabbitmq/spring/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-goods-web/src/main/java/cn/dbdj1201/goods/web/listener/GoodsListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-search/src/main/java/cn/dbdj1201/sc/search/listener/GoodsListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-user/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-user/sc-user-interface/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-user/sc-user-interface/src/main/java/cn/dbdj1201/sc/user/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-user/sc-user-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-user/sc-user-service/src/main/java/cn/dbdj1201/sc/user/ScUserServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-user/sc-user-service/src/main/java/cn/dbdj1201/sc/user/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-user/sc-user-service/src/main/java/cn/dbdj1201/sc/user/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-user/sc-user-service/src/main/java/cn/dbdj1201/sc/user/service/IUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-user/sc-user-service/src/main/java/cn/dbdj1201/sc/user/service/impl/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-user/sc-user-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-user/sc-user-service/src/test/java/cn/dbdj1201/sc/user/service/impl/UserServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex-rabbitmq/src/main/java/cn/dbdj1201/rabbitmq/spring/Listener.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex-rabbitmq/src/main/java/cn/dbdj1201/rabbitmq/spring/Listener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sc-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-goods-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sc-goods-web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-goods-web/src/main/java/cn/dbdj1201/goods/web/service/IGoodsHtmlService.java" beforeDir="false" afterPath="$PROJECT_DIR$/sc-goods-web/src/main/java/cn/dbdj1201/goods/web/service/IGoodsHtmlService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sc-goods-web/src/main/java/cn/dbdj1201/goods/web/service/impl/GoodsHtmlService.java" beforeDir="false" afterPath="$PROJECT_DIR$/sc-goods-web/src/main/java/cn/dbdj1201/goods/web/service/impl/GoodsHtmlService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-goods-web/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sc-goods-web/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-item/sc-item-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sc-item/sc-item-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/java/cn/dbdj1201/sc/item/service/IGoodsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/java/cn/dbdj1201/sc/item/service/IGoodsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/java/cn/dbdj1201/sc/item/service/impl/GoodsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/java/cn/dbdj1201/sc/item/service/impl/GoodsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-item/sc-item-service/src/test/java/cn/dbdj1201/sc/item/service/impl/GoodsServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/sc-item/sc-item-service/src/test/java/cn/dbdj1201/sc/item/service/impl/GoodsServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-search/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sc-search/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-search/src/main/java/cn/dbdj1201/sc/search/service/ISearchService.java" beforeDir="false" afterPath="$PROJECT_DIR$/sc-search/src/main/java/cn/dbdj1201/sc/search/service/ISearchService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-search/src/main/java/cn/dbdj1201/sc/search/service/impl/SearchService.java" beforeDir="false" afterPath="$PROJECT_DIR$/sc-search/src/main/java/cn/dbdj1201/sc/search/service/impl/SearchService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-search/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sc-search/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-upload/src/main/java/cn/dbdj1201/sc/item/upload/controller/UploadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/sc-upload/src/main/java/cn/dbdj1201/sc/item/upload/controller/UploadController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-upload/src/main/java/cn/dbdj1201/sc/item/upload/service/impl/UploadService.java" beforeDir="false" afterPath="$PROJECT_DIR$/sc-upload/src/main/java/cn/dbdj1201/sc/item/upload/service/impl/UploadService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,10 +64,10 @@
       <list>
         <option value="JavaScript File" />
         <option value="JUnit5 Test Class" />
-        <option value="JUnit4 Test Class" />
         <option value="HTML File" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -136,19 +142,13 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="cn.dbdj1201.sc.search.client" />
+      <recent name="cn.dbdj1201.sc.user.service.impl" />
       <recent name="cn.dbdj1201.sc.item.service.impl" />
+      <recent name="cn.dbdj1201.sc.search.client" />
       <recent name="cn.dbdj1201.sc.service.impl" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="cn.dbdj1201.es" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="cn.dbdj1201.sc.search.client" />
-      <recent name="cn.dbdj1201.sc.upload.config" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\maven_project\empty\ex-rabbitmq\src\main\resources" />
@@ -156,6 +156,13 @@
       <recent name="F:\maven_project\empty\sc-goods-web\src\main\java\cn\dbdj1201\goods\web\client" />
       <recent name="F:\maven_project\empty\sc-goods-web\src\main\resources\templates" />
       <recent name="F:\maven_project\empty\ex-lucene\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.dbdj1201.sc.search.client" />
+      <recent name="cn.dbdj1201.sc.upload.config" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -165,7 +172,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Send (2)">
+  <component name="RunManager" selected="JUnit.UserServiceTest.checkUser">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -184,48 +191,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cn.dbdj1201.rabbitmq.topic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Recv2 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.rabbitmq.direct.Recv2" />
-      <module name="ex-rabbitmq" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.dbdj1201.rabbitmq.direct.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Recv2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.rabbitmq.topic.Recv2" />
-      <module name="ex-rabbitmq" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.dbdj1201.rabbitmq.topic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Send (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.rabbitmq.direct.Send" />
-      <module name="ex-rabbitmq" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.dbdj1201.rabbitmq.direct.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -253,6 +218,66 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Demo.testSend" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ex-rabbitmq" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.dbdj1201.rabbitmq.spring.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.dbdj1201.rabbitmq.spring" />
+      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.rabbitmq.spring.Demo" />
+      <option name="METHOD_NAME" value="testSend" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GoodsServiceTest.saveGoods" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sc-item-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.dbdj1201.sc.item.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.dbdj1201.sc.item.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.sc.item.service.impl.GoodsServiceTest" />
+      <option name="METHOD_NAME" value="saveGoods" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceTest.checkUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sc-user-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.dbdj1201.sc.user.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.dbdj1201.sc.user.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.sc.user.service.impl.UserServiceTest" />
+      <option name="METHOD_NAME" value="checkUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -274,6 +299,13 @@
       <module name="sc-gateway" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.dbdj1201.sc.item.ScGatewayApplication" />
       <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScGoodWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sc-goods-web" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.dbdj1201.goods.web.ScGoodWebApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -307,6 +339,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ScUserServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sc-user-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.dbdj1201.sc.user.ScUserServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -329,25 +368,27 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Send (2)" />
+      <item itemvalue="Application.Recv (1)" />
       <item itemvalue="Spring Boot.ScRegistryApplication" />
       <item itemvalue="Spring Boot.ScGatewayApplication" />
       <item itemvalue="Spring Boot.ScUploadApplication" />
       <item itemvalue="Spring Boot.EsApplication" />
       <item itemvalue="Spring Boot.ScItemServiceApplication" />
       <item itemvalue="Spring Boot.ScSearchApplication" />
-      <item itemvalue="Application.Recv2 (2)" />
-      <item itemvalue="Application.Send (1)" />
-      <item itemvalue="Application.Send (2)" />
-      <item itemvalue="Application.Recv (1)" />
-      <item itemvalue="Application.Recv2" />
+      <item itemvalue="JUnit.Demo.testSend" />
+      <item itemvalue="JUnit.GoodsServiceTest.saveGoods" />
+      <item itemvalue="Spring Boot.ScGoodWebApplication" />
+      <item itemvalue="Spring Boot.ScUserServiceApplication" />
+      <item itemvalue="JUnit.UserServiceTest.checkUser" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserServiceTest.checkUser" />
+        <item itemvalue="JUnit.GoodsServiceTest.saveGoods" />
+        <item itemvalue="JUnit.Demo.testSend" />
         <item itemvalue="Application.Send (2)" />
         <item itemvalue="Application.Recv (1)" />
-        <item itemvalue="Application.Recv2" />
-        <item itemvalue="Application.Send (1)" />
-        <item itemvalue="Application.Recv2 (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -419,7 +460,8 @@
       <workItem from="1585555854154" duration="15990000" />
       <workItem from="1585649936088" duration="68000" />
       <workItem from="1585650060514" duration="3377000" />
-      <workItem from="1585710780942" duration="12534000" />
+      <workItem from="1585710780942" duration="13225000" />
+      <workItem from="1585745933367" duration="15126000" />
     </task>
     <task id="LOCAL-00001" summary="shopping city -bec">
       <created>1584332491647</created>
@@ -596,14 +638,20 @@
       <option name="project" value="LOCAL" />
       <updated>1585580740639</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="shopping city -st spring-amqp">
+      <created>1585736007260</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1585736007260</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="shopping city -bec" />
     <MESSAGE value="shopping city -st es6" />
     <MESSAGE value="shopping city -st vue" />
     <MESSAGE value="shopping city -st category nginx proxy" />
@@ -628,7 +676,8 @@
     <MESSAGE value="shopping city -st sc-search  thymeleaf item details" />
     <MESSAGE value="shopping city -st sc-search  thymeleaf item details 2nd" />
     <MESSAGE value="shopping city -st sc-search  thymeleaf item details 3nd" />
-    <option name="LAST_COMMIT_MESSAGE" value="shopping city -st sc-search  thymeleaf item details 3nd" />
+    <MESSAGE value="shopping city -st spring-amqp" />
+    <option name="LAST_COMMIT_MESSAGE" value="shopping city -st spring-amqp" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#Project_Structure" timestamp="1585130060885">
@@ -647,10 +696,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="590" y="144" key="#ScRegistryApplication/0.0.1920.1040@0.0.1920.1040" timestamp="1584696124718" />
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1585578973203">
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1585762469748">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1585578973203" />
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1585762469748" />
     <state x="689" y="302" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1584696130343">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -671,46 +720,46 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="254" y="0" key="#org.jetbrains.kotlin.idea.refactoring.safeDelete.KotlinOverridingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584727699906" />
-    <state x="483" y="112" key="CommitChangelistDialog2" timestamp="1585580735208">
+    <state x="483" y="112" key="CommitChangelistDialog2" timestamp="1585736002526">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="483" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1585580735208" />
+    <state x="483" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1585736002526" />
     <state x="740" y="209" key="FileChooserDialogImpl" timestamp="1584379980120">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="209" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1584379980120" />
-    <state width="1877" height="262" key="GridCell.Tab.0.bottom" timestamp="1585735683466">
+    <state width="1877" height="234" key="GridCell.Tab.0.bottom" timestamp="1585763003347">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="262" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585735683466" />
-    <state width="1877" height="262" key="GridCell.Tab.0.center" timestamp="1585735683466">
+    <state width="1877" height="234" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585763003347" />
+    <state width="1877" height="234" key="GridCell.Tab.0.center" timestamp="1585763003343">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="262" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585735683466" />
-    <state width="1877" height="262" key="GridCell.Tab.0.left" timestamp="1585735683466">
+    <state width="1877" height="234" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585763003343" />
+    <state width="1877" height="234" key="GridCell.Tab.0.left" timestamp="1585763003343">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="262" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585735683466" />
-    <state width="1877" height="262" key="GridCell.Tab.0.right" timestamp="1585735683466">
+    <state width="1877" height="234" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585763003343" />
+    <state width="1877" height="234" key="GridCell.Tab.0.right" timestamp="1585763003347">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="262" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585735683466" />
-    <state width="1478" height="301" key="GridCell.Tab.1.bottom" timestamp="1585580814557">
+    <state width="1877" height="234" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585763003347" />
+    <state width="1478" height="2" key="GridCell.Tab.1.bottom" timestamp="1585762945494">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1478" height="301" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585580814557" />
-    <state width="1478" height="301" key="GridCell.Tab.1.center" timestamp="1585580814553">
+    <state width="1478" height="2" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585762945494" />
+    <state width="1478" height="2" key="GridCell.Tab.1.center" timestamp="1585762945494">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1478" height="301" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585580814553" />
-    <state width="1478" height="301" key="GridCell.Tab.1.left" timestamp="1585580814553">
+    <state width="1478" height="2" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585762945494" />
+    <state width="1478" height="2" key="GridCell.Tab.1.left" timestamp="1585762945494">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1478" height="301" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585580814553" />
-    <state width="1478" height="301" key="GridCell.Tab.1.right" timestamp="1585580814557">
+    <state width="1478" height="2" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585762945494" />
+    <state width="1478" height="2" key="GridCell.Tab.1.right" timestamp="1585762945494">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1478" height="301" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585580814557" />
+    <state width="1478" height="2" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585762945494" />
     <state width="1504" height="356" key="GridCell.Tab.2.bottom" timestamp="1585192020336">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -743,18 +792,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1585575045843" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1585580754286">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1585736018966">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1585580754286" />
-    <state x="1173" y="284" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1585147763094">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1585736018966" />
+    <state x="1173" y="284" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1585762777837">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1173" y="284" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585147763094" />
-    <state x="305" y="89" key="new project wizard" timestamp="1585725093389">
+    <state x="1173" y="284" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585762777837" />
+    <state x="305" y="89" key="new project wizard" timestamp="1585759499483">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="305" y="89" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1585725093389" />
+    <state x="305" y="89" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1585759499483" />
     <state x="816" y="361" width="672" height="678" key="search.everywhere.popup" timestamp="1585494277021">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -765,7 +814,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/sc-item/sc-item-service/src/test/java/cn/dbdj1201/sc/item/service/impl/GoodsServiceTest.java</url>
-          <line>25</line>
+          <line>26</line>
           <properties class="cn.dbdj1201.sc.item.service.impl.GoodsServiceTest" method="querySpuByPage">
             <option name="EMULATED" value="true" />
           </properties>

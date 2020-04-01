@@ -7,6 +7,11 @@ spring:
     allow-bean-definition-overriding: true
   thymeleaf:
     cache: false
+  rabbitmq:
+    host: 192.168.0.103
+    virtual-host: /sc
+    username: rabbitmq
+    password: rabbitmq
 eureka:
   client:
     service-url:

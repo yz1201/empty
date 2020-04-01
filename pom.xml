@@ -17,6 +17,7 @@
         <module>ex-lucene</module>
         <module>sc-search</module>
         <module>sc-goods-web</module>
+        <module>sc-user</module>
     </modules>
 
 

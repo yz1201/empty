@@ -1,6 +1,7 @@
 package cn.dbdj1201.sc.item.service.impl;
 
 import cn.dbdj1201.sc.item.ScItemServiceApplication;
+import cn.dbdj1201.sc.item.bo.SpuBo;
 import cn.dbdj1201.sc.item.service.IGoodsService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -34,6 +35,16 @@ public class GoodsServiceTest {
 
     @Test
     public void saveGoods() {
+        SpuBo spuBo = new SpuBo();
+        spuBo.setCname("???123123?1");
+        spuBo.setCid1(74L);
+        spuBo.setCid2(75L);
+        spuBo.setCid3(76L);
+        spuBo.setBrandId(2L);
+        spuBo.setTitle("DASDADAD");
+        spuBo.setSkus(null);
+        spuBo.setSubTitle("@!#$%!^%!");
+        this.service.saveGoods(spuBo);
     }
 
     @Test
@@ -44,5 +55,9 @@ public class GoodsServiceTest {
     @Test
     public void querySkusBySpuId() {
         service.querySkusBySpuId(2L).forEach(System.out::println);
+    }
+
+    @Test
+    public void testSaveGoods() {
     }
 }

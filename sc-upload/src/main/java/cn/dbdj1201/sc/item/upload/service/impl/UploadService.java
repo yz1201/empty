@@ -1,7 +1,9 @@
 package cn.dbdj1201.sc.item.upload.service.impl;
 
 import cn.dbdj1201.sc.item.upload.service.IUploadService;
+import com.github.tobato.fastdfs.domain.fdfs.StorePath;
 import com.github.tobato.fastdfs.service.FastFileStorageClient;
+import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -42,12 +44,12 @@ public class UploadService implements IUploadService {
             }
             //上传图片,返回图片url进行回显
             //file.transferTo(new File("F:\\tools\\image\\" + originalName));
-//            String ext = StringUtils.substringAfterLast(originalName, ".");
-//            StorePath storePath = this.storageClient.uploadFile(file.getInputStream(), file.getSize(), ext, null);
+            String ext = StringUtils.substringAfterLast(originalName, ".");
+            StorePath storePath = this.storageClient.uploadFile(file.getInputStream(), file.getSize(), ext, null);
 
             // 生成url地址，返回
-//            return "http://image.sc.com/" + storePath.getFullPath();
-            return "http://image.sc1.com/" + originalName;
+            return "http://image.sc.com/" + storePath.getFullPath();
+//            return "http://image.sc1.com/" + originalName;
 
         } catch (IOException e) {
             LOGGER.info("服务器内部错误：{}", originalName);

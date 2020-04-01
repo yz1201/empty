@@ -169,6 +169,20 @@ public class SearchService implements ISearchService {
         return new SearchResult(goodsPage.getContent(), goodsPage.getTotalElements(), goodsPage.getTotalPages(), categories, brands, specs);
     }
 
+    @Override
+    public void createIndex(Long id) throws JsonProcessingException {
+        //构建商品
+        Spu spu = this.goodsClient.querySpuById(id);
+        Goods goods = this.buildGoods(spu);
+        //保存到索引库
+        this.goodsRepository.save(goods);
+    }
+
+    @Override
+    public void deleteIndex(Long id) {
+        this.goodsRepository.deleteById(id);
+    }
+
     /**
      * 解析品牌聚合结果集
      *

@@ -12,6 +12,5 @@ zuul:
   prefix: /api # 路由路径前缀
   routes:
     item-service:  /item/** # 商品微服务的映射路径
-    search-service: /search/**
-#      path:  /item/**
-#      url:  http://127.0.0.1:8081
+    search-service: /search/** # 搜索微服务的映射路径
+    user-service: /user/** # 用户微服务的映射路径，登录注册

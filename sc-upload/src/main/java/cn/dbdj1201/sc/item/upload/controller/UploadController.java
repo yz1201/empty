@@ -18,6 +18,7 @@ import org.springframework.web.multipart.MultipartFile;
 @Controller
 @RequestMapping("/upload")
 public class UploadController {
+
     @Autowired
     private IUploadService uploadService;
 

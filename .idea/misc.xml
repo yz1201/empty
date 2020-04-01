@@ -8,7 +8,13 @@
         <option value="$PROJECT_DIR$/ex-elasticsearch/pom.xml" />
         <option value="$PROJECT_DIR$/ex-java-ee/pom.xml" />
         <option value="$PROJECT_DIR$/ex-rabbitmq/pom.xml" />
+        <option value="$PROJECT_DIR$/sc-user/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/sc-user/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="false" project-jdk-name="11" project-jdk-type="JavaSDK">

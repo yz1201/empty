@@ -31,4 +31,5 @@ public interface IGoodsService {
     void updateGoods(SpuBo spuBo);
 
     Spu querySpuById(Long id);
+
 }

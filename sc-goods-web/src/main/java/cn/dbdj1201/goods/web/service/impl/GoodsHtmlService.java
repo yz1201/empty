@@ -68,4 +68,10 @@ public class GoodsHtmlService implements IGoodsHtmlService {
             }
         });*/
     }
+
+    @Override
+    public void deleteHtml(Long id) {
+        File file = new File("F:\\tools\\nginx-1.14.0\\html\\item\\", id + ".html");
+        file.deleteOnExit();
+    }
 }

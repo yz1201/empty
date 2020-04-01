@@ -17,8 +17,8 @@ public class Listener {
                     ignoreDeclarationExceptions = "true",
                     type = ExchangeTypes.TOPIC
             ),
-            key = {"#.#"}))
+            key = {"*"}))
     public void listen(String msg){
-        System.out.println("接收到消息：" + msg);
+        System.out.println("接收到消息：???? " + msg);
     }
 }
