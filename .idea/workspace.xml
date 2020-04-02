@@ -2,33 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed85c090-aefa-43e3-acbf-d3f7dd4a1eb7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sc-common/src/main/java/cn/dbdj120/sc/common/utils/CodecUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-common/src/main/java/cn/dbdj120/sc/common/utils/CookieUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-common/src/main/java/cn/dbdj120/sc/common/utils/IdWorker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-common/src/main/java/cn/dbdj120/sc/common/utils/JsonUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-common/src/main/java/cn/dbdj120/sc/common/utils/NumberUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-sms-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-sms-service/src/main/java/cn/dbdj1201/sc/sms/ScSmsApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-sms-service/src/main/java/cn/dbdj1201/sc/sms/config/SmsProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-sms-service/src/main/java/cn/dbdj1201/sc/sms/listener/SmsListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-sms-service/src/main/java/cn/dbdj1201/sc/sms/utils/SmsUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-sms-service/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-sms-service/src/test/java/cn/dbdj1201/sc/sms/RedisTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-auth/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-auth/sc-auth-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-auth/sc-auth-common/src/main/java/cn/dbdj1201/sc/auth/entity/UserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-auth/sc-auth-common/src/main/java/cn/dbdj1201/sc/auth/utils/CookieUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-auth/sc-auth-common/src/main/java/cn/dbdj1201/sc/auth/utils/JwtConstans.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-auth/sc-auth-common/src/main/java/cn/dbdj1201/sc/auth/utils/JwtUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-auth/sc-auth-common/src/main/java/cn/dbdj1201/sc/auth/utils/ObjectUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-auth/sc-auth-common/src/main/java/cn/dbdj1201/sc/auth/utils/RsaUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-auth/sc-auth-common/src/test/java/cn/dbdj1201/sc/auth/ScAuthTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-auth/sc-auth-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-auth/sc-auth-service/sc-auth-service.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-auth/sc-auth-service/src/main/java/cn/dbdj1201/sc/auth/ScAuthApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-auth/sc-auth-service/src/main/java/cn/dbdj1201/sc/auth/client/UserClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-auth/sc-auth-service/src/main/java/cn/dbdj1201/sc/auth/config/JwtProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-auth/sc-auth-service/src/main/java/cn/dbdj1201/sc/auth/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-auth/sc-auth-service/src/main/java/cn/dbdj1201/sc/auth/service/IAuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-auth/sc-auth-service/src/main/java/cn/dbdj1201/sc/auth/service/impl/AuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-auth/sc-auth-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-auth/sc-auth-service/src/test/java/cn/dbdj1201/sc/auth/service/impl/AuthServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-auth/sc-auth.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-user/sc-user-interface/src/main/java/cn/dbdj1201/sc/user/api/UserApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-user/sc-user.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex-rabbitmq/src/test/java/cn/dbdj1201/rabbitmq/spring/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex-rabbitmq/src/test/java/cn/dbdj1201/rabbitmq/spring/Demo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sc-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sc-common/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sc-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sc-gateway/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sc-goods-web/src/main/java/cn/dbdj1201/goods/web/ScGoodWebApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/sc-goods-web/src/main/java/cn/dbdj1201/goods/web/ScGoodWebApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-portal/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/sc-portal/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-sms-service/src/main/java/cn/dbdj1201/sc/sms/config/SmsProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/sc-sms-service/src/main/java/cn/dbdj1201/sc/sms/config/SmsProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-sms-service/src/main/java/cn/dbdj1201/sc/sms/listener/SmsListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/sc-sms-service/src/main/java/cn/dbdj1201/sc/sms/listener/SmsListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-sms-service/src/main/java/cn/dbdj1201/sc/sms/utils/SmsUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/sc-sms-service/src/main/java/cn/dbdj1201/sc/sms/utils/SmsUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sc-user/sc-user-interface/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sc-user/sc-user-interface/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sc-user/sc-user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sc-user/sc-user-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sc-user/sc-user-service/src/main/java/cn/dbdj1201/sc/user/ScUserServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/sc-user/sc-user-service/src/main/java/cn/dbdj1201/sc/user/ScUserServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-user/sc-user-interface/src/main/java/cn/dbdj1201/sc/user/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/sc-user/sc-user-interface/src/main/java/cn/dbdj1201/sc/user/pojo/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sc-user/sc-user-service/src/main/java/cn/dbdj1201/sc/user/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/sc-user/sc-user-service/src/main/java/cn/dbdj1201/sc/user/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sc-user/sc-user-service/src/main/java/cn/dbdj1201/sc/user/service/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/sc-user/sc-user-service/src/main/java/cn/dbdj1201/sc/user/service/IUserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sc-user/sc-user-service/src/main/java/cn/dbdj1201/sc/user/service/impl/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/sc-user/sc-user-service/src/main/java/cn/dbdj1201/sc/user/service/impl/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sc-user/sc-user-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sc-user/sc-user-service/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sc-user/sc-user-service/src/test/java/cn/dbdj1201/sc/user/service/impl/UserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/sc-user/sc-user-service/src/test/java/cn/dbdj1201/sc/user/service/impl/UserServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,6 +59,9 @@
     <expand />
     <select />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="empty" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -57,8 +69,8 @@
         <option value="JUnit5 Test Class" />
         <option value="HTML File" />
         <option value="Interface" />
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -113,7 +125,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/sc-common/src/main/java/cn/dbdj120/sc/common/utils" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/sc-auth/sc-auth-common/src/main/java/cn/dbdj1201/sc/auth/utils" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -133,6 +145,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="cn.dbdj1201.sc.auth.service.impl" />
       <recent name="cn.dbdj1201.sc.user.service.impl" />
       <recent name="cn.dbdj1201.sc.item.service.impl" />
       <recent name="cn.dbdj1201.sc.search.client" />
@@ -141,19 +154,19 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="cn.dbdj1201.es" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="cn.dbdj1201.sc.search.client" />
       <recent name="cn.dbdj1201.sc.upload.config" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\maven_project\empty\sc-auth\sc-auth-common\src\main\java\cn\dbdj1201\sc\auth\utils" />
       <recent name="F:\maven_project\empty\sc-common\src\main\java\cn\dbdj120\sc\common\utils" />
       <recent name="F:\maven_project\empty\sc-sms-service\src\test\java\cn\dbdj1201\sc\sms" />
       <recent name="F:\maven_project\empty\ex-rabbitmq\src\main\resources" />
       <recent name="F:\maven_project\empty\ex-rabbitmq\src\main\java\cn\dbdj1201\rabbitmq" />
-      <recent name="F:\maven_project\empty\sc-goods-web\src\main\java\cn\dbdj1201\goods\web\client" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -163,7 +176,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UserServiceTest.testSend">
+  <component name="RunManager" selected="JUnit.AuthServiceTest.authentication">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -175,37 +188,23 @@
       <Host>localhost</Host>
       <Port>5050</Port>
     </configuration>
-    <configuration name="Send" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.rabbitmq.topic.Send" />
-      <module name="ex-rabbitmq" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.dbdj1201.rabbitmq.topic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo.testSend" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ex-rabbitmq" />
+    <configuration name="AuthServiceTest.authentication" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sc-auth-service" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.dbdj1201.rabbitmq.spring.*" />
+          <option name="PATTERN" value="cn.dbdj1201.sc.auth.service.impl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="cn.dbdj1201.rabbitmq.spring" />
-      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.rabbitmq.spring.Demo" />
-      <option name="METHOD_NAME" value="testSend" />
+      <option name="PACKAGE_NAME" value="cn.dbdj1201.sc.auth.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.sc.auth.service.impl.AuthServiceTest" />
+      <option name="METHOD_NAME" value="authentication" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
@@ -215,17 +214,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserServiceTest.sendVerifyCode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sc-user-service" />
+    <configuration name="ScAuthTest.testGenerateToken" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sc-auth-common" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.dbdj1201.sc.user.service.impl.*" />
+          <option name="PATTERN" value="cn.dbdj1201.sc.auth.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="cn.dbdj1201.sc.user.service.impl" />
-      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.sc.user.service.impl.UserServiceTest" />
-      <option name="METHOD_NAME" value="sendVerifyCode" />
+      <option name="PACKAGE_NAME" value="cn.dbdj1201.sc.auth" />
+      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.sc.auth.ScAuthTest" />
+      <option name="METHOD_NAME" value="testGenerateToken" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
@@ -235,7 +234,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserServiceTest.testSend" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ScAuthTest.testParseToken" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sc-auth-common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.dbdj1201.sc.auth.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.dbdj1201.sc.auth" />
+      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.sc.auth.ScAuthTest" />
+      <option name="METHOD_NAME" value="testParseToken" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScAuthTest.testRsa" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sc-auth-common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.dbdj1201.sc.auth.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.dbdj1201.sc.auth" />
+      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.sc.auth.ScAuthTest" />
+      <option name="METHOD_NAME" value="testRsa" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceTest.queryByUsernameAndPassword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sc-user-service" />
       <extension name="coverage">
         <pattern>
@@ -245,7 +284,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="cn.dbdj1201.sc.user.service.impl" />
       <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.sc.user.service.impl.UserServiceTest" />
-      <option name="METHOD_NAME" value="testSend" />
+      <option name="METHOD_NAME" value="queryByUsernameAndPassword" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
@@ -261,6 +300,13 @@
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="moduleWithDependencies" />
       </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScAuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sc-auth-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.dbdj1201.sc.auth.ScAuthApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -345,6 +391,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.UserServiceTest.queryByUsernameAndPassword" />
       <item itemvalue="Spring Boot.ScRegistryApplication" />
       <item itemvalue="Spring Boot.ScGatewayApplication" />
       <item itemvalue="Spring Boot.ScUploadApplication" />
@@ -353,17 +400,19 @@
       <item itemvalue="Spring Boot.ScGoodWebApplication" />
       <item itemvalue="Spring Boot.ScUserServiceApplication" />
       <item itemvalue="Spring Boot.ScSmsApplication" />
-      <item itemvalue="Application.Send" />
-      <item itemvalue="JUnit.Demo.testSend" />
-      <item itemvalue="JUnit.UserServiceTest.sendVerifyCode" />
-      <item itemvalue="JUnit.UserServiceTest.testSend" />
+      <item itemvalue="Spring Boot.ScAuthApplication" />
+      <item itemvalue="JUnit.ScAuthTest.testRsa" />
+      <item itemvalue="JUnit.ScAuthTest.testGenerateToken" />
+      <item itemvalue="JUnit.ScAuthTest.testParseToken" />
+      <item itemvalue="JUnit.AuthServiceTest.authentication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UserServiceTest.testSend" />
-        <item itemvalue="JUnit.Demo.testSend" />
-        <item itemvalue="JUnit.UserServiceTest.sendVerifyCode" />
-        <item itemvalue="Application.Send" />
+        <item itemvalue="JUnit.AuthServiceTest.authentication" />
+        <item itemvalue="JUnit.ScAuthTest.testRsa" />
+        <item itemvalue="JUnit.ScAuthTest.testParseToken" />
+        <item itemvalue="JUnit.ScAuthTest.testGenerateToken" />
+        <item itemvalue="JUnit.UserServiceTest.queryByUsernameAndPassword" />
       </list>
     </recent_temporary>
   </component>
@@ -381,7 +430,7 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Not Started" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -432,7 +481,8 @@
       <workItem from="1585650060514" duration="3377000" />
       <workItem from="1585710780942" duration="13225000" />
       <workItem from="1585745933367" duration="15860000" />
-      <workItem from="1585798577058" duration="18163000" />
+      <workItem from="1585798577058" duration="22933000" />
+      <workItem from="1585840208626" duration="5696000" />
     </task>
     <task id="LOCAL-00001" summary="shopping city -bec">
       <created>1584332491647</created>
@@ -623,14 +673,20 @@
       <option name="project" value="LOCAL" />
       <updated>1585763847076</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="shopping city -st sc-user 阿里短信服务。2nd">
+      <created>1585822614806</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1585822614807</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="shopping city -st vue" />
     <MESSAGE value="shopping city -st category nginx proxy" />
     <MESSAGE value="shopping city -st cors" />
     <MESSAGE value="shopping city -st brand" />
@@ -655,7 +711,8 @@
     <MESSAGE value="shopping city -st sc-search  thymeleaf item details 3nd" />
     <MESSAGE value="shopping city -st spring-amqp" />
     <MESSAGE value="shopping city -st sc-user 阿里短信服务。" />
-    <option name="LAST_COMMIT_MESSAGE" value="shopping city -st sc-user 阿里短信服务。" />
+    <MESSAGE value="shopping city -st sc-user 阿里短信服务。2nd" />
+    <option name="LAST_COMMIT_MESSAGE" value="shopping city -st sc-user 阿里短信服务。2nd" />
   </component>
   <component name="WindowStateProjectService">
     <state x="590" y="156" key="#Application" timestamp="1585817629275">
@@ -678,10 +735,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="590" y="144" key="#ScRegistryApplication/0.0.1920.1040@0.0.1920.1040" timestamp="1584696124718" />
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1585821558164">
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1585845216351">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1585821558164" />
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1585845216351" />
     <state x="689" y="302" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1584696130343">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -702,46 +759,46 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="254" y="0" key="#org.jetbrains.kotlin.idea.refactoring.safeDelete.KotlinOverridingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584727699906" />
-    <state x="483" y="112" key="CommitChangelistDialog2" timestamp="1585763839513">
+    <state x="483" y="112" key="CommitChangelistDialog2" timestamp="1585822606311">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="483" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1585763839513" />
+    <state x="483" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1585822606311" />
     <state x="740" y="209" key="FileChooserDialogImpl" timestamp="1584379980120">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="209" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1584379980120" />
-    <state width="1561" height="376" key="GridCell.Tab.0.bottom" timestamp="1585822556695">
+    <state width="1877" height="263" key="GridCell.Tab.0.bottom" timestamp="1585847162047">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1561" height="376" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585822556695" />
-    <state width="1561" height="376" key="GridCell.Tab.0.center" timestamp="1585822556693">
+    <state width="1877" height="263" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585847162047" />
+    <state width="1877" height="263" key="GridCell.Tab.0.center" timestamp="1585847162047">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1561" height="376" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585822556693" />
-    <state width="1561" height="376" key="GridCell.Tab.0.left" timestamp="1585822556693">
+    <state width="1877" height="263" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585847162047" />
+    <state width="1877" height="263" key="GridCell.Tab.0.left" timestamp="1585847162047">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1561" height="376" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585822556693" />
-    <state width="1561" height="376" key="GridCell.Tab.0.right" timestamp="1585822556694">
+    <state width="1877" height="263" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585847162047" />
+    <state width="1877" height="263" key="GridCell.Tab.0.right" timestamp="1585847162047">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1561" height="376" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585822556694" />
-    <state width="1561" height="376" key="GridCell.Tab.1.bottom" timestamp="1585822556696">
+    <state width="1877" height="263" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585847162047" />
+    <state width="1561" height="353" key="GridCell.Tab.1.bottom" timestamp="1585840559050">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1561" height="376" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585822556696" />
-    <state width="1561" height="376" key="GridCell.Tab.1.center" timestamp="1585822556696">
+    <state width="1561" height="353" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585840559050" />
+    <state width="1561" height="353" key="GridCell.Tab.1.center" timestamp="1585840559050">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1561" height="376" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585822556696" />
-    <state width="1561" height="376" key="GridCell.Tab.1.left" timestamp="1585822556696">
+    <state width="1561" height="353" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585840559050" />
+    <state width="1561" height="353" key="GridCell.Tab.1.left" timestamp="1585840559050">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1561" height="376" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585822556696" />
-    <state width="1561" height="376" key="GridCell.Tab.1.right" timestamp="1585822556696">
+    <state width="1561" height="353" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585840559050" />
+    <state width="1561" height="353" key="GridCell.Tab.1.right" timestamp="1585840559050">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1561" height="376" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585822556696" />
+    <state width="1561" height="353" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585840559050" />
     <state width="1504" height="356" key="GridCell.Tab.2.bottom" timestamp="1585192020336">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -758,10 +815,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1504" height="356" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585192020336" />
-    <state x="490" y="175" key="Maven.ArtifactSearchDialog" timestamp="1584846464490">
+    <state x="490" y="175" key="Maven.ArtifactSearchDialog" timestamp="1585845838429">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="490" y="175" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584846464490" />
+    <state x="490" y="175" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585845838429" />
     <state x="600" y="217" key="NewModule_or_Project.wizard" timestamp="1584380000434">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -774,18 +831,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1585575045843" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1585763880874">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1585822634511">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1585763880874" />
-    <state x="1173" y="284" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1585819749850">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1585822634511" />
+    <state x="1173" y="284" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1585846929324">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1173" y="284" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585819749850" />
-    <state x="305" y="89" key="new project wizard" timestamp="1585805009444">
+    <state x="1173" y="284" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585846929324" />
+    <state x="305" y="89" key="new project wizard" timestamp="1585842598449">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="305" y="89" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1585805009444" />
+    <state x="305" y="89" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1585842598449" />
     <state x="816" y="361" width="672" height="678" key="search.everywhere.popup" timestamp="1585822495645">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -865,6 +922,22 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/sc-auth/sc-auth-common/src/test/java/cn/dbdj1201/sc/auth/ScAuthTest.java</url>
+          <line>38</line>
+          <properties class="cn.dbdj1201.sc.auth.ScAuthTest" method="testGenerateToken">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/sc-auth/sc-auth-common/src/test/java/cn/dbdj1201/sc/auth/ScAuthTest.java</url>
+          <line>27</line>
+          <properties class="cn.dbdj1201.sc.auth.ScAuthTest" method="testRsa">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -61,7 +61,7 @@ public class UserService implements IUserService {
             this.amqpTemplate.convertAndSend("sc.sms.exchange", "sms.verify.code", msg);
             System.out.println("come here ? ");
             // 将code存入redis
-            this.redisTemplate.opsForValue().set(KEY_PREFIX + phone, code, 5, TimeUnit.HOURS);
+            this.redisTemplate.opsForValue().set(KEY_PREFIX + phone, code, 180, TimeUnit.DAYS);
             return true;
         } catch (Exception e) {
             e.printStackTrace();
@@ -88,14 +88,29 @@ public class UserService implements IUserService {
         user.setCreated(new Date());
 
         // 添加到数据库
-        boolean boo = this.userMapper.insertSelective(user) == 1;
 
-        if (boo) {
-            // 注册成功，删除redis中的记录
-            this.redisTemplate.delete(KEY_PREFIX + user.getPhone());
+//        if (boo) {
+//            // 注册成功，删除redis中的记录
+//            this.redisTemplate.delete(KEY_PREFIX + user.getPhone());
+//        }
+        return this.userMapper.insertSelective(user) == 1;
+    }
+
+    @Override
+    public User queryByUsernameAndPassword(String username, String password) {
+        // 查询
+        User record = new User();
+        record.setUsername(username);
+        User user = this.userMapper.selectOne(record);
+        // 校验用户名
+        if (user == null) {
+            return null;
         }
-
-        System.out.println("boo - 》" + boo);
-        return boo;
+        // 校验密码
+        if (!user.getPassword().equals(CodecUtils.md5Hex(password, user.getSalt()))) {
+            return null;
+        }
+        // 用户名密码都正确
+        return user;
     }
 }

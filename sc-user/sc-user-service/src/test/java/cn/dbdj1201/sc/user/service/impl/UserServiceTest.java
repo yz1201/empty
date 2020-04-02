@@ -1,6 +1,8 @@
 package cn.dbdj1201.sc.user.service.impl;
 
+import cn.dbdj120.sc.common.utils.CodecUtils;
 import cn.dbdj1201.sc.user.ScUserServiceApplication;
+import cn.dbdj1201.sc.user.pojo.User;
 import cn.dbdj1201.sc.user.service.IUserService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -43,5 +45,24 @@ public class UserServiceTest {
         String msg = "hello, Spring boot amqp";
         this.amqpTemplate.convertAndSend("spring.test.exchange", "abc", msg);
         System.out.println("send msg -> " + msg);
+    }
+
+    @Test
+    public void register() {
+        User user = new User();
+        user.setUsername("dbdj12011");
+        user.setPassword("dbdj12011");
+        user.setPhone("15957121194");
+        this.userService.register(user, "992414");
+    }
+
+    @Test
+    public void queryByUsernameAndPassword() {
+        String username = "dbdj1201";
+        String password = "dbdj1201";
+        User user = this.userService.queryByUsernameAndPassword(username, password);
+
+        System.out.println("user-> " + user);
+        System.out.println("user-> " + CodecUtils.md5Hex(password, user.getSalt()));
     }
 }

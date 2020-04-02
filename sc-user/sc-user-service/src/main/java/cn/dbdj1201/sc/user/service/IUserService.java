@@ -29,4 +29,6 @@ public interface IUserService {
      * @return
      */
     Boolean register(User user, String code);
+
+    User queryByUsernameAndPassword(String username, String password);
 }

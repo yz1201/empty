@@ -9,13 +9,13 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
  **/
 @ConfigurationProperties(prefix = "sc.sms")
 public class SmsProperties {
-    String accessKeyId;
+    String accessKeyId;             //阿里云账户权限id
 
-    String accessKeySecret;
+    String accessKeySecret;         //阿里云账户密码
 
-    String signName;
+    String signName;                //短信签名
 
-    String verifyCodeTemplate;
+    String verifyCodeTemplate;      //短信验证码模板
 
     public String getAccessKeyId() {
         return accessKeyId;

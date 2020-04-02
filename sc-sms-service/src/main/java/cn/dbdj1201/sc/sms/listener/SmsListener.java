@@ -36,7 +36,6 @@ public class SmsListener {
                     ignoreDeclarationExceptions = "true"),
             key = {"sms.verify.code"}))
     public void listenSms(Map<String, String> msg) throws Exception {
-        System.out.println("listener - > " + msg);
         if (msg == null || msg.size() <= 0) {
             // 放弃处理
             return;
@@ -49,9 +48,8 @@ public class SmsListener {
             return;
         }
         // 发送消息
-        CommonResponse resp = this.smsUtils.sendSms(phone, code,
+        System.out.println(this.smsUtils.sendSms(phone, code,
                 prop.getSignName(),
-                prop.getVerifyCodeTemplate());
-        System.out.println("listener resp -> " + resp.getData());
+                prop.getVerifyCodeTemplate()));
     }
 }
