@@ -21,7 +21,7 @@ public class Demo {
     @Test
     public void testSend() throws InterruptedException {
         String msg = "hello, Spring boot amqp";
-        this.amqpTemplate.convertAndSend("spring.test.exchange", "abc.de.f", msg);
+        this.amqpTemplate.convertAndSend("spring.test.exchange", "abc", msg);
         System.out.println("send msg -> " + msg);
         // 等待10秒后再结束
 //        Thread.sleep(10000);

@@ -23,6 +23,7 @@
         <!--            <artifactId>spring-boot-starter-web</artifactId>-->
         <!--        </dependency>-->
 
+
         <dependency>
             <groupId>cn.dbdj1201</groupId>
             <artifactId>sc-common</artifactId>

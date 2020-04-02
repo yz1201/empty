@@ -1,0 +1,25 @@
+server:
+  port: 8086
+spring:
+  application:
+    name: sms-service
+  rabbitmq:
+    host: 192.168.0.103
+    username: rabbitmq
+    password: rabbitmq
+    virtual-host: /sc
+  redis:
+    host: 192.168.0.103
+    password: redis
+    port: 6379
+    timeout: 5000
+    jedis:
+      pool:
+        max-wait: -1
+sc:
+  sms:
+    accessKeyId: LTAI4FjbDHM6WjcpXjHUYSyY # 你自己的accessKeyId
+    accessKeySecret: KACZ9K09rwkURaLKg6RrmhJmcZI8zY # 你自己的AccessKeySecret
+    signName: ShoppingCity # 签名名称
+    verifyCodeTemplate: SMS_186953758 # 模板名称
+

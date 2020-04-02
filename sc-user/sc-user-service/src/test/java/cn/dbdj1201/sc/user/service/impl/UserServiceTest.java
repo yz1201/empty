@@ -4,6 +4,7 @@ import cn.dbdj1201.sc.user.ScUserServiceApplication;
 import cn.dbdj1201.sc.user.service.IUserService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.springframework.amqp.core.AmqpTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
@@ -21,10 +22,26 @@ public class UserServiceTest {
     @Autowired
     private IUserService userService;
 
+    @Autowired
+    private AmqpTemplate amqpTemplate;
+
     @Test
     public void checkUser() {
         String data = "zhangsan";
         Integer type = 1;
         System.out.println(userService.checkUser(data, type));
+    }
+
+    @Test
+    public void sendVerifyCode() {
+        this.userService.sendVerifyCode("15957121194");
+    }
+
+
+    @Test
+    public void testSend() throws InterruptedException {
+        String msg = "hello, Spring boot amqp";
+        this.amqpTemplate.convertAndSend("spring.test.exchange", "abc", msg);
+        System.out.println("send msg -> " + msg);
     }
 }

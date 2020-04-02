@@ -14,3 +14,6 @@ zuul:
     item-service:  /item/** # 商品微服务的映射路径
     search-service: /search/** # 搜索微服务的映射路径
     user-service: /user/** # 用户微服务的映射路径，登录注册
+  host:
+    connect-timeout-millis: 15000
+    socket-timeout-millis: 60000

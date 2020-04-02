@@ -1,14 +1,12 @@
 package cn.dbdj1201.sc.user.controller;
 
+import cn.dbdj1201.sc.user.pojo.User;
 import cn.dbdj1201.sc.user.service.IUserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.*;
 
 /**
  * @author tyz1201
@@ -37,4 +35,23 @@ public class UserController {
             return ResponseEntity.status(HttpStatus.BAD_REQUEST).build();
         return ResponseEntity.ok(boo);
     }
+
+    @PostMapping("code")
+    public ResponseEntity<Boolean> sendVerifyCode(@RequestParam(value = "phone") String phone) {
+        Boolean boo = this.userService.sendVerifyCode(phone);
+        System.out.println("send msg boo - > " + boo);
+        if (boo == null || !boo)
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).build();
+        return ResponseEntity.status(HttpStatus.CREATED).build();
+    }
+
+    @PostMapping("register")
+    public ResponseEntity<Void> register(User user, @RequestParam("code") String code){
+        Boolean boo = this.userService.register(user, code);
+        if (boo == null || !boo) {
+            return ResponseEntity.status(HttpStatus.BAD_REQUEST).build();
+        }
+        return ResponseEntity.status(HttpStatus.CREATED).build();
+    }
+
 }
