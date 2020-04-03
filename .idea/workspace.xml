@@ -2,43 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed85c090-aefa-43e3-acbf-d3f7dd4a1eb7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sc-auth/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-auth/sc-auth-common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-auth/sc-auth-common/src/main/java/cn/dbdj1201/sc/auth/entity/UserInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-auth/sc-auth-common/src/main/java/cn/dbdj1201/sc/auth/utils/CookieUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-auth/sc-auth-common/src/main/java/cn/dbdj1201/sc/auth/utils/JwtConstans.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-auth/sc-auth-common/src/main/java/cn/dbdj1201/sc/auth/utils/JwtUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-auth/sc-auth-common/src/main/java/cn/dbdj1201/sc/auth/utils/ObjectUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-auth/sc-auth-common/src/main/java/cn/dbdj1201/sc/auth/utils/RsaUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-auth/sc-auth-common/src/test/java/cn/dbdj1201/sc/auth/ScAuthTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-auth/sc-auth-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-auth/sc-auth-service/sc-auth-service.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-auth/sc-auth-service/src/main/java/cn/dbdj1201/sc/auth/ScAuthApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-auth/sc-auth-service/src/main/java/cn/dbdj1201/sc/auth/client/UserClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-auth/sc-auth-service/src/main/java/cn/dbdj1201/sc/auth/config/JwtProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-auth/sc-auth-service/src/main/java/cn/dbdj1201/sc/auth/controller/AuthController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-auth/sc-auth-service/src/main/java/cn/dbdj1201/sc/auth/service/IAuthService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-auth/sc-auth-service/src/main/java/cn/dbdj1201/sc/auth/service/impl/AuthService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-auth/sc-auth-service/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-auth/sc-auth-service/src/test/java/cn/dbdj1201/sc/auth/service/impl/AuthServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-auth/sc-auth.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-user/sc-user-interface/src/main/java/cn/dbdj1201/sc/user/api/UserApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-user/sc-user.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-gateway/src/main/java/cn/dbdj1201/sc/item/gateway/config/FilterProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-gateway/src/main/java/cn/dbdj1201/sc/item/gateway/config/JwtProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-gateway/src/main/java/cn/dbdj1201/sc/item/gateway/filter/LoginFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-auth/sc-auth-service/src/main/java/cn/dbdj1201/sc/auth/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/sc-auth/sc-auth-service/src/main/java/cn/dbdj1201/sc/auth/controller/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sc-gateway/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sc-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sc-gateway/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sc-portal/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/sc-portal/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sc-sms-service/src/main/java/cn/dbdj1201/sc/sms/config/SmsProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/sc-sms-service/src/main/java/cn/dbdj1201/sc/sms/config/SmsProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sc-sms-service/src/main/java/cn/dbdj1201/sc/sms/listener/SmsListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/sc-sms-service/src/main/java/cn/dbdj1201/sc/sms/listener/SmsListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sc-sms-service/src/main/java/cn/dbdj1201/sc/sms/utils/SmsUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/sc-sms-service/src/main/java/cn/dbdj1201/sc/sms/utils/SmsUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sc-user/sc-user-interface/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sc-user/sc-user-interface/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sc-user/sc-user-interface/src/main/java/cn/dbdj1201/sc/user/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/sc-user/sc-user-interface/src/main/java/cn/dbdj1201/sc/user/pojo/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sc-user/sc-user-service/src/main/java/cn/dbdj1201/sc/user/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/sc-user/sc-user-service/src/main/java/cn/dbdj1201/sc/user/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sc-user/sc-user-service/src/main/java/cn/dbdj1201/sc/user/service/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/sc-user/sc-user-service/src/main/java/cn/dbdj1201/sc/user/service/IUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sc-user/sc-user-service/src/main/java/cn/dbdj1201/sc/user/service/impl/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/sc-user/sc-user-service/src/main/java/cn/dbdj1201/sc/user/service/impl/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sc-user/sc-user-service/src/test/java/cn/dbdj1201/sc/user/service/impl/UserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/sc-user/sc-user-service/src/test/java/cn/dbdj1201/sc/user/service/impl/UserServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-portal/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/sc-portal/login.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,8 +41,8 @@
         <option value="JUnit5 Test Class" />
         <option value="HTML File" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -392,6 +364,10 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.UserServiceTest.queryByUsernameAndPassword" />
+      <item itemvalue="JUnit.ScAuthTest.testRsa" />
+      <item itemvalue="JUnit.ScAuthTest.testGenerateToken" />
+      <item itemvalue="JUnit.ScAuthTest.testParseToken" />
+      <item itemvalue="JUnit.AuthServiceTest.authentication" />
       <item itemvalue="Spring Boot.ScRegistryApplication" />
       <item itemvalue="Spring Boot.ScGatewayApplication" />
       <item itemvalue="Spring Boot.ScUploadApplication" />
@@ -401,10 +377,6 @@
       <item itemvalue="Spring Boot.ScUserServiceApplication" />
       <item itemvalue="Spring Boot.ScSmsApplication" />
       <item itemvalue="Spring Boot.ScAuthApplication" />
-      <item itemvalue="JUnit.ScAuthTest.testRsa" />
-      <item itemvalue="JUnit.ScAuthTest.testGenerateToken" />
-      <item itemvalue="JUnit.ScAuthTest.testParseToken" />
-      <item itemvalue="JUnit.AuthServiceTest.authentication" />
     </list>
     <recent_temporary>
       <list>
@@ -482,7 +454,8 @@
       <workItem from="1585710780942" duration="13225000" />
       <workItem from="1585745933367" duration="15860000" />
       <workItem from="1585798577058" duration="22933000" />
-      <workItem from="1585840208626" duration="5696000" />
+      <workItem from="1585840208626" duration="5907000" />
+      <workItem from="1585890955142" duration="6214000" />
     </task>
     <task id="LOCAL-00001" summary="shopping city -bec">
       <created>1584332491647</created>
@@ -680,14 +653,20 @@
       <option name="project" value="LOCAL" />
       <updated>1585822614807</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="shopping city -st sc-auth-center rsa private public process">
+      <created>1585847340934</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1585847340934</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="shopping city -st category nginx proxy" />
     <MESSAGE value="shopping city -st cors" />
     <MESSAGE value="shopping city -st brand" />
     <MESSAGE value="shopping city -st category-crud" />
@@ -712,7 +691,8 @@
     <MESSAGE value="shopping city -st spring-amqp" />
     <MESSAGE value="shopping city -st sc-user 阿里短信服务。" />
     <MESSAGE value="shopping city -st sc-user 阿里短信服务。2nd" />
-    <option name="LAST_COMMIT_MESSAGE" value="shopping city -st sc-user 阿里短信服务。2nd" />
+    <MESSAGE value="shopping city -st sc-auth-center rsa private public process" />
+    <option name="LAST_COMMIT_MESSAGE" value="shopping city -st sc-auth-center rsa private public process" />
   </component>
   <component name="WindowStateProjectService">
     <state x="590" y="156" key="#Application" timestamp="1585817629275">
@@ -735,10 +715,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="590" y="144" key="#ScRegistryApplication/0.0.1920.1040@0.0.1920.1040" timestamp="1584696124718" />
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1585845216351">
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1585910854118">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1585845216351" />
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1585910854118" />
     <state x="689" y="302" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1584696130343">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -759,46 +739,46 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="254" y="0" key="#org.jetbrains.kotlin.idea.refactoring.safeDelete.KotlinOverridingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584727699906" />
-    <state x="483" y="112" key="CommitChangelistDialog2" timestamp="1585822606311">
+    <state x="483" y="112" key="CommitChangelistDialog2" timestamp="1585847333052">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="483" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1585822606311" />
+    <state x="483" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1585847333052" />
     <state x="740" y="209" key="FileChooserDialogImpl" timestamp="1584379980120">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="209" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1584379980120" />
-    <state width="1877" height="263" key="GridCell.Tab.0.bottom" timestamp="1585847162047">
+    <state width="1561" height="421" key="GridCell.Tab.0.bottom" timestamp="1585909507592">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="263" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585847162047" />
-    <state width="1877" height="263" key="GridCell.Tab.0.center" timestamp="1585847162047">
+    <state width="1561" height="421" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585909507592" />
+    <state width="1561" height="421" key="GridCell.Tab.0.center" timestamp="1585909507592">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="263" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585847162047" />
-    <state width="1877" height="263" key="GridCell.Tab.0.left" timestamp="1585847162047">
+    <state width="1561" height="421" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585909507592" />
+    <state width="1561" height="421" key="GridCell.Tab.0.left" timestamp="1585909507592">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="263" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585847162047" />
-    <state width="1877" height="263" key="GridCell.Tab.0.right" timestamp="1585847162047">
+    <state width="1561" height="421" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585909507592" />
+    <state width="1561" height="421" key="GridCell.Tab.0.right" timestamp="1585909507592">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="263" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585847162047" />
-    <state width="1561" height="353" key="GridCell.Tab.1.bottom" timestamp="1585840559050">
+    <state width="1561" height="421" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585909507592" />
+    <state width="1561" height="421" key="GridCell.Tab.1.bottom" timestamp="1585909507592">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1561" height="353" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585840559050" />
-    <state width="1561" height="353" key="GridCell.Tab.1.center" timestamp="1585840559050">
+    <state width="1561" height="421" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585909507592" />
+    <state width="1561" height="421" key="GridCell.Tab.1.center" timestamp="1585909507592">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1561" height="353" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585840559050" />
-    <state width="1561" height="353" key="GridCell.Tab.1.left" timestamp="1585840559050">
+    <state width="1561" height="421" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585909507592" />
+    <state width="1561" height="421" key="GridCell.Tab.1.left" timestamp="1585909507592">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1561" height="353" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585840559050" />
-    <state width="1561" height="353" key="GridCell.Tab.1.right" timestamp="1585840559050">
+    <state width="1561" height="421" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585909507592" />
+    <state width="1561" height="421" key="GridCell.Tab.1.right" timestamp="1585909507592">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1561" height="353" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585840559050" />
+    <state width="1561" height="421" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585909507592" />
     <state width="1504" height="356" key="GridCell.Tab.2.bottom" timestamp="1585192020336">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -831,10 +811,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1585575045843" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1585822634511">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1585847348426">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1585822634511" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1585847348426" />
     <state x="1173" y="284" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1585846929324">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

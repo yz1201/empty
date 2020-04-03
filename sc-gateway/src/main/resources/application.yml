@@ -18,3 +18,17 @@ zuul:
   host:
     connect-timeout-millis: 15000
     socket-timeout-millis: 60000
+  add-host-header: true
+  sensitive-headers: null
+sc:
+  jwt:
+    pubKeyPath: D:\\test\\tmp\\rsa\\rsa.pub # 公钥地址
+    cookieName: SC_TOKEN # cookie的名称
+  filter:
+    allowPaths:
+      - /api/auth
+      - /api/search
+      - /api/user/register
+      - /api/user/check
+      - /api/user/code
+      - /api/item
