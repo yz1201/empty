@@ -56,12 +56,31 @@ public class GoodsController {
         return ResponseEntity.ok(spuDetail);
     }
 
+    /**
+     * 根据spuID查询所属的sku集合
+     *
+     * @param spuId
+     * @return
+     */
     @GetMapping("sku/list")
     public ResponseEntity<List<Sku>> querySkusBySpuId(@RequestParam("id") Long spuId) {
         List<Sku> skus = goodsService.querySkusBySpuId(spuId);
         if (CollectionUtils.isEmpty(skus))
             return ResponseEntity.notFound().build();
         return ResponseEntity.ok(skus);
+    }
+
+    /**
+     * 根据sku id 查询sku
+     * @param id
+     * @return
+     */
+    @GetMapping("sku/{id}")
+    public ResponseEntity<Sku> querySkuById(@PathVariable Long id) {
+        Sku sku = this.goodsService.querySkuById(id);
+        if (sku == null)
+            return ResponseEntity.notFound().build();
+        return ResponseEntity.ok(sku);
     }
 
     /**
@@ -85,7 +104,7 @@ public class GoodsController {
     @GetMapping("spu/{id}")
     public ResponseEntity<Spu> querySpuById(@PathVariable("id") Long id) {
         Spu spu = this.goodsService.querySpuById(id);
-        if(spu == null)
+        if (spu == null)
             return ResponseEntity.status(HttpStatus.NOT_FOUND).build();
         return ResponseEntity.ok(spu);
     }

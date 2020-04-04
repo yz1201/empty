@@ -18,6 +18,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="ex-elasticsearch" />
         <module name="sc-user-service" />
+        <module name="sc-order" />
         <module name="sc-auth-common" />
         <module name="sc-upload" />
         <module name="ex-java-ee" />
@@ -56,6 +57,7 @@
       <module name="sc-item" options="-parameters" />
       <module name="sc-item-interface" options="-parameters" />
       <module name="sc-item-service" options="-parameters" />
+      <module name="sc-order" options="-parameters" />
       <module name="sc-registry" options="-parameters" />
       <module name="sc-search" options="-parameters" />
       <module name="sc-sms-service" options="-parameters" />

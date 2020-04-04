@@ -281,6 +281,11 @@
                 // 先判断登录状态
                 ly.verifyUser().then(() => {
                     // 已登录
+                    const cartsTemp = ly.store.get("carts");
+                    if (cartsTemp) {
+                        ly.http.post("/cart", cartsTemp)
+                    }
+                    ly.store.del("carts");
 
                 }).catch(() => {
                     // 未登录
@@ -288,22 +293,24 @@
                     this.selected = this.carts;
                 })
             },
-            increment(c) {
-                c.num++;
+            increment(cart) {
+                if (cart)
+                    cart.num++;
                 ly.verifyUser().then(() => {
                     // TODO 已登录，向后台发起请求
+                    ly.http.put("/cart", {skuId: cart.skuId, num: cart.num});
                 }).catch(() => {
                     // 未登录，直接操作本地数据
                     ly.store.set("carts", this.carts);
                 })
             },
-            decrement(c) {
-                if (c.num <= 1) {
-                    return;
+            decrement(cart) {
+                if (cart && cart.num > 1) {
+                    cart.num--;
                 }
-                c.num--;
                 ly.verifyUser().then(() => {
                     // TODO 已登录，向后台发起请求
+                    ly.http.put("/cart", {skuId: cart.skuId, num: cart.num});
                 }).catch(() => {
                     // 未登录，直接操作本地数据
                     ly.store.set("carts", this.carts);
@@ -312,6 +319,9 @@
             deleteCart(i) {
                 ly.verifyUser().then(res => {
                     // TODO，已登录购物车
+                    ly.http.delete("/cart" + this.carts[i].skuId).then(() => {
+                        this.carts.splice(i, 1);
+                    })
                 }).catch(() => {
                     // 未登录购物车
                     this.carts.splice(i, 1);

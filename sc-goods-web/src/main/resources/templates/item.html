@@ -680,15 +680,18 @@
                 if (this.num > 1)
                     this.num--;
             },
-            addCart(){
-                ly.verifyUser().then(res=>{
+            addCart() {
+                ly.verifyUser().then(res => {
                     // 已登录发送信息到后台，保存到redis中
+                    ly.http.post("/cart", {skuID: this.sku.id, num: this.num}).then(res => {
+                        window.location = "http://www.sc1.com/cart.html";
+                    })
 
-                }).catch(()=>{
+                }).catch(() => {
                     // 未登录保存在浏览器本地的localStorage中
                     // 1、查询本地购物车
                     let carts = ly.store.get("carts") || [];
-                    let cart = carts.find(c=>c.skuId===this.sku.id);
+                    let cart = carts.find(c => c.skuId === this.sku.id);
                     // 2、判断是否存在
                     if (cart) {
                         // 3、存在更新数量

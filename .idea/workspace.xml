@@ -2,21 +2,49 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed85c090-aefa-43e3-acbf-d3f7dd4a1eb7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sc-cart/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-cart/sc-cart.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-cart/src/main/java/cn/dbdj1201/sc/cart/ScCartApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-cart/src/main/java/cn/dbdj1201/sc/cart/config/JwtProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-cart/src/main/java/cn/dbdj1201/sc/cart/config/MvcConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-cart/src/main/java/cn/dbdj1201/sc/cart/interceptor/LoginInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc-cart/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-cart/src/main/java/cn/dbdj1201/sc/cart/client/GoodsClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-cart/src/main/java/cn/dbdj1201/sc/cart/controller/CartController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-cart/src/main/java/cn/dbdj1201/sc/cart/pojo/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-cart/src/main/java/cn/dbdj1201/sc/cart/service/ICartService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-cart/src/main/java/cn/dbdj1201/sc/cart/service/impl/CartService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-order/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-order/src/main/java/cn/dbdj1201/sc/ScOrderApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-order/src/main/java/cn/dbdj1201/sc/config/IdWorkerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-order/src/main/java/cn/dbdj1201/sc/config/IdWorkerProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-order/src/main/java/cn/dbdj1201/sc/config/JwtProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-order/src/main/java/cn/dbdj1201/sc/config/MvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-order/src/main/java/cn/dbdj1201/sc/config/PayConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-order/src/main/java/cn/dbdj1201/sc/config/PayProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-order/src/main/java/cn/dbdj1201/sc/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-order/src/main/java/cn/dbdj1201/sc/order/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-order/src/main/java/cn/dbdj1201/sc/order/interceptor/LoginInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-order/src/main/java/cn/dbdj1201/sc/order/mapper/OrderDetailMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-order/src/main/java/cn/dbdj1201/sc/order/mapper/OrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-order/src/main/java/cn/dbdj1201/sc/order/mapper/OrderStatusMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-order/src/main/java/cn/dbdj1201/sc/order/pojo/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-order/src/main/java/cn/dbdj1201/sc/order/pojo/OrderDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-order/src/main/java/cn/dbdj1201/sc/order/pojo/OrderStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-order/src/main/java/cn/dbdj1201/sc/order/service/IOrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-order/src/main/java/cn/dbdj1201/sc/order/service/api/GoodsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-order/src/main/java/cn/dbdj1201/sc/order/service/impl/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-order/src/main/java/cn/dbdj1201/sc/utils/PayHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-order/src/main/java/cn/dbdj1201/sc/utils/PayState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-order/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-order/src/main/resources/mapper/OrderMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sc-auth/sc-auth-common/src/main/java/cn/dbdj1201/sc/auth/utils/CookieUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/sc-auth/sc-auth-common/src/main/java/cn/dbdj1201/sc/auth/utils/CookieUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sc-auth/sc-auth-service/src/main/java/cn/dbdj1201/sc/auth/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/sc-auth/sc-auth-service/src/main/java/cn/dbdj1201/sc/auth/controller/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-cart/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sc-cart/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-cart/src/main/java/cn/dbdj1201/sc/cart/config/MvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/sc-cart/src/main/java/cn/dbdj1201/sc/cart/config/MvcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-cart/src/main/java/cn/dbdj1201/sc/cart/interceptor/LoginInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/sc-cart/src/main/java/cn/dbdj1201/sc/cart/interceptor/LoginInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sc-gateway/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sc-goods-web/src/main/resources/templates/item.html" beforeDir="false" afterPath="$PROJECT_DIR$/sc-goods-web/src/main/resources/templates/item.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-item/sc-item-interface/src/main/java/cn/dbdj1201/sc/item/api/GoodsApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/sc-item/sc-item-interface/src/main/java/cn/dbdj1201/sc/item/api/GoodsApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/java/cn/dbdj1201/sc/item/controller/GoodsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/java/cn/dbdj1201/sc/item/controller/GoodsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/java/cn/dbdj1201/sc/item/service/IGoodsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/java/cn/dbdj1201/sc/item/service/IGoodsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/java/cn/dbdj1201/sc/item/service/impl/GoodsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/sc-item/sc-item-service/src/main/java/cn/dbdj1201/sc/item/service/impl/GoodsService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sc-portal/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/sc-portal/cart.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,8 +75,8 @@
         <option value="JavaScript File" />
         <option value="JUnit5 Test Class" />
         <option value="HTML File" />
-        <option value="Interface" />
         <option value="JUnit4 Test Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -104,7 +132,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/sc-auth/sc-auth-common/src/main/java/cn/dbdj1201/sc/auth/utils" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/sc-order/src/main/resources" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -133,19 +161,19 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="cn.dbdj1201.es" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\maven_project\empty\sc-order\src\main\resources" />
+      <recent name="F:\maven_project\empty\sc-order\src\main\java\cn\dbdj1201\sc\order\service\impl" />
+      <recent name="F:\maven_project\empty\sc-order\src\main\java\cn\dbdj1201\sc\order\service\api" />
+      <recent name="F:\maven_project\empty\sc-order\src\main\java\cn\dbdj1201\sc\order\mapper" />
+      <recent name="F:\maven_project\empty\sc-order\src\main\java\cn\dbdj1201\sc\order\interceptor" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="cn.dbdj1201.sc.search.client" />
       <recent name="cn.dbdj1201.sc.upload.config" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\maven_project\empty\sc-auth\sc-auth-common\src\main\java\cn\dbdj1201\sc\auth\utils" />
-      <recent name="F:\maven_project\empty\sc-common\src\main\java\cn\dbdj120\sc\common\utils" />
-      <recent name="F:\maven_project\empty\sc-sms-service\src\test\java\cn\dbdj1201\sc\sms" />
-      <recent name="F:\maven_project\empty\ex-rabbitmq\src\main\resources" />
-      <recent name="F:\maven_project\empty\ex-rabbitmq\src\main\java\cn\dbdj1201\rabbitmq" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -155,7 +183,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CookieUtils">
+  <component name="RunManager" selected="Spring Boot.ScOrderApplication">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -198,26 +226,6 @@
       <option name="PACKAGE_NAME" value="cn.dbdj1201.sc.auth.service.impl" />
       <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.sc.auth.service.impl.AuthServiceTest" />
       <option name="METHOD_NAME" value="authentication" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ScAuthTest.testGenerateToken" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sc-auth-common" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.dbdj1201.sc.auth.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.dbdj1201.sc.auth" />
-      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.sc.auth.ScAuthTest" />
-      <option name="METHOD_NAME" value="testGenerateToken" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
@@ -313,6 +321,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ScOrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="sc-order" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.dbdj1201.sc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.dbdj1201.sc.ScOrderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ScRegistryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="sc-registry" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.dbdj1201.sc.item.ScRegistryApplication" />
@@ -372,7 +393,6 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.ScAuthTest.testRsa" />
-      <item itemvalue="JUnit.ScAuthTest.testGenerateToken" />
       <item itemvalue="JUnit.ScAuthTest.testParseToken" />
       <item itemvalue="JUnit.AuthServiceTest.authentication" />
       <item itemvalue="Spring Boot.ScRegistryApplication" />
@@ -386,14 +406,15 @@
       <item itemvalue="Spring Boot.ScAuthApplication" />
       <item itemvalue="Application.CookieUtils" />
       <item itemvalue="Spring Boot.ScCartApplication" />
+      <item itemvalue="Spring Boot.ScOrderApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.ScOrderApplication" />
         <item itemvalue="Application.CookieUtils" />
         <item itemvalue="JUnit.AuthServiceTest.authentication" />
         <item itemvalue="JUnit.ScAuthTest.testRsa" />
         <item itemvalue="JUnit.ScAuthTest.testParseToken" />
-        <item itemvalue="JUnit.ScAuthTest.testGenerateToken" />
       </list>
     </recent_temporary>
   </component>
@@ -407,6 +428,11 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
@@ -465,7 +491,7 @@
       <workItem from="1585798577058" duration="22933000" />
       <workItem from="1585840208626" duration="5907000" />
       <workItem from="1585890955142" duration="6312000" />
-      <workItem from="1585987924054" duration="6861000" />
+      <workItem from="1585987924054" duration="18384000" />
     </task>
     <task id="LOCAL-00001" summary="shopping city -bec">
       <created>1584332491647</created>
@@ -677,14 +703,20 @@
       <option name="project" value="LOCAL" />
       <updated>1585911445920</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="shopping city -st sc-cart">
+      <created>1585995047630</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1585995047630</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="shopping city -st brand" />
     <MESSAGE value="shopping city -st category-crud" />
     <MESSAGE value="shopping city -st upload fastDFS qs-stringfy-parse" />
     <MESSAGE value="shopping city -st vue.js" />
@@ -709,7 +741,8 @@
     <MESSAGE value="shopping city -st sc-user 阿里短信服务。2nd" />
     <MESSAGE value="shopping city -st sc-auth-center rsa private public process" />
     <MESSAGE value="shopping city -st sc-auth-center rsa private public process 2nd" />
-    <option name="LAST_COMMIT_MESSAGE" value="shopping city -st sc-auth-center rsa private public process 2nd" />
+    <MESSAGE value="shopping city -st sc-cart" />
+    <option name="LAST_COMMIT_MESSAGE" value="shopping city -st sc-cart" />
   </component>
   <component name="WindowStateProjectService">
     <state x="590" y="156" key="#Application" timestamp="1585817629275">
@@ -732,10 +765,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="590" y="144" key="#ScRegistryApplication/0.0.1920.1040@0.0.1920.1040" timestamp="1584696124718" />
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1585994627338">
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1586015917233">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1585994627338" />
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1586015917233" />
     <state x="689" y="302" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1584696130343">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -756,46 +789,46 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="254" y="0" key="#org.jetbrains.kotlin.idea.refactoring.safeDelete.KotlinOverridingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584727699906" />
-    <state x="483" y="112" key="CommitChangelistDialog2" timestamp="1585911442281">
+    <state x="483" y="112" key="CommitChangelistDialog2" timestamp="1585995043108">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="483" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1585911442281" />
+    <state x="483" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1585995043108" />
     <state x="740" y="209" key="FileChooserDialogImpl" timestamp="1584379980120">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="209" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1584379980120" />
-    <state width="1877" height="2" key="GridCell.Tab.0.bottom" timestamp="1585990777498">
+    <state width="1561" height="385" key="GridCell.Tab.0.bottom" timestamp="1586016957178">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="2" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585990777498" />
-    <state width="1877" height="2" key="GridCell.Tab.0.center" timestamp="1585990777497">
+    <state width="1561" height="385" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586016957178" />
+    <state width="1561" height="385" key="GridCell.Tab.0.center" timestamp="1586016957178">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="2" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585990777497" />
-    <state width="1877" height="2" key="GridCell.Tab.0.left" timestamp="1585990777497">
+    <state width="1561" height="385" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586016957178" />
+    <state width="1561" height="385" key="GridCell.Tab.0.left" timestamp="1586016957178">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="2" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585990777497" />
-    <state width="1877" height="2" key="GridCell.Tab.0.right" timestamp="1585990777497">
+    <state width="1561" height="385" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586016957178" />
+    <state width="1561" height="385" key="GridCell.Tab.0.right" timestamp="1586016957178">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="2" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585990777497" />
-    <state width="1561" height="421" key="GridCell.Tab.1.bottom" timestamp="1585911498283">
+    <state width="1561" height="385" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586016957178" />
+    <state width="1561" height="385" key="GridCell.Tab.1.bottom" timestamp="1586016957182">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1561" height="421" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585911498283" />
-    <state width="1561" height="421" key="GridCell.Tab.1.center" timestamp="1585911498283">
+    <state width="1561" height="385" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586016957182" />
+    <state width="1561" height="385" key="GridCell.Tab.1.center" timestamp="1586016957182">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1561" height="421" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585911498283" />
-    <state width="1561" height="421" key="GridCell.Tab.1.left" timestamp="1585911498283">
+    <state width="1561" height="385" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586016957182" />
+    <state width="1561" height="385" key="GridCell.Tab.1.left" timestamp="1586016957178">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1561" height="421" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585911498283" />
-    <state width="1561" height="421" key="GridCell.Tab.1.right" timestamp="1585911498283">
+    <state width="1561" height="385" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586016957178" />
+    <state width="1561" height="385" key="GridCell.Tab.1.right" timestamp="1586016957182">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1561" height="421" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585911498283" />
+    <state width="1561" height="385" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586016957182" />
     <state width="1504" height="356" key="GridCell.Tab.2.bottom" timestamp="1585192020336">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -828,18 +861,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1585575045843" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1585911465234">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1585995060953">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1585911465234" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1585995060953" />
     <state x="1173" y="284" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1585846929324">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1173" y="284" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585846929324" />
-    <state x="307" y="152" key="new project wizard" timestamp="1585991576240">
+    <state x="307" y="152" key="new project wizard" timestamp="1586012854753">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="307" y="152" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1585991576240" />
+    <state x="307" y="152" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1586012854753" />
     <state x="816" y="361" width="672" height="678" key="search.everywhere.popup" timestamp="1585990231083">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -21,6 +21,7 @@
         <module>sc-sms-service</module>
         <module>sc-auth</module>
         <module>sc-cart</module>
+        <module>sc-order</module>
     </modules>
 
 

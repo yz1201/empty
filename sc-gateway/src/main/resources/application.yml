@@ -15,10 +15,11 @@ zuul:
     search-service: /search/** # 搜索微服务的映射路径
     user-service: /user/** # 用户微服务的映射路径，登录注册
     auth-service: /auth/** # 授权中心微服务
+    cart-service: /cart/** # 购物车微服务
   host:
     connect-timeout-millis: 15000
     socket-timeout-millis: 60000
-  add-host-header: true
+  add-host-header: true #携带请求本身的head头信息
   sensitive-headers: null
 sc:
   jwt:

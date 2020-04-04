@@ -172,6 +172,11 @@ public class GoodsService implements IGoodsService {
         return this.spuMapper.selectByPrimaryKey(id);
     }
 
+    @Override
+    public Sku querySkuById(Long id) {
+        return this.skuMapper.selectByPrimaryKey(id);
+    }
+
     private void saveSkuAndStock(SpuBo spuBo) {
         spuBo.getSkus().forEach(sku -> {
             // 新增sku

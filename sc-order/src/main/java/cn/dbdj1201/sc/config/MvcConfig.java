@@ -1,6 +1,6 @@
-package cn.dbdj1201.sc.cart.config;
+package cn.dbdj1201.sc.config;
 
-import cn.dbdj1201.sc.cart.interceptor.LoginInterceptor;
+import cn.dbdj1201.sc.order.interceptor.LoginInterceptor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
@@ -8,10 +8,6 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
-/**
- * @author tyz1201
- * @datetime 2020-04-04 18:01
- **/
 @Configuration
 @EnableConfigurationProperties(JwtProperties.class)
 public class MvcConfig implements WebMvcConfigurer {
@@ -26,6 +22,7 @@ public class MvcConfig implements WebMvcConfigurer {
 
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
-        registry.addInterceptor(loginInterceptor()).addPathPatterns("/**");
+        registry.addInterceptor(loginInterceptor())
+                .addPathPatterns("/order/**");
     }
 }
