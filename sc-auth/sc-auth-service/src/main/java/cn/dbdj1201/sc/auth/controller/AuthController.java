@@ -29,6 +29,14 @@ public class AuthController {
     @Autowired
     private JwtProperties prop;
 
+    /**
+     * 用户首次登录校验
+     * @param username
+     * @param password
+     * @param request
+     * @param response
+     * @return
+     */
     @PostMapping("accredit")
     public ResponseEntity<Void> authentication(
             @RequestParam("username") String username,
@@ -47,7 +55,7 @@ public class AuthController {
     }
 
     /**
-     * 验证用户信息
+     * 用户登陆状态校验
      *
      * @param token
      * @return

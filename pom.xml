@@ -20,6 +20,7 @@
         <module>sc-user</module>
         <module>sc-sms-service</module>
         <module>sc-auth</module>
+        <module>sc-cart</module>
     </modules>
 
 

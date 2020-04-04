@@ -17,20 +17,21 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="ex-elasticsearch" />
-        <module name="sc-user-interface" />
-        <module name="ex-lucene" />
+        <module name="sc-user-service" />
         <module name="sc-auth-common" />
         <module name="sc-upload" />
+        <module name="ex-java-ee" />
         <module name="sc-search" />
+        <module name="sc-cart" />
         <module name="sc-item-interface" />
+        <module name="sc-gateway" />
         <module name="sc-registry" />
         <module name="sc-sms-service" />
         <module name="sc-goods-web" />
-        <module name="ex-java-ee" />
+        <module name="sc-user-interface" />
         <module name="ex-rabbitmq" />
         <module name="sc-item-service" />
-        <module name="sc-user-service" />
-        <module name="sc-gateway" />
+        <module name="ex-lucene" />
         <module name="sc-auth-service" />
         <module name="sc-common" />
       </profile>
@@ -48,6 +49,7 @@
       <module name="sc-auth" options="-parameters" />
       <module name="sc-auth-common" options="-parameters" />
       <module name="sc-auth-service" options="-parameters" />
+      <module name="sc-cart" options="-parameters" />
       <module name="sc-common" options="-parameters" />
       <module name="sc-gateway" options="-parameters" />
       <module name="sc-goods-web" options="-parameters" />

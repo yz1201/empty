@@ -10,6 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.UnsupportedEncodingException;
 import java.net.URLDecoder;
 import java.net.URLEncoder;
+import java.nio.charset.StandardCharsets;
 
 /**
  * Cookie 工具类
@@ -42,19 +43,15 @@ public final class CookieUtils {
             return null;
         }
         String retValue = null;
-        try {
-            for (int i = 0; i < cookieList.length; i++) {
-                if (cookieList[i].getName().equals(cookieName)) {
-                    if (isDecoder) {
-                        retValue = URLDecoder.decode(cookieList[i].getValue(), "UTF-8");
-                    } else {
-                        retValue = cookieList[i].getValue();
-                    }
-                    break;
+        for (Cookie cookie : cookieList) {
+            if (cookie.getName().equals(cookieName)) {
+                if (isDecoder) {
+                    retValue = URLDecoder.decode(cookie.getValue(), StandardCharsets.UTF_8);
+                } else {
+                    retValue = cookie.getValue();
                 }
+                break;
             }
-        } catch (UnsupportedEncodingException e) {
-            logger.error("Cookie Decode Error.", e);
         }
         return retValue;
     }
@@ -73,9 +70,9 @@ public final class CookieUtils {
         }
         String retValue = null;
         try {
-            for (int i = 0; i < cookieList.length; i++) {
-                if (cookieList[i].getName().equals(cookieName)) {
-                    retValue = URLDecoder.decode(cookieList[i].getValue(), encodeString);
+            for (Cookie cookie : cookieList) {
+                if (cookie.getName().equals(cookieName)) {
+                    retValue = URLDecoder.decode(cookie.getValue(), encodeString);
                     break;
                 }
             }
@@ -94,7 +91,7 @@ public final class CookieUtils {
      * @param cookieValue  value
      * @param encodeString 编码
      */
-    public static final void setCookie(HttpServletRequest request, HttpServletResponse response, String cookieName, String cookieValue, String encodeString) {
+    public static void setCookie(HttpServletRequest request, HttpServletResponse response, String cookieName, String cookieValue, String encodeString) {
         setCookie(request, response, cookieName, cookieValue, null, encodeString, null);
     }
 
@@ -107,14 +104,14 @@ public final class CookieUtils {
      * @param cookieValue  value
      * @param cookieMaxAge 生存时间
      */
-    public static final void setCookie(HttpServletRequest request, HttpServletResponse response, String cookieName, String cookieValue, Integer cookieMaxAge) {
+    public static void setCookie(HttpServletRequest request, HttpServletResponse response, String cookieName, String cookieValue, Integer cookieMaxAge) {
         setCookie(request, response, cookieName, cookieValue, cookieMaxAge, null, null);
     }
 
     /**
      * 设置cookie，不指定httpOnly属性
      */
-    public static final void setCookie(HttpServletRequest request, HttpServletResponse response, String cookieName, String cookieValue, Integer cookieMaxAge, String encodeString) {
+    public static void setCookie(HttpServletRequest request, HttpServletResponse response, String cookieName, String cookieValue, Integer cookieMaxAge, String encodeString) {
         setCookie(request, response, cookieName, cookieValue, cookieMaxAge, encodeString, null);
     }
 
@@ -123,7 +120,7 @@ public final class CookieUtils {
      *
      * @param cookieMaxAge cookie生效的最大秒数
      */
-    public static final void setCookie(HttpServletRequest request, HttpServletResponse response, String cookieName, String cookieValue, Integer cookieMaxAge, String encodeString, Boolean httpOnly) {
+    public static void setCookie(HttpServletRequest request, HttpServletResponse response, String cookieName, String cookieValue, Integer cookieMaxAge, String encodeString, Boolean httpOnly) {
         try {
             if (StringUtils.isBlank(encodeString)) {
                 encodeString = "utf-8";
@@ -137,9 +134,9 @@ public final class CookieUtils {
             Cookie cookie = new Cookie(cookieName, cookieValue);
             if (cookieMaxAge != null && cookieMaxAge > 0)
                 cookie.setMaxAge(cookieMaxAge);
-            if (null != request)// 设置域名的cookie
+            if (null != request)// 设置cookie的域名
                 cookie.setDomain(getDomainName(request));
-            cookie.setPath("/");
+                cookie.setPath("/");
 
             if (httpOnly != null) {
                 cookie.setHttpOnly(httpOnly);
@@ -153,11 +150,10 @@ public final class CookieUtils {
     /**
      * 得到cookie的域名
      */
-    private static final String getDomainName(HttpServletRequest request) {
-        String domainName = null;
-
+    private static String getDomainName(HttpServletRequest request) {
+        String domainName;
         String serverName = request.getRequestURL().toString();
-        if (serverName == null || serverName.equals("")) {
+        if (serverName.equals("")) {
             domainName = "";
         } else {
             serverName = serverName.toLowerCase();
@@ -169,16 +165,15 @@ public final class CookieUtils {
             if (len > 3) {
                 // www.xxx.com.cn
                 domainName = domains[len - 3] + "." + domains[len - 2] + "." + domains[len - 1];
-            } else if (len <= 3 && len > 1) {
+            } else if (len > 1) {
                 // xxx.com or xxx.cn
                 domainName = domains[len - 2] + "." + domains[len - 1];
             } else {
                 domainName = serverName;
             }
         }
-
-        if (domainName != null && domainName.indexOf(":") > 0) {
-            String[] ary = domainName.split("\\:");
+        if (domainName.indexOf(":") > 0) {
+            String[] ary = domainName.split(":");
             domainName = ary[0];
         }
         return domainName;
