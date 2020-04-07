@@ -13,4 +13,6 @@ public interface IOrderService {
     PageResult<Order> queryUserOrderList(Integer page, Integer rows, Integer status);
 
     Boolean updateStatus(Long id, Integer status);
+
+    Order queryById(Long id);
 }

@@ -12,7 +12,6 @@ import java.util.List;
 public class FilterProperties {
     private List<String> allowPaths;
 
-
     public List<String> getAllowPaths() {
         return allowPaths;
     }

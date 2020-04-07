@@ -87,6 +87,7 @@ public class IdWorker {
             // 当前毫秒内，则+1
             sequence = (sequence + 1) & sequenceMask;
             if (sequence == 0) {
+
                 // 当前毫秒内计数满了，则等待下一秒
                 timestamp = tilNextMillis(lastTimestamp);
             }
@@ -95,11 +96,9 @@ public class IdWorker {
         }
         lastTimestamp = timestamp;
         // ID偏移组合生成最终的ID，并返回ID
-        long nextId = ((timestamp - twepoch) << timestampLeftShift)
+        return ((timestamp - twepoch) << timestampLeftShift)
                 | (datacenterId << datacenterIdShift)
                 | (workerId << workerIdShift) | sequence;
-
-        return nextId;
     }
 
     private long tilNextMillis(final long lastTimestamp) {

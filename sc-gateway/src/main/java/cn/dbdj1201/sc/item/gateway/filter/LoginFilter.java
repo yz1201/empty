@@ -7,6 +7,7 @@ import cn.dbdj1201.sc.item.gateway.config.JwtProperties;
 import com.netflix.zuul.ZuulFilter;
 import com.netflix.zuul.context.RequestContext;
 import com.netflix.zuul.exception.ZuulException;
+import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -54,7 +55,7 @@ public class LoginFilter extends ZuulFilter {
         // 遍历允许访问的路径
         for (String path : this.filterProperties.getAllowPaths()) {
             // 然后判断是否是符合
-            if (requestURI.startsWith(path)) {
+            if (StringUtils.contains(requestURI, path)) {
                 return false;
             }
         }

@@ -73,6 +73,7 @@ public class OrderService implements IOrderService {
         return orderId;
     }
 
+    @Override
     public Order queryById(Long id) {
         // 查询订单
         Order order = this.orderMapper.selectByPrimaryKey(id);

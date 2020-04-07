@@ -97,7 +97,7 @@
                         <span><em>已节省：</em><i>-¥20.00</i></span>
                     </div>
                     <div class="sumbtn">
-                        <a class="sum-btn" href="getOrderInfo.html" target="_blank">结算</a>
+                        <a class="sum-btn" href="javascript:void(0)" @click="toOrderInfo" target="_blank">结算</a>
                     </div>
                 </div>
             </div>
@@ -327,17 +327,26 @@
                     this.carts.splice(i, 1);
                     ly.store.set("carts", this.carts);
                 })
+            },
+            toOrderInfo() {
+                ly.verifyUser().then(res => {
+                    // TODO，已登录购物车
+                    ly.store.set("SC_SELECTED", this.selected);
+                    window.location = "http://www.sc1.com/getOrderInfo.html";
+                }).catch(() => {
+                    // 未登录购物车
+                    window.location = "http://www.sc1.com/login.html?returnUrl=http://www.sc1.com/cart.html";
+                })
+            },
+            components: {
+                shortcut: () => import("/js/pages/shortcut.js")
+            },
+            computed: {
+                totalPrice() {
+                    return ly.formatPrice(this.selected.reduce((c1, c2) => c1 + c2.num * c2.price, 0));
+                }
             }
-        },
-        components: {
-            shortcut: () => import("/js/pages/shortcut.js")
-        },
-        computed: {
-            totalPrice() {
-                return ly.formatPrice(this.selected.reduce((c1, c2) => c1 + c2.num * c2.price, 0));
-            }
-        }
-    })
+        })
 </script>
 <!-- 底部栏位 -->
 <!--页面底部，由js动态加载-->

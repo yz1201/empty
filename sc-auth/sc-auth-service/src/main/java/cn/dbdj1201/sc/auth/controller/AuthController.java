@@ -31,6 +31,7 @@ public class AuthController {
 
     /**
      * 用户首次登录校验
+     *
      * @param username
      * @param password
      * @param request
@@ -45,6 +46,7 @@ public class AuthController {
             HttpServletResponse response) {
         // 登录校验
         String token = this.authService.authentication(username, password);
+//        System.out.println("token -> " + token);
         if (StringUtils.isBlank(token)) {
             return new ResponseEntity<>(HttpStatus.UNAUTHORIZED);
         }

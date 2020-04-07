@@ -68,14 +68,14 @@ public class IndexTest {
     public void testQueryIndex() {
 //        this.itemRepository.findAll().forEach(System.out::println);
 //        System.out.println(Objects.requireNonNull(this.itemRepository.findById(2L).get()));
-//        this.itemRepository.findByTitle("手机").forEach(System.out::println);
+        this.itemRepository.findByTitle("手机").forEach(System.out::println);
         NativeSearchQueryBuilder queryBuilder = new NativeSearchQueryBuilder();
         queryBuilder.withQuery(QueryBuilders.termQuery("category","手机"));
         queryBuilder.withPageable(PageRequest.of(1,2));
         this.itemRepository.search(queryBuilder.build()).get().forEach(System.out::println);
         System.out.println("------------------------------");
 //
-//        this.itemRepository.findByPriceBetween(0D,2000d).forEach(System.out::println);
+        this.itemRepository.findByPriceBetween(0D,20000d).forEach(System.out::println);
     }
 
     @Test

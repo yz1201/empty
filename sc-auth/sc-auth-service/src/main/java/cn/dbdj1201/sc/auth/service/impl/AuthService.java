@@ -31,10 +31,6 @@ public class AuthService implements IAuthService {
             if (user == null) {
                 return null;
             }
-//            User user = new User();
-//            user.setUsername("dbdj120111");
-//            user.setPassword("dbdj120111");
-//            user.setId(222L);
             // 如果有查询结果，则生成token
             return JwtUtils.generateToken(new UserInfo(user.getId(), user.getUsername()),
                     properties.getPrivateKey(), properties.getExpire());

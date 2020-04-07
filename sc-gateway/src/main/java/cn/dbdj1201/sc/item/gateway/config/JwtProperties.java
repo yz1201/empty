@@ -26,7 +26,7 @@ public class JwtProperties {
     @PostConstruct
     public void init(){
         try {
-            // 获取公钥和私钥
+            // 获取公钥
             this.publicKey = RsaUtils.getPublicKey(pubKeyPath);
         } catch (Exception e) {
             logger.error("初始化公钥失败！", e);
