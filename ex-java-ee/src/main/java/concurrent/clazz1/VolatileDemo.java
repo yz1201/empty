@@ -1,6 +1,4 @@
-package concurrent;
-
-import java.util.concurrent.TimeUnit;
+package concurrent.clazz1;
 
 /**
  * @author tyz1201

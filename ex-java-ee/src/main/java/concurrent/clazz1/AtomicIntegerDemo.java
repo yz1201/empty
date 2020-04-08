@@ -1,6 +1,5 @@
-package concurrent;
+package concurrent.clazz1;
 
-import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicInteger;
 
 /**
