@@ -4,6 +4,7 @@ import java.util.Map;
 import java.util.Timer;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.CopyOnWriteArrayList;
+import java.util.concurrent.LinkedTransferQueue;
 
 /**
  * @author tyz1201
@@ -30,6 +31,7 @@ public class ConcurrentMapDemo {
     public static void main(String[] args) {
         Map<String, Object> map = new ConcurrentHashMap<>();
 
+        LinkedTransferQueue queue;
         CopyOnWriteArrayList list;
         Timer timer;
     }
