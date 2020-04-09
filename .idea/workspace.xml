@@ -2,21 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed85c090-aefa-43e3-acbf-d3f7dd4a1eb7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/concurrent/clazz2/MyContainer3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/concurrent/clazz2/MyContainer4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/concurrent/clazz2/ReentrantLockDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/concurrent/clazz2/ThreadLocalDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/concurrent/clazz3/ConcurrentCollectionDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/concurrent/clazz3/DoubleCheckLockDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/concurrent/clazz3/ConcurrentMapDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/concurrent/clazz3/TicketSeller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/concurrent/clazz3/TicketSeller1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/concurrent/clazz4/CachedPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/concurrent/clazz4/FutureDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/concurrent/clazz4/MyExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/concurrent/clazz4/ParalleComputingDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/concurrent/clazz4/SchedulePool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/concurrent/clazz4/SingleThreadPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/concurrent/clazz4/ThreadPoolDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex-java-ee/src/main/java/concurrent/AtomicIntegerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/concurrent/clazz1/AtomicIntegerDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex-java-ee/src/main/java/concurrent/DeathLockDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/concurrent/clazz1/DeathLockDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex-java-ee/src/main/java/concurrent/Demo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/concurrent/clazz1/Demo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex-java-ee/src/main/java/concurrent/ListThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/concurrent/clazz1/ListThreadDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex-java-ee/src/main/java/concurrent/MyContainer1.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/concurrent/clazz1/MyContainer1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex-java-ee/src/main/java/concurrent/MyContainer2.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/concurrent/clazz1/MyContainer2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex-java-ee/src/main/java/concurrent/VolatileDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/concurrent/clazz1/VolatileDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex-java-ee/src/main/java/concurrent/clazz3/DoubleCheckLockDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/concurrent/clazz3/DoubleCheckLockDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +152,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DoubleCheckLockDemo">
+  <component name="RunManager" selected="Application.SchedulePool">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -166,13 +164,13 @@
       <Host>localhost</Host>
       <Port>5050</Port>
     </configuration>
-    <configuration name="DoubleCheckLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="concurrent.clazz3.DoubleCheckLockDemo" />
+    <configuration name="CachedPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="concurrent.clazz4.CachedPool" />
       <module name="ex-java-ee" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="concurrent.clazz3.*" />
+          <option name="PATTERN" value="concurrent.clazz4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -180,13 +178,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyContainer2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="concurrent.clazz1.MyContainer2" />
+    <configuration name="FutureDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="concurrent.clazz4.FutureDemo" />
       <module name="ex-java-ee" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="concurrent.clazz1.*" />
+          <option name="PATTERN" value="concurrent.clazz4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -194,13 +192,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyContainer3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="concurrent.clazz2.MyContainer3" />
+    <configuration name="ParalleComputingDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="concurrent.clazz4.ParalleComputingDemo" />
       <module name="ex-java-ee" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="concurrent.clazz2.*" />
+          <option name="PATTERN" value="concurrent.clazz4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -208,13 +206,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyContainer4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="concurrent.clazz2.MyContainer4" />
+    <configuration name="SchedulePool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="concurrent.clazz4.SchedulePool" />
       <module name="ex-java-ee" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="concurrent.clazz2.*" />
+          <option name="PATTERN" value="concurrent.clazz4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -222,13 +220,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReentrantLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="concurrent.clazz2.ReentrantLockDemo" />
+    <configuration name="SingleThreadPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="concurrent.clazz4.SingleThreadPool" />
       <module name="ex-java-ee" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="concurrent.clazz2.*" />
+          <option name="PATTERN" value="concurrent.clazz4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -356,19 +354,19 @@
       <item itemvalue="Spring Boot.ScSmsApplication" />
       <item itemvalue="Spring Boot.ScAuthApplication" />
       <item itemvalue="Spring Boot.ScCartApplication" />
-      <item itemvalue="Application.MyContainer2" />
-      <item itemvalue="Application.ReentrantLockDemo" />
-      <item itemvalue="Application.MyContainer3" />
-      <item itemvalue="Application.MyContainer4" />
-      <item itemvalue="Application.DoubleCheckLockDemo" />
+      <item itemvalue="Application.FutureDemo" />
+      <item itemvalue="Application.ParalleComputingDemo" />
+      <item itemvalue="Application.CachedPool" />
+      <item itemvalue="Application.SingleThreadPool" />
+      <item itemvalue="Application.SchedulePool" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DoubleCheckLockDemo" />
-        <item itemvalue="Application.MyContainer4" />
-        <item itemvalue="Application.MyContainer3" />
-        <item itemvalue="Application.ReentrantLockDemo" />
-        <item itemvalue="Application.MyContainer2" />
+        <item itemvalue="Application.SchedulePool" />
+        <item itemvalue="Application.SingleThreadPool" />
+        <item itemvalue="Application.CachedPool" />
+        <item itemvalue="Application.ParalleComputingDemo" />
+        <item itemvalue="Application.FutureDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -454,7 +452,8 @@
       <workItem from="1586143711352" duration="5269000" />
       <workItem from="1586228987929" duration="3223000" />
       <workItem from="1586272861532" duration="3482000" />
-      <workItem from="1586313361091" duration="18249000" />
+      <workItem from="1586313361091" duration="27559000" />
+      <workItem from="1586401424184" duration="5254000" />
     </task>
     <task id="LOCAL-00001" summary="shopping city -bec">
       <created>1584332491647</created>
@@ -694,14 +693,20 @@
       <option name="project" value="LOCAL" />
       <updated>1586320602081</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="concurrent package -st 同步器 同步容器">
+      <created>1586343309609</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1586343309609</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="shopping city -st spu sku spec" />
     <MESSAGE value="shopping city -st spec crud" />
     <MESSAGE value="shopping city -st spu spuDetail sku stock crud" />
     <MESSAGE value="shopping city -st lucene" />
@@ -726,7 +731,8 @@
     <MESSAGE value="shopping city -st sc-order" />
     <MESSAGE value="shopping city -st elastic end -dead-lock" />
     <MESSAGE value="concurrent package -st" />
-    <option name="LAST_COMMIT_MESSAGE" value="concurrent package -st" />
+    <MESSAGE value="concurrent package -st 同步器 同步容器" />
+    <option name="LAST_COMMIT_MESSAGE" value="concurrent package -st 同步器 同步容器" />
   </component>
   <component name="WindowStateProjectService">
     <state x="590" y="156" key="#Application" timestamp="1585817629275">
@@ -749,10 +755,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="590" y="144" key="#ScRegistryApplication/0.0.1920.1040@0.0.1920.1040" timestamp="1584696124718" />
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1586342635199">
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1586404922198">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1586342635199" />
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1586404922198" />
     <state x="689" y="302" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1584696130343">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -773,30 +779,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="254" y="0" key="#org.jetbrains.kotlin.idea.refactoring.safeDelete.KotlinOverridingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584727699906" />
-    <state x="483" y="112" key="CommitChangelistDialog2" timestamp="1586320599603">
+    <state x="483" y="112" key="CommitChangelistDialog2" timestamp="1586343306957">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="483" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586320599603" />
+    <state x="483" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586343306957" />
     <state x="740" y="209" key="FileChooserDialogImpl" timestamp="1584379980120">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="209" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1584379980120" />
-    <state width="1877" height="234" key="GridCell.Tab.0.bottom" timestamp="1586343206048">
+    <state width="1877" height="616" key="GridCell.Tab.0.bottom" timestamp="1586406837210">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="234" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586343206048" />
-    <state width="1877" height="234" key="GridCell.Tab.0.center" timestamp="1586343206047">
+    <state width="1877" height="616" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586406837210" />
+    <state width="1877" height="616" key="GridCell.Tab.0.center" timestamp="1586406837210">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="234" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586343206047" />
-    <state width="1877" height="234" key="GridCell.Tab.0.left" timestamp="1586343206047">
+    <state width="1877" height="616" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586406837210" />
+    <state width="1877" height="616" key="GridCell.Tab.0.left" timestamp="1586406837210">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="234" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586343206047" />
-    <state width="1877" height="234" key="GridCell.Tab.0.right" timestamp="1586343206047">
+    <state width="1877" height="616" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586406837210" />
+    <state width="1877" height="616" key="GridCell.Tab.0.right" timestamp="1586406837210">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="234" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586343206047" />
+    <state width="1877" height="616" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586406837210" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1586276535642">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -845,10 +851,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1585575045843" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1586320631015">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1586343315668">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586320631015" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586343315668" />
     <state x="1173" y="284" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1585846929324">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -857,10 +863,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="307" y="152" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1586012854753" />
-    <state x="816" y="361" width="672" height="678" key="search.everywhere.popup" timestamp="1585990231083">
+    <state x="816" y="361" width="672" height="678" key="search.everywhere.popup" timestamp="1586402254147">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="816" y="361" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1585990231083" />
+    <state x="816" y="361" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1586402254147" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -960,6 +966,35 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/ex-java-ee/src/main/java/concurrent/clazz3/TicketSeller.java</url>
+          <line>18</line>
+          <properties class="concurrent.clazz3.TicketSeller" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/ex-java-ee/src/main/java/concurrent/clazz4/FutureDemo.java</url>
+          <line>10</line>
+          <properties class="concurrent.clazz4.FutureDemo" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/ex-java-ee/src/main/java/concurrent/clazz4/SingleThreadPool.java</url>
+          <line>11</line>
+          <properties class="concurrent.clazz4.SingleThreadPool" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ex-java-ee/src/main/java/concurrent/clazz3/TicketSeller.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="27" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
