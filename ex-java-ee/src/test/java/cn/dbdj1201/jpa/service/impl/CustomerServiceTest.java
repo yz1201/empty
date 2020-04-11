@@ -1,5 +1,6 @@
 package cn.dbdj1201.jpa.service.impl;
 
+import cn.dbdj1201.jpa.pojo.Customer;
 import cn.dbdj1201.jpa.service.ICustomerService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -31,10 +32,15 @@ public class CustomerServiceTest {
 
     @Test
     public void updateCustomer() {
+        Customer customer = new Customer();
+//        customer.setCustId(2L);
+        customer.setCustName("yeshijie");
+        this.customerService.updateCustomer(customer);
     }
 
     @Test
     public void deleteById() {
+        this.customerService.deleteById(2L);
     }
 
     @Test

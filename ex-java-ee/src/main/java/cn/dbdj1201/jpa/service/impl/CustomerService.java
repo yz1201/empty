@@ -34,16 +34,17 @@ public class CustomerService implements ICustomerService {
 
     @Override
     public void updateCustomer(Customer customer) {
-        try {
-            if (customer.getCustId() != null) {
-                customerDao.save(customer);
-            }else {
-                RuntimeException runtimeException = new RuntimeException("数据有问题");
-                runtimeException.printStackTrace();
-            }
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+//        if (customer.getCustId() != null) {
+//            customerDao.save(customer);
+//        } else {
+//            RuntimeException runtimeException = new RuntimeException("数据有问题");
+//            runtimeException.printStackTrace();
+//        }
+
+        if (customer.getCustId() == null)
+            throw new RuntimeException("数据出了点问题");
+        customer = this.findById(customer.getCustId());
+        this.customerDao.save(customer);
     }
 
     @Override
