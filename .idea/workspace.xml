@@ -2,11 +2,50 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed85c090-aefa-43e3-acbf-d3f7dd4a1eb7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/concurrent/clazz4/ForkJoinPoolDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/concurrent/clazz4/ParallelStreamApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/concurrent/clazz4/WorkStealingPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/jpa/JdbcDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/jpa/dao/ICustomerDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/jpa/pojo/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/jpa/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/jpa/service/ICustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/jpa/service/IUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/jpa/service/impl/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/jpa/service/impl/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/jpa/utils/JpaUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/jpa/utils/JpaUtilsNew.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/test/java/cn/dbdj1201/jpa/service/IUserServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/test/java/cn/dbdj1201/jpa/service/impl/CustomerServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex-java-ee/src/main/java/concurrent/clazz3/ConcurrentMapDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/concurrent/clazz3/ConcurrentMapDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex-java-ee/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ex-java-ee/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex-java-ee/src/main/java/concurrent/clazz1/AtomicIntegerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/concurrent/clazz1/AtomicIntegerDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex-java-ee/src/main/java/concurrent/clazz1/DeathLockDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/concurrent/clazz1/DeathLockDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex-java-ee/src/main/java/concurrent/clazz1/Demo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/concurrent/clazz1/Demo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex-java-ee/src/main/java/concurrent/clazz1/ListThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/concurrent/clazz1/ListThreadDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex-java-ee/src/main/java/concurrent/clazz1/MyContainer1.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/concurrent/clazz1/MyContainer1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex-java-ee/src/main/java/concurrent/clazz1/MyContainer2.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/concurrent/clazz1/MyContainer2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex-java-ee/src/main/java/concurrent/clazz1/VolatileDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/concurrent/clazz1/VolatileDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex-java-ee/src/main/java/concurrent/clazz2/MyContainer3.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/concurrent/clazz2/MyContainer3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex-java-ee/src/main/java/concurrent/clazz2/MyContainer4.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/concurrent/clazz2/MyContainer4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex-java-ee/src/main/java/concurrent/clazz2/ReentrantLockDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/concurrent/clazz2/ReentrantLockDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex-java-ee/src/main/java/concurrent/clazz2/ThreadLocalDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/concurrent/clazz2/ThreadLocalDemo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex-java-ee/src/main/java/concurrent/clazz3/ConcurrentCollectionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/concurrent/clazz3/ConcurrentCollectionDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex-java-ee/src/main/java/concurrent/clazz3/ConcurrentMapDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/concurrent/clazz3/ConcurrentMapDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex-java-ee/src/main/java/concurrent/clazz3/DoubleCheckLockDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/concurrent/clazz3/DoubleCheckLockDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex-java-ee/src/main/java/concurrent/clazz3/TicketSeller.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/concurrent/clazz3/TicketSeller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex-java-ee/src/main/java/concurrent/clazz3/TicketSeller1.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/concurrent/clazz3/TicketSeller1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex-java-ee/src/main/java/concurrent/clazz4/CachedPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/concurrent/clazz4/CachedPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex-java-ee/src/main/java/concurrent/clazz4/ForkJoinPoolDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/concurrent/clazz4/ForkJoinPoolDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex-java-ee/src/main/java/concurrent/clazz4/FutureDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/concurrent/clazz4/FutureDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex-java-ee/src/main/java/concurrent/clazz4/MyExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/concurrent/clazz4/MyExecutor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex-java-ee/src/main/java/concurrent/clazz4/ParalleComputingDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/concurrent/clazz4/ParalleComputingDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex-java-ee/src/main/java/concurrent/clazz4/ParallelStreamApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/concurrent/clazz4/ParallelStreamApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex-java-ee/src/main/java/concurrent/clazz4/SchedulePool.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/concurrent/clazz4/SchedulePool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex-java-ee/src/main/java/concurrent/clazz4/SingleThreadPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/concurrent/clazz4/SingleThreadPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex-java-ee/src/main/java/concurrent/clazz4/ThreadPoolDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/concurrent/clazz4/ThreadPoolDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex-java-ee/src/main/java/concurrent/clazz4/WorkStealingPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/concurrent/clazz4/WorkStealingPool.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,9 +75,10 @@
         <option value="JavaScript File" />
         <option value="JUnit5 Test Class" />
         <option value="HTML File" />
-        <option value="JUnit4 Test Class" />
+        <option value="spring-beans.schema" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -105,7 +145,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.24597701" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="spring.boot" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
     <property name="ts.external.directory.path" value="F:\IntelliJ IDEA 2019.2.4\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="ReactorSettings">
@@ -113,14 +153,21 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="cn.dbdj1201.jpa.service.impl" />
+      <recent name="jpa.service" />
       <recent name="cn.dbdj1201.sc.auth.service.impl" />
       <recent name="cn.dbdj1201.sc.user.service.impl" />
       <recent name="cn.dbdj1201.sc.item.service.impl" />
-      <recent name="cn.dbdj1201.sc.search.client" />
-      <recent name="cn.dbdj1201.sc.service.impl" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="cn.dbdj1201.es" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.dbdj1201.sc.search.client" />
+      <recent name="cn.dbdj1201.sc.upload.config" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\maven_project\empty\sc-order\src\main\resources" />
@@ -128,13 +175,6 @@
       <recent name="F:\maven_project\empty\sc-order\src\main\java\cn\dbdj1201\sc\order\service\api" />
       <recent name="F:\maven_project\empty\sc-order\src\main\java\cn\dbdj1201\sc\order\mapper" />
       <recent name="F:\maven_project\empty\sc-order\src\main\java\cn\dbdj1201\sc\order\interceptor" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="cn.dbdj1201.sc.search.client" />
-      <recent name="cn.dbdj1201.sc.upload.config" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -144,7 +184,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ParallelStreamApi">
+  <component name="RunManager" selected="JUnit.CustomerServiceTest.findAll">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -156,78 +196,108 @@
       <Host>localhost</Host>
       <Port>5050</Port>
     </configuration>
-    <configuration name="ForkJoinPoolDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="concurrent.clazz4.ForkJoinPoolDemo" />
-      <module name="ex-java-ee" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="concurrent.clazz4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ParallelStreamApi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="concurrent.clazz4.ParallelStreamApi" />
-      <module name="ex-java-ee" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="concurrent.clazz4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SchedulePool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="concurrent.clazz4.SchedulePool" />
-      <module name="ex-java-ee" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="concurrent.clazz4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SingleThreadPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="concurrent.clazz4.SingleThreadPool" />
-      <module name="ex-java-ee" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="concurrent.clazz4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WorkStealingPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="concurrent.clazz4.WorkStealingPool" />
-      <module name="ex-java-ee" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="concurrent.clazz4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerServiceTest.findAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ex-java-ee" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.dbdj1201.jpa.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.dbdj1201.jpa.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.jpa.service.impl.CustomerServiceTest" />
+      <option name="METHOD_NAME" value="findAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerServiceTest.findById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ex-java-ee" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.dbdj1201.jpa.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.dbdj1201.jpa.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.jpa.service.impl.CustomerServiceTest" />
+      <option name="METHOD_NAME" value="findById" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IUserServiceTest.findAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ex-java-ee" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.dbdj1201.jpa.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.dbdj1201.jpa.service" />
+      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.jpa.service.IUserServiceTest" />
+      <option name="METHOD_NAME" value="findAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IUserServiceTest.save" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ex-java-ee" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.dbdj1201.jpa.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.dbdj1201.jpa.service" />
+      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.jpa.service.IUserServiceTest" />
+      <option name="METHOD_NAME" value="save" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IUserServiceTest.updateUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ex-java-ee" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.dbdj1201.jpa.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.dbdj1201.jpa.service" />
+      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.jpa.service.IUserServiceTest" />
+      <option name="METHOD_NAME" value="updateUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -346,19 +416,19 @@
       <item itemvalue="Spring Boot.ScSmsApplication" />
       <item itemvalue="Spring Boot.ScAuthApplication" />
       <item itemvalue="Spring Boot.ScCartApplication" />
-      <item itemvalue="Application.SingleThreadPool" />
-      <item itemvalue="Application.SchedulePool" />
-      <item itemvalue="Application.WorkStealingPool" />
-      <item itemvalue="Application.ForkJoinPoolDemo" />
-      <item itemvalue="Application.ParallelStreamApi" />
+      <item itemvalue="JUnit.IUserServiceTest.save" />
+      <item itemvalue="JUnit.IUserServiceTest.updateUser" />
+      <item itemvalue="JUnit.IUserServiceTest.findAll" />
+      <item itemvalue="JUnit.CustomerServiceTest.findById" />
+      <item itemvalue="JUnit.CustomerServiceTest.findAll" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ParallelStreamApi" />
-        <item itemvalue="Application.ForkJoinPoolDemo" />
-        <item itemvalue="Application.WorkStealingPool" />
-        <item itemvalue="Application.SchedulePool" />
-        <item itemvalue="Application.SingleThreadPool" />
+        <item itemvalue="JUnit.CustomerServiceTest.findAll" />
+        <item itemvalue="JUnit.CustomerServiceTest.findById" />
+        <item itemvalue="JUnit.IUserServiceTest.findAll" />
+        <item itemvalue="JUnit.IUserServiceTest.save" />
+        <item itemvalue="JUnit.IUserServiceTest.updateUser" />
       </list>
     </recent_temporary>
   </component>
@@ -445,7 +515,9 @@
       <workItem from="1586228987929" duration="3223000" />
       <workItem from="1586272861532" duration="3482000" />
       <workItem from="1586313361091" duration="27559000" />
-      <workItem from="1586401424184" duration="12411000" />
+      <workItem from="1586401424184" duration="13037000" />
+      <workItem from="1586494177195" duration="603000" />
+      <workItem from="1586577349178" duration="16906000" />
     </task>
     <task id="LOCAL-00001" summary="shopping city -bec">
       <created>1584332491647</created>
@@ -699,14 +771,20 @@
       <option name="project" value="LOCAL" />
       <updated>1586406938629</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="concurrent package -st ThreadPool 2nd">
+      <created>1586425414283</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1586425414283</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="shopping city -st spu spuDetail sku stock crud" />
     <MESSAGE value="shopping city -st lucene" />
     <MESSAGE value="shopping city -st lucene CRUD" />
     <MESSAGE value="shopping city -st elasticsearch crud" />
@@ -731,7 +809,8 @@
     <MESSAGE value="concurrent package -st" />
     <MESSAGE value="concurrent package -st 同步器 同步容器" />
     <MESSAGE value="concurrent package -st ThreadPool" />
-    <option name="LAST_COMMIT_MESSAGE" value="concurrent package -st ThreadPool" />
+    <MESSAGE value="concurrent package -st ThreadPool 2nd" />
+    <option name="LAST_COMMIT_MESSAGE" value="concurrent package -st ThreadPool 2nd" />
   </component>
   <component name="WindowStateProjectService">
     <state x="590" y="156" key="#Application" timestamp="1585817629275">
@@ -754,10 +833,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="590" y="144" key="#ScRegistryApplication/0.0.1920.1040@0.0.1920.1040" timestamp="1584696124718" />
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1586422976243">
+    <state x="552" y="179" key="#Updates" timestamp="1586588695967">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1586422976243" />
+    <state x="552" y="179" key="#Updates/0.0.1920.1040@0.0.1920.1040" timestamp="1586588695967" />
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1586600743968">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1586600743968" />
     <state x="689" y="302" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1584696130343">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -766,10 +849,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="640" y="255" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584842274295" />
-    <state x="587" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1585731343689">
+    <state x="587" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1586599050465">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="587" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585731343689" />
+    <state x="587" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586599050465" />
     <state x="716" y="378" width="487" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1584934953738">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -778,46 +861,46 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="254" y="0" key="#org.jetbrains.kotlin.idea.refactoring.safeDelete.KotlinOverridingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584727699906" />
-    <state x="483" y="112" key="CommitChangelistDialog2" timestamp="1586406935581">
+    <state x="483" y="112" key="CommitChangelistDialog2" timestamp="1586425412319">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="483" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586406935581" />
+    <state x="483" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586425412319" />
     <state x="740" y="209" key="FileChooserDialogImpl" timestamp="1584379980120">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="209" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1584379980120" />
-    <state width="1877" height="289" key="GridCell.Tab.0.bottom" timestamp="1586424910244">
+    <state width="1877" height="367" key="GridCell.Tab.0.bottom" timestamp="1586600815672">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="289" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586424910244" />
-    <state width="1877" height="289" key="GridCell.Tab.0.center" timestamp="1586424910244">
+    <state width="1877" height="367" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586600815672" />
+    <state width="1877" height="367" key="GridCell.Tab.0.center" timestamp="1586600815672">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="289" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586424910244" />
-    <state width="1877" height="289" key="GridCell.Tab.0.left" timestamp="1586424910244">
+    <state width="1877" height="367" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586600815672" />
+    <state width="1877" height="367" key="GridCell.Tab.0.left" timestamp="1586600815672">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="289" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586424910244" />
-    <state width="1877" height="289" key="GridCell.Tab.0.right" timestamp="1586424910244">
+    <state width="1877" height="367" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586600815672" />
+    <state width="1877" height="367" key="GridCell.Tab.0.right" timestamp="1586600815672">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="289" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586424910244" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1586276535642">
+    <state width="1877" height="367" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586600815672" />
+    <state width="1877" height="355" key="GridCell.Tab.1.bottom" timestamp="1586588482677">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586276535642" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1586276535641">
+    <state width="1877" height="355" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586588482677" />
+    <state width="1877" height="355" key="GridCell.Tab.1.center" timestamp="1586588482677">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586276535641" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1586276535641">
+    <state width="1877" height="355" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586588482677" />
+    <state width="1877" height="355" key="GridCell.Tab.1.left" timestamp="1586588482677">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586276535641" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1586276535642">
+    <state width="1877" height="355" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586588482677" />
+    <state width="1877" height="355" key="GridCell.Tab.1.right" timestamp="1586588482677">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586276535642" />
+    <state width="1877" height="355" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586588482677" />
     <state width="1504" height="356" key="GridCell.Tab.2.bottom" timestamp="1585192020336">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -842,22 +925,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="600" y="217" key="NewModule_or_Project.wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1584380000434" />
-    <state x="440" y="94" key="SettingsEditor" timestamp="1586163644691">
+    <state x="440" y="94" key="SettingsEditor" timestamp="1586591669851">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1586163644691" />
+    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1586591669851" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1585575045843">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1585575045843" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1586406949395">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1586425429501">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586406949395" />
-    <state x="1173" y="284" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1585846929324">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586425429501" />
+    <state x="1173" y="284" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1586600766578">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1173" y="284" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585846929324" />
+    <state x="1173" y="284" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586600766578" />
     <state x="307" y="152" key="new project wizard" timestamp="1586012854753">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -895,9 +978,9 @@
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/ex-java-ee/src/main/java/concurrent/clazz1/Demo1.java</url>
+          <url>file://$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/concurrent/clazz1/Demo1.java</url>
           <line>12</line>
-          <properties class="concurrent.Demo1" method="main">
+          <properties class="cn.dbdj1201.concurrent.clazz1.Demo1" method="main">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="17" />
@@ -959,39 +1042,47 @@
           <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/ex-java-ee/src/main/java/concurrent/clazz1/VolatileDemo.java</url>
+          <url>file://$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/concurrent/clazz1/VolatileDemo.java</url>
           <line>29</line>
-          <properties class="concurrent.VolatileDemo" method="main">
+          <properties class="cn.dbdj1201.concurrent.clazz1.VolatileDemo">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="25" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/ex-java-ee/src/main/java/concurrent/clazz3/TicketSeller.java</url>
+          <url>file://$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/concurrent/clazz3/TicketSeller.java</url>
           <line>18</line>
-          <properties class="concurrent.clazz3.TicketSeller" method="main">
+          <properties class="cn.dbdj1201.concurrent.clazz3.TicketSeller" method="main">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/ex-java-ee/src/main/java/concurrent/clazz4/FutureDemo.java</url>
+          <url>file://$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/concurrent/clazz4/FutureDemo.java</url>
           <line>10</line>
-          <properties class="concurrent.clazz4.FutureDemo" method="main">
+          <properties class="cn.dbdj1201.concurrent.clazz4.FutureDemo" method="main">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/ex-java-ee/src/main/java/concurrent/clazz4/SingleThreadPool.java</url>
+          <url>file://$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/concurrent/clazz4/SingleThreadPool.java</url>
           <line>11</line>
-          <properties class="concurrent.clazz4.SingleThreadPool" method="main">
+          <properties class="cn.dbdj1201.concurrent.clazz4.SingleThreadPool" method="main">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="29" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/ex-java-ee/src/test/java/cn/dbdj1201/jpa/service/IUserServiceTest.java</url>
+          <line>88</line>
+          <properties class="jpa.service.IUserServiceTest" method="deleteById">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ex-java-ee/src/main/java/concurrent/clazz3/TicketSeller.java</url>
+          <url>file://$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/concurrent/clazz3/TicketSeller.java</url>
           <line>22</line>
           <option name="timeStamp" value="27" />
         </line-breakpoint>
