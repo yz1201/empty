@@ -2,6 +2,8 @@ package cn.dbdj1201.jpa.pojo;
 
 import javax.persistence.*;
 import java.io.Serializable;
+import java.util.HashSet;
+import java.util.Set;
 
 /**
  * @author tyz1201
@@ -32,6 +34,20 @@ public class Customer implements Serializable {
 
     @Column(name = "cust_phone")//指定和表中cust_phone字段的映射关系
     private String custPhone;       //客户电话
+
+    //配置客户和联系人的一对多关系
+//    @OneToMany(targetEntity = LinkMan.class,fetch = FetchType.EAGER)
+//    @JoinColumn(name = "lkm_cust_id", referencedColumnName = "cust_id")
+    @OneToMany(mappedBy = "customer")
+    private Set<LinkMan> linkmans = new HashSet<>(0);
+
+    public Set<LinkMan> getLinkmans() {
+        return linkmans;
+    }
+
+    public void setLinkmans(Set<LinkMan> linkmans) {
+        this.linkmans = linkmans;
+    }
 
     public Long getCustId() {
         return custId;
@@ -99,6 +115,7 @@ public class Customer implements Serializable {
                 ", custLevel='" + custLevel + '\'' +
                 ", custAddress='" + custAddress + '\'' +
                 ", custPhone='" + custPhone + '\'' +
+                ", linkmans=" + linkmans +
                 '}';
     }
 }

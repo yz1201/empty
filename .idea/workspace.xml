@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed85c090-aefa-43e3-acbf-d3f7dd4a1eb7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/jpa/dao/ILinkManDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/jpa/pojo/LinkMan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/test/java/cn/dbdj1201/jpa/service/impl/MultiQueryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/jpa/service/ICustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/jpa/service/ICustomerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/jpa/service/impl/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/jpa/service/impl/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/jpa/dao/ICustomerDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/jpa/dao/ICustomerDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/jpa/pojo/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/jpa/pojo/Customer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ex-java-ee/src/test/java/cn/dbdj1201/jpa/service/impl/CustomerServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex-java-ee/src/test/java/cn/dbdj1201/jpa/service/impl/CustomerServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,9 +40,9 @@
         <option value="JUnit5 Test Class" />
         <option value="HTML File" />
         <option value="spring-beans.schema" />
+        <option value="JUnit4 Test Class" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -144,7 +148,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CustomerServiceTest.updateCustomer">
+  <component name="RunManager" selected="JUnit.MultiQueryTest.testAdd">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -202,26 +206,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CustomerServiceTest.findById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ex-java-ee" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.dbdj1201.jpa.service.impl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.dbdj1201.jpa.service.impl" />
-      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.jpa.service.impl.CustomerServiceTest" />
-      <option name="METHOD_NAME" value="findById" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CustomerServiceTest.updateCustomer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ex-java-ee" />
       <extension name="coverage">
@@ -242,17 +226,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IUserServiceTest.findAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MultiQueryTest.testAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ex-java-ee" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.dbdj1201.jpa.service.*" />
+          <option name="PATTERN" value="cn.dbdj1201.jpa.service.impl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="cn.dbdj1201.jpa.service" />
-      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.jpa.service.IUserServiceTest" />
-      <option name="METHOD_NAME" value="findAll" />
+      <option name="PACKAGE_NAME" value="cn.dbdj1201.jpa.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.jpa.service.impl.MultiQueryTest" />
+      <option name="METHOD_NAME" value="testAdd" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MultiQueryTest.testQuery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ex-java-ee" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.dbdj1201.jpa.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.dbdj1201.jpa.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.jpa.service.impl.MultiQueryTest" />
+      <option name="METHOD_NAME" value="testQuery" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
@@ -366,6 +370,9 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.CustomerServiceTest.findAll" />
+      <item itemvalue="JUnit.CustomerServiceTest.updateCustomer" />
+      <item itemvalue="JUnit.CustomerServiceTest.deleteById" />
       <item itemvalue="Spring Boot.ScRegistryApplication" />
       <item itemvalue="Spring Boot.ScGatewayApplication" />
       <item itemvalue="Spring Boot.ScUploadApplication" />
@@ -376,19 +383,16 @@
       <item itemvalue="Spring Boot.ScSmsApplication" />
       <item itemvalue="Spring Boot.ScAuthApplication" />
       <item itemvalue="Spring Boot.ScCartApplication" />
-      <item itemvalue="JUnit.IUserServiceTest.findAll" />
-      <item itemvalue="JUnit.CustomerServiceTest.findById" />
-      <item itemvalue="JUnit.CustomerServiceTest.findAll" />
-      <item itemvalue="JUnit.CustomerServiceTest.updateCustomer" />
-      <item itemvalue="JUnit.CustomerServiceTest.deleteById" />
+      <item itemvalue="JUnit.MultiQueryTest.testQuery" />
+      <item itemvalue="JUnit.MultiQueryTest.testAdd" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MultiQueryTest.testAdd" />
+        <item itemvalue="JUnit.MultiQueryTest.testQuery" />
+        <item itemvalue="JUnit.CustomerServiceTest.findAll" />
         <item itemvalue="JUnit.CustomerServiceTest.updateCustomer" />
         <item itemvalue="JUnit.CustomerServiceTest.deleteById" />
-        <item itemvalue="JUnit.CustomerServiceTest.findAll" />
-        <item itemvalue="JUnit.CustomerServiceTest.findById" />
-        <item itemvalue="JUnit.IUserServiceTest.findAll" />
       </list>
     </recent_temporary>
   </component>
@@ -477,7 +481,8 @@
       <workItem from="1586313361091" duration="27559000" />
       <workItem from="1586401424184" duration="13037000" />
       <workItem from="1586494177195" duration="603000" />
-      <workItem from="1586577349178" duration="19466000" />
+      <workItem from="1586577349178" duration="19506000" />
+      <workItem from="1586658424233" duration="5095000" />
     </task>
     <task id="LOCAL-00001" summary="shopping city -bec">
       <created>1584332491647</created>
@@ -745,14 +750,20 @@
       <option name="project" value="LOCAL" />
       <updated>1586601309000</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="spring-data-jpa -st 2nd">
+      <created>1586614602177</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1586614602177</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="shopping city -st lucene CRUD" />
     <MESSAGE value="shopping city -st elasticsearch crud" />
     <MESSAGE value="shopping city -st spring data elasticsearch 聚合" />
     <MESSAGE value="shopping city -st sc-search" />
@@ -777,13 +788,18 @@
     <MESSAGE value="concurrent package -st ThreadPool" />
     <MESSAGE value="concurrent package -st ThreadPool 2nd" />
     <MESSAGE value="orm jpa hibernate spring-data-jpa -st" />
-    <option name="LAST_COMMIT_MESSAGE" value="orm jpa hibernate spring-data-jpa -st" />
+    <MESSAGE value="spring-data-jpa -st 2nd" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring-data-jpa -st 2nd" />
   </component>
   <component name="WindowStateProjectService">
     <state x="590" y="156" key="#Application" timestamp="1585817629275">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="590" y="156" key="#Application/0.0.1920.1040@0.0.1920.1040" timestamp="1585817629275" />
+    <state x="552" y="178" key="#Assign_Data_Sources" timestamp="1586662217110">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#Assign_Data_Sources/0.0.1920.1040@0.0.1920.1040" timestamp="1586662217110" />
     <state x="552" y="178" key="#Project_Structure" timestamp="1585130060885">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -804,10 +820,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="179" key="#Updates/0.0.1920.1040@0.0.1920.1040" timestamp="1586588695967" />
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1586600743968">
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1586663516068">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1586600743968" />
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1586663516068" />
     <state x="689" y="302" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1584696130343">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -828,46 +844,46 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="254" y="0" key="#org.jetbrains.kotlin.idea.refactoring.safeDelete.KotlinOverridingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584727699906" />
-    <state x="483" y="112" key="CommitChangelistDialog2" timestamp="1586601303746">
+    <state x="483" y="112" key="CommitChangelistDialog2" timestamp="1586614599786">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="483" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586601303746" />
+    <state x="483" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586614599786" />
     <state x="740" y="209" key="FileChooserDialogImpl" timestamp="1584379980120">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="209" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1584379980120" />
-    <state width="1877" height="430" key="GridCell.Tab.0.bottom" timestamp="1586613609084">
+    <state width="1877" height="498" key="GridCell.Tab.0.bottom" timestamp="1586663701564">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="430" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586613609084" />
-    <state width="1877" height="430" key="GridCell.Tab.0.center" timestamp="1586613609084">
+    <state width="1877" height="498" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586663701564" />
+    <state width="1877" height="498" key="GridCell.Tab.0.center" timestamp="1586663701564">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="430" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586613609084" />
-    <state width="1877" height="430" key="GridCell.Tab.0.left" timestamp="1586613609084">
+    <state width="1877" height="498" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586663701564" />
+    <state width="1877" height="498" key="GridCell.Tab.0.left" timestamp="1586663701564">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="430" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586613609084" />
-    <state width="1877" height="430" key="GridCell.Tab.0.right" timestamp="1586613609084">
+    <state width="1877" height="498" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586663701564" />
+    <state width="1877" height="498" key="GridCell.Tab.0.right" timestamp="1586663701564">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="430" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586613609084" />
-    <state width="1877" height="355" key="GridCell.Tab.1.bottom" timestamp="1586588482677">
+    <state width="1877" height="498" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586663701564" />
+    <state width="1877" height="355" key="GridCell.Tab.1.bottom" timestamp="1586614625766">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="355" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586588482677" />
-    <state width="1877" height="355" key="GridCell.Tab.1.center" timestamp="1586588482677">
+    <state width="1877" height="355" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586614625766" />
+    <state width="1877" height="355" key="GridCell.Tab.1.center" timestamp="1586614625766">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="355" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586588482677" />
-    <state width="1877" height="355" key="GridCell.Tab.1.left" timestamp="1586588482677">
+    <state width="1877" height="355" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586614625766" />
+    <state width="1877" height="355" key="GridCell.Tab.1.left" timestamp="1586614625766">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="355" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586588482677" />
-    <state width="1877" height="355" key="GridCell.Tab.1.right" timestamp="1586588482677">
+    <state width="1877" height="355" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586614625766" />
+    <state width="1877" height="355" key="GridCell.Tab.1.right" timestamp="1586614625766">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="355" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586588482677" />
+    <state width="1877" height="355" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586614625766" />
     <state width="1504" height="356" key="GridCell.Tab.2.bottom" timestamp="1585192020336">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -900,10 +916,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1585575045843" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1586601326242">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1586614609380">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586601326242" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586614609380" />
     <state x="1173" y="284" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1586600766578">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
