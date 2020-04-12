@@ -38,7 +38,7 @@ public class Customer implements Serializable {
     //配置客户和联系人的一对多关系
 //    @OneToMany(targetEntity = LinkMan.class,fetch = FetchType.EAGER)
 //    @JoinColumn(name = "lkm_cust_id", referencedColumnName = "cust_id")
-    @OneToMany(mappedBy = "customer")
+    @OneToMany(mappedBy = "customer", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     private Set<LinkMan> linkmans = new HashSet<>(0);
 
     public Set<LinkMan> getLinkmans() {
@@ -115,7 +115,6 @@ public class Customer implements Serializable {
                 ", custLevel='" + custLevel + '\'' +
                 ", custAddress='" + custAddress + '\'' +
                 ", custPhone='" + custPhone + '\'' +
-                ", linkmans=" + linkmans +
                 '}';
     }
 }
