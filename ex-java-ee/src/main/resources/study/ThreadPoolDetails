@@ -1,0 +1,31 @@
+自定义线程池
+    Executors
+    new ThreadPoolExecutor(int corePoolSize,                                    --线程池容量
+                                      int maximumPoolSize,                      --最大线程数
+                                      long keepAliveTime,                       --空闲线程存活时间
+                                      TimeUnit unit,
+                                      BlockingQueue<Runnable> workQueue,
+                                      ThreadFactory threadFactory,
+                                      RejectedExecutionHandler handler)
+线程池的五种状态：                               阻塞队列为空，线程池中的工作线程数量为0
+              执行shutdown         shutdown   ------ ------ -------- --------- --------》       执行terminated（）
+    Running -------- -------- 》                                                         Tidying   --------》Terminated
+              执行shutdownNow      stop       ------ ------ -------- --------- --------》
+                                                线程池中的工作数量为0
+
+   private final AtomicInteger ctl = new AtomicInteger(ctlOf(RUNNING, 0));
+    private static final int COUNT_BITS = Integer.SIZE - 3;
+    private static final int COUNT_MASK = (1 << COUNT_BITS) - 1;
+
+    // runState is stored in the high-order bits
+    private static final int RUNNING    = -1 << COUNT_BITS;
+        111 -> RUNNING
+    private static final int SHUTDOWN   =  0 << COUNT_BITS;
+        000 -> SHUTDOWN
+    private static final int STOP       =  1 << COUNT_BITS;
+        001 -> STOP
+    private static final int TIDYING    =  2 << COUNT_BITS;
+        010 -> TIDYING
+    private static final int TERMINATED =  3 << COUNT_BITS;
+        011 -> TERMINATED
+

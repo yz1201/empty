@@ -119,12 +119,13 @@
             <artifactId>slf4j-api</artifactId>
             <version>1.7.30</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/org.springframework.data/spring-data-cn.dbdj1201.jpa -->
+        <!-- https://mvnrepository.com/artifact/org.springframework.data/spring-data-jpa -->
         <dependency>
             <groupId>org.springframework.data</groupId>
-            <artifactId>spring-data-cn.dbdj1201.jpa</artifactId>
+            <artifactId>spring-data-jpa</artifactId>
             <version>2.2.6.RELEASE</version>
         </dependency>
+
         <!-- https://mvnrepository.com/artifact/org.springframework/spring-test -->
         <dependency>
             <groupId>org.springframework</groupId>
@@ -144,7 +145,12 @@
             <artifactId>javax.el</artifactId>
             <version>3.0.0</version>
         </dependency>
-
+        <!-- https://mvnrepository.com/artifact/org.openjdk.jol/jol-core -->
+        <dependency>
+            <groupId>org.openjdk.jol</groupId>
+            <artifactId>jol-core</artifactId>
+            <version>0.10</version>
+        </dependency>
     </dependencies>
 
 </project>

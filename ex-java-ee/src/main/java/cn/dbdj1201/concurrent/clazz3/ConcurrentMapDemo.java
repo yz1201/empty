@@ -19,7 +19,7 @@ public class ConcurrentMapDemo {
                         ConcurrentLinkedQueue  poll peak
                         BlockingQueue 阻塞式队列
                             LinkedBlockingQueue 无界队列 put add offer take
-                            ArrayBlockingQueue take
+                            ArrayBlockingQueue 有界队列 take
                             DelayQueue 执行定时任务
                             LinkedTransferQueue  transfer 有容量，没有消费者就阻塞。
                             SynchronusQueue 没有容量，必须有消费者等着消费，不能放在容器储存

@@ -20,6 +20,7 @@
         <module name="sc-order" />
         <module name="sc-user-interface" />
         <module name="sc-auth-common" />
+        <module name="ex-lucene" />
         <module name="sc-upload" />
         <module name="sc-search" />
         <module name="sc-cart" />
@@ -31,10 +32,9 @@
         <module name="ex-rabbitmq" />
         <module name="sc-item-service" />
         <module name="sc-user-service" />
-        <module name="sc-common" />
         <module name="sc-gateway" />
         <module name="sc-auth-service" />
-        <module name="ex-lucene" />
+        <module name="sc-common" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
