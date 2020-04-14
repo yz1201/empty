@@ -49,4 +49,12 @@ public class UserService implements IUserService {
 //        Arrays.stream(ids).forEach(id -> this.userMapper.deleteByPrimaryKey(id));
         Arrays.stream(ids).forEach(this.userMapper::deleteByPrimaryKey);
     }
+
+    @Override
+    public boolean login(String username, String password) {
+        User record = new User();
+        record.setUsername(username);
+        record.setPassword(password);
+        return this.userMapper.selectOne(record) != null;
+    }
 }

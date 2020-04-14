@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>login</title>
+    <script src="js/vuejs-2.5.16.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+        #app2020 {
+            align-content: center;
+            text-align: center;
+        }
+    </style>
+</head>
+<body class="bg-success">
+<div id="app2020" class="container">
+    <label title="用户名">
+        用户名： <input class="input-lg" type="text" id="username" v-model="user.username"
+                    placeholder="input your username">
+    </label><br/>
+    <label title="密码">
+        密码：&nbsp; &nbsp;<input type="text" class="input-lg" id="password" v-model="user.password"
+                               placeholder="input your password">
+    </label><br/>
+    <button type="submit" @click="login">登录</button>
+</div>
+</body>
+<script>
+    new Vue({
+        el: "#app2020",
+        data: {
+            user: {
+                username: "",
+                password: ""
+            }
+
+        },
+        methods: {
+            login() {
+                axios.post('/user/login',
+                    "username=" + this.user.username + "&password=" + this.user.password
+                ).then(function () {
+                    window.location.href = ("http://127.0.0.1:12099/list.html");
+                }).catch(function (res) {
+                    console.log("出了点问题");
+                    console.log(res)
+                })
+            }
+        }
+    })
+
+</script>
+</html>

@@ -51,4 +51,13 @@ public interface IUserService {
      * @param ids
      */
     void deleteByIds(Long... ids);
+
+    /**
+     * 根据用户名以及密码登录
+     *
+     * @param username
+     * @param password
+     * @return
+     */
+    boolean login(String username, String password);
 }

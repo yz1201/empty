@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>list</title>
+    <script src="js/vuejs-2.5.16.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body class="bg-success">
+<div id="app2021" class="container">
+    <ul class="list-group" v-for="(user, id) in users">
+        <li class="list-group-item">{{user.id}}</li>
+        <li class="list-group-item">{{user.username}}</li>
+        <li class="list-group-item">{{user.password}}</li>
+        <li class="list-group-item">{{user.age}}</li>
+        <li class="list-group-item">{{user.sex}}</li>
+        <li class="list-group-item">{{user.email}}</li>
+    </ul>
+
+</div>
+</body>
+<script>
+    new Vue({
+        el: "#app2021",
+        data: {
+            users: []
+        },
+        methods: {},
+        created() {
+            axios.get('/user/list').then(res => {
+                console.log(res.data);
+                this.users = res.data;
+            }).catch()
+        }
+    })
+
+</script>
+</html>

@@ -2,37 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed85c090-aefa-43e3-acbf-d3f7dd4a1eb7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-user-manage/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-user-manage/src/main/java/cn/dbdj1201/user/ms/UserMSApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-user-manage/src/main/java/cn/dbdj1201/user/ms/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-user-manage/src/main/java/cn/dbdj1201/user/ms/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-user-manage/src/main/java/cn/dbdj1201/user/ms/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-user-manage/src/main/java/cn/dbdj1201/user/ms/service/IUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-user-manage/src/main/java/cn/dbdj1201/user/ms/service/impl/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-user-manage/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-user-manage/src/main/resources/static/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-user-manage/src/main/resources/static/hellovue.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-user-manage/src/main/resources/static/hellovue1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-user-manage/src/main/resources/static/js/axios-0.18.0.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-user-manage/src/main/resources/static/js/user.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-user-manage/src/main/resources/static/js/vuejs-2.5.16.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-user-manage/src/main/resources/static/user.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-user-manage/src/test/java/cn/dbdj1201/user/ms/service/IUserServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex-user-manage/src/main/resources/static/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex-user-manage/src/main/resources/static/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/empty.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/concurrent/cas/JolDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/concurrent/cas/JolDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex-java-ee/src/main/resources/study/JavaObjectModel" beforeDir="false" afterPath="$PROJECT_DIR$/ex-java-ee/src/main/resources/study/JavaObjectModelDetails" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex-rabbitmq/ex-rabbitmq.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sc-auth/sc-auth-service/sc-auth-service.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sc-auth/sc-auth.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sc-cart/sc-cart.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sc-goods-web/sc-goods-web.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sc-search/sc-search.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex-user-manage/src/main/java/cn/dbdj1201/user/ms/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex-user-manage/src/main/java/cn/dbdj1201/user/ms/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex-user-manage/src/main/java/cn/dbdj1201/user/ms/service/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex-user-manage/src/main/java/cn/dbdj1201/user/ms/service/IUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex-user-manage/src/main/java/cn/dbdj1201/user/ms/service/impl/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex-user-manage/src/main/java/cn/dbdj1201/user/ms/service/impl/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex-user-manage/src/main/resources/static/hellovue1.html" beforeDir="false" afterPath="$PROJECT_DIR$/ex-user-manage/src/main/resources/static/hellovue1.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +93,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ex-user-manage/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ex-user-manage/src/main/resources/static" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -148,8 +126,8 @@
       <recent name="cn.dbdj1201.es" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\maven_project\empty\ex-user-manage\src\main\resources" />
       <recent name="F:\maven_project\empty\ex-user-manage\src\main\resources\static" />
+      <recent name="F:\maven_project\empty\ex-user-manage\src\main\resources" />
       <recent name="F:\maven_project\empty\sc-order\src\main\resources" />
       <recent name="F:\maven_project\empty\sc-order\src\main\java\cn\dbdj1201\sc\order\service\impl" />
       <recent name="F:\maven_project\empty\sc-order\src\main\java\cn\dbdj1201\sc\order\service\api" />
@@ -498,7 +476,7 @@
       <workItem from="1586741661270" duration="14033000" />
       <workItem from="1586829868049" duration="3102000" />
       <workItem from="1586833759634" duration="3517000" />
-      <workItem from="1586838436934" duration="8705000" />
+      <workItem from="1586838436934" duration="15561000" />
     </task>
     <task id="LOCAL-00001" summary="shopping city -bec">
       <created>1584332491647</created>
@@ -794,14 +772,20 @@
       <option name="project" value="LOCAL" />
       <updated>1586772620439</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="springboot ssm + vue user-manage-system -st">
+      <created>1586857120345</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1586857120345</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="shopping city -st sc-search indexs" />
     <MESSAGE value="shopping city -st sc-search query impl" />
     <MESSAGE value="shopping city -st sc-search category brand specs aggregation" />
     <MESSAGE value="shopping city -st sc-search category brand specs aggregation filter" />
@@ -826,7 +810,8 @@
     <MESSAGE value="spring-data-jpa hibernate 12n 121 n2n -st 3nd" />
     <MESSAGE value="spring-data-jpa hibernate 12n 121 n2n -st 4nd" />
     <MESSAGE value="高并发课程 -st ThreadPoolExecutor ctl CAS JOL" />
-    <option name="LAST_COMMIT_MESSAGE" value="高并发课程 -st ThreadPoolExecutor ctl CAS JOL" />
+    <MESSAGE value="springboot ssm + vue user-manage-system -st" />
+    <option name="LAST_COMMIT_MESSAGE" value="springboot ssm + vue user-manage-system -st" />
   </component>
   <component name="WindowStateProjectService">
     <state x="590" y="156" key="#Application" timestamp="1585817629275">
@@ -861,10 +846,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="673" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1586772311919" />
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1586851329823">
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1586878164983">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1586851329823" />
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1586878164983" />
     <state x="689" y="302" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1584696130343">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -885,46 +870,46 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="254" y="0" key="#org.jetbrains.kotlin.idea.refactoring.safeDelete.KotlinOverridingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584727699906" />
-    <state x="483" y="112" key="CommitChangelistDialog2" timestamp="1586772617205">
+    <state x="483" y="112" key="CommitChangelistDialog2" timestamp="1586857115874">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="483" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586772617205" />
+    <state x="483" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586857115874" />
     <state x="740" y="209" key="FileChooserDialogImpl" timestamp="1584379980120">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="209" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1584379980120" />
-    <state width="1547" height="212" key="GridCell.Tab.0.bottom" timestamp="1586854644446">
+    <state width="1561" height="450" key="GridCell.Tab.0.bottom" timestamp="1586881003040">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1547" height="212" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586854644446" />
-    <state width="1547" height="212" key="GridCell.Tab.0.center" timestamp="1586854644445">
+    <state width="1561" height="450" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586881003040" />
+    <state width="1561" height="450" key="GridCell.Tab.0.center" timestamp="1586881003040">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1547" height="212" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586854644445" />
-    <state width="1547" height="212" key="GridCell.Tab.0.left" timestamp="1586854644445">
+    <state width="1561" height="450" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586881003040" />
+    <state width="1561" height="450" key="GridCell.Tab.0.left" timestamp="1586881003040">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1547" height="212" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586854644445" />
-    <state width="1547" height="212" key="GridCell.Tab.0.right" timestamp="1586854644446">
+    <state width="1561" height="450" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586881003040" />
+    <state width="1561" height="450" key="GridCell.Tab.0.right" timestamp="1586881003040">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1547" height="212" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586854644446" />
-    <state width="1547" height="212" key="GridCell.Tab.1.bottom" timestamp="1586854644447">
+    <state width="1561" height="450" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586881003040" />
+    <state width="1561" height="450" key="GridCell.Tab.1.bottom" timestamp="1586881003041">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1547" height="212" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586854644447" />
-    <state width="1547" height="212" key="GridCell.Tab.1.center" timestamp="1586854644446">
+    <state width="1561" height="450" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586881003041" />
+    <state width="1561" height="450" key="GridCell.Tab.1.center" timestamp="1586881003041">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1547" height="212" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586854644446" />
-    <state width="1547" height="212" key="GridCell.Tab.1.left" timestamp="1586854644446">
+    <state width="1561" height="450" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586881003041" />
+    <state width="1561" height="450" key="GridCell.Tab.1.left" timestamp="1586881003040">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1547" height="212" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586854644446" />
-    <state width="1547" height="212" key="GridCell.Tab.1.right" timestamp="1586854644446">
+    <state width="1561" height="450" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586881003040" />
+    <state width="1561" height="450" key="GridCell.Tab.1.right" timestamp="1586881003041">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1547" height="212" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586854644446" />
+    <state width="1561" height="450" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586881003041" />
     <state width="1561" height="262" key="GridCell.Tab.2.bottom" timestamp="1586853101029">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -957,10 +942,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1585575045843" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1586772626142">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1586857129057">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586772626142" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586857129057" />
     <state x="1173" y="284" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1586851342411">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -969,10 +954,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="307" y="152" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1586848846248" />
-    <state x="816" y="361" width="672" height="678" key="search.everywhere.popup" timestamp="1586854588599">
+    <state x="816" y="361" width="672" height="678" key="search.everywhere.popup" timestamp="1586876919351">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="816" y="361" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1586854588599" />
+    <state x="816" y="361" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1586876919351" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

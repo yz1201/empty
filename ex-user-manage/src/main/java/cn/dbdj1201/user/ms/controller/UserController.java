@@ -4,14 +4,11 @@ import cn.dbdj1201.user.ms.pojo.User;
 import cn.dbdj1201.user.ms.service.IUserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
-import org.springframework.http.RequestEntity;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.util.CollectionUtils;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.*;
 
-import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -30,5 +27,13 @@ public class UserController {
         if (CollectionUtils.isEmpty(users))
             return ResponseEntity.status(HttpStatus.NOT_FOUND).build();
         return ResponseEntity.ok(users);
+    }
+
+    @PostMapping("login")
+    public ResponseEntity<Void> login(String username,  String password) {
+        System.out.println("login controller -> " + username + " -> " + password);
+        if (!this.userService.login(username, password))
+            return ResponseEntity.status(HttpStatus.UNAUTHORIZED).build();
+        return ResponseEntity.ok().build();
     }
 }
