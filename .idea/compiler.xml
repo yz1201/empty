@@ -29,6 +29,7 @@
         <module name="sc-sms-service" />
         <module name="sc-goods-web" />
         <module name="ex-java-ee" />
+        <module name="ex-user-manage" />
         <module name="ex-rabbitmq" />
         <module name="sc-item-service" />
         <module name="sc-user-service" />
@@ -47,6 +48,7 @@
       <module name="ex-elasticsearch" options="-parameters" />
       <module name="ex-lucene" options="-parameters" />
       <module name="ex-rabbitmq" options="-parameters" />
+      <module name="ex-user-manage" options="-parameters" />
       <module name="sc-auth" options="-parameters" />
       <module name="sc-auth-common" options="-parameters" />
       <module name="sc-auth-service" options="-parameters" />

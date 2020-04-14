@@ -1,0 +1,44 @@
+锁相关blog ：https://blog.csdn.net/kirito_j/article/details/79201213
+java对象在内存中的存储布局：
+    普通对象：
+        markword        synchronized 信息就存储在markword中
+        类型指针        前两个加一块叫对象头
+        实例数据
+        对齐填充
+
+    数组：
+        mark word
+        类型指针    (class printer) 前两个加一块是对象头
+        数组长度    (length)
+        实例数据    (instance data)
+        对齐填充    (padding)
+
+java锁升级过程： new(无锁态)-> 偏向锁-》轻量级锁(无锁==自旋锁，自适应自旋) -》重量级锁
+synchronized的升级过程跟mark word息息相关。
+用mark word中最低的三位代表锁状态，其中一位是偏向锁位，两位是普通锁位
+
+状态	            标志位	                    存储内容
+未锁定	              01	             对象哈希码、对象分代年龄
+轻量级锁定	          00	                指向锁记录的指针
+膨胀(重量级锁定)	      10	                执行重量级锁定的指针
+GC标记	              11	                空(不需要记录信息)
+可偏向	              01	           偏向线程ID、偏向时间戳、对象分代年龄
+
+锁消除 StringBuffer 用作局部变量的append
+锁粗化 StringBuffer 循环一百次append，自动在循环外+锁，而不是循环内一百次加锁-释放锁。
+synchronized lock comxchg
+synchronized实现过程：
+    java代码：synchronized
+    字节码：monitorenter/monitoreixt
+    执行过程中自动升级
+    lock comxchg
+
+synchronized VS Lock（CAS）
+在高争用，低耗时的环境下，synchronized效率更高
+在低争用，低耗时的环境下，CAS效率高。
+synchronized到重量级之后是等待队列（不再消耗CPU）
+CAS自旋时是消耗CPU资源的。
+
+
+
+

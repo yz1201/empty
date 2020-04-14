@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hello</title>
+</head>
+<script src="js/vuejs-2.5.16.js"></script>
+<body>
+<h1>TEST TEST</h1>
+<div id="app208">
+    {{message}}<br/>
+    {{warner}}<br/>
+    {{true ? 'YES' : 'NO'}}<br/>
+    {{'asdasd' ? 'YES' : 'NO'}}<br/>
+    {{1 ? 'YES' : 'NO'}}<br/>
+    {{0 ? 'YES' : 'NO'}}<br/>
+    {{OK ? 'YES' : 'NO'}}<br/>
+    {{-325 ? 'YES' : 'NO'}}<br/>
+    {{ok == undefined}}<br/>
+    <button v-on:click="chg('lock comxchg')">CHANGE</button>
+
+    <label>
+        <input type="text" v-on:keydown="input1('test',$event)">
+    </label>
+</div>
+</body>
+<script>
+    new Vue({
+        el: "#app208",
+        data: {
+            message: 'hello vue',
+            warner: 'run away'
+        },
+        methods: {
+            chg(msg) {
+                this.message = msg;
+            },
+            input1(msg, event) {
+                if (!((event.keyCode >= 48 && event.keyCode <= 57) || event.keyCode === 8 || event.keyCode === 46)) {
+                    event.preventDefault();
+                }
+            }
+        }
+    });
+
+</script>
+</html>

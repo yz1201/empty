@@ -4,6 +4,7 @@
     <file url="file://$PROJECT_DIR$/ex-elasticsearch/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ex-lucene/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ex-rabbitmq/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ex-user-manage/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sc-auth/sc-auth-common/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sc-auth/sc-auth-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sc-auth/src/main/java" charset="UTF-8" />

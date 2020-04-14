@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/ex-java-ee/pom.xml" />
         <option value="$PROJECT_DIR$/ex-rabbitmq/pom.xml" />
         <option value="$PROJECT_DIR$/sc-user/pom.xml" />
+        <option value="$PROJECT_DIR$/ex-user-manage/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

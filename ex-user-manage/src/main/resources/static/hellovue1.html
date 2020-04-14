@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hello</title>
+</head>
+<script src="js/vuejs-2.5.16.js"></script>
+<body>
+<div id="app2008">
+    {{message}}
+    <!--    <div v-on:mouseover="fun1" id="div">-->
+    <!--        <textarea v-on:mouseover="fun2($event)">这是一个文件域</textarea>-->
+    <!--    </div>-->
+
+    <p v-text="message"></p>
+    <p v-html="message"></p>
+</div>
+</body>
+<script>
+    new Vue({
+        el: "#app2008",
+        data: {
+            message: '<h1>冲出亚洲</h1>',
+        },
+        methods: {
+            fun1() {
+                alert("div");
+            },
+            fun2(event) {
+                alert("textarea");
+                event.stopPropagation();
+            }
+        }
+    });
+
+</script>
+</html>
