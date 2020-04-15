@@ -1,16 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="4" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="ed85c090-aefa-43e3-acbf-d3f7dd4a1eb7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-user-manage/src/main/resources/static/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-user-manage/src/main/resources/static/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/SparseArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/SparseArrayUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/StringDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/queue/ArrayQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/resources/study/ds/ds_day1_Queue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/resources/study/ds/ds_day1_稀疏数组" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex-user-manage/src/main/java/cn/dbdj1201/user/ms/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex-user-manage/src/main/java/cn/dbdj1201/user/ms/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex-user-manage/src/main/java/cn/dbdj1201/user/ms/service/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex-user-manage/src/main/java/cn/dbdj1201/user/ms/service/IUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex-user-manage/src/main/java/cn/dbdj1201/user/ms/service/impl/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex-user-manage/src/main/java/cn/dbdj1201/user/ms/service/impl/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex-user-manage/src/main/resources/static/hellovue1.html" beforeDir="false" afterPath="$PROJECT_DIR$/ex-user-manage/src/main/resources/static/hellovue1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/concurrent/cas/JolDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/concurrent/cas/JolDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex-java-ee/src/main/resources/study/JavaObjectModelDetails" beforeDir="false" afterPath="$PROJECT_DIR$/ex-java-ee/src/main/resources/study/JavaObjectModelDetails" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,13 +61,16 @@
         <option value="spring-beans.schema" />
         <option value="Interface" />
         <option value="JUnit4 Test Class" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/SparseArrayUtils.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -88,6 +113,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ToolWindowProblems.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
@@ -105,7 +131,8 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.24597701" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
     <property name="ts.external.directory.path" value="F:\IntelliJ IDEA 2019.2.4\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="ReactorSettings">
@@ -148,7 +175,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.UserMSApplication">
+  <component name="RunManager" selected="Application.ArrayQueue">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -160,13 +187,55 @@
       <Host>localhost</Host>
       <Port>5050</Port>
     </configuration>
-    <configuration name="JolDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.concurrent.cas.JolDemo" />
+    <configuration name="ArrayQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.ds.queue.ArrayQueue" />
       <module name="ex-java-ee" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.dbdj1201.concurrent.cas.*" />
+          <option name="PATTERN" value="cn.dbdj1201.ds.queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SparseArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.ds.SparseArray" />
+      <module name="ex-java-ee" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.dbdj1201.ds.queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SparseArrayUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.ds.SparseArrayUtils" />
+      <module name="ex-java-ee" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.dbdj1201.ds.queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.ds.StringDemo" />
+      <module name="ex-java-ee" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.dbdj1201.ds.queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -191,66 +260,6 @@
       <option name="PACKAGE_NAME" value="cn.dbdj1201.user.ms.service" />
       <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.user.ms.service.IUserServiceTest" />
       <option name="METHOD_NAME" value="findAll" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MultiQueryTest.testAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ex-java-ee" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.dbdj1201.jpa.service.impl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.dbdj1201.jpa.service.impl" />
-      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.jpa.service.impl.MultiQueryTest" />
-      <option name="METHOD_NAME" value="testAdd" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MultiQueryTest.testFind" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ex-java-ee" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.dbdj1201.jpa.service.impl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.dbdj1201.jpa.service.impl" />
-      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.jpa.service.impl.MultiQueryTest" />
-      <option name="METHOD_NAME" value="testFind" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MultiQueryTest.testFind1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ex-java-ee" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.dbdj1201.jpa.service.impl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.dbdj1201.jpa.service.impl" />
-      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.jpa.service.impl.MultiQueryTest" />
-      <option name="METHOD_NAME" value="testFind1" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
@@ -385,10 +394,7 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.JolDemo" />
-      <item itemvalue="JUnit.MultiQueryTest.testAdd" />
-      <item itemvalue="JUnit.MultiQueryTest.testFind" />
-      <item itemvalue="JUnit.MultiQueryTest.testFind1" />
+      <item itemvalue="JUnit.IUserServiceTest.findAll" />
       <item itemvalue="Spring Boot.ScRegistryApplication" />
       <item itemvalue="Spring Boot.ScGatewayApplication" />
       <item itemvalue="Spring Boot.ScUploadApplication" />
@@ -401,16 +407,19 @@
       <item itemvalue="Spring Boot.ScCartApplication" />
       <item itemvalue="Spring Boot.EsApplication" />
       <item itemvalue="Spring Boot.ScOrderApplication" />
-      <item itemvalue="JUnit.IUserServiceTest.findAll" />
       <item itemvalue="Spring Boot.UserMSApplication" />
+      <item itemvalue="Application.StringDemo" />
+      <item itemvalue="Application.SparseArray" />
+      <item itemvalue="Application.SparseArrayUtils" />
+      <item itemvalue="Application.ArrayQueue" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrayQueue" />
+        <item itemvalue="Application.SparseArrayUtils" />
+        <item itemvalue="Application.SparseArray" />
+        <item itemvalue="Application.StringDemo" />
         <item itemvalue="JUnit.IUserServiceTest.findAll" />
-        <item itemvalue="Application.JolDemo" />
-        <item itemvalue="JUnit.MultiQueryTest.testFind1" />
-        <item itemvalue="JUnit.MultiQueryTest.testFind" />
-        <item itemvalue="JUnit.MultiQueryTest.testAdd" />
       </list>
     </recent_temporary>
   </component>
@@ -476,7 +485,8 @@
       <workItem from="1586741661270" duration="14033000" />
       <workItem from="1586829868049" duration="3102000" />
       <workItem from="1586833759634" duration="3517000" />
-      <workItem from="1586838436934" duration="15561000" />
+      <workItem from="1586838436934" duration="16771000" />
+      <workItem from="1586915029437" duration="21604000" />
     </task>
     <task id="LOCAL-00001" summary="shopping city -bec">
       <created>1584332491647</created>
@@ -779,14 +789,32 @@
       <option name="project" value="LOCAL" />
       <updated>1586857120345</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="springboot ssm + vue user-manage-system -done &#10;vue？ pi vue">
+      <created>1586881054011</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1586881054011</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="shopping city -st sc-search query impl" />
     <MESSAGE value="shopping city -st sc-search category brand specs aggregation" />
     <MESSAGE value="shopping city -st sc-search category brand specs aggregation filter" />
     <MESSAGE value="shopping city -st sc-search category brand specs filter elasticsearch spring data done thymeleaf begin" />
@@ -811,7 +839,8 @@
     <MESSAGE value="spring-data-jpa hibernate 12n 121 n2n -st 4nd" />
     <MESSAGE value="高并发课程 -st ThreadPoolExecutor ctl CAS JOL" />
     <MESSAGE value="springboot ssm + vue user-manage-system -st" />
-    <option name="LAST_COMMIT_MESSAGE" value="springboot ssm + vue user-manage-system -st" />
+    <MESSAGE value="springboot ssm + vue user-manage-system -done &#10;vue？ pi vue" />
+    <option name="LAST_COMMIT_MESSAGE" value="springboot ssm + vue user-manage-system -done &#10;vue？ pi vue" />
   </component>
   <component name="WindowStateProjectService">
     <state x="590" y="156" key="#Application" timestamp="1585817629275">
@@ -822,6 +851,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#Assign_Data_Sources/0.0.1920.1040@0.0.1920.1040" timestamp="1586662217110" />
+    <state x="586" y="198" key="#Inspections" timestamp="1586962228371">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="586" y="198" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1586962228371" />
+    <state x="552" y="178" width="816" height="730" key="#Intentions" timestamp="1586962570309">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" width="816" height="730" key="#Intentions/0.0.1920.1040@0.0.1920.1040" timestamp="1586962570309" />
     <state x="552" y="178" key="#Project_Structure" timestamp="1585130060885">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -842,14 +879,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="179" key="#Updates/0.0.1920.1040@0.0.1920.1040" timestamp="1586837442839" />
-    <state x="673" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586772311919">
+    <state x="673" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586965469437">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="673" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1586772311919" />
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1586878164983">
+    <state x="673" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1586965469437" />
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1586966560013">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1586878164983" />
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1586966560013" />
     <state x="689" y="302" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1584696130343">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -870,46 +907,50 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="254" y="0" key="#org.jetbrains.kotlin.idea.refactoring.safeDelete.KotlinOverridingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584727699906" />
-    <state x="483" y="112" key="CommitChangelistDialog2" timestamp="1586857115874">
+    <state x="682" y="351" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1586962260183">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="483" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586857115874" />
+    <state x="682" y="351" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1586962260183" />
+    <state x="483" y="112" key="CommitChangelistDialog2" timestamp="1586881051546">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="483" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586881051546" />
     <state x="740" y="209" key="FileChooserDialogImpl" timestamp="1584379980120">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="209" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1584379980120" />
-    <state width="1561" height="450" key="GridCell.Tab.0.bottom" timestamp="1586881003040">
+    <state width="1877" height="310" key="GridCell.Tab.0.bottom" timestamp="1586968520402">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1561" height="450" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586881003040" />
-    <state width="1561" height="450" key="GridCell.Tab.0.center" timestamp="1586881003040">
+    <state width="1877" height="310" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586968520402" />
+    <state width="1877" height="310" key="GridCell.Tab.0.center" timestamp="1586968520402">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1561" height="450" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586881003040" />
-    <state width="1561" height="450" key="GridCell.Tab.0.left" timestamp="1586881003040">
+    <state width="1877" height="310" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586968520402" />
+    <state width="1877" height="310" key="GridCell.Tab.0.left" timestamp="1586968520402">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1561" height="450" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586881003040" />
-    <state width="1561" height="450" key="GridCell.Tab.0.right" timestamp="1586881003040">
+    <state width="1877" height="310" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586968520402" />
+    <state width="1877" height="310" key="GridCell.Tab.0.right" timestamp="1586968520402">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1561" height="450" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586881003040" />
-    <state width="1561" height="450" key="GridCell.Tab.1.bottom" timestamp="1586881003041">
+    <state width="1877" height="310" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586968520402" />
+    <state width="767" height="25" key="GridCell.Tab.1.bottom" timestamp="1586882212792">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1561" height="450" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586881003041" />
-    <state width="1561" height="450" key="GridCell.Tab.1.center" timestamp="1586881003041">
+    <state width="767" height="25" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586882212792" />
+    <state width="767" height="25" key="GridCell.Tab.1.center" timestamp="1586882212791">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1561" height="450" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586881003041" />
-    <state width="1561" height="450" key="GridCell.Tab.1.left" timestamp="1586881003040">
+    <state width="767" height="25" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586882212791" />
+    <state width="767" height="25" key="GridCell.Tab.1.left" timestamp="1586882212791">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1561" height="450" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586881003040" />
-    <state width="1561" height="450" key="GridCell.Tab.1.right" timestamp="1586881003041">
+    <state width="767" height="25" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586882212791" />
+    <state width="767" height="25" key="GridCell.Tab.1.right" timestamp="1586882212792">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1561" height="450" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586881003041" />
+    <state width="767" height="25" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586882212792" />
     <state width="1561" height="262" key="GridCell.Tab.2.bottom" timestamp="1586853101029">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -934,18 +975,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="600" y="217" key="NewModule_or_Project.wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1584380000434" />
-    <state x="440" y="94" key="SettingsEditor" timestamp="1586835247905">
+    <state x="440" y="94" key="SettingsEditor" timestamp="1586962609946">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1586835247905" />
+    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1586962609946" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1585575045843">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1585575045843" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1586857129057">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1586881091868">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586857129057" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586881091868" />
     <state x="1173" y="284" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1586851342411">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -954,10 +995,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="307" y="152" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1586848846248" />
-    <state x="816" y="361" width="672" height="678" key="search.everywhere.popup" timestamp="1586876919351">
+    <state x="816" y="361" width="672" height="678" key="search.everywhere.popup" timestamp="1586962773192">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="816" y="361" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1586876919351" />
+    <state x="816" y="361" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1586962773192" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1092,7 +1133,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/concurrent/cas/JolDemo.java</url>
-          <line>13</line>
+          <line>14</line>
           <properties class="cn.dbdj1201.concurrent.cas.JolDemo" method="main">
             <option name="EMULATED" value="true" />
           </properties>

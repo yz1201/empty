@@ -28,10 +28,14 @@ GC标记	              11	                空(不需要记录信息)
 锁粗化 StringBuffer 循环一百次append，自动在循环外+锁，而不是循环内一百次加锁-释放锁。
 synchronized lock comxchg
 synchronized实现过程：
-    java代码：synchronized
-    字节码：monitorenter/monitoreixt
+java使用：  synchronized
+jvm实现    字节码：monitorenter/monitoreixt
     执行过程中自动升级
-    lock comxchg
+        new出来的普通对象。无锁态。+
+        +synchronized偏向锁，对象头中记录了线程id，后三位101（有时延）
+        有线程来竞争之后，升级为轻量锁，线程栈中生成lock record，并CAS方法记录到对象。
+        自旋十次以上，升级为重量级锁，只有一个线程能获得锁，其他线程阻塞在对象的等待队列中。
+底层实现    lock comxchg
 
 synchronized VS Lock（CAS）
 在高争用，低耗时的环境下，synchronized效率更高
@@ -39,6 +43,19 @@ synchronized VS Lock（CAS）
 synchronized到重量级之后是等待队列（不再消耗CPU）
 CAS自旋时是消耗CPU资源的。
 
+Volatile
+    多线程变量可见性
+    禁止指令重排序   DCL 双重检查锁也得+volatile
+       如何实现禁止指令重排序
+            JVM的内存屏障：屏障两边的指令不可以重排。
+         java代码-》volatile
+         编译为字节码： 加了个ACC_Volatile
+         JSR(Java Specification Requests的缩写，意思是Java 规范提案)内存屏障
+            JVM：
+                    StoreStoreBarrier               LoadLoadBarrier
+                     volatile写操作                   volatile读操作
+                    StoreLoadBarrier                LoadStoreBarrier
+         hotspot实现 bytecodeinterpreter.cpp => lock 锁总线
 
 
 

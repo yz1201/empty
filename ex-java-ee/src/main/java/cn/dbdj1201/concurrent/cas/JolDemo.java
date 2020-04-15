@@ -2,7 +2,7 @@ package cn.dbdj1201.concurrent.cas;
 
 import org.openjdk.jol.info.ClassLayout;
 
-import java.util.concurrent.LinkedTransferQueue;
+import java.lang.ref.SoftReference;
 
 /**
  * @author tyz1201
@@ -11,14 +11,14 @@ import java.util.concurrent.LinkedTransferQueue;
  **/
 public class JolDemo {
 
+    ThreadLocal threadLocal;
     public static void main(String[] args) {
         Object lock = new Object();
         System.out.println(ClassLayout.parseInstance(lock).toPrintable());
-        StringBuffer stringBuffer;
-        LinkedTransferQueue queue;
         synchronized (lock) {
             System.out.println(ClassLayout.parseInstance(lock).toPrintable());
         }
+        SoftReference reference;
     }
 
 }
