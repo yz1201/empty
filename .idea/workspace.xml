@@ -23,9 +23,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed85c090-aefa-43e3-acbf-d3f7dd4a1eb7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ex-crawler/src/main/resources/test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-crawler/src/test/java/cn/dbdj1201/crawler/JsoupDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-crawler/src/test/java/cn/dbdj1201/crawler/JsoupDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex-crawler/src/main/java/cn/dbdj1201/crawler/CrawlerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex-crawler/src/main/java/cn/dbdj1201/crawler/dao/IItemDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex-crawler/src/main/java/cn/dbdj1201/crawler/pojo/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex-crawler/src/main/java/cn/dbdj1201/crawler/service/IItemService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex-crawler/src/main/java/cn/dbdj1201/crawler/service/impl/ItemService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex-crawler/src/main/java/cn/dbdj1201/crawler/utils/HttpUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex-crawler/src/main/java/cn/dbdj1201/crawler/utils/ItemTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex-crawler/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex-crawler/src/test/java/cn/dbdj1201/crawler/service/impl/ItemServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ex-crawler/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ex-crawler/pom.xml" afterDir="false" />
     </list>
@@ -54,9 +62,9 @@
         <option value="JavaScript File" />
         <option value="JUnit5 Test Class" />
         <option value="spring-beans.schema" />
+        <option value="HTML File" />
         <option value="Interface" />
         <option value="JUnit4 Test Class" />
-        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
@@ -135,11 +143,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="cn.dbdj1201.crawler.service.impl" />
       <recent name="cn.dbdj1201.crawler" />
       <recent name="cn.dbdj1201.user.ms.service" />
       <recent name="cn.dbdj1201.jpa.service.impl" />
       <recent name="jpa.service" />
-      <recent name="cn.dbdj1201.sc.auth.service.impl" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -170,7 +178,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.JsoupDemo1.selectorTest2">
+  <component name="RunManager" selected="Spring Boot.CrawlerApplication">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -184,6 +192,46 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ItemServiceTest.findAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ex-crawler" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.dbdj1201.crawler.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.dbdj1201.crawler.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.crawler.service.impl.ItemServiceTest" />
+      <option name="METHOD_NAME" value="findAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ItemServiceTest.save" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ex-crawler" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.dbdj1201.crawler.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.dbdj1201.crawler.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.crawler.service.impl.ItemServiceTest" />
+      <option name="METHOD_NAME" value="save" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -228,72 +276,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JsoupDemo1.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ex-crawler" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.dbdj1201.crawler.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.dbdj1201.crawler" />
-      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.crawler.JsoupDemo1" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JsoupDemo1.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ex-crawler" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.dbdj1201.crawler.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.dbdj1201.crawler" />
-      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.crawler.JsoupDemo1" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JsoupDemo.stringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ex-crawler" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.dbdj1201.crawler.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.dbdj1201.crawler" />
-      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.crawler.JsoupDemo" />
-      <option name="METHOD_NAME" value="stringTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="moduleWithDependencies" />
       </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CrawlerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="ex-crawler" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.dbdj1201.crawler.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.dbdj1201.crawler.CrawlerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -426,19 +427,19 @@
       <item itemvalue="Spring Boot.EsApplication" />
       <item itemvalue="Spring Boot.ScOrderApplication" />
       <item itemvalue="Spring Boot.UserMSApplication" />
-      <item itemvalue="JUnit.JsoupDemo.stringTest" />
-      <item itemvalue="JUnit.JsoupDemo1.test" />
-      <item itemvalue="JUnit.JsoupDemo1.test1" />
       <item itemvalue="JUnit.JsoupDemo1.selectorTest" />
       <item itemvalue="JUnit.JsoupDemo1.selectorTest2" />
+      <item itemvalue="JUnit.ItemServiceTest.save" />
+      <item itemvalue="JUnit.ItemServiceTest.findAll" />
+      <item itemvalue="Spring Boot.CrawlerApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.CrawlerApplication" />
+        <item itemvalue="JUnit.ItemServiceTest.findAll" />
+        <item itemvalue="JUnit.ItemServiceTest.save" />
         <item itemvalue="JUnit.JsoupDemo1.selectorTest2" />
         <item itemvalue="JUnit.JsoupDemo1.selectorTest" />
-        <item itemvalue="JUnit.JsoupDemo1.test1" />
-        <item itemvalue="JUnit.JsoupDemo1.test" />
-        <item itemvalue="JUnit.JsoupDemo.stringTest" />
       </list>
     </recent_temporary>
   </component>
@@ -506,7 +507,7 @@
       <workItem from="1586833759634" duration="3517000" />
       <workItem from="1586838436934" duration="16771000" />
       <workItem from="1586915029437" duration="21710000" />
-      <workItem from="1587003093751" duration="11310000" />
+      <workItem from="1587003093751" duration="19378000" />
     </task>
     <task id="LOCAL-00001" summary="shopping city -bec">
       <created>1584332491647</created>
@@ -830,7 +831,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587008869694</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="crawler httpclient jsoup -st 2nd">
+      <created>1587031415176</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1587031415176</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -849,7 +857,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="shopping city -st sc-search category brand specs filter elasticsearch spring data done thymeleaf begin" />
     <MESSAGE value="shopping city -st sc-search  thymeleaf item details" />
     <MESSAGE value="shopping city -st sc-search  thymeleaf item details 2nd" />
     <MESSAGE value="shopping city -st sc-search  thymeleaf item details 3nd" />
@@ -874,7 +881,8 @@
     <MESSAGE value="springboot ssm + vue user-manage-system -done &#10;vue？ pi vue" />
     <MESSAGE value="data structure  sparsearray array queue" />
     <MESSAGE value="crawler -st" />
-    <option name="LAST_COMMIT_MESSAGE" value="crawler -st" />
+    <MESSAGE value="crawler httpclient jsoup -st 2nd" />
+    <option name="LAST_COMMIT_MESSAGE" value="crawler httpclient jsoup -st 2nd" />
   </component>
   <component name="WindowStateProjectService">
     <state x="590" y="156" key="#Application" timestamp="1585817629275">
@@ -917,10 +925,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="673" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1586965469437" />
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1586966560013">
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1587046908938">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1586966560013" />
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1587046908938" />
     <state x="689" y="302" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1584696130343">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -945,46 +953,46 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="682" y="351" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1586962260183" />
-    <state x="483" y="112" key="CommitChangelistDialog2" timestamp="1587008865772">
+    <state x="483" y="112" key="CommitChangelistDialog2" timestamp="1587031413012">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="483" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1587008865772" />
+    <state x="483" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1587031413012" />
     <state x="740" y="209" key="FileChooserDialogImpl" timestamp="1584379980120">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="209" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1584379980120" />
-    <state width="1877" height="492" key="GridCell.Tab.0.bottom" timestamp="1587031067873">
+    <state width="1561" height="686" key="GridCell.Tab.0.bottom" timestamp="1587052196430">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="492" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587031067873" />
-    <state width="1877" height="492" key="GridCell.Tab.0.center" timestamp="1587031067873">
+    <state width="1561" height="686" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587052196430" />
+    <state width="1561" height="686" key="GridCell.Tab.0.center" timestamp="1587052196430">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="492" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587031067873" />
-    <state width="1877" height="492" key="GridCell.Tab.0.left" timestamp="1587031067857">
+    <state width="1561" height="686" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587052196430" />
+    <state width="1561" height="686" key="GridCell.Tab.0.left" timestamp="1587052196430">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="492" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587031067857" />
-    <state width="1877" height="492" key="GridCell.Tab.0.right" timestamp="1587031067873">
+    <state width="1561" height="686" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587052196430" />
+    <state width="1561" height="686" key="GridCell.Tab.0.right" timestamp="1587052196430">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="492" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587031067873" />
-    <state width="767" height="25" key="GridCell.Tab.1.bottom" timestamp="1586882212792">
+    <state width="1561" height="686" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587052196430" />
+    <state width="1561" height="686" key="GridCell.Tab.1.bottom" timestamp="1587052196431">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="767" height="25" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586882212792" />
-    <state width="767" height="25" key="GridCell.Tab.1.center" timestamp="1586882212791">
+    <state width="1561" height="686" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587052196431" />
+    <state width="1561" height="686" key="GridCell.Tab.1.center" timestamp="1587052196430">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="767" height="25" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586882212791" />
-    <state width="767" height="25" key="GridCell.Tab.1.left" timestamp="1586882212791">
+    <state width="1561" height="686" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587052196430" />
+    <state width="1561" height="686" key="GridCell.Tab.1.left" timestamp="1587052196430">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="767" height="25" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586882212791" />
-    <state width="767" height="25" key="GridCell.Tab.1.right" timestamp="1586882212792">
+    <state width="1561" height="686" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587052196430" />
+    <state width="1561" height="686" key="GridCell.Tab.1.right" timestamp="1587052196430">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="767" height="25" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586882212792" />
+    <state width="1561" height="686" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587052196430" />
     <state width="1561" height="262" key="GridCell.Tab.2.bottom" timestamp="1586853101029">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -1017,22 +1025,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1585575045843" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1587008877709">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1587031420579">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1587008877709" />
-    <state x="1173" y="284" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1587004295450">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1587031420579" />
+    <state x="1173" y="284" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1587046085453">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1173" y="284" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587004295450" />
+    <state x="1173" y="284" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587046085453" />
     <state x="307" y="152" key="new project wizard" timestamp="1587003365527">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="307" y="152" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1587003365527" />
-    <state x="816" y="361" width="672" height="678" key="search.everywhere.popup" timestamp="1586962773192">
+    <state x="816" y="361" width="672" height="678" key="search.everywhere.popup" timestamp="1587046506810">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="816" y="361" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1586962773192" />
+    <state x="816" y="361" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1587046506810" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
