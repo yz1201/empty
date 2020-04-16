@@ -23,14 +23,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed85c090-aefa-43e3-acbf-d3f7dd4a1eb7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ex-crawler/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-crawler/src/main/java/cn/dbdj1201/crawler/Demo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-crawler/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-crawler/src/test/java/cn/dbdj1201/crawler/Demo1Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-crawler/src/test/java/cn/dbdj1201/crawler/HttpClientPoolTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex-crawler/src/main/resources/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex-crawler/src/test/java/cn/dbdj1201/crawler/JsoupDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex-crawler/src/test/java/cn/dbdj1201/crawler/JsoupDemo1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex-crawler/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ex-crawler/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,8 +55,8 @@
         <option value="JUnit5 Test Class" />
         <option value="spring-beans.schema" />
         <option value="Interface" />
-        <option value="HTML File" />
         <option value="JUnit4 Test Class" />
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
@@ -173,7 +170,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.HttpClientPoolTest.testPool">
+  <component name="RunManager" selected="JUnit.JsoupDemo1.selectorTest2">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -191,7 +188,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo1Test.getCrawlerWithParam" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JsoupDemo1.selectorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ex-crawler" />
       <extension name="coverage">
         <pattern>
@@ -200,8 +197,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="cn.dbdj1201.crawler" />
-      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.crawler.Demo1Test" />
-      <option name="METHOD_NAME" value="getCrawlerWithParam" />
+      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.crawler.JsoupDemo1" />
+      <option name="METHOD_NAME" value="selectorTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
@@ -211,7 +208,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo1Test.iCrawler" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JsoupDemo1.selectorTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ex-crawler" />
       <extension name="coverage">
         <pattern>
@@ -220,8 +217,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="cn.dbdj1201.crawler" />
-      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.crawler.Demo1Test" />
-      <option name="METHOD_NAME" value="iCrawler" />
+      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.crawler.JsoupDemo1" />
+      <option name="METHOD_NAME" value="selectorTest2" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
@@ -231,7 +228,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo1Test.postCrawler" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JsoupDemo1.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ex-crawler" />
       <extension name="coverage">
         <pattern>
@@ -240,8 +237,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="cn.dbdj1201.crawler" />
-      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.crawler.Demo1Test" />
-      <option name="METHOD_NAME" value="postCrawler" />
+      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.crawler.JsoupDemo1" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
@@ -251,7 +248,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo1Test.postCrawlerWithParam" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JsoupDemo1.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ex-crawler" />
       <extension name="coverage">
         <pattern>
@@ -260,8 +257,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="cn.dbdj1201.crawler" />
-      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.crawler.Demo1Test" />
-      <option name="METHOD_NAME" value="postCrawlerWithParam" />
+      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.crawler.JsoupDemo1" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
@@ -271,7 +268,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HttpClientPoolTest.testPool" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JsoupDemo.stringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ex-crawler" />
       <extension name="coverage">
         <pattern>
@@ -280,8 +277,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="cn.dbdj1201.crawler" />
-      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.crawler.HttpClientPoolTest" />
-      <option name="METHOD_NAME" value="testPool" />
+      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.crawler.JsoupDemo" />
+      <option name="METHOD_NAME" value="stringTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
@@ -429,19 +426,19 @@
       <item itemvalue="Spring Boot.EsApplication" />
       <item itemvalue="Spring Boot.ScOrderApplication" />
       <item itemvalue="Spring Boot.UserMSApplication" />
-      <item itemvalue="JUnit.Demo1Test.iCrawler" />
-      <item itemvalue="JUnit.Demo1Test.getCrawlerWithParam" />
-      <item itemvalue="JUnit.Demo1Test.postCrawler" />
-      <item itemvalue="JUnit.Demo1Test.postCrawlerWithParam" />
-      <item itemvalue="JUnit.HttpClientPoolTest.testPool" />
+      <item itemvalue="JUnit.JsoupDemo.stringTest" />
+      <item itemvalue="JUnit.JsoupDemo1.test" />
+      <item itemvalue="JUnit.JsoupDemo1.test1" />
+      <item itemvalue="JUnit.JsoupDemo1.selectorTest" />
+      <item itemvalue="JUnit.JsoupDemo1.selectorTest2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.HttpClientPoolTest.testPool" />
-        <item itemvalue="JUnit.Demo1Test.postCrawlerWithParam" />
-        <item itemvalue="JUnit.Demo1Test.postCrawler" />
-        <item itemvalue="JUnit.Demo1Test.getCrawlerWithParam" />
-        <item itemvalue="JUnit.Demo1Test.iCrawler" />
+        <item itemvalue="JUnit.JsoupDemo1.selectorTest2" />
+        <item itemvalue="JUnit.JsoupDemo1.selectorTest" />
+        <item itemvalue="JUnit.JsoupDemo1.test1" />
+        <item itemvalue="JUnit.JsoupDemo1.test" />
+        <item itemvalue="JUnit.JsoupDemo.stringTest" />
       </list>
     </recent_temporary>
   </component>
@@ -509,7 +506,7 @@
       <workItem from="1586833759634" duration="3517000" />
       <workItem from="1586838436934" duration="16771000" />
       <workItem from="1586915029437" duration="21710000" />
-      <workItem from="1587003093751" duration="5672000" />
+      <workItem from="1587003093751" duration="11310000" />
     </task>
     <task id="LOCAL-00001" summary="shopping city -bec">
       <created>1584332491647</created>
@@ -826,7 +823,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586968933980</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="crawler -st">
+      <created>1587008869694</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1587008869694</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -845,7 +849,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="shopping city -st sc-search category brand specs aggregation filter" />
     <MESSAGE value="shopping city -st sc-search category brand specs filter elasticsearch spring data done thymeleaf begin" />
     <MESSAGE value="shopping city -st sc-search  thymeleaf item details" />
     <MESSAGE value="shopping city -st sc-search  thymeleaf item details 2nd" />
@@ -870,7 +873,8 @@
     <MESSAGE value="springboot ssm + vue user-manage-system -st" />
     <MESSAGE value="springboot ssm + vue user-manage-system -done &#10;vue？ pi vue" />
     <MESSAGE value="data structure  sparsearray array queue" />
-    <option name="LAST_COMMIT_MESSAGE" value="data structure  sparsearray array queue" />
+    <MESSAGE value="crawler -st" />
+    <option name="LAST_COMMIT_MESSAGE" value="crawler -st" />
   </component>
   <component name="WindowStateProjectService">
     <state x="590" y="156" key="#Application" timestamp="1585817629275">
@@ -941,30 +945,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="682" y="351" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1586962260183" />
-    <state x="483" y="112" key="CommitChangelistDialog2" timestamp="1586968931038">
+    <state x="483" y="112" key="CommitChangelistDialog2" timestamp="1587008865772">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="483" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586968931038" />
+    <state x="483" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1587008865772" />
     <state x="740" y="209" key="FileChooserDialogImpl" timestamp="1584379980120">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="209" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1584379980120" />
-    <state width="1877" height="560" key="GridCell.Tab.0.bottom" timestamp="1587008516865">
+    <state width="1877" height="492" key="GridCell.Tab.0.bottom" timestamp="1587031067873">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="560" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587008516865" />
-    <state width="1877" height="560" key="GridCell.Tab.0.center" timestamp="1587008516865">
+    <state width="1877" height="492" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587031067873" />
+    <state width="1877" height="492" key="GridCell.Tab.0.center" timestamp="1587031067873">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="560" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587008516865" />
-    <state width="1877" height="560" key="GridCell.Tab.0.left" timestamp="1587008516865">
+    <state width="1877" height="492" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587031067873" />
+    <state width="1877" height="492" key="GridCell.Tab.0.left" timestamp="1587031067857">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="560" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587008516865" />
-    <state width="1877" height="560" key="GridCell.Tab.0.right" timestamp="1587008516865">
+    <state width="1877" height="492" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587031067857" />
+    <state width="1877" height="492" key="GridCell.Tab.0.right" timestamp="1587031067873">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="560" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587008516865" />
+    <state width="1877" height="492" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587031067873" />
     <state width="767" height="25" key="GridCell.Tab.1.bottom" timestamp="1586882212792">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -1013,10 +1017,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1585575045843" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1586968942572">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1587008877709">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586968942572" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1587008877709" />
     <state x="1173" y="284" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1587004295450">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -1168,6 +1172,22 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/ex-crawler/src/test/java/cn/dbdj1201/crawler/JsoupDemo1.java</url>
+          <line>41</line>
+          <properties class="cn.dbdj1201.crawler.JsoupDemo1" method="test1">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/ex-crawler/src/test/java/cn/dbdj1201/crawler/JsoupDemo1.java</url>
+          <line>60</line>
+          <properties class="cn.dbdj1201.crawler.JsoupDemo1" method="selectorTest">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="35" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/concurrent/clazz3/TicketSeller.java</url>
