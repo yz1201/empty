@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/ex-rabbitmq/pom.xml" />
         <option value="$PROJECT_DIR$/sc-user/pom.xml" />
         <option value="$PROJECT_DIR$/ex-user-manage/pom.xml" />
+        <option value="$PROJECT_DIR$/ex-crawler/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
