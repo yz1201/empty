@@ -1,4 +1,4 @@
-package cn.dbdj1201.ds;
+package cn.dbdj1201.ds.sparsearray;
 
 import java.util.Arrays;
 

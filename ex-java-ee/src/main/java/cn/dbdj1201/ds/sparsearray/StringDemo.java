@@ -1,4 +1,4 @@
-package cn.dbdj1201.ds;
+package cn.dbdj1201.ds.sparsearray;
 
 /**
  * @author tyz1201
