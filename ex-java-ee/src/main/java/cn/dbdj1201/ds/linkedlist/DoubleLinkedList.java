@@ -7,6 +7,36 @@ package cn.dbdj1201.ds.linkedlist;
  **/
 public class DoubleLinkedList {
 
+    private IINode head = new IINode(new Hero(-1, "头节点", "确实没啥用"));
+
+    public void addNodeWithOrder(IINode node) {
+        IINode cur = this.head.next;
+        boolean flag = false;
+
+        while (true) {
+            if (cur == null) {
+                break;
+            }
+
+            if (cur.hero.getNo() > node.hero.getNo()) {
+                break;
+            } else if (cur.hero.getNo() == node.hero.getNo()) {
+                flag = true;
+                break;
+            }
+            cur = cur.next;
+        }
+
+        if (flag)
+            System.out.println("出问题了");
+        else {
+            node.next = cur;
+            node.prev = cur.prev;
+            cur.prev.next = node;
+            cur.prev = node;
+        }
+    }
+
 }
 
 class IINode {
