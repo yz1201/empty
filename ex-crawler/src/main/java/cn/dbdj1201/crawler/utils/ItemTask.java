@@ -18,7 +18,7 @@ import java.util.List;
  * @author tyz1201
  * @datetime 2020-04-16 22:36
  **/
-@Component
+//@Component
 public class ItemTask {
     @Autowired
     private HttpUtils httpUtils;
@@ -35,7 +35,7 @@ public class ItemTask {
 //        String url = "https://search.jd.com/Search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8" +
 //                "&qrst=1&rt=1%22%20+%20%22&stop=1&vt=2&cid2=653&cid3=655&s=5760&click=0&page=";
 
-        String url ="https://search.jd.com/Search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&suggest=1.his.0.0&wq=&pvid=f40f472ab05f4015bd089806f05ed34b&page=";
+        String url = "https://search.jd.com/Search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&suggest=1.his.0.0&wq=&pvid=f40f472ab05f4015bd089806f05ed34b&page=";
         //遍历执行，获取所有的数据
         for (int i = 1; i < 10; i = i + 2) {
             //发起请求进行访问，获取页面数据,先访问第一页

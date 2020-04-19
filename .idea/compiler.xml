@@ -16,6 +16,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="webmagic-core" />
         <module name="sc-order" />
         <module name="ex-java-ee" />
         <module name="sc-auth-common" />
