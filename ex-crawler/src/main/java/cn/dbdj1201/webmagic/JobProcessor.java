@@ -17,7 +17,9 @@ import us.codecraft.webmagic.selector.Html;
 public class JobProcessor implements PageProcessor {
     @Override
     public void process(Page page) {
-        page.putField("links", page.getHtml().css("div.dw_wp > div.dw_table > div.el > span.t5").regex("发布.*").all());
+        String title = page.getHtml().css("div.bmsg > p.fp", "text").toString();
+        System.out.println(title);
+//        page.putField("links", title);
     }
 
     private final Site site = Site.me()
@@ -37,8 +39,7 @@ public class JobProcessor implements PageProcessor {
 
     public static void main(String[] args) {
         Spider.create(new JobProcessor())
-                .addUrl("https://search.51job.com/list/000000,000000,0000,01%252C32,9,99,java,2,1.html?lang=c&stype=&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&providesalary=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=&dibiaoid=0&address=&line=&specialarea=00&from=&welfare=")
-                .thread(5)
+                .addUrl("https://jobs.51job.com/hangzhou/118361764.html?s=01&t=0")
                 .run();
 
     }

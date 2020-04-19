@@ -23,24 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed85c090-aefa-43e3-acbf-d3f7dd4a1eb7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ex-crawler/src/main/java/cn/dbdj1201/crawler/config/JobProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-crawler/src/main/java/cn/dbdj1201/crawler/config/SpringDataPipeline.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-crawler/src/main/java/cn/dbdj1201/crawler/dao/IJobInfoDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-crawler/src/main/java/cn/dbdj1201/crawler/pojo/JobInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-crawler/src/main/java/cn/dbdj1201/crawler/service/IJobInfoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-crawler/src/main/java/cn/dbdj1201/crawler/service/impl/JobInfoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-crawler/src/main/java/cn/dbdj1201/crawler/utils/MathSalary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-crawler/src/main/java/cn/dbdj1201/webmagic/JobProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-crawler/src/main/java/cn/dbdj1201/webmagic/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex-crawler/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ex-crawler/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex-crawler/src/main/java/cn/dbdj1201/crawler/utils/ItemTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex-crawler/src/main/java/cn/dbdj1201/crawler/utils/ItemTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex-crawler/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ex-crawler/src/main/resources/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sc-user/sc-user.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sc-user/sc-user.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex-crawler/src/main/java/cn/dbdj1201/crawler/config/JobProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex-crawler/src/main/java/cn/dbdj1201/crawler/config/JobProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex-crawler/src/main/java/cn/dbdj1201/webmagic/JobProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex-crawler/src/main/java/cn/dbdj1201/webmagic/JobProcessor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -411,14 +396,7 @@
       <workItem from="1587123949588" duration="936000" />
       <workItem from="1587186691480" duration="15049000" />
       <workItem from="1587216757378" duration="408000" />
-      <workItem from="1587267508603" duration="20255000" />
-    </task>
-    <task id="LOCAL-00003" summary="shopping city -st vue">
-      <created>1584381955242</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1584381955242</updated>
+      <workItem from="1587267508603" duration="28632000" />
     </task>
     <task id="LOCAL-00004" summary="shopping city -st category nginx proxy">
       <created>1584418375640</created>
@@ -756,7 +734,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587279294945</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="crawler -st web-magic -2nd day">
+      <created>1587292070742</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1587292070742</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -775,7 +760,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="shopping city -st sc-user 阿里短信服务。" />
     <MESSAGE value="shopping city -st sc-user 阿里短信服务。2nd" />
     <MESSAGE value="shopping city -st sc-auth-center rsa private public process" />
     <MESSAGE value="shopping city -st sc-auth-center rsa private public process 2nd" />
@@ -800,7 +784,8 @@
     <MESSAGE value="ds -st linked list" />
     <MESSAGE value="ds -st linked list -* nd几道面试题" />
     <MESSAGE value="ds -st stack -first calculator" />
-    <option name="LAST_COMMIT_MESSAGE" value="ds -st stack -first calculator" />
+    <MESSAGE value="crawler -st web-magic -2nd day" />
+    <option name="LAST_COMMIT_MESSAGE" value="crawler -st web-magic -2nd day" />
   </component>
   <component name="WindowStateProjectService">
     <state x="590" y="156" key="#Application" timestamp="1585817629275">
@@ -871,46 +856,46 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="682" y="351" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1586962260183" />
-    <state x="483" y="112" key="CommitChangelistDialog2" timestamp="1587279291914">
+    <state x="483" y="112" key="CommitChangelistDialog2" timestamp="1587292067839">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="483" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1587279291914" />
+    <state x="483" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1587292067839" />
     <state x="740" y="209" key="FileChooserDialogImpl" timestamp="1587280840253">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="209" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1587280840253" />
-    <state width="1592" height="433" key="GridCell.Tab.0.bottom" timestamp="1587291664702">
+    <state width="1631" height="471" key="GridCell.Tab.0.bottom" timestamp="1587312439854">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1592" height="433" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587291664702" />
-    <state width="1592" height="433" key="GridCell.Tab.0.center" timestamp="1587291664701">
+    <state width="1631" height="471" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587312439854" />
+    <state width="1631" height="471" key="GridCell.Tab.0.center" timestamp="1587312439854">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1592" height="433" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587291664701" />
-    <state width="1592" height="433" key="GridCell.Tab.0.left" timestamp="1587291664701">
+    <state width="1631" height="471" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587312439854" />
+    <state width="1631" height="471" key="GridCell.Tab.0.left" timestamp="1587312439854">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1592" height="433" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587291664701" />
-    <state width="1592" height="433" key="GridCell.Tab.0.right" timestamp="1587291664702">
+    <state width="1631" height="471" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587312439854" />
+    <state width="1631" height="471" key="GridCell.Tab.0.right" timestamp="1587312439854">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1592" height="433" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587291664702" />
-    <state width="1592" height="433" key="GridCell.Tab.1.bottom" timestamp="1587291664702">
+    <state width="1631" height="471" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587312439854" />
+    <state width="1631" height="471" key="GridCell.Tab.1.bottom" timestamp="1587312439854">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1592" height="433" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587291664702" />
-    <state width="1592" height="433" key="GridCell.Tab.1.center" timestamp="1587291664702">
+    <state width="1631" height="471" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587312439854" />
+    <state width="1631" height="471" key="GridCell.Tab.1.center" timestamp="1587312439854">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1592" height="433" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587291664702" />
-    <state width="1592" height="433" key="GridCell.Tab.1.left" timestamp="1587291664702">
+    <state width="1631" height="471" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587312439854" />
+    <state width="1631" height="471" key="GridCell.Tab.1.left" timestamp="1587312439854">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1592" height="433" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587291664702" />
-    <state width="1592" height="433" key="GridCell.Tab.1.right" timestamp="1587291664702">
+    <state width="1631" height="471" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587312439854" />
+    <state width="1631" height="471" key="GridCell.Tab.1.right" timestamp="1587312439854">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1592" height="433" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587291664702" />
+    <state width="1631" height="471" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587312439854" />
     <state width="1561" height="262" key="GridCell.Tab.2.bottom" timestamp="1586853101029">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -943,10 +928,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1585575045843" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1587279309304">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1587292075269">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1587279309304" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1587292075269" />
     <state x="1173" y="284" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1587278220904">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -1145,7 +1130,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/ex-crawler/src/main/java/cn/dbdj1201/webmagic/JobProcessor.java</url>
-          <line>59</line>
+          <line>39</line>
           <properties class="cn.dbdj1201.webmagic.JobProcessor" method="main">
             <option name="EMULATED" value="true" />
           </properties>

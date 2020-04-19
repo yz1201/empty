@@ -9,7 +9,6 @@ import org.springframework.stereotype.Component;
 import us.codecraft.webmagic.Page;
 import us.codecraft.webmagic.Site;
 import us.codecraft.webmagic.Spider;
-import us.codecraft.webmagic.pipeline.ConsolePipeline;
 import us.codecraft.webmagic.processor.PageProcessor;
 import us.codecraft.webmagic.scheduler.BloomFilterDuplicateRemover;
 import us.codecraft.webmagic.scheduler.QueueScheduler;
@@ -34,10 +33,9 @@ public class JobProcessor implements PageProcessor {
         Spider.create(new JobProcessor())
                 .addUrl(url)
                 .addPipeline(this.pipeline)
-                .addPipeline(new ConsolePipeline())
                 .setScheduler(new QueueScheduler()
                         .setDuplicateRemover(new BloomFilterDuplicateRemover(10000000)))
-                .thread(5)
+                .thread(8)
                 .run();
     }
 
@@ -78,17 +76,15 @@ public class JobProcessor implements PageProcessor {
         Html html = page.getHtml();
 
         //公司名称
-        jobInfo.setCompanyName(html.$("div.dw_wp > div.dw_table > div.el > span.t2 > a", "text").toString());
+        jobInfo.setCompanyName(html.$("div.tHeader p.cname a", "text").toString());
         //公司地址
-        jobInfo.setCompanyAddr(html.$("div.dw_wp > div.dw_table > div.el > span.t3", "text").toString());
-
-        System.out.println("now info ->" + jobInfo);
+        jobInfo.setCompanyAddr(html.$("div.bmsg > p.fp", "text").toString());
         //公司信息
         jobInfo.setCompanyInfo(html.$("div.tmsg", "text").toString());
         //职位名称
         jobInfo.setJobName(html.$("div.tHeader > div.in > div.cn > h1", "text").toString());
         //工作地点
-        jobInfo.setJobAddr(html.$("div.tHeader > div.in > div.cn > span.lname", "text").toString());
+        jobInfo.setJobAddr(html.$("div.bmsg > p.fp", "text").toString());
         //职位信息
         jobInfo.setJobInfo(Jsoup.parse(html.$("div.tBorderTop_box:nth-child(2)").toString()).text());
         //工资范围
@@ -99,8 +95,9 @@ public class JobProcessor implements PageProcessor {
         jobInfo.setUrl(page.getUrl().toString());
 
         //职位发布时间
-        String time = html.$("div.dw_wp > div.dw_table > div.el > span.t5", "text").regex("发布.*").toString();
-//        System.out.println("time -》" + time);
+        String time = html.$("div.tHeader > div.in > div.cn  p", "title").regex(".*发布").toString();
+        String[] split = time.split("\\|");
+        time = split[split.length - 1];
         jobInfo.setTime(time.substring(0, time.length() - 2));
 
         //保存数据
@@ -110,6 +107,10 @@ public class JobProcessor implements PageProcessor {
     @Override
     public Site getSite() {
         return Site.me()
+//                .setCharset("utf8")
+                .setTimeOut(10 * 1000)
+                .setRetryTimes(3)
+                .setRetrySleepTime(3000)
                 .addHeader("Connection", "Keep-Alive")
                 .addHeader("Cookie", "guid=6fa36dbab364d6b6e71cd424290b9d7b; " +
                         "51job=cenglish%3D0%26%7C%26; " +
