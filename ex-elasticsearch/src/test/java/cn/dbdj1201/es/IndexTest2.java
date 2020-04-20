@@ -2,7 +2,6 @@ package cn.dbdj1201.es;
 
 import cn.dbdj1201.es.pojo.Item;
 import cn.dbdj1201.es.pojo.WebPageItem;
-import cn.dbdj1201.es.repository.ItemRepository;
 import cn.dbdj1201.es.repository.WebPageItemRepository;
 import org.junit.Test;
 import org.junit.runner.RunWith;

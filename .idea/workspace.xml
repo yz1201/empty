@@ -23,20 +23,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed85c090-aefa-43e3-acbf-d3f7dd4a1eb7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ex-crawler/src/main/java/cn/dbdj1201/crawler/config/ItemTaskDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-crawler/src/main/java/cn/dbdj1201/crawler/config/ProxyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-elasticsearch/src/main/java/cn/dbdj1201/es/pojo/WebPageItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-elasticsearch/src/main/java/cn/dbdj1201/es/repository/WebPageItemRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-elasticsearch/src/main/java/cn/dbdj1201/es/service/IWebPageItemService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-elasticsearch/src/main/java/cn/dbdj1201/es/service/impl/WebPageService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-elasticsearch/src/test/java/cn/dbdj1201/es/IndexTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex-elasticsearch/src/main/java/cn/dbdj1201/es/controller/JobSearchController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex-elasticsearch/src/main/java/cn/dbdj1201/es/pojo/JobInfoItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex-elasticsearch/src/main/java/cn/dbdj1201/es/pojo/JobResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex-elasticsearch/src/main/java/cn/dbdj1201/es/repository/JobInfoItemRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex-elasticsearch/src/main/java/cn/dbdj1201/es/service/IJobInfoItemService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex-elasticsearch/src/main/java/cn/dbdj1201/es/service/impl/JobInfoItemService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex-crawler/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ex-crawler/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex-crawler/src/main/java/cn/dbdj1201/crawler/config/JobProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex-crawler/src/main/java/cn/dbdj1201/crawler/config/JobProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex-elasticsearch/src/main/java/cn/dbdj1201/es/EsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex-elasticsearch/src/main/java/cn/dbdj1201/es/EsApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex-elasticsearch/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ex-elasticsearch/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex-elasticsearch/src/test/java/cn/dbdj1201/es/IndexTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex-elasticsearch/src/test/java/cn/dbdj1201/es/IndexTest2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -416,7 +412,7 @@
       <item itemvalue="Application.JobProcessor" />
       <item itemvalue="JUnit.CircleSingleLinkedListTest.countBoy" />
       <item itemvalue="JUnit.IStackTest.size" />
-      <item itemvalue="Spring Boot.CrawlerApplication" />
+      <item itemvalue="JUnit.SimhashTest.testDistance" />
       <item itemvalue="Spring Boot.ScGoodWebApplication" />
       <item itemvalue="Spring Boot.ScSearchApplication" />
       <item itemvalue="Spring Boot.ScAuthApplication" />
@@ -430,7 +426,7 @@
       <item itemvalue="Spring Boot.ScCartApplication" />
       <item itemvalue="Spring Boot.ScUploadApplication" />
       <item itemvalue="Spring Boot.EsApplication" />
-      <item itemvalue="JUnit.SimhashTest.testDistance" />
+      <item itemvalue="Spring Boot.CrawlerApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -512,14 +508,9 @@
       <workItem from="1587186691480" duration="15049000" />
       <workItem from="1587216757378" duration="408000" />
       <workItem from="1587267508603" duration="28903000" />
-      <workItem from="1587348664866" duration="5825000" />
-    </task>
-    <task id="LOCAL-00005" summary="shopping city -st cors">
-      <created>1584441813433</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1584441813433</updated>
+      <workItem from="1587348664866" duration="6055000" />
+      <workItem from="1587358676219" duration="104000" />
+      <workItem from="1587363816826" duration="1961000" />
     </task>
     <task id="LOCAL-00006" summary="shopping city -st brand">
       <created>1584457624992</created>
@@ -857,7 +848,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587313320533</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="crawler -st web-magic + simhash + elasticsearch 去重，导入索引库">
+      <created>1587355105658</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1587355105658</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -876,7 +874,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="shopping city -st sc-auth-center rsa private public process" />
     <MESSAGE value="shopping city -st sc-auth-center rsa private public process 2nd" />
     <MESSAGE value="shopping city -st sc-cart" />
     <MESSAGE value="shopping city -st sc-order" />
@@ -901,7 +898,8 @@
     <MESSAGE value="ds -st stack -first calculator" />
     <MESSAGE value="crawler -st web-magic -2nd day" />
     <MESSAGE value="crawler -st web-magic -2nd day fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="crawler -st web-magic -2nd day fix" />
+    <MESSAGE value="crawler -st web-magic + simhash + elasticsearch 去重，导入索引库" />
+    <option name="LAST_COMMIT_MESSAGE" value="crawler -st web-magic + simhash + elasticsearch 去重，导入索引库" />
   </component>
   <component name="WindowStateProjectService">
     <state x="590" y="156" key="#Application" timestamp="1585817629275">
@@ -944,10 +942,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="673" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1586965469437" />
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1587353052622">
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1587364862478">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1587353052622" />
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1587364862478" />
     <state x="689" y="302" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1584696130343">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -972,46 +970,46 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="682" y="351" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1586962260183" />
-    <state x="483" y="112" key="CommitChangelistDialog2" timestamp="1587313318443">
+    <state x="483" y="112" key="CommitChangelistDialog2" timestamp="1587355097908">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="483" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1587313318443" />
+    <state x="483" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1587355097908" />
     <state x="740" y="209" key="FileChooserDialogImpl" timestamp="1587351447267">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="209" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1587351447267" />
-    <state width="1646" height="116" key="GridCell.Tab.0.bottom" timestamp="1587353004576">
+    <state width="1877" height="172" key="GridCell.Tab.0.bottom" timestamp="1587355195112">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1646" height="116" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587353004576" />
-    <state width="1646" height="116" key="GridCell.Tab.0.center" timestamp="1587353004576">
+    <state width="1877" height="172" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587355195112" />
+    <state width="1877" height="172" key="GridCell.Tab.0.center" timestamp="1587355195112">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1646" height="116" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587353004576" />
-    <state width="1646" height="116" key="GridCell.Tab.0.left" timestamp="1587353004576">
+    <state width="1877" height="172" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587355195112" />
+    <state width="1877" height="172" key="GridCell.Tab.0.left" timestamp="1587355195112">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1646" height="116" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587353004576" />
-    <state width="1646" height="116" key="GridCell.Tab.0.right" timestamp="1587353004576">
+    <state width="1877" height="172" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587355195112" />
+    <state width="1877" height="172" key="GridCell.Tab.0.right" timestamp="1587355195112">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1646" height="116" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587353004576" />
-    <state width="1646" height="116" key="GridCell.Tab.1.bottom" timestamp="1587353004576">
+    <state width="1877" height="172" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587355195112" />
+    <state width="1646" height="116" key="GridCell.Tab.1.bottom" timestamp="1587355195081">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1646" height="116" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587353004576" />
-    <state width="1646" height="116" key="GridCell.Tab.1.center" timestamp="1587353004576">
+    <state width="1646" height="116" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587355195081" />
+    <state width="1646" height="116" key="GridCell.Tab.1.center" timestamp="1587355195081">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1646" height="116" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587353004576" />
-    <state width="1646" height="116" key="GridCell.Tab.1.left" timestamp="1587353004576">
+    <state width="1646" height="116" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587355195081" />
+    <state width="1646" height="116" key="GridCell.Tab.1.left" timestamp="1587355195081">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1646" height="116" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587353004576" />
-    <state width="1646" height="116" key="GridCell.Tab.1.right" timestamp="1587353004576">
+    <state width="1646" height="116" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587355195081" />
+    <state width="1646" height="116" key="GridCell.Tab.1.right" timestamp="1587355195081">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1646" height="116" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587353004576" />
+    <state width="1646" height="116" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587355195081" />
     <state width="1561" height="262" key="GridCell.Tab.2.bottom" timestamp="1586853101029">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -1044,10 +1042,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1585575045843" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1587313400041">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1587355131939">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1587313400041" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1587355131939" />
     <state x="1173" y="284" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1587278220904">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
