@@ -23,9 +23,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed85c090-aefa-43e3-acbf-d3f7dd4a1eb7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ex-crawler/src/main/java/cn/dbdj1201/crawler/config/ItemTaskDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex-crawler/src/main/java/cn/dbdj1201/crawler/config/ProxyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex-elasticsearch/src/main/java/cn/dbdj1201/es/pojo/WebPageItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex-elasticsearch/src/main/java/cn/dbdj1201/es/repository/WebPageItemRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex-elasticsearch/src/main/java/cn/dbdj1201/es/service/IWebPageItemService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex-elasticsearch/src/main/java/cn/dbdj1201/es/service/impl/WebPageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex-elasticsearch/src/test/java/cn/dbdj1201/es/IndexTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex-crawler/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ex-crawler/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ex-crawler/src/main/java/cn/dbdj1201/crawler/config/JobProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex-crawler/src/main/java/cn/dbdj1201/crawler/config/JobProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex-crawler/src/main/java/cn/dbdj1201/webmagic/JobProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex-crawler/src/main/java/cn/dbdj1201/webmagic/JobProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex-elasticsearch/src/main/java/cn/dbdj1201/es/EsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex-elasticsearch/src/main/java/cn/dbdj1201/es/EsApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +124,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ex-crawler/src/main/java/cn/dbdj1201/crawler/utils" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/simhash" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -174,7 +185,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.JobProcessor">
+  <component name="RunManager" selected="JUnit.SimhashTest.testDistance">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -202,26 +213,6 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CircleSingleLinkedListTest.addBoy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ex-java-ee" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.dbdj1201.ds.linkedlist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.dbdj1201.ds.linkedlist" />
-      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.ds.linkedlist.CircleSingleLinkedListTest" />
-      <option name="METHOD_NAME" value="addBoy" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -266,6 +257,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SimhashTest.testDistance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="simhasher" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lou.simhasher.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lou.simhasher" />
+      <option name="MAIN_CLASS_NAME" value="com.lou.simhasher.SimhashTest" />
+      <option name="METHOD_NAME" value="testDistance" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -285,6 +296,97 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.dbdj1201.crawler.CrawlerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ex-elasticsearch" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.dbdj1201.es.EsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScAuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sc-auth-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.dbdj1201.sc.auth.ScAuthApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScCartApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sc-cart" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.dbdj1201.sc.cart.ScCartApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sc-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.dbdj1201.sc.item.ScGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScGoodWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sc-goods-web" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.dbdj1201.goods.web.ScGoodWebApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScItemServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sc-item-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.dbdj1201.sc.item.ScItemServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScOrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sc-order" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.dbdj1201.sc.ScOrderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScRegistryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sc-registry" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.dbdj1201.sc.item.ScRegistryApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScSearchApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sc-search" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.dbdj1201.sc.search.ScSearchApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScSmsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sc-sms-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.dbdj1201.sc.sms.ScSmsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScUploadApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sc-upload" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.dbdj1201.sc.item.upload.ScUploadApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScUserServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sc-user-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.dbdj1201.sc.user.ScUserServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserMSApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ex-user-manage" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.dbdj1201.user.ms.UserMSApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -311,19 +413,32 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.CircleSingleLinkedListTest.addBoy" />
+      <item itemvalue="Application.JobProcessor" />
       <item itemvalue="JUnit.CircleSingleLinkedListTest.countBoy" />
       <item itemvalue="JUnit.IStackTest.size" />
-      <item itemvalue="Application.JobProcessor" />
       <item itemvalue="Spring Boot.CrawlerApplication" />
+      <item itemvalue="Spring Boot.ScGoodWebApplication" />
+      <item itemvalue="Spring Boot.ScSearchApplication" />
+      <item itemvalue="Spring Boot.ScAuthApplication" />
+      <item itemvalue="Spring Boot.ScOrderApplication" />
+      <item itemvalue="Spring Boot.UserMSApplication" />
+      <item itemvalue="Spring Boot.ScItemServiceApplication" />
+      <item itemvalue="Spring Boot.ScGatewayApplication" />
+      <item itemvalue="Spring Boot.ScRegistryApplication" />
+      <item itemvalue="Spring Boot.ScUserServiceApplication" />
+      <item itemvalue="Spring Boot.ScSmsApplication" />
+      <item itemvalue="Spring Boot.ScCartApplication" />
+      <item itemvalue="Spring Boot.ScUploadApplication" />
+      <item itemvalue="Spring Boot.EsApplication" />
+      <item itemvalue="JUnit.SimhashTest.testDistance" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.CrawlerApplication" />
+        <item itemvalue="JUnit.SimhashTest.testDistance" />
         <item itemvalue="Application.JobProcessor" />
         <item itemvalue="JUnit.IStackTest.size" />
         <item itemvalue="JUnit.CircleSingleLinkedListTest.countBoy" />
-        <item itemvalue="JUnit.CircleSingleLinkedListTest.addBoy" />
       </list>
     </recent_temporary>
   </component>
@@ -396,14 +511,8 @@
       <workItem from="1587123949588" duration="936000" />
       <workItem from="1587186691480" duration="15049000" />
       <workItem from="1587216757378" duration="408000" />
-      <workItem from="1587267508603" duration="28632000" />
-    </task>
-    <task id="LOCAL-00004" summary="shopping city -st category nginx proxy">
-      <created>1584418375640</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1584418375640</updated>
+      <workItem from="1587267508603" duration="28903000" />
+      <workItem from="1587348664866" duration="5825000" />
     </task>
     <task id="LOCAL-00005" summary="shopping city -st cors">
       <created>1584441813433</created>
@@ -741,7 +850,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587292070742</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="crawler -st web-magic -2nd day fix">
+      <created>1587313320533</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1587313320533</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -760,7 +876,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="shopping city -st sc-user 阿里短信服务。2nd" />
     <MESSAGE value="shopping city -st sc-auth-center rsa private public process" />
     <MESSAGE value="shopping city -st sc-auth-center rsa private public process 2nd" />
     <MESSAGE value="shopping city -st sc-cart" />
@@ -785,7 +900,8 @@
     <MESSAGE value="ds -st linked list -* nd几道面试题" />
     <MESSAGE value="ds -st stack -first calculator" />
     <MESSAGE value="crawler -st web-magic -2nd day" />
-    <option name="LAST_COMMIT_MESSAGE" value="crawler -st web-magic -2nd day" />
+    <MESSAGE value="crawler -st web-magic -2nd day fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="crawler -st web-magic -2nd day fix" />
   </component>
   <component name="WindowStateProjectService">
     <state x="590" y="156" key="#Application" timestamp="1585817629275">
@@ -828,10 +944,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="673" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1586965469437" />
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1587288434090">
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1587353052622">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1587288434090" />
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1587353052622" />
     <state x="689" y="302" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1584696130343">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -856,46 +972,46 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="682" y="351" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1586962260183" />
-    <state x="483" y="112" key="CommitChangelistDialog2" timestamp="1587292067839">
+    <state x="483" y="112" key="CommitChangelistDialog2" timestamp="1587313318443">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="483" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1587292067839" />
-    <state x="740" y="209" key="FileChooserDialogImpl" timestamp="1587280840253">
+    <state x="483" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1587313318443" />
+    <state x="740" y="209" key="FileChooserDialogImpl" timestamp="1587351447267">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="209" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1587280840253" />
-    <state width="1631" height="471" key="GridCell.Tab.0.bottom" timestamp="1587312439854">
+    <state x="740" y="209" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1587351447267" />
+    <state width="1646" height="116" key="GridCell.Tab.0.bottom" timestamp="1587353004576">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1631" height="471" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587312439854" />
-    <state width="1631" height="471" key="GridCell.Tab.0.center" timestamp="1587312439854">
+    <state width="1646" height="116" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587353004576" />
+    <state width="1646" height="116" key="GridCell.Tab.0.center" timestamp="1587353004576">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1631" height="471" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587312439854" />
-    <state width="1631" height="471" key="GridCell.Tab.0.left" timestamp="1587312439854">
+    <state width="1646" height="116" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587353004576" />
+    <state width="1646" height="116" key="GridCell.Tab.0.left" timestamp="1587353004576">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1631" height="471" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587312439854" />
-    <state width="1631" height="471" key="GridCell.Tab.0.right" timestamp="1587312439854">
+    <state width="1646" height="116" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587353004576" />
+    <state width="1646" height="116" key="GridCell.Tab.0.right" timestamp="1587353004576">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1631" height="471" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587312439854" />
-    <state width="1631" height="471" key="GridCell.Tab.1.bottom" timestamp="1587312439854">
+    <state width="1646" height="116" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587353004576" />
+    <state width="1646" height="116" key="GridCell.Tab.1.bottom" timestamp="1587353004576">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1631" height="471" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587312439854" />
-    <state width="1631" height="471" key="GridCell.Tab.1.center" timestamp="1587312439854">
+    <state width="1646" height="116" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587353004576" />
+    <state width="1646" height="116" key="GridCell.Tab.1.center" timestamp="1587353004576">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1631" height="471" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587312439854" />
-    <state width="1631" height="471" key="GridCell.Tab.1.left" timestamp="1587312439854">
+    <state width="1646" height="116" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587353004576" />
+    <state width="1646" height="116" key="GridCell.Tab.1.left" timestamp="1587353004576">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1631" height="471" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587312439854" />
-    <state width="1631" height="471" key="GridCell.Tab.1.right" timestamp="1587312439854">
+    <state width="1646" height="116" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587353004576" />
+    <state width="1646" height="116" key="GridCell.Tab.1.right" timestamp="1587353004576">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1631" height="471" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587312439854" />
+    <state width="1646" height="116" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587353004576" />
     <state width="1561" height="262" key="GridCell.Tab.2.bottom" timestamp="1586853101029">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -916,10 +1032,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="490" y="175" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587004313588" />
-    <state x="600" y="217" key="NewModule_or_Project.wizard" timestamp="1587280852856">
+    <state x="600" y="217" key="NewModule_or_Project.wizard" timestamp="1587351453767">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="600" y="217" key="NewModule_or_Project.wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1587280852856" />
+    <state x="600" y="217" key="NewModule_or_Project.wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1587351453767" />
     <state x="440" y="94" key="SettingsEditor" timestamp="1586962609946">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -928,10 +1044,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1585575045843" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1587292075269">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1587313400041">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1587292075269" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1587313400041" />
     <state x="1173" y="284" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1587278220904">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -940,10 +1056,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="307" y="152" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1587003365527" />
-    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1587281241405">
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1587351895576">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1587281241405" />
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1587351895576" />
     <state x="816" y="361" width="672" height="678" key="search.everywhere.popup" timestamp="1587290329965">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

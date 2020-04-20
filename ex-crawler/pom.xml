@@ -129,6 +129,11 @@
             <version>29.0-jre</version>
         </dependency>
 
+        <dependency>
+            <groupId>com.lou</groupId>
+            <artifactId>simhasher</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 
 </project>

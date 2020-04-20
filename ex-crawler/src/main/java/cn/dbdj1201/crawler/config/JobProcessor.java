@@ -21,7 +21,7 @@ import java.util.List;
  * @author tyz1201
  * @datetime 2020-04-19 17:19
  **/
-@Component
+//@Component
 public class JobProcessor implements PageProcessor {
     @Autowired
     private SpringDataPipeline pipeline;

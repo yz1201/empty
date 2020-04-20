@@ -16,15 +16,5 @@ public class EsApplication {
     public static void main(String[] args) {
         SpringApplication.run(EsApplication.class);
     }
-//
-//    @Bean
-//    public RestHighLevelClient client() {
-//
-//        ClientConfiguration clientConfiguration = ClientConfiguration.builder()
-//                .connectedTo("localhost:9200", "localhost:9201")
-//                .build();
-//
-//        return RestClients.create(clientConfiguration).rest();
-//    }
 
 }
