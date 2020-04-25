@@ -23,13 +23,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed85c090-aefa-43e3-acbf-d3f7dd4a1eb7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/recursive/EightQueen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/recursive/RecursiveDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/resources/study/ds/中缀表达式转后缀1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/resources/study/ds/中缀表达式转后缀2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/sort/Base.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/sort/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/sort/InsertSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/sort/SelectSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/sort/ShellSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/stack/PolandNotion.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/stack/PolandNotion.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,7 +178,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.EightQueen">
+  <component name="RunManager" selected="Application.ShellSort">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -189,6 +189,20 @@
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
+    </configuration>
+    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.ds.sort.BubbleSort" />
+      <module name="ex-java-ee" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.dbdj1201.ds.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="EightQueen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.ds.recursive.EightQueen" />
@@ -204,13 +218,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PolandNotion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.ds.stack.PolandNotion" />
+    <configuration name="InsertSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.ds.sort.InsertSort" />
       <module name="ex-java-ee" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.dbdj1201.ds.stack.*" />
+          <option name="PATTERN" value="cn.dbdj1201.ds.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -218,13 +232,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RecursiveDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.ds.recursive.RecursiveDemo" />
+    <configuration name="SelectSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.ds.sort.SelectSort" />
       <module name="ex-java-ee" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.dbdj1201.ds.recursive.*" />
+          <option name="PATTERN" value="cn.dbdj1201.ds.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShellSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.ds.sort.ShellSort" />
+      <module name="ex-java-ee" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.dbdj1201.ds.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -238,45 +266,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimhashTest.testDistance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="simhasher" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lou.simhasher.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.lou.simhasher" />
-      <option name="MAIN_CLASS_NAME" value="com.lou.simhasher.SimhashTest" />
-      <option name="METHOD_NAME" value="testDistance" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="moduleWithDependencies" />
       </option>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CrawlerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="ex-crawler" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.dbdj1201.crawler.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.dbdj1201.crawler.CrawlerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -394,8 +389,8 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.PolandNotion" />
-      <item itemvalue="JUnit.SimhashTest.testDistance" />
+      <item itemvalue="Application.EightQueen" />
+      <item itemvalue="Application.BubbleSort" />
       <item itemvalue="Spring Boot.ScGoodWebApplication" />
       <item itemvalue="Spring Boot.ScSearchApplication" />
       <item itemvalue="Spring Boot.ScAuthApplication" />
@@ -409,17 +404,17 @@
       <item itemvalue="Spring Boot.ScCartApplication" />
       <item itemvalue="Spring Boot.ScUploadApplication" />
       <item itemvalue="Spring Boot.EsApplication" />
-      <item itemvalue="Spring Boot.CrawlerApplication" />
-      <item itemvalue="Application.RecursiveDemo" />
-      <item itemvalue="Application.EightQueen" />
+      <item itemvalue="Application.SelectSort" />
+      <item itemvalue="Application.InsertSort" />
+      <item itemvalue="Application.ShellSort" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ShellSort" />
+        <item itemvalue="Application.InsertSort" />
+        <item itemvalue="Application.SelectSort" />
+        <item itemvalue="Application.BubbleSort" />
         <item itemvalue="Application.EightQueen" />
-        <item itemvalue="Application.RecursiveDemo" />
-        <item itemvalue="Application.PolandNotion" />
-        <item itemvalue="Spring Boot.CrawlerApplication" />
-        <item itemvalue="JUnit.SimhashTest.testDistance" />
       </list>
     </recent_temporary>
   </component>
@@ -503,14 +498,9 @@
       <workItem from="1587471709673" duration="731000" />
       <workItem from="1587482117837" duration="2300000" />
       <workItem from="1587520646135" duration="2059000" />
-      <workItem from="1587613766594" duration="10926000" />
-    </task>
-    <task id="LOCAL-00008" summary="shopping city -st upload fastDFS qs-stringfy-parse">
-      <created>1584591018470</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1584591018470</updated>
+      <workItem from="1587613766594" duration="11968000" />
+      <workItem from="1587694847564" duration="6712000" />
+      <workItem from="1587785486351" duration="7389000" />
     </task>
     <task id="LOCAL-00009" summary="shopping city -st vue.js">
       <created>1584613065993</created>
@@ -848,7 +838,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587463634662</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="ds -stack PolandNotion 2nd Recursive">
+      <created>1587633782323</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1587633782323</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -867,7 +864,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="shopping city -st sc-order" />
     <MESSAGE value="shopping city -st elastic end -dead-lock" />
     <MESSAGE value="concurrent package -st" />
     <MESSAGE value="concurrent package -st 同步器 同步容器" />
@@ -892,7 +888,8 @@
     <MESSAGE value="crawler -st web-magic + simhash + elasticsearch 去重，导入索引库" />
     <MESSAGE value="crawler -st web-magic + simhash + elasticsearch 去重，导入索引库 done" />
     <MESSAGE value="ds -stack PolandNotion" />
-    <option name="LAST_COMMIT_MESSAGE" value="ds -stack PolandNotion" />
+    <MESSAGE value="ds -stack PolandNotion 2nd Recursive" />
+    <option name="LAST_COMMIT_MESSAGE" value="ds -stack PolandNotion 2nd Recursive" />
   </component>
   <component name="WindowStateProjectService">
     <state x="590" y="156" key="#Application" timestamp="1585817629275">
@@ -963,46 +960,46 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="682" y="351" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1586962260183" />
-    <state x="483" y="112" key="CommitChangelistDialog2" timestamp="1587463630243">
+    <state x="483" y="112" key="CommitChangelistDialog2" timestamp="1587633775693">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="483" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1587463630243" />
+    <state x="483" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1587633775693" />
     <state x="740" y="209" key="FileChooserDialogImpl" timestamp="1587351447267">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="209" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1587351447267" />
-    <state width="1877" height="410" key="GridCell.Tab.0.bottom" timestamp="1587633410416">
+    <state width="1877" height="228" key="GridCell.Tab.0.bottom" timestamp="1587796535369">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="410" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587633410416" />
-    <state width="1877" height="410" key="GridCell.Tab.0.center" timestamp="1587633410416">
+    <state width="1877" height="228" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587796535369" />
+    <state width="1877" height="228" key="GridCell.Tab.0.center" timestamp="1587796535369">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="410" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587633410416" />
-    <state width="1877" height="410" key="GridCell.Tab.0.left" timestamp="1587633410416">
+    <state width="1877" height="228" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587796535369" />
+    <state width="1877" height="228" key="GridCell.Tab.0.left" timestamp="1587796535369">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="410" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587633410416" />
-    <state width="1877" height="410" key="GridCell.Tab.0.right" timestamp="1587633410416">
+    <state width="1877" height="228" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587796535369" />
+    <state width="1877" height="228" key="GridCell.Tab.0.right" timestamp="1587796535369">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="410" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587633410416" />
-    <state width="1877" height="293" key="GridCell.Tab.1.bottom" timestamp="1587463664242">
+    <state width="1877" height="228" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587796535369" />
+    <state width="1877" height="204" key="GridCell.Tab.1.bottom" timestamp="1587793281960">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="293" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587463664242" />
-    <state width="1877" height="293" key="GridCell.Tab.1.center" timestamp="1587463664242">
+    <state width="1877" height="204" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587793281960" />
+    <state width="1877" height="204" key="GridCell.Tab.1.center" timestamp="1587793281960">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="293" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587463664242" />
-    <state width="1877" height="293" key="GridCell.Tab.1.left" timestamp="1587463664242">
+    <state width="1877" height="204" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587793281960" />
+    <state width="1877" height="204" key="GridCell.Tab.1.left" timestamp="1587793281960">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="293" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587463664242" />
-    <state width="1877" height="293" key="GridCell.Tab.1.right" timestamp="1587463664242">
+    <state width="1877" height="204" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587793281960" />
+    <state width="1877" height="204" key="GridCell.Tab.1.right" timestamp="1587793281960">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="293" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587463664242" />
+    <state width="1877" height="204" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587793281960" />
     <state width="1561" height="262" key="GridCell.Tab.2.bottom" timestamp="1586853101029">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -1035,10 +1032,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1585575045843" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1587463646243">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1587633893476">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1587463646243" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1587633893476" />
     <state x="1173" y="284" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1587278220904">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
