@@ -20,10 +20,6 @@ public class ShellSort {
      */
     public static void shell(int[] arr) {
         int temp;
-        /*
-
-
-         */
         for (int gap = arr.length / 2; gap > 0; gap /= 2) {
             for (int i = gap; i < arr.length; i++) {
                 for (int j = i - gap; j >= 0; j -= gap) {
@@ -40,19 +36,17 @@ public class ShellSort {
 
     public static void shell2(int[] arr) {
         int temp;
-        for (int gap = arr.length / 2; gap > 0; gap /= 2) {
-            for (int i = gap; i < arr.length; i++) {
+        for (int gap = arr.length / 2; gap > 0; gap /= 2) { //规定分组间隔，遍历。
+            for (int i = gap; i < arr.length; i++) {       //按间隔分组
                 int j = i;
                 temp = arr[j];
-                if (arr[j] < arr[j - gap]) {
+                if (arr[j] < arr[j - gap]) {            //每个每组插入排序
                     while (j >= gap && temp < arr[j - gap]) {
                         arr[j] = arr[j - gap];
                         j -= gap;
                     }
-
                     arr[j] = temp;
                 }
-
             }
         }
     }

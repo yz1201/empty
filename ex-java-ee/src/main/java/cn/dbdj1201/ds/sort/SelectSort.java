@@ -28,6 +28,9 @@ public class SelectSort {
         }
     }
 
+    /*
+        每次排序都选出最小的数，并与i下标交换
+     */
     public static void select1(int[] arr) {
         for (int i = 0; i < arr.length - 1; i++) {
             int minIndex = i;
