@@ -23,12 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed85c090-aefa-43e3-acbf-d3f7dd4a1eb7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/iHashtable/Emp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/iHashtable/EmpLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/iHashtable/IHashTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/iHashtable/IHashTableDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/seach/Search.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/seach/SeqSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/iTree/BaseTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/iTree/BinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -109,6 +106,7 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="ToolWindowProblems.ShowToolbar" value="false" />
@@ -179,7 +177,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.IHashTable">
+  <component name="RunManager" selected="Application.BinaryTree">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -198,6 +196,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cn.dbdj1201.ds.seach.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.ds.iTree.BinaryTree" />
+      <module name="ex-java-ee" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.dbdj1201.ds.iTree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -235,20 +247,6 @@
     </configuration>
     <configuration name="Search" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.ds.seach.Search" />
-      <module name="ex-java-ee" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.dbdj1201.ds.seach.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SeqSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.ds.seach.SeqSearch" />
       <module name="ex-java-ee" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -397,6 +395,10 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.BinarySearch" />
+      <item itemvalue="Application.Search" />
+      <item itemvalue="Application.IHashTable" />
+      <item itemvalue="Application.IHashTableDemo" />
       <item itemvalue="Spring Boot.ScGoodWebApplication" />
       <item itemvalue="Spring Boot.ScSearchApplication" />
       <item itemvalue="Spring Boot.ScAuthApplication" />
@@ -411,19 +413,15 @@
       <item itemvalue="Spring Boot.ScUploadApplication" />
       <item itemvalue="Spring Boot.EsApplication" />
       <item itemvalue="Spring Boot.CrawlerApplication" />
-      <item itemvalue="Application.SeqSearch" />
-      <item itemvalue="Application.BinarySearch" />
-      <item itemvalue="Application.Search" />
-      <item itemvalue="Application.IHashTable" />
-      <item itemvalue="Application.IHashTableDemo" />
+      <item itemvalue="Application.BinaryTree" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinaryTree" />
         <item itemvalue="Application.IHashTable" />
         <item itemvalue="Application.IHashTableDemo" />
         <item itemvalue="Application.Search" />
         <item itemvalue="Application.BinarySearch" />
-        <item itemvalue="Application.SeqSearch" />
       </list>
     </recent_temporary>
   </component>
@@ -522,14 +520,8 @@
       <workItem from="1588324902122" duration="602000" />
       <workItem from="1588384293092" duration="1077000" />
       <workItem from="1588386760400" duration="6613000" />
-      <workItem from="1588643493975" duration="20500000" />
-    </task>
-    <task id="LOCAL-00011" summary="shopping city -st spec crud">
-      <created>1584699318792</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1584699318792</updated>
+      <workItem from="1588643493975" duration="21599000" />
+      <workItem from="1588727019604" duration="5607000" />
     </task>
     <task id="LOCAL-00012" summary="shopping city -st spu spuDetail sku stock crud">
       <created>1584732655911</created>
@@ -867,7 +859,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588656747158</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="ds -search linear binary insertVal fib &#10;hashtable - array+linkedList">
+      <created>1588673140130</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1588673140130</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -886,7 +885,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="concurrent package -st 同步器 同步容器" />
     <MESSAGE value="concurrent package -st ThreadPool" />
     <MESSAGE value="concurrent package -st ThreadPool 2nd" />
     <MESSAGE value="orm jpa hibernate spring-data-jpa -st" />
@@ -911,7 +909,8 @@
     <MESSAGE value="ds -stack PolandNotion 2nd Recursive" />
     <MESSAGE value="ds -sort" />
     <MESSAGE value="ds -sort -x nd" />
-    <option name="LAST_COMMIT_MESSAGE" value="ds -sort -x nd" />
+    <MESSAGE value="ds -search linear binary insertVal fib &#10;hashtable - array+linkedList" />
+    <option name="LAST_COMMIT_MESSAGE" value="ds -search linear binary insertVal fib &#10;hashtable - array+linkedList" />
   </component>
   <component name="WindowStateProjectService">
     <state x="590" y="156" key="#Application" timestamp="1585817629275">
@@ -954,10 +953,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="673" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1586965469437" />
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1588669847340">
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1588735246919">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1588669847340" />
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1588735246919" />
     <state x="689" y="302" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1584696130343">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -982,46 +981,46 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="682" y="351" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1586962260183" />
-    <state x="483" y="112" key="CommitChangelistDialog2" timestamp="1588656742361">
+    <state x="483" y="112" key="CommitChangelistDialog2" timestamp="1588673137552">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="483" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1588656742361" />
+    <state x="483" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1588673137552" />
     <state x="740" y="209" key="FileChooserDialogImpl" timestamp="1587832057065">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="209" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1587832057065" />
-    <state width="1877" height="225" key="GridCell.Tab.0.bottom" timestamp="1588672837730">
+    <state width="1877" height="216" key="GridCell.Tab.0.bottom" timestamp="1588736923370">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="225" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588672837730" />
-    <state width="1877" height="225" key="GridCell.Tab.0.center" timestamp="1588672837729">
+    <state width="1877" height="216" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588736923370" />
+    <state width="1877" height="216" key="GridCell.Tab.0.center" timestamp="1588736923370">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="225" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588672837729" />
-    <state width="1877" height="225" key="GridCell.Tab.0.left" timestamp="1588672837729">
+    <state width="1877" height="216" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588736923370" />
+    <state width="1877" height="216" key="GridCell.Tab.0.left" timestamp="1588736923370">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="225" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588672837729" />
-    <state width="1877" height="225" key="GridCell.Tab.0.right" timestamp="1588672837730">
+    <state width="1877" height="216" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588736923370" />
+    <state width="1877" height="216" key="GridCell.Tab.0.right" timestamp="1588736923370">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="225" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588672837730" />
-    <state width="1877" height="455" key="GridCell.Tab.1.bottom" timestamp="1588671788928">
+    <state width="1877" height="216" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588736923370" />
+    <state width="1877" height="216" key="GridCell.Tab.1.bottom" timestamp="1588736924084">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="455" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588671788928" />
-    <state width="1877" height="455" key="GridCell.Tab.1.center" timestamp="1588671788928">
+    <state width="1877" height="216" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588736924084" />
+    <state width="1877" height="216" key="GridCell.Tab.1.center" timestamp="1588736924083">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="455" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588671788928" />
-    <state width="1877" height="455" key="GridCell.Tab.1.left" timestamp="1588671788928">
+    <state width="1877" height="216" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588736924083" />
+    <state width="1877" height="216" key="GridCell.Tab.1.left" timestamp="1588736924083">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="455" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588671788928" />
-    <state width="1877" height="455" key="GridCell.Tab.1.right" timestamp="1588671788928">
+    <state width="1877" height="216" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588736924083" />
+    <state width="1877" height="216" key="GridCell.Tab.1.right" timestamp="1588736924083">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="455" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588671788928" />
+    <state width="1877" height="216" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588736924083" />
     <state width="1561" height="262" key="GridCell.Tab.2.bottom" timestamp="1586853101029">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -1054,10 +1053,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="456" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1587832056135" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1588656756861">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1588673145973">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1588656756861" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1588673145973" />
     <state x="1173" y="284" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1587278220904">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -1287,6 +1286,11 @@
           <url>file://$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/iHashtable/IHashTableDemo.java</url>
           <line>10</line>
           <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/iTree/BinaryTree.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="56" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
