@@ -4,127 +4,38 @@ import java.util.Objects;
 
 /**
  * @author tyz1201
- * @datetime 2020-05-06 11:13
+ * @datetime 2020-05-06 22:17
  **/
-public class BinaryTree {
+public class IHeroNode {
 
-    public static void main(String[] args) {
-        BinaryTree binaryTree = new BinaryTree();
-        HeroNode songJiang = new HeroNode(1, "song jiang");
-        HeroNode wuYong = new HeroNode(2, "wu yong");
-        HeroNode luJunYi = new HeroNode(3, "lu jun yi");
-        HeroNode linChong = new HeroNode(4, "lin chong");
-        HeroNode guanSheng = new HeroNode(5, "guan sheng");
-
-        songJiang.setLeft(wuYong);
-        songJiang.setRight(luJunYi);
-        luJunYi.setRight(linChong);
-        luJunYi.setLeft(guanSheng);
-        binaryTree.setRoot(songJiang);
-
-        binaryTree.preOrder();
-//        System.out.println();
-//        binaryTree.infixOrder();
-//        System.out.println();
-//        binaryTree.postOrder();
-
-//        System.out.println(binaryTree.preOrderSearch(5));
-//        System.out.println(binaryTree.infixOrderSearch(5));
-//        System.out.println(binaryTree.postOrderSearch(5));
-
-        binaryTree.delNode(3);
-        System.out.println("==============================");
-        binaryTree.preOrder();
-    }
-
-    private HeroNode root;//根节点
-
-    public void setRoot(HeroNode root) {
-        this.root = root;
-    }
-
-    //从根节点前序遍历
-    public void preOrder() {
-        if (this.root != null)
-            this.root.preOrder();
-        else
-            System.out.println("出问题了");
-    }
-
-    public void infixOrder() {
-        if (this.root != null)
-            this.root.infixOrder();
-        else
-            System.out.println("出问题了");
-    }
-
-    public void postOrder() {
-        if (this.root != null)
-            this.root.postOrder();
-        else
-            System.out.println("出问题了");
-    }
-
-    //从根节点进行查找，前序查找
-    /*
-    先判断当前节点的no是否等于要找的
-        如果=，则返回当前节点
-        如果！=，则判断当前节点左子节点是否为空，不为空，
-    递归前序查找。
-        如果左递归查找找到节点，则返回，否则继续判断当前节点的右子节点是否为空，如果不为空则向右递归查找。
-
-     */
-    public HeroNode preOrderSearch(int no) {
-        if (root != null)
-            return root.preOrderSearch(no);
-        else
-            return null;
-    }
-
-    public HeroNode infixOrderSearch(int no) {
-        if (root != null)
-            return root.infixOrderSearch(no);
-        else
-            return null;
-    }
-
-    public HeroNode postOrderSearch(int no) {
-        if (root != null)
-            return root.postOrderSearch(no);
-        else
-            return null;
-    }
-
-    //删除节点
-    public void delNode(int no) {
-        if (root != null) {
-            if (root.getNo() == no) {
-                if (root.getLeft() == null && root.getRight() == null)
-                    root = null;
-                else {
-                    if (root.getLeft() == null) {
-                        root = root.getRight();
-                    } else {
-                        root = root.getLeft();
-                    }
-                }
-            } else
-                root.delNode2(no);
-        } else
-            System.out.println("出问题了");
-    }
-
-}
-
-class HeroNode {
     private int no;
     private String name;
-    private HeroNode left;
-    private HeroNode right;
+    private IHeroNode left;
+    private IHeroNode right;
 
-    public HeroNode(int no, String name) {
+    //type ---》0表示指向子树，1表示指向前驱/后继节点
+    private int leftType;
+    private int rightType;
+
+    public IHeroNode(int no, String name) {
         this.no = no;
         this.name = name;
+    }
+
+    public int getLeftType() {
+        return leftType;
+    }
+
+    public void setLeftType(int leftType) {
+        this.leftType = leftType;
+    }
+
+    public int getRightType() {
+        return rightType;
+    }
+
+    public void setRightType(int rightType) {
+        this.rightType = rightType;
     }
 
     public int getNo() {
@@ -143,19 +54,19 @@ class HeroNode {
         this.name = name;
     }
 
-    public HeroNode getLeft() {
+    public IHeroNode getLeft() {
         return left;
     }
 
-    public void setLeft(HeroNode left) {
+    public void setLeft(IHeroNode left) {
         this.left = left;
     }
 
-    public HeroNode getRight() {
+    public IHeroNode getRight() {
         return right;
     }
 
-    public void setRight(HeroNode right) {
+    public void setRight(IHeroNode right) {
         this.right = right;
     }
 
@@ -196,13 +107,12 @@ class HeroNode {
      * @param no
      * @return 返回该节点或者null
      */
-    public HeroNode preOrderSearch(int no) {
-        System.out.println(":)");
+    public IHeroNode preOrderSearch(int no) {
         if (this.no == no) {
             return this;
         }
 
-        HeroNode resNode = null;
+        IHeroNode resNode = null;
         if (this.left != null) {
             resNode = this.left.preOrderSearch(no);
         }
@@ -215,8 +125,8 @@ class HeroNode {
         return resNode;
     }
 
-    public HeroNode infixOrderSearch(int no) {
-        HeroNode resNode = null;
+    public IHeroNode infixOrderSearch(int no) {
+        IHeroNode resNode = null;
         if (this.left != null) {
             resNode = this.left.infixOrderSearch(no);
         }
@@ -233,8 +143,8 @@ class HeroNode {
         return resNode;
     }
 
-    public HeroNode postOrderSearch(int no) {
-        HeroNode resNode = null;
+    public IHeroNode postOrderSearch(int no) {
+        IHeroNode resNode = null;
         if (this.left != null) {
             resNode = this.left.postOrderSearch(no);
         }
@@ -317,7 +227,7 @@ class HeroNode {
 
     @Override
     public String toString() {
-        return "HeroNode{" +
+        return "IHeroNode{" +
                 "no=" + no +
                 ", name='" + name + '\'' +
                 '}';
