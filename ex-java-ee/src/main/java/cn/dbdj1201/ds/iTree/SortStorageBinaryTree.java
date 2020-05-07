@@ -28,11 +28,36 @@ public class SortStorageBinaryTree {
 
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 4, 5, 6, 7};
-        ArrayBinaryTree tree = new ArrayBinaryTree(arr);
+//        ArrayBinaryTree tree = new ArrayBinaryTree(arr);
 //        tree.preOrder();
-        System.out.println("=====");
-        tree.infixOrder();
-        System.out.println("=====");
-        tree.postOrder();
+//        System.out.println("=====");
+//        tree.infixOrder();
+//        System.out.println("=====");
+//        tree.postOrder();
+
+        IHeroNode songJiang = new IHeroNode(1, "song jiang");
+        IHeroNode wuYong = new IHeroNode(3, "wu yong");
+        IHeroNode luJunYi = new IHeroNode(6, "lu jun yi");
+        IHeroNode linChong = new IHeroNode(8, "lin chong");
+        IHeroNode guanSheng = new IHeroNode(10, "guan sheng");
+        IHeroNode mary = new IHeroNode(14, "mary");
+
+        ClueBinaryTree tree = new ClueBinaryTree();
+        songJiang.setLeft(wuYong);
+        songJiang.setRight(luJunYi);
+        wuYong.setLeft(linChong);
+        wuYong.setRight(guanSheng);
+        luJunYi.setLeft(mary);
+        tree.setRoot(songJiang);
+
+        tree.clueNodes(songJiang);
+
+//        System.out.println(guanSheng.getLeft());
+//        System.out.println(guanSheng.getLeftType());
+//        System.out.println(guanSheng.getRight());
+//        System.out.println(guanSheng.getRightType());
+
+        tree.clueInfixList();
+
     }
 }

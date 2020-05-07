@@ -15,11 +15,15 @@ public class BinaryTree {
         HeroNode luJunYi = new HeroNode(3, "lu jun yi");
         HeroNode linChong = new HeroNode(4, "lin chong");
         HeroNode guanSheng = new HeroNode(5, "guan sheng");
+        HeroNode guanSheng1 = new HeroNode(6, "guan sheng");
+        HeroNode guanSheng2 = new HeroNode(7, "guan sheng");
 
         songJiang.setLeft(wuYong);
         songJiang.setRight(luJunYi);
         luJunYi.setRight(linChong);
         luJunYi.setLeft(guanSheng);
+        wuYong.setLeft(guanSheng1);
+        wuYong.setRight(guanSheng2);
         binaryTree.setRoot(songJiang);
 
         binaryTree.preOrder();
@@ -32,9 +36,9 @@ public class BinaryTree {
 //        System.out.println(binaryTree.infixOrderSearch(5));
 //        System.out.println(binaryTree.postOrderSearch(5));
 
-        binaryTree.delNode(3);
-        System.out.println("==============================");
-        binaryTree.preOrder();
+//        binaryTree.delNode(3);
+//        System.out.println("==============================");
+//        binaryTree.preOrder();
     }
 
     private HeroNode root;//根节点

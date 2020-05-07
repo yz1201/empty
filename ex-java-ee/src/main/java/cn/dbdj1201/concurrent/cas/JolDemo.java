@@ -11,14 +11,12 @@ import java.lang.ref.SoftReference;
  **/
 public class JolDemo {
 
-    ThreadLocal threadLocal;
     public static void main(String[] args) {
         Object lock = new Object();
         System.out.println(ClassLayout.parseInstance(lock).toPrintable());
         synchronized (lock) {
             System.out.println(ClassLayout.parseInstance(lock).toPrintable());
         }
-        SoftReference reference;
     }
 
 }
