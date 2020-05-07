@@ -1,5 +1,7 @@
 package cn.dbdj1201.ds.sort;
 
+import java.util.Arrays;
+
 /**
  * @author tyz1201
  * @datetime 2020-05-07 11:15
@@ -21,11 +23,25 @@ public class HeapSort {
 
     public static void main(String[] args) {
         int arr[] = {4, 6, 8, 5, 9};
-
+        heap(arr);
     }
 
     public static void heap(int[] arr) {
 
+        //把数组调整为大顶堆
+        for (int i = (arr.length - 1) / 2; i >= 0; i--)
+            adjustHeap(arr, i, arr.length);
+
+        System.out.println(Arrays.toString(arr));
+        for (int j = arr.length - 1; j > 0; j--) {
+            int temp = arr[0];
+            arr[0] = arr[j];
+            arr[j] = temp;
+
+            adjustHeap(arr, 0, j);
+        }
+
+        System.out.println(Arrays.toString(arr));
     }
 
     /**
@@ -48,7 +64,7 @@ public class HeapSort {
                 break;//
         }
 
-        //循环结束后，当前最大值已经放置在i位置。
+        //循环结束后，当前最大值已经放置在i位置。需把交换的值放在原来的k位置
         arr[i] = temp;
     }
 }

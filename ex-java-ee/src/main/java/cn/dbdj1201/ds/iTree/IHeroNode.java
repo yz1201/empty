@@ -13,6 +13,11 @@ public class IHeroNode {
     private IHeroNode left;
     private IHeroNode right;
 
+    /**
+     * //父节点的指针（为了后序线索化使用）
+     */
+    private IHeroNode parent;
+
     //type ---》0表示指向子树，1表示指向前驱/后继节点
     private int leftType;
     private int rightType;
@@ -36,6 +41,14 @@ public class IHeroNode {
 
     public void setRightType(int rightType) {
         this.rightType = rightType;
+    }
+
+    public IHeroNode getParent() {
+        return parent;
+    }
+
+    public void setParent(IHeroNode parent) {
+        this.parent = parent;
     }
 
     public int getNo() {

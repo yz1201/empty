@@ -48,16 +48,19 @@ public class SortStorageBinaryTree {
         wuYong.setLeft(linChong);
         wuYong.setRight(guanSheng);
         luJunYi.setLeft(mary);
+        wuYong.setParent(songJiang);
+        luJunYi.setParent(songJiang);
+        linChong.setParent(wuYong);
+        guanSheng.setParent(wuYong);
+        mary.setParent(luJunYi);
         tree.setRoot(songJiang);
 
-        tree.clueNodes(songJiang);
+        tree.clueNodePostOrder(songJiang);
 
 //        System.out.println(guanSheng.getLeft());
-//        System.out.println(guanSheng.getLeftType());
 //        System.out.println(guanSheng.getRight());
-//        System.out.println(guanSheng.getRightType());
 
-        tree.clueInfixList();
+        tree.clueTreePostList();
 
     }
 }
