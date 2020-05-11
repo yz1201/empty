@@ -23,13 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed85c090-aefa-43e3-acbf-d3f7dd4a1eb7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/concurrent/atomics/AtomicIntegerDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/iTree/huffman/HuffmanCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/iTree/binarySortTree/BinarySortTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/concurrent/atomics/AtomicIntegerDmo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/concurrent/clazz1/AtomicIntegerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/concurrent/clazz1/AtomicIntegerDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex-java-ee/src/main/resources/study/ThreadPoolDetails" beforeDir="false" afterPath="$PROJECT_DIR$/ex-java-ee/src/main/resources/study/ThreadPoolDetails" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/iTree/huffman/HuffmanCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/iTree/huffman/HuffmanCode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,7 +176,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HuffmanCode">
+  <component name="RunManager" selected="Application.BinarySortTree">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -199,6 +195,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cn.dbdj1201.concurrent.clazz1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BinarySortTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.ds.iTree.binarySortTree.BinarySortTree" />
+      <module name="ex-java-ee" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.dbdj1201.ds.iTree.binarySortTree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -241,20 +251,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cn.dbdj1201.concurrent.cas.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SortStorageBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.ds.iTree.SortStorageBinaryTree" />
-      <module name="ex-java-ee" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.dbdj1201.ds.iTree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -398,7 +394,6 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.SortStorageBinaryTree" />
       <item itemvalue="Application.HuffmanTree" />
       <item itemvalue="Application.JolDemo" />
       <item itemvalue="Application.AtomicIntegerDemo" />
@@ -417,14 +412,15 @@
       <item itemvalue="Spring Boot.EsApplication" />
       <item itemvalue="Spring Boot.CrawlerApplication" />
       <item itemvalue="Application.HuffmanCode" />
+      <item itemvalue="Application.BinarySortTree" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinarySortTree" />
         <item itemvalue="Application.HuffmanCode" />
         <item itemvalue="Application.AtomicIntegerDemo" />
         <item itemvalue="Application.JolDemo" />
         <item itemvalue="Application.HuffmanTree" />
-        <item itemvalue="Application.SortStorageBinaryTree" />
       </list>
     </recent_temporary>
   </component>
@@ -530,14 +526,7 @@
       <workItem from="1588993976783" duration="1294000" />
       <workItem from="1589082527150" duration="1434000" />
       <workItem from="1589173139037" duration="225000" />
-      <workItem from="1589178188870" duration="9392000" />
-    </task>
-    <task id="LOCAL-00016" summary="shopping city -st spring data elasticsearch 聚合">
-      <created>1584972647077</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1584972647077</updated>
+      <workItem from="1589178188870" duration="17831000" />
     </task>
     <task id="LOCAL-00017" summary="shopping city -st sc-search">
       <created>1585130101787</created>
@@ -875,7 +864,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588861007540</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="ds -tree huffman code">
+      <created>1589193273147</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1589193273148</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -894,7 +890,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="spring-data-jpa -st 2nd" />
     <MESSAGE value="spring-data-jpa hibernate 12n 121 n2n -st 3nd" />
     <MESSAGE value="spring-data-jpa hibernate 12n 121 n2n -st 4nd" />
     <MESSAGE value="高并发课程 -st ThreadPoolExecutor ctl CAS JOL" />
@@ -919,7 +914,8 @@
     <MESSAGE value="ds -tree" />
     <MESSAGE value="ds -tree -2nd" />
     <MESSAGE value="ds -tree clue, heap sort" />
-    <option name="LAST_COMMIT_MESSAGE" value="ds -tree clue, heap sort" />
+    <MESSAGE value="ds -tree huffman code" />
+    <option name="LAST_COMMIT_MESSAGE" value="ds -tree huffman code" />
   </component>
   <component name="WindowStateProjectService">
     <state x="590" y="156" key="#Application" timestamp="1585817629275">
@@ -962,10 +958,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="673" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1586965469437" />
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1589179050759">
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1589203250228">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1589179050759" />
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1589203250228" />
     <state x="689" y="302" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1584696130343">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -990,30 +986,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="682" y="351" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1586962260183" />
-    <state x="483" y="112" key="CommitChangelistDialog2" timestamp="1588861005040">
+    <state x="483" y="112" key="CommitChangelistDialog2" timestamp="1589193267176">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="483" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1588861005040" />
+    <state x="483" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1589193267176" />
     <state x="740" y="209" key="FileChooserDialogImpl" timestamp="1587832057065">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="209" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1587832057065" />
-    <state width="1877" height="2" key="GridCell.Tab.0.bottom" timestamp="1589191193237">
+    <state width="1860" height="14" key="GridCell.Tab.0.bottom" timestamp="1589204311389">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="2" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589191193237" />
-    <state width="1877" height="2" key="GridCell.Tab.0.center" timestamp="1589191193237">
+    <state width="1860" height="14" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589204311389" />
+    <state width="1860" height="14" key="GridCell.Tab.0.center" timestamp="1589204311389">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="2" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589191193237" />
-    <state width="1877" height="2" key="GridCell.Tab.0.left" timestamp="1589191193237">
+    <state width="1860" height="14" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589204311389" />
+    <state width="1860" height="14" key="GridCell.Tab.0.left" timestamp="1589204311389">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="2" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589191193237" />
-    <state width="1877" height="2" key="GridCell.Tab.0.right" timestamp="1589191193237">
+    <state width="1860" height="14" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589204311389" />
+    <state width="1860" height="14" key="GridCell.Tab.0.right" timestamp="1589204311389">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="2" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589191193237" />
+    <state width="1860" height="14" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589204311389" />
     <state width="1877" height="212" key="GridCell.Tab.1.bottom" timestamp="1588864785304">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -1062,10 +1058,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="456" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1587832056135" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1588861014900">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1589193290582">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1588861014900" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1589193290582" />
     <state x="1173" y="284" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1587278220904">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -1296,7 +1292,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/iTree/huffman/HuffmanCode.java</url>
-          <line>12</line>
+          <line>17</line>
           <properties class="cn.dbdj1201.ds.iTree.huffman.HuffmanCode" method="main">
             <option name="EMULATED" value="true" />
           </properties>

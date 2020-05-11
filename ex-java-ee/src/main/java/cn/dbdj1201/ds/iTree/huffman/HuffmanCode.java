@@ -1,7 +1,6 @@
 package cn.dbdj1201.ds.iTree.huffman;
 
-import cn.dbdj1201.jpa.dao.IRoleDao;
-
+import java.io.*;
 import java.util.*;
 
 /**
@@ -9,10 +8,16 @@ import java.util.*;
  * @datetime 2020-05-11 14:34
  **/
 public class HuffmanCode {
+    /*
+    赫夫曼编码压缩文件注意:
+        如果文件本身就是经过压缩处理的，那么再用这个压缩不会有明显变化，比如视频或者ppt
+        赫夫曼编码是按字节来处理的，可以处理所有文件(二进制文件，文本文件)
+        如果一个文件中的内容重复的数据不多，那么压缩效果也不会太明显。
+     */
 
     public static void main(String[] args) {
-        String content = "i like like like java do you like a java";
-        byte[] bytes = content.getBytes();
+//        String content = "i like like like java do you like a java";
+//        byte[] bytes = content.getBytes();
 //        System.out.println(bytes.length);
 //        for (byte aByte : bytes) {
 //            System.out.println(aByte);
@@ -32,11 +37,24 @@ public class HuffmanCode {
 //            System.out.println(b);
 //        }
 
-        byte[] huffmanZip = huffmanZip(bytes);
-        System.out.println(huffmanZip.length);
-        for (byte b : huffmanZip) {
-            System.out.println(b);
-        }
+//        byte[] decode = decode(huffmanCodes, zip);
+//        System.out.println(new String(decode));
+//        for (byte b : decode) {
+//            System.out.println(String.valueOf(b));
+//        }
+
+//        byte[] huffmanZip = huffmanZip(bytes);
+//        System.out.println(huffmanZip.length);
+//        for (byte b : huffmanZip) {
+//            System.out.println(b);
+//        }
+
+        String zipFile = "D:\\test\\huffman_zip\\dst.zip";
+        String dstFile = "D:\\test\\huffman_zip\\testNew.jpg";
+
+//        zipFile(srcFile, dstFile);
+        unZipFile(zipFile, dstFile);
+        System.out.println("done");
     }
 
     private static List<Node2> getNodes(byte[] bytes) {
@@ -159,7 +177,7 @@ public class HuffmanCode {
 
     /**
      * @param flag 是否需要补高位，true表示需要补高位，false不需要
-     * @param b 传入的字节
+     * @param b    传入的字节
      * @return 是该字节对应的二进制的字符串，但是是按补码返回的
      */
     private static String byteToBitString(boolean flag, byte b) {
@@ -176,10 +194,123 @@ public class HuffmanCode {
             return s;
     }
 
+    private static byte[] decode(Map<Byte, String> huffmanCodes, byte[] huffmanBytes) {
+        StringBuilder stringBuilder = new StringBuilder();
+        for (int i = 0; i < huffmanBytes.length; i++) {
+            byte b = huffmanBytes[i];
+            boolean flag = (i == huffmanBytes.length - 1);
+            stringBuilder.append(byteToBitString(!flag, b));
+        }
+
+        Map<String, Byte> map = new HashMap<>();
+        for (Map.Entry<Byte, String> entry : huffmanCodes.entrySet()) {
+            map.put(entry.getValue(), entry.getKey());
+        }
+
+        List<Byte> list = new ArrayList<>();
+        for (int i = 0; i < stringBuilder.length(); ) {
+            int count = 1;
+            boolean flag = true;
+            Byte b = null;
+
+            while (flag) {
+                String key = stringBuilder.substring(i, i + count); //i 不动，count移动，直到匹配到一个字符
+                b = map.get(key);
+                if (b == null)
+                    count++;
+                else
+                    flag = false;
+            }
+            list.add(b);
+            i += count; //i直接移动到count位置
+        }
+        //把list数据放进一个字节数组中
+        byte[] bytes = new byte[list.size()];
+        for (int i = 0; i < list.size(); i++) {
+            bytes[i] = list.get(i);
+        }
+        return bytes;
+    }
+
     private static byte[] huffmanUnzip() {
         return null;
     }
 
+    //将一个文件进行压缩
+
+    /**
+     * @param srcFile
+     * @param dstFile
+     */
+    public static void zipFile(String srcFile, String dstFile) {
+        //创建输出流
+        OutputStream os = null;
+        ObjectOutputStream oos = null;
+        //创建文件输入流
+        FileInputStream fis = null;
+        try {
+            //读文件，压缩，将huffman编码跟压缩后的字节数组全部输出到目标文件
+            fis = new FileInputStream(srcFile);
+            byte[] bytes = new byte[fis.available()];
+
+            fis.read(bytes);
+            byte[] huffmanBytes = huffmanZip(bytes);
+
+            os = new FileOutputStream(dstFile);
+            oos = new ObjectOutputStream(os);
+
+            //我们以对象流的方式写入赫夫曼编码，是为了之后恢复源文件时使用
+            oos.writeObject(huffmanBytes);
+            oos.writeObject(huffmanCodes);
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
+            try {
+                oos.close();
+                os.close();
+                fis.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+
+        }
+
+    }
+
+
+    //文件解压
+
+    /**
+     * @param zipFile
+     * @param dstFile
+     */
+    public static void unZipFile(String zipFile, String dstFile) {
+        ObjectInputStream ois = null;
+        InputStream is = null;
+        FileOutputStream fos = null;
+
+        try {
+            is = new FileInputStream(zipFile);
+            ois = new ObjectInputStream(is);
+            byte[] huffmanBytes = (byte[]) ois.readObject();
+            Map<Byte, String> huffmanCodes = (Map<Byte, String>) ois.readObject();
+            byte[] decode = decode(huffmanCodes, huffmanBytes);
+            fos = new FileOutputStream(dstFile);
+            fos.write(decode);
+
+        } catch (IOException | ClassNotFoundException e) {
+            e.printStackTrace();
+        } finally {
+            try {
+                fos.close();
+                ois.close();
+                is.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+    }
 }
 
 class Node2 implements Comparable<Node2> {
