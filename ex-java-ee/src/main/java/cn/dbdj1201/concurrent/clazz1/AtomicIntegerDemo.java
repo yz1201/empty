@@ -42,8 +42,8 @@ public class AtomicIntegerDemo {
 
     public static void main(String[] args) {
         AtomicIntegerDemo demo = new AtomicIntegerDemo();
-        Thread t1 = new Thread(demo::m3);
-        Thread t2 = new Thread(demo::m3);
+        Thread t1 = new Thread(demo::m);
+        Thread t2 = new Thread(demo::m);
         long startTime = System.currentTimeMillis();
         t1.start();
         t2.start();

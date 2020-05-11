@@ -23,13 +23,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed85c090-aefa-43e3-acbf-d3f7dd4a1eb7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/concurrent/atomics/AtomicIntegerDmo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/iTree/HuffmanTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/concurrent/atomics/AtomicIntegerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/iTree/huffman/HuffmanCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/iTree/ClueBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/iTree/ClueBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/iTree/IHeroNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/iTree/IHeroNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/iTree/SortStorageBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/iTree/SortStorageBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/sort/HeapSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/sort/HeapSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/concurrent/atomics/AtomicIntegerDmo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/concurrent/clazz1/AtomicIntegerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/concurrent/clazz1/AtomicIntegerDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex-java-ee/src/main/resources/study/ThreadPoolDetails" beforeDir="false" afterPath="$PROJECT_DIR$/ex-java-ee/src/main/resources/study/ThreadPoolDetails" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,7 +180,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HuffmanTree">
+  <component name="RunManager" selected="Application.HuffmanCode">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -192,13 +192,13 @@
       <Host>localhost</Host>
       <Port>5050</Port>
     </configuration>
-    <configuration name="BinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.ds.iTree.BinaryTree" />
+    <configuration name="AtomicIntegerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.concurrent.clazz1.AtomicIntegerDemo" />
       <module name="ex-java-ee" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.dbdj1201.ds.iTree.*" />
+          <option name="PATTERN" value="cn.dbdj1201.concurrent.clazz1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -206,13 +206,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.ds.sort.HeapSort" />
+    <configuration name="HuffmanCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.ds.iTree.huffman.HuffmanCode" />
       <module name="ex-java-ee" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.dbdj1201.ds.sort.*" />
+          <option name="PATTERN" value="cn.dbdj1201.ds.iTree.huffman.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -234,13 +234,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IHashTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.ds.iHashtable.IHashTable" />
+    <configuration name="JolDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.concurrent.cas.JolDemo" />
       <module name="ex-java-ee" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.dbdj1201.ds.iHashtable.*" />
+          <option name="PATTERN" value="cn.dbdj1201.concurrent.cas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -398,9 +398,10 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.IHashTable" />
-      <item itemvalue="Application.BinaryTree" />
       <item itemvalue="Application.SortStorageBinaryTree" />
+      <item itemvalue="Application.HuffmanTree" />
+      <item itemvalue="Application.JolDemo" />
+      <item itemvalue="Application.AtomicIntegerDemo" />
       <item itemvalue="Spring Boot.ScGoodWebApplication" />
       <item itemvalue="Spring Boot.ScSearchApplication" />
       <item itemvalue="Spring Boot.ScAuthApplication" />
@@ -415,16 +416,15 @@
       <item itemvalue="Spring Boot.ScUploadApplication" />
       <item itemvalue="Spring Boot.EsApplication" />
       <item itemvalue="Spring Boot.CrawlerApplication" />
-      <item itemvalue="Application.HeapSort" />
-      <item itemvalue="Application.HuffmanTree" />
+      <item itemvalue="Application.HuffmanCode" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HuffmanCode" />
+        <item itemvalue="Application.AtomicIntegerDemo" />
+        <item itemvalue="Application.JolDemo" />
         <item itemvalue="Application.HuffmanTree" />
         <item itemvalue="Application.SortStorageBinaryTree" />
-        <item itemvalue="Application.HeapSort" />
-        <item itemvalue="Application.BinaryTree" />
-        <item itemvalue="Application.IHashTable" />
       </list>
     </recent_temporary>
   </component>
@@ -526,14 +526,11 @@
       <workItem from="1588643493975" duration="21599000" />
       <workItem from="1588727019604" duration="5793000" />
       <workItem from="1588756991722" duration="11146000" />
-      <workItem from="1588813689517" duration="21880000" />
-    </task>
-    <task id="LOCAL-00015" summary="shopping city -st elasticsearch crud">
-      <created>1584936998069</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1584936998069</updated>
+      <workItem from="1588813689517" duration="23854000" />
+      <workItem from="1588993976783" duration="1294000" />
+      <workItem from="1589082527150" duration="1434000" />
+      <workItem from="1589173139037" duration="225000" />
+      <workItem from="1589178188870" duration="9392000" />
     </task>
     <task id="LOCAL-00016" summary="shopping city -st spring data elasticsearch 聚合">
       <created>1584972647077</created>
@@ -871,7 +868,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588823781643</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="ds -tree clue, heap sort">
+      <created>1588861007540</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1588861007540</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -958,10 +962,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="673" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1586965469437" />
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1588856071498">
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1589179050759">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1588856071498" />
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1589179050759" />
     <state x="689" y="302" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1584696130343">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -986,46 +990,46 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="682" y="351" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1586962260183" />
-    <state x="483" y="112" key="CommitChangelistDialog2" timestamp="1588823776971">
+    <state x="483" y="112" key="CommitChangelistDialog2" timestamp="1588861005040">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="483" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1588823776971" />
+    <state x="483" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1588861005040" />
     <state x="740" y="209" key="FileChooserDialogImpl" timestamp="1587832057065">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="209" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1587832057065" />
-    <state width="1877" height="586" key="GridCell.Tab.0.bottom" timestamp="1588857117299">
+    <state width="1877" height="2" key="GridCell.Tab.0.bottom" timestamp="1589191193237">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="586" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588857117299" />
-    <state width="1877" height="586" key="GridCell.Tab.0.center" timestamp="1588857117299">
+    <state width="1877" height="2" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589191193237" />
+    <state width="1877" height="2" key="GridCell.Tab.0.center" timestamp="1589191193237">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="586" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588857117299" />
-    <state width="1877" height="586" key="GridCell.Tab.0.left" timestamp="1588857117299">
+    <state width="1877" height="2" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589191193237" />
+    <state width="1877" height="2" key="GridCell.Tab.0.left" timestamp="1589191193237">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="586" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588857117299" />
-    <state width="1877" height="586" key="GridCell.Tab.0.right" timestamp="1588857117299">
+    <state width="1877" height="2" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589191193237" />
+    <state width="1877" height="2" key="GridCell.Tab.0.right" timestamp="1589191193237">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="586" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588857117299" />
-    <state width="1877" height="212" key="GridCell.Tab.1.bottom" timestamp="1588856383805">
+    <state width="1877" height="2" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589191193237" />
+    <state width="1877" height="212" key="GridCell.Tab.1.bottom" timestamp="1588864785304">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="212" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588856383805" />
-    <state width="1877" height="212" key="GridCell.Tab.1.center" timestamp="1588856383805">
+    <state width="1877" height="212" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588864785304" />
+    <state width="1877" height="212" key="GridCell.Tab.1.center" timestamp="1588864785304">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="212" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588856383805" />
-    <state width="1877" height="212" key="GridCell.Tab.1.left" timestamp="1588856383805">
+    <state width="1877" height="212" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588864785304" />
+    <state width="1877" height="212" key="GridCell.Tab.1.left" timestamp="1588864785304">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="212" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588856383805" />
-    <state width="1877" height="212" key="GridCell.Tab.1.right" timestamp="1588856383805">
+    <state width="1877" height="212" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588864785304" />
+    <state width="1877" height="212" key="GridCell.Tab.1.right" timestamp="1588864785304">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="212" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588856383805" />
+    <state width="1877" height="212" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588864785304" />
     <state width="1561" height="262" key="GridCell.Tab.2.bottom" timestamp="1586853101029">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -1058,10 +1062,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="456" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1587832056135" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1588823788345">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1588861014900">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1588823788345" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1588861014900" />
     <state x="1173" y="284" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1587278220904">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -1289,6 +1293,14 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/iTree/huffman/HuffmanCode.java</url>
+          <line>12</line>
+          <properties class="cn.dbdj1201.ds.iTree.huffman.HuffmanCode" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="66" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/concurrent/clazz3/TicketSeller.java</url>
