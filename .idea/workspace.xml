@@ -23,6 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed85c090-aefa-43e3-acbf-d3f7dd4a1eb7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/demo/HelloWorld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/iTree/binarySortTree/AVLTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/iTree/binarySortTree/BinarySortTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/iTree/binarySortTree/BinarySortTree.java" afterDir="false" />
@@ -176,7 +178,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BinarySortTree">
+  <component name="RunManager" selected="Application.AVLTree">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -187,6 +189,20 @@
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
+    </configuration>
+    <configuration name="AVLTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.ds.iTree.binarySortTree.AVLTree" />
+      <module name="ex-java-ee" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.dbdj1201.ds.iTree.binarySortTree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="AtomicIntegerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.concurrent.clazz1.AtomicIntegerDemo" />
@@ -216,6 +232,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.demo.HelloWorld" />
+      <module name="ex-java-ee" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.dbdj1201.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HuffmanCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.ds.iTree.huffman.HuffmanCode" />
       <module name="ex-java-ee" />
@@ -223,34 +253,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cn.dbdj1201.ds.iTree.huffman.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HuffmanTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.ds.iTree.HuffmanTree" />
-      <module name="ex-java-ee" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.dbdj1201.ds.iTree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JolDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.concurrent.cas.JolDemo" />
-      <module name="ex-java-ee" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.dbdj1201.concurrent.cas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -394,11 +396,11 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.HuffmanTree" />
-      <item itemvalue="Application.JolDemo" />
       <item itemvalue="Application.AtomicIntegerDemo" />
       <item itemvalue="Application.HuffmanCode" />
       <item itemvalue="Application.BinarySortTree" />
+      <item itemvalue="Application.AVLTree" />
+      <item itemvalue="Application.HelloWorld" />
       <item itemvalue="Spring Boot.ScGoodWebApplication" />
       <item itemvalue="Spring Boot.ScSearchApplication" />
       <item itemvalue="Spring Boot.ScAuthApplication" />
@@ -416,11 +418,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AVLTree" />
+        <item itemvalue="Application.HelloWorld" />
         <item itemvalue="Application.BinarySortTree" />
         <item itemvalue="Application.HuffmanCode" />
         <item itemvalue="Application.AtomicIntegerDemo" />
-        <item itemvalue="Application.JolDemo" />
-        <item itemvalue="Application.HuffmanTree" />
       </list>
     </recent_temporary>
   </component>
@@ -527,14 +529,8 @@
       <workItem from="1589082527150" duration="1434000" />
       <workItem from="1589173139037" duration="225000" />
       <workItem from="1589178188870" duration="17900000" />
-      <workItem from="1589245776159" duration="7064000" />
-    </task>
-    <task id="LOCAL-00018" summary="shopping city -st sc-search indexs">
-      <created>1585161176812</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1585161176812</updated>
+      <workItem from="1589245776159" duration="13668000" />
+      <workItem from="1589266457501" duration="4776000" />
     </task>
     <task id="LOCAL-00019" summary="shopping city -st sc-search query impl">
       <created>1585200052637</created>
@@ -872,7 +868,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589206674588</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="ds -tree  BinarySortTree 2nd">
+      <created>1589255196033</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1589255196034</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -891,7 +894,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="spring-data-jpa hibernate 12n 121 n2n -st 4nd" />
     <MESSAGE value="高并发课程 -st ThreadPoolExecutor ctl CAS JOL" />
     <MESSAGE value="springboot ssm + vue user-manage-system -st" />
     <MESSAGE value="springboot ssm + vue user-manage-system -done &#10;vue？ pi vue" />
@@ -916,7 +918,8 @@
     <MESSAGE value="ds -tree clue, heap sort" />
     <MESSAGE value="ds -tree huffman code" />
     <MESSAGE value="ds -tree huffman code 2nd, BinarySortTree" />
-    <option name="LAST_COMMIT_MESSAGE" value="ds -tree huffman code 2nd, BinarySortTree" />
+    <MESSAGE value="ds -tree  BinarySortTree 2nd" />
+    <option name="LAST_COMMIT_MESSAGE" value="ds -tree  BinarySortTree 2nd" />
   </component>
   <component name="WindowStateProjectService">
     <state x="590" y="156" key="#Application" timestamp="1585817629275">
@@ -987,30 +990,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="682" y="351" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1586962260183" />
-    <state x="483" y="112" key="CommitChangelistDialog2" timestamp="1589206671791">
+    <state x="483" y="112" key="CommitChangelistDialog2" timestamp="1589255190150">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="483" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1589206671791" />
+    <state x="483" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1589255190150" />
     <state x="740" y="209" key="FileChooserDialogImpl" timestamp="1587832057065">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="209" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1587832057065" />
-    <state width="1860" height="14" key="GridCell.Tab.0.bottom" timestamp="1589206723326">
+    <state width="938" height="2" key="GridCell.Tab.0.bottom" timestamp="1589271995934">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="14" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589206723326" />
-    <state width="1860" height="14" key="GridCell.Tab.0.center" timestamp="1589206723326">
+    <state width="938" height="2" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589271995934" />
+    <state width="938" height="2" key="GridCell.Tab.0.center" timestamp="1589271995934">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="14" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589206723326" />
-    <state width="1860" height="14" key="GridCell.Tab.0.left" timestamp="1589206723326">
+    <state width="938" height="2" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589271995934" />
+    <state width="938" height="2" key="GridCell.Tab.0.left" timestamp="1589271995934">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="14" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589206723326" />
-    <state width="1860" height="14" key="GridCell.Tab.0.right" timestamp="1589206723326">
+    <state width="938" height="2" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589271995934" />
+    <state width="938" height="2" key="GridCell.Tab.0.right" timestamp="1589271995934">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="14" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589206723326" />
+    <state width="938" height="2" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589271995934" />
     <state width="1877" height="212" key="GridCell.Tab.1.bottom" timestamp="1588864785304">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -1059,10 +1062,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="456" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1587832056135" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1589206682921">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1589255216221">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1589206682921" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1589255216221" />
     <state x="1173" y="284" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1587278220904">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -1075,10 +1078,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1587885546973" />
-    <state x="816" y="361" width="672" height="678" key="search.everywhere.popup" timestamp="1589251708990">
+    <state x="816" y="361" width="672" height="678" key="search.everywhere.popup" timestamp="1589265792191">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="816" y="361" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1589251708990" />
+    <state x="816" y="361" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1589265792191" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

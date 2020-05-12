@@ -2,33 +2,42 @@ package cn.dbdj1201.ds.iTree.binarySortTree;
 
 /**
  * @author tyz1201
- * @datetime 2020-05-11 21:15
+ * @datetime 2020-05-12 13:22
  **/
-public class BinarySortTree {
+public class AVLTree {
     /*
-    数组查找快，增删慢
-    链表增删快查询慢
-    二叉排序树解决你的烦恼
-    概念：对于二叉排序树，它的任意一个非叶子节点，要求其左子节点的值比当前节点的值小，右子节点的值比当前节点的值大。如果相等，则左右皆可。
+    平衡二叉树（AVL树）：二叉排序树的一种，但他要求左子树高度跟右子树高度差<=1.
+    为什么拎出来说？因为对于极端情况，二叉排序树会出现形如单链表的形式，导致，查询效率很差。比如[1,2,3,4,5,6]，根据二叉排序树的构建方式，会变成单链表的形式
+    怎么构建AVL树？
+        常见实现方法有红黑树，AVL(算法)，替罪羊树，伸展树，Treap等。
+        
+     AVL树构建过程：左旋转？右旋转？双旋转。
+     左子树太长右旋转
+     右子树太长左旋转
+     但在某些情况下，单旋转不能完成平衡二叉树的转化，比如数列int[] arr={10,11,7,6,8,9}，以及int[] arr={2,1,6,5,7,3}
+
      */
 
     public static void main(String[] args) {
-        int[] array = {7, 3, 10, 12, 5, 1, 9};
-        BinarySortTree binarySortTree = new BinarySortTree();
+        int[] array = {10, 11, 7, 6, 8, 9};
+        AVLTree avlTree = new AVLTree();
         for (int i : array) {
-            binarySortTree.add(new Node3(i));
+            avlTree.add(new Node4(i));
         }
 
-        binarySortTree.infixOrder();
+        avlTree.infixOrder();
+        System.out.println(avlTree.root.height());
+        System.out.println(avlTree.root.leftHeight());
+        System.out.println(avlTree.root.rightHeight());
     }
 
-    private Node3 root;
+    private Node4 root;
 
-    public void add(Node3 node3) {
+    public void add(Node4 node4) {
         if (this.root == null)
-            root = node3;
+            root = node4;
         else
-            root.add(node3);
+            root.add(node4);
     }
 
     public void infixOrder() {
@@ -59,14 +68,14 @@ public class BinarySortTree {
         targetNode = temp  //要保证是二叉排序树BST，所有从右边找，且找最小。||或者从左子树找一个最大的，一样的道理。
      */
 
-    public Node3 search(int value) {
+    public Node4 search(int value) {
         if (root == null)
             return null;
         else
             return root.search(value);
     }
 
-    public Node3 searchParent(int value) {
+    public Node4 searchParent(int value) {
         if (root == null)
             return null;
         else
@@ -74,11 +83,11 @@ public class BinarySortTree {
     }
 
     /**
-     * @param node3
+     * @param node4
      * @return 删除最小节点，返回最小节点的值
      */
-    public int delRightTreeMin(Node3 node3) {
-        Node3 target = node3;
+    public int delRightTreeMin(Node4 node4) {
+        Node4 target = node4;
         while (target.left != null) {
             target = target.left;
         }
@@ -90,7 +99,7 @@ public class BinarySortTree {
         if (root == null)
             return;
         else {
-            Node3 targetNode = search(value);
+            Node4 targetNode = search(value);
             if (targetNode == null)
                 return;
             //如果当前二叉树只有一个root节点,且是我们要删除的节点
@@ -99,7 +108,7 @@ public class BinarySortTree {
                 return;
             }
 
-            Node3 parent = searchParent(value);
+            Node4 parent = searchParent(value);
             //删除叶子节点
             if (targetNode.left == null && targetNode.right == null) {
                 //是左子节点
@@ -152,8 +161,8 @@ public class BinarySortTree {
     }
 
     //删除左子树最大节点，即把左子树中最大节点替换到当前位置
-    private int delLeftTreeMax(Node3 left) {
-        Node3 target = left;
+    private int delLeftTreeMax(Node4 left) {
+        Node4 target = left;
         while (target != null) {
             target = target.right;
         }
@@ -163,46 +172,106 @@ public class BinarySortTree {
 
 }
 
-class Node3 {
-    int value;
-    Node3 left;
-    Node3 right;
 
-    public Node3(int value) {
+class Node4 {
+    int value;
+    Node4 left;
+    Node4 right;
+
+    public Node4(int value) {
         this.value = value;
     }
 
     @Override
     public String toString() {
-        return "Node3{" +
+        return "Node{" +
                 "value=" + value +
                 '}';
     }
 
+    public int leftHeight() {
+        if (left == null) {
+            return 0;
+        }
+        return left.height();
+    }
+
+    public int rightHeight() {
+        if (right == null)
+            return 0;
+        return right.height();
+    }
+
+    //返回以当前节点为根节点的高度
+    public int height() {
+        return Math.max(left == null ? 0 : left.height(), right == null ? 0 : right.height()) + 1;
+    }
+
+    //左旋转方法
+    private void leftRotate() {
+        //创建新节点，权为当前根节点的权值
+        Node4 newNode = new Node4(value);
+        //把新的节点的左子树设置成当前节点的左子树
+        newNode.left = left;
+        //把新的节点的右子树设置成带你过去节点的右子树的左子树
+        newNode.right = right.left;
+        //把当前节点值替换成右子节点的值
+        this.value = right.value;
+        //把当前节点的右子树设置成右子树的右子树
+        right = right.right;
+        //把当前节点的左子树（左子节点）设置成新节点
+        left = newNode;
+    }
+
+    //右旋转
+    private void rightRotate() {
+        Node4 newNode = new Node4(value);
+        newNode.right = right;
+        newNode.left = left.right;
+        value = left.value;
+        left = left.left;
+        right = newNode;
+    }
+
+
     /**
-     * @param node3
+     * @param node4
      */
-    public void add(Node3 node3) {
+    public void add(Node4 node4) {
         /*
         添加新节点，先跟根节点的value比较
         小于就看左子树情况，无节点就直接挂在左子节点。有就左子树递归添加新节点
         大于等于同左。
          */
-        if (node3 == null)
+        if (node4 == null)
             return;
-        if (node3.value < this.value) {
+        if (node4.value < this.value) {
             //如果当前节点的左子节点为空
             if (this.left == null) {
-                this.left = node3;
+                this.left = node4;
             } else {
-                this.left.add(node3);
+                this.left.add(node4);
             }
         } else {
             if (this.right == null)
-                this.right = node3;
+                this.right = node4;
             else
-                this.right.add(node3);
+                this.right.add(node4);
         }
+
+        //每次添加完一个节点，对左右子树高度进行判断
+        //如果右子树的高度跟左子树的高度之差大于1，需要左旋转
+        if (rightHeight() - leftHeight() > 1) {
+            if (right != null && right.leftHeight() > right.rightHeight())
+                right.rightRotate();
+            leftRotate();
+        } else if (leftHeight() - rightHeight() > 1) {
+            if (left != null && left.rightHeight() > left.leftHeight()) {
+                left.leftRotate();
+            }
+            rightRotate();
+        }
+
     }
 
     //中序遍历
@@ -217,7 +286,7 @@ class Node3 {
     }
 
     //查找待删除节点
-    public Node3 search(int value) {
+    public Node4 search(int value) {
         if (value == this.value) {
             return this;
         } else if (value < this.value) {
@@ -233,7 +302,7 @@ class Node3 {
     }
 
     //查找待删除节点的父节点
-    public Node3 searchParent(int value) {
+    public Node4 searchParent(int value) {
         if ((this.left != null && this.left.value == value) || (this.right != null && this.right.value == value)) {
             return this;
         } else {
