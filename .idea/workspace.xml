@@ -23,9 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed85c090-aefa-43e3-acbf-d3f7dd4a1eb7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/iTree/binarySortTree/BinarySortTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/iTree/huffman/HuffmanCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/iTree/huffman/HuffmanCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/iTree/binarySortTree/BinarySortTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/iTree/binarySortTree/BinarySortTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -397,6 +397,8 @@
       <item itemvalue="Application.HuffmanTree" />
       <item itemvalue="Application.JolDemo" />
       <item itemvalue="Application.AtomicIntegerDemo" />
+      <item itemvalue="Application.HuffmanCode" />
+      <item itemvalue="Application.BinarySortTree" />
       <item itemvalue="Spring Boot.ScGoodWebApplication" />
       <item itemvalue="Spring Boot.ScSearchApplication" />
       <item itemvalue="Spring Boot.ScAuthApplication" />
@@ -411,8 +413,6 @@
       <item itemvalue="Spring Boot.ScUploadApplication" />
       <item itemvalue="Spring Boot.EsApplication" />
       <item itemvalue="Spring Boot.CrawlerApplication" />
-      <item itemvalue="Application.HuffmanCode" />
-      <item itemvalue="Application.BinarySortTree" />
     </list>
     <recent_temporary>
       <list>
@@ -526,14 +526,8 @@
       <workItem from="1588993976783" duration="1294000" />
       <workItem from="1589082527150" duration="1434000" />
       <workItem from="1589173139037" duration="225000" />
-      <workItem from="1589178188870" duration="17831000" />
-    </task>
-    <task id="LOCAL-00017" summary="shopping city -st sc-search">
-      <created>1585130101787</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1585130101787</updated>
+      <workItem from="1589178188870" duration="17900000" />
+      <workItem from="1589245776159" duration="7064000" />
     </task>
     <task id="LOCAL-00018" summary="shopping city -st sc-search indexs">
       <created>1585161176812</created>
@@ -871,7 +865,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589193273148</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="ds -tree huffman code 2nd, BinarySortTree">
+      <created>1589206674588</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1589206674588</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -890,7 +891,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="spring-data-jpa hibernate 12n 121 n2n -st 3nd" />
     <MESSAGE value="spring-data-jpa hibernate 12n 121 n2n -st 4nd" />
     <MESSAGE value="高并发课程 -st ThreadPoolExecutor ctl CAS JOL" />
     <MESSAGE value="springboot ssm + vue user-manage-system -st" />
@@ -915,7 +915,8 @@
     <MESSAGE value="ds -tree -2nd" />
     <MESSAGE value="ds -tree clue, heap sort" />
     <MESSAGE value="ds -tree huffman code" />
-    <option name="LAST_COMMIT_MESSAGE" value="ds -tree huffman code" />
+    <MESSAGE value="ds -tree huffman code 2nd, BinarySortTree" />
+    <option name="LAST_COMMIT_MESSAGE" value="ds -tree huffman code 2nd, BinarySortTree" />
   </component>
   <component name="WindowStateProjectService">
     <state x="590" y="156" key="#Application" timestamp="1585817629275">
@@ -986,30 +987,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="682" y="351" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1586962260183" />
-    <state x="483" y="112" key="CommitChangelistDialog2" timestamp="1589193267176">
+    <state x="483" y="112" key="CommitChangelistDialog2" timestamp="1589206671791">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="483" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1589193267176" />
+    <state x="483" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1589206671791" />
     <state x="740" y="209" key="FileChooserDialogImpl" timestamp="1587832057065">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="209" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1587832057065" />
-    <state width="1860" height="14" key="GridCell.Tab.0.bottom" timestamp="1589204311389">
+    <state width="1860" height="14" key="GridCell.Tab.0.bottom" timestamp="1589206723326">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="14" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589204311389" />
-    <state width="1860" height="14" key="GridCell.Tab.0.center" timestamp="1589204311389">
+    <state width="1860" height="14" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589206723326" />
+    <state width="1860" height="14" key="GridCell.Tab.0.center" timestamp="1589206723326">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="14" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589204311389" />
-    <state width="1860" height="14" key="GridCell.Tab.0.left" timestamp="1589204311389">
+    <state width="1860" height="14" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589206723326" />
+    <state width="1860" height="14" key="GridCell.Tab.0.left" timestamp="1589206723326">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="14" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589204311389" />
-    <state width="1860" height="14" key="GridCell.Tab.0.right" timestamp="1589204311389">
+    <state width="1860" height="14" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589206723326" />
+    <state width="1860" height="14" key="GridCell.Tab.0.right" timestamp="1589206723326">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="14" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589204311389" />
+    <state width="1860" height="14" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589206723326" />
     <state width="1877" height="212" key="GridCell.Tab.1.bottom" timestamp="1588864785304">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -1058,10 +1059,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="456" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1587832056135" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1589193290582">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1589206682921">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1589193290582" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1589206682921" />
     <state x="1173" y="284" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1587278220904">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -1074,10 +1075,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1587885546973" />
-    <state x="816" y="361" width="672" height="678" key="search.everywhere.popup" timestamp="1588856163898">
+    <state x="816" y="361" width="672" height="678" key="search.everywhere.popup" timestamp="1589251708990">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="816" y="361" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1588856163898" />
+    <state x="816" y="361" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1589251708990" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1307,11 +1308,6 @@
           <url>file://$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/iHashtable/IHashTableDemo.java</url>
           <line>10</line>
           <option name="timeStamp" value="55" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/iTree/SortStorageBinaryTree.java</url>
-          <line>62</line>
-          <option name="timeStamp" value="65" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

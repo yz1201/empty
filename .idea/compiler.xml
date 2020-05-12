@@ -18,27 +18,27 @@
         <outputRelativeToContentRoot value="true" />
         <module name="webmagic-core" />
         <module name="sc-order" />
-        <module name="ex-java-ee" />
+        <module name="sc-user-interface" />
         <module name="simhasher" />
         <module name="sc-auth-common" />
-        <module name="ex-crawler" />
         <module name="sc-upload" />
         <module name="sc-search" />
+        <module name="sc-item-service" />
         <module name="sc-cart" />
         <module name="sc-item-interface" />
-        <module name="sc-gateway" />
         <module name="sc-registry" />
         <module name="sc-sms-service" />
         <module name="sc-goods-web" />
-        <module name="sc-user-interface" />
+        <module name="ex-java-ee" />
         <module name="ex-user-manage" />
         <module name="ex-rabbitmq" />
-        <module name="sc-item-service" />
+        <module name="ex-crawler" />
         <module name="sc-user-service" />
-        <module name="ex-lucene" />
+        <module name="sc-common" />
+        <module name="sc-gateway" />
         <module name="ex-elasticsearch" />
         <module name="sc-auth-service" />
-        <module name="sc-common" />
+        <module name="ex-lucene" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
