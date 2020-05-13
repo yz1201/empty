@@ -21,7 +21,6 @@
         <module name="sc-user-interface" />
         <module name="simhasher" />
         <module name="sc-auth-common" />
-        <module name="ex-lucene" />
         <module name="sc-upload" />
         <module name="sc-search" />
         <module name="sc-item-service" />
@@ -35,10 +34,11 @@
         <module name="ex-rabbitmq" />
         <module name="ex-crawler" />
         <module name="sc-user-service" />
+        <module name="sc-common" />
         <module name="sc-gateway" />
         <module name="ex-elasticsearch" />
         <module name="sc-auth-service" />
-        <module name="sc-common" />
+        <module name="ex-lucene" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

@@ -23,23 +23,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed85c090-aefa-43e3-acbf-d3f7dd4a1eb7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/algorythm/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/algorythm/ForkJoinAlgorythm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/graph/ArrayGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/graph/Base.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/iTree/multiwayTree/Base.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/resources/study/ds/itree/NeighborTableGraph.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/resources/study/ds/itree/bfsVSdfs.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/resources/study/ds/itree/ds_category.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/resources/study/ds/itree/eight-queen.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/resources/study/ds/itree/infix-expression.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/resources/study/ds/itree/sort-speed.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/resources/study/ds/itree/sort-speed1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/algorithm/DynamicProgramAlgorithm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/seach/Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/algorythm/seach/Search.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/seach/SeqSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/algorythm/seach/SeqSearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/sort/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/sort/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/algorythm/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/algorithm/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/algorythm/ForkJoinAlgorythm.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/algorithm/ForkJoinAlgorithm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/algorythm/seach/Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/algorithm/seach/Search.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/algorythm/seach/SeqSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/algorithm/seach/SeqSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/graph/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/graph/Base.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,7 +181,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ForkJoinAlgorythm">
+  <component name="RunManager" selected="Application.DynamicProgramAlgorithm">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -231,12 +222,12 @@
       </method>
     </configuration>
     <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.ds.algorythm.BinarySearch" />
+      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.ds.algorithm.BinarySearch" />
       <module name="ex-java-ee" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.dbdj1201.ds.algorythm.*" />
+          <option name="PATTERN" value="cn.dbdj1201.ds.algorithm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -244,13 +235,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ForkJoinAlgorythm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.ds.algorythm.ForkJoinAlgorythm" />
+    <configuration name="DynamicProgramAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.ds.algorithm.DynamicProgramAlgorithm" />
       <module name="ex-java-ee" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.dbdj1201.ds.algorythm.*" />
+          <option name="PATTERN" value="cn.dbdj1201.ds.algorithm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -258,13 +249,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.demo.HelloWorld" />
+    <configuration name="ForkJoinAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.ds.algorithm.ForkJoinAlgorithm" />
       <module name="ex-java-ee" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.dbdj1201.demo.*" />
+          <option name="PATTERN" value="cn.dbdj1201.ds.algorithm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -409,7 +400,10 @@
     </configuration>
     <list>
       <item itemvalue="Application.AVLTree" />
-      <item itemvalue="Application.HelloWorld" />
+      <item itemvalue="Application.ArrayGraph" />
+      <item itemvalue="Application.BinarySearch" />
+      <item itemvalue="Application.ForkJoinAlgorithm" />
+      <item itemvalue="Application.DynamicProgramAlgorithm" />
       <item itemvalue="Spring Boot.ScGoodWebApplication" />
       <item itemvalue="Spring Boot.ScSearchApplication" />
       <item itemvalue="Spring Boot.ScAuthApplication" />
@@ -424,17 +418,14 @@
       <item itemvalue="Spring Boot.ScUploadApplication" />
       <item itemvalue="Spring Boot.EsApplication" />
       <item itemvalue="Spring Boot.CrawlerApplication" />
-      <item itemvalue="Application.ArrayGraph" />
-      <item itemvalue="Application.BinarySearch" />
-      <item itemvalue="Application.ForkJoinAlgorythm" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ForkJoinAlgorythm" />
+        <item itemvalue="Application.DynamicProgramAlgorithm" />
+        <item itemvalue="Application.ForkJoinAlgorithm" />
         <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.ArrayGraph" />
         <item itemvalue="Application.AVLTree" />
-        <item itemvalue="Application.HelloWorld" />
       </list>
     </recent_temporary>
   </component>
@@ -544,14 +535,9 @@
       <workItem from="1589245776159" duration="13668000" />
       <workItem from="1589266457501" duration="8454000" />
       <workItem from="1589281595399" duration="633000" />
-      <workItem from="1589330817404" duration="19887000" />
-    </task>
-    <task id="LOCAL-00020" summary="shopping city -st sc-search category brand specs aggregation">
-      <created>1585326935984</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1585326935984</updated>
+      <workItem from="1589330817404" duration="20051000" />
+      <workItem from="1589374901544" duration="6037000" />
+      <workItem from="1589381712186" duration="458000" />
     </task>
     <task id="LOCAL-00021" summary="shopping city -st sc-search category brand specs aggregation filter">
       <created>1585478976772</created>
@@ -889,7 +875,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589272151517</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="ds -tree Graph Algorithm BinarySearch divide-and-conquer">
+      <created>1589362417629</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1589362417630</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -908,7 +901,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="springboot ssm + vue user-manage-system -st" />
     <MESSAGE value="springboot ssm + vue user-manage-system -done &#10;vue？ pi vue" />
     <MESSAGE value="data structure  sparsearray array queue" />
     <MESSAGE value="crawler -st" />
@@ -933,7 +925,8 @@
     <MESSAGE value="ds -tree huffman code 2nd, BinarySortTree" />
     <MESSAGE value="ds -tree  BinarySortTree 2nd" />
     <MESSAGE value="ds -tree  BinarySortTree 3nd" />
-    <option name="LAST_COMMIT_MESSAGE" value="ds -tree  BinarySortTree 3nd" />
+    <MESSAGE value="ds -tree Graph Algorithm BinarySearch divide-and-conquer" />
+    <option name="LAST_COMMIT_MESSAGE" value="ds -tree Graph Algorithm BinarySearch divide-and-conquer" />
   </component>
   <component name="WindowStateProjectService">
     <state x="590" y="156" key="#Application" timestamp="1585817629275">
@@ -1004,46 +997,46 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="682" y="351" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1586962260183" />
-    <state x="483" y="112" key="CommitChangelistDialog2" timestamp="1589272146654">
+    <state x="483" y="112" key="CommitChangelistDialog2" timestamp="1589362411278">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="483" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1589272146654" />
+    <state x="483" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1589362411278" />
     <state x="740" y="209" key="FileChooserDialogImpl" timestamp="1587832057065">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="209" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1587832057065" />
-    <state width="1877" height="337" key="GridCell.Tab.0.bottom" timestamp="1589362238418">
+    <state width="1877" height="333" key="GridCell.Tab.0.bottom" timestamp="1589382246262">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="337" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589362238418" />
-    <state width="1877" height="337" key="GridCell.Tab.0.center" timestamp="1589362238417">
+    <state width="1877" height="333" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589382246262" />
+    <state width="1877" height="333" key="GridCell.Tab.0.center" timestamp="1589382246262">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="337" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589362238417" />
-    <state width="1877" height="337" key="GridCell.Tab.0.left" timestamp="1589362238417">
+    <state width="1877" height="333" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589382246262" />
+    <state width="1877" height="333" key="GridCell.Tab.0.left" timestamp="1589382246262">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="337" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589362238417" />
-    <state width="1877" height="337" key="GridCell.Tab.0.right" timestamp="1589362238418">
+    <state width="1877" height="333" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589382246262" />
+    <state width="1877" height="333" key="GridCell.Tab.0.right" timestamp="1589382246262">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="337" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589362238418" />
-    <state width="1877" height="161" key="GridCell.Tab.1.bottom" timestamp="1589355073751">
+    <state width="1877" height="333" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589382246262" />
+    <state width="1877" height="489" key="GridCell.Tab.1.bottom" timestamp="1589382176561">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="161" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589355073751" />
-    <state width="1877" height="161" key="GridCell.Tab.1.center" timestamp="1589355073751">
+    <state width="1877" height="489" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589382176561" />
+    <state width="1877" height="489" key="GridCell.Tab.1.center" timestamp="1589382176561">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="161" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589355073751" />
-    <state width="1877" height="161" key="GridCell.Tab.1.left" timestamp="1589355073750">
+    <state width="1877" height="489" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589382176561" />
+    <state width="1877" height="489" key="GridCell.Tab.1.left" timestamp="1589382176561">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="161" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589355073750" />
-    <state width="1877" height="161" key="GridCell.Tab.1.right" timestamp="1589355073751">
+    <state width="1877" height="489" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589382176561" />
+    <state width="1877" height="489" key="GridCell.Tab.1.right" timestamp="1589382176561">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="161" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589355073751" />
+    <state width="1877" height="489" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589382176561" />
     <state width="1561" height="262" key="GridCell.Tab.2.bottom" timestamp="1586853101029">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -1076,10 +1069,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="456" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1587832056135" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1589272161384">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1589362426872">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1589272161384" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1589362426872" />
     <state x="1173" y="284" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1587278220904">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

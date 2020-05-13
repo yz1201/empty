@@ -1,10 +1,10 @@
-package cn.dbdj1201.ds.algorythm;
+package cn.dbdj1201.ds.algorithm;
 
 /**
  * @author tyz1201
  * @datetime 2020-05-13 16:59
  **/
-public class ForkJoinAlgorythm {
+public class ForkJoinAlgorithm {
     /*
     分治算法：（Divide-and-Conquer）
         把一个复杂问题分解成两个或者更多的相同或相似的问题，再把子问题分成更小的子问题，直到最后子问题可以简单的直接求解，原问题的解即子问题的解的合并，
@@ -65,9 +65,5 @@ public class ForkJoinAlgorythm {
             //把B塔上剩的盘子挪到C
             hanoiTower(num - 1, b, a, c);
         }
-
-
     }
-
-
 }

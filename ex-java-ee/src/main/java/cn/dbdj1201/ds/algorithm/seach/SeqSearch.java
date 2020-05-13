@@ -1,4 +1,4 @@
-package cn.dbdj1201.ds.algorythm.seach;
+package cn.dbdj1201.ds.algorithm.seach;
 
 /**
  * @author tyz1201
