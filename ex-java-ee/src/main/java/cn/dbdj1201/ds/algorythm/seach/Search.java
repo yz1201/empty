@@ -1,6 +1,4 @@
-package cn.dbdj1201.ds.seach;
-
-import org.hibernate.validator.constraints.Length;
+package cn.dbdj1201.ds.algorythm.seach;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -22,7 +20,16 @@ public class Search {
     /*
     二分法从有序数组中查找特定数字
      */
+
+    /**
+     * @param arr    已排序的数组
+     * @param right  右指针起始位置
+     * @param left   左指针起始
+     * @param target 目标数
+     * @return 没找到返回空，找到了返回数组中所有与目标数相等的值下标
+     */
     public static List<Integer> binary(int[] arr, int right, int left, int target) {
+        //递归结束条件：左右交叉，目标数比最小值小 or 比最大值大
         if (left > right || target < arr[left] || target > arr[arr.length - 1])
             return null;
 
@@ -34,18 +41,16 @@ public class Search {
         } else if (target < midVal) {
             return binary(arr, left, mid - 1, target);
         } else {
+            //找到了第一个目标数之后，在其附近寻找是否还有
             List<Integer> indexList = new ArrayList<>();
-
             int tempIndex = mid - 1;
-
             while (tempIndex >= 0 && arr[tempIndex] == target)
                 indexList.add(tempIndex--);
-
             indexList.add(mid);
-
             tempIndex = mid + 1;
             while (tempIndex <= arr.length - 1 && arr[tempIndex] == target)
                 indexList.add(tempIndex++);
+
             return indexList;
         }
     }

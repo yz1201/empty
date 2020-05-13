@@ -55,11 +55,11 @@ public class QuickSort {
             }
 
             //左半部分递归
-//            if (left < r)
-//                quick(arr, left, r);
+            if (left < r)
+                quick(arr, left, r);
             //右半部分递归
-//            if (right > l)
-//                quick(arr, l, right);
+            if (right > l)
+                quick(arr, l, right);
 
         }
     }

@@ -21,10 +21,10 @@
         <module name="sc-user-interface" />
         <module name="simhasher" />
         <module name="sc-auth-common" />
-        <module name="ex-crawler" />
         <module name="ex-lucene" />
         <module name="sc-upload" />
         <module name="sc-search" />
+        <module name="sc-item-service" />
         <module name="sc-cart" />
         <module name="sc-item-interface" />
         <module name="sc-registry" />
@@ -33,7 +33,7 @@
         <module name="ex-java-ee" />
         <module name="ex-user-manage" />
         <module name="ex-rabbitmq" />
-        <module name="sc-item-service" />
+        <module name="ex-crawler" />
         <module name="sc-user-service" />
         <module name="sc-gateway" />
         <module name="ex-elasticsearch" />
