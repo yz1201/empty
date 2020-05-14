@@ -22,6 +22,7 @@ public class InsertSort {
     public static void insert(int[] arr) {
         int insertIndex;
         int insertVal;
+        //从第二个数开始。
         for (int i = 1; i < arr.length; i++) {
             insertIndex = i - 1;
             insertVal = arr[i];

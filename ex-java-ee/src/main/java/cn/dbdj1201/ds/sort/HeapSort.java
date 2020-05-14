@@ -22,7 +22,7 @@ public class HeapSort {
      */
 
     public static void main(String[] args) {
-        int arr[] = {4, 6, 8, 5, 9};
+        int[] arr = {4, 6, 8, 5, 9, 2};
         heap(arr);
     }
 
@@ -32,7 +32,7 @@ public class HeapSort {
         for (int i = (arr.length - 1) / 2; i >= 0; i--)
             adjustHeap(arr, i, arr.length);
 
-        System.out.println(Arrays.toString(arr));
+//        System.out.println(Arrays.toString(arr));
         for (int j = arr.length - 1; j > 0; j--) {
             int temp = arr[0];
             arr[0] = arr[j];
@@ -53,7 +53,7 @@ public class HeapSort {
         int temp = arr[i];
 
         for (int k = i * 2 + 1; k < length; k = k * 2 + 1) {
-            if (arr[k] < arr[k + 1] && k + 1 < length) {//左子节点的值小于右子节点的值
+            if (k + 1 < length && arr[k] < arr[k + 1]) {//左子节点的值小于右子节点的值
                 k++; //k记录较大值的下标
             }
 

@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/es6/es6.iml" filepath="$PROJECT_DIR$/es6/es6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/it-course/it-course.iml" filepath="$PROJECT_DIR$/it-course/it-course.iml" />
       <module fileurl="file://$PROJECT_DIR$/sc-manage-web/sc-manage-web.iml" filepath="$PROJECT_DIR$/sc-manage-web/sc-manage-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/sc-portal/sc-portal.iml" filepath="$PROJECT_DIR$/sc-portal/sc-portal.iml" />
       <module fileurl="file://$PROJECT_DIR$/sc-user/sc-user.iml" filepath="$PROJECT_DIR$/sc-user/sc-user.iml" />

@@ -8,6 +8,9 @@ import java.util.Arrays;
  * 冒泡排序
  **/
 public class BubbleSort {
+
+    private static int times = 0;
+
     public static void main(String[] args) {
         /*
         array[5,3,1,7,2,4]
@@ -15,6 +18,7 @@ public class BubbleSort {
         BubbleSort bubbleSort = new BubbleSort();
         int[] arr = {5, 3, 1, 7, 2, 4};
         System.out.println(Arrays.toString(bubbleSort.sort(arr)));
+        System.out.println(times);
 //        Arrays.sort(arr);
 
     }
@@ -23,6 +27,7 @@ public class BubbleSort {
      * 冒泡排序
      * 每一次浮出最大值，直到有序
      * 需len-1次，第i次需要排len-1-i个数字，因为后边的已经有序了。
+     *
      * @param arr
      * @return
      */
@@ -37,6 +42,7 @@ public class BubbleSort {
                     temp = arr[j];
                     arr[j] = arr[j + 1];
                     arr[j + 1] = temp;
+                    times++;
                 }
             }
             if (!flag)
