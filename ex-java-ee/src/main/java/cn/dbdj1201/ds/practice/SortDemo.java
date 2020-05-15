@@ -15,7 +15,8 @@ public class SortDemo {
 //        bubbling(arr);
 //        System.out.println(Arrays.toString(arr));
 //        System.out.println(times);
-        heapSort(arr);
+        insert(arr);
+        System.out.println(Arrays.toString(arr));
     }
 
     /*
@@ -99,9 +100,23 @@ public class SortDemo {
 
     /*
     插入排序
+        :少量元素排序比较好用，就像整理扑克牌，从第二个元素开始整理前边的
      */
     public static void insert(int[] arr) {
+        //外层从第二个元素遍历
+        //内层往前遍历，如果满足条件交互相邻位置元素
+        for (int i = 1; i < arr.length - 1; i++) {
 
+            for (int j = i; j > 0; j--) {
+                if (arr[j] < arr[j - 1]) {
+                    int temp = arr[j];
+                    arr[j] = arr[j - 1];
+                    arr[j - 1] = temp;
+                } else
+                    break;
+            }
+
+        }
     }
 
 }

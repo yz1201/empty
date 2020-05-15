@@ -14,6 +14,7 @@ public class KMP {
             2，现在要判断str1是否包含str2，若存在返回第一次出现的位置，不存在返回-1
      */
     public static void main(String[] args) {
+
         String s1 = "abcedabcde";
         String s2 = "bcedd";
         int ans = violenceMatch(s1, s2);
@@ -80,7 +81,7 @@ public class KMP {
         return -1;
     }
 
-    //获取子串的部分匹配值,背？
+    //获取子串的部分匹配表,背？
     public static int[] kmpNext(String dest) {
         int[] next = new int[dest.length()];
         next[0] = 0;
@@ -94,6 +95,7 @@ public class KMP {
             }
 
             next[i] = j;
+
         }
         return next;
     }

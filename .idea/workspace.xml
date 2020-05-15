@@ -23,30 +23,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed85c090-aefa-43e3-acbf-d3f7dd4a1eb7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/algorithm/greedy/GreedyDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/algorithm/kmp/KMP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/practice/SortDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/it-course/it-course.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/it-course/src/cn/dbdj1201/itcast/day01/HelloWorld.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/it-course/src/cn/dbdj1201/itcast/day01/demo/Comment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/it-course/src/cn/dbdj1201/itcast/day01/demo/Comment1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/it-course/src/cn/dbdj1201/itcast/day01/demo/Comment2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/it-course/src/cn/dbdj1201/itcast/day01/demo/Constant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/it-course/src/cn/dbdj1201/itcast/day01/demo/Constant1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/it-course/src/cn/dbdj1201/itcast/day01/demo/Constant2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/it-course/src/cn/dbdj1201/itcast/day01/demo/HelloWorld.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/it-course/src/cn/dbdj1201/itcast/day01/demo/HelloWorld1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/it-course/src/cn/dbdj1201/itcast/day01/demo/HelloWorld2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/it-course/src/cn/dbdj1201/itcast/day01/demo/HelloWorldII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/it-course/src/cn/dbdj1201/itcast/day01/demo/HelloWorldII1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/it-course/src/cn/dbdj1201/itcast/day01/demo/HelloWorldII2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/algorithm/kruskal/Kruskal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/algorithm/prim/Prim.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/algorithm/prim/prim1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/algorithm/prim/prim2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/algorithm/prim/prim3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/algorithm/prim/prim4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/algorithm/prim/prim5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/resources/study/ds/algorithm/greedy/greedy1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/resources/study/ds/algorithm/greedy/greedy2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/resources/study/ds/algorithm/greedy/greedy3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/resources/study/ds/algorithm/greedy/greedy4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/resources/study/ds/algorithm/greedy/greedy5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/resources/study/ds/algorithm/greedy/greedy6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/resources/study/ds/algorithm/greedy/greedy7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/resources/study/ds/algorithm/greedy/greedy8.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/sort/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/sort/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/sort/HeapSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/sort/HeapSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/algorithm/kmp/KMP.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/algorithm/kmp/KMP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/practice/SortDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/practice/SortDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/sort/InsertSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/sort/InsertSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/sort/RadixSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/sort/RadixSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,7 +132,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ex-java-ee/src/main/resources/study/ds/algorithm" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/algorithm/prim" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -165,24 +162,24 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\maven_project\empty\ex-user-manage\src\main\resources\static" />
+      <recent name="F:\maven_project\empty\ex-java-ee\src\main\resources\study" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="cn.dbdj1201.es" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\maven_project\empty\ex-java-ee\src\main\resources\study\ds\algorithm" />
-      <recent name="F:\maven_project\empty\ex-java-ee\src\main\resources\study\ds\itree" />
-      <recent name="F:\maven_project\empty\ex-java-ee\src\main\resources\study\ds" />
-      <recent name="F:\maven_project\empty\ex-elasticsearch\src\main\resources" />
-      <recent name="F:\maven_project\empty\ex-crawler\src\main\java\cn\dbdj1201\crawler\utils" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="cn.dbdj1201.itcast.day01.demo" />
       <recent name="cn.dbdj1201.sc.search.client" />
       <recent name="cn.dbdj1201.sc.upload.config" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\maven_project\empty\ex-user-manage\src\main\resources\static" />
-      <recent name="F:\maven_project\empty\ex-java-ee\src\main\resources\study" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\maven_project\empty\ex-java-ee\src\main\java\cn\dbdj1201\ds\algorithm\prim" />
+      <recent name="F:\maven_project\empty\ex-java-ee\src\main\resources\study\ds\algorithm\greedy" />
+      <recent name="F:\maven_project\empty\ex-java-ee\src\main\resources\study\ds\algorithm" />
+      <recent name="F:\maven_project\empty\ex-java-ee\src\main\resources\study\ds\itree" />
+      <recent name="F:\maven_project\empty\ex-java-ee\src\main\resources\study\ds" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -198,7 +195,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GreedyDemo">
+  <component name="RunManager" selected="Application.Kruskal">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -224,34 +221,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.ds.sort.HeapSort" />
-      <module name="ex-java-ee" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.dbdj1201.ds.sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.itcast.day01.HelloWorld" />
-      <module name="it-course" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.dbdj1201.itcast.day01.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="InsertSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.ds.sort.InsertSort" />
       <module name="ex-java-ee" />
@@ -259,6 +228,34 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cn.dbdj1201.ds.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Kruskal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.ds.algorithm.kruskal.Kruskal" />
+      <module name="ex-java-ee" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.dbdj1201.ds.algorithm.kruskal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Prim" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.ds.algorithm.prim.Prim" />
+      <module name="ex-java-ee" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.dbdj1201.ds.algorithm.prim.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -416,6 +413,9 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.SortDemo" />
+      <item itemvalue="Application.InsertSort" />
+      <item itemvalue="Application.GreedyDemo" />
       <item itemvalue="Spring Boot.ScGoodWebApplication" />
       <item itemvalue="Spring Boot.ScSearchApplication" />
       <item itemvalue="Spring Boot.ScAuthApplication" />
@@ -430,19 +430,16 @@
       <item itemvalue="Spring Boot.ScUploadApplication" />
       <item itemvalue="Spring Boot.EsApplication" />
       <item itemvalue="Spring Boot.CrawlerApplication" />
-      <item itemvalue="Application.SortDemo" />
-      <item itemvalue="Application.HeapSort" />
-      <item itemvalue="Application.HelloWorld" />
-      <item itemvalue="Application.InsertSort" />
-      <item itemvalue="Application.GreedyDemo" />
+      <item itemvalue="Application.Prim" />
+      <item itemvalue="Application.Kruskal" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Kruskal" />
+        <item itemvalue="Application.Prim" />
+        <item itemvalue="Application.SortDemo" />
         <item itemvalue="Application.GreedyDemo" />
         <item itemvalue="Application.InsertSort" />
-        <item itemvalue="Application.HeapSort" />
-        <item itemvalue="Application.SortDemo" />
-        <item itemvalue="Application.HelloWorld" />
       </list>
     </recent_temporary>
   </component>
@@ -555,14 +552,8 @@
       <workItem from="1589330817404" duration="20051000" />
       <workItem from="1589374901544" duration="6037000" />
       <workItem from="1589381712186" duration="751000" />
-      <workItem from="1589415687351" duration="27363000" />
-    </task>
-    <task id="LOCAL-00022" summary="shopping city -st sc-search category brand specs filter elasticsearch spring data done thymeleaf begin">
-      <created>1585506675298</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1585506675298</updated>
+      <workItem from="1589415687351" duration="36980000" />
+      <workItem from="1589503408475" duration="11579000" />
     </task>
     <task id="LOCAL-00023" summary="shopping city -st sc-search  thymeleaf item details">
       <created>1585541346201</created>
@@ -900,7 +891,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589382426936</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="ds -Algorithm -st kmp greedy">
+      <created>1589446761980</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1589446761980</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -919,7 +917,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="data structure  sparsearray array queue" />
     <MESSAGE value="crawler -st" />
     <MESSAGE value="crawler httpclient jsoup -st 2nd" />
     <MESSAGE value="crawler httpclient+jsoup -st 3nd search.jd.com header" />
@@ -944,7 +941,8 @@
     <MESSAGE value="ds -tree  BinarySortTree 3nd" />
     <MESSAGE value="ds -tree Graph Algorithm BinarySearch divide-and-conquer" />
     <MESSAGE value="ds -tree Graph Algorithm DynamicProgramAlgorithm" />
-    <option name="LAST_COMMIT_MESSAGE" value="ds -tree Graph Algorithm DynamicProgramAlgorithm" />
+    <MESSAGE value="ds -Algorithm -st kmp greedy" />
+    <option name="LAST_COMMIT_MESSAGE" value="ds -Algorithm -st kmp greedy" />
   </component>
   <component name="WindowStateProjectService">
     <state x="590" y="156" key="#Application" timestamp="1585817629275">
@@ -987,10 +985,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="673" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1586965469437" />
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1589432316391">
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1589513808397">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1589432316391" />
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1589513808397" />
     <state x="689" y="302" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1584696130343">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -999,10 +997,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="640" y="255" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586837734368" />
-    <state x="587" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1589359797855">
+    <state x="587" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1589449665520">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="587" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589359797855" />
+    <state x="587" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589449665520" />
     <state x="716" y="378" width="487" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1584934953738">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -1015,46 +1013,46 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="682" y="351" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1586962260183" />
-    <state x="483" y="112" key="CommitChangelistDialog2" timestamp="1589382421226">
+    <state x="483" y="112" key="CommitChangelistDialog2" timestamp="1589446754899">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="483" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1589382421226" />
+    <state x="483" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1589446754899" />
     <state x="740" y="209" key="FileChooserDialogImpl" timestamp="1589445552635">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="209" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1589445552635" />
-    <state width="1877" height="352" key="GridCell.Tab.0.bottom" timestamp="1589445852740">
+    <state width="1877" height="296" key="GridCell.Tab.0.bottom" timestamp="1589514258325">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589445852740" />
-    <state width="1877" height="352" key="GridCell.Tab.0.center" timestamp="1589445852740">
+    <state width="1877" height="296" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589514258325" />
+    <state width="1877" height="296" key="GridCell.Tab.0.center" timestamp="1589514258325">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589445852740" />
-    <state width="1877" height="352" key="GridCell.Tab.0.left" timestamp="1589445852733">
+    <state width="1877" height="296" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589514258325" />
+    <state width="1877" height="296" key="GridCell.Tab.0.left" timestamp="1589514258325">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589445852733" />
-    <state width="1877" height="352" key="GridCell.Tab.0.right" timestamp="1589445852740">
+    <state width="1877" height="296" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589514258325" />
+    <state width="1877" height="296" key="GridCell.Tab.0.right" timestamp="1589514258325">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589445852740" />
-    <state width="1877" height="352" key="GridCell.Tab.1.bottom" timestamp="1589445852740">
+    <state width="1877" height="296" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589514258325" />
+    <state width="1877" height="352" key="GridCell.Tab.1.bottom" timestamp="1589464877005">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589445852740" />
-    <state width="1877" height="352" key="GridCell.Tab.1.center" timestamp="1589445852740">
+    <state width="1877" height="352" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589464877005" />
+    <state width="1877" height="352" key="GridCell.Tab.1.center" timestamp="1589464877004">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589445852740" />
-    <state width="1877" height="352" key="GridCell.Tab.1.left" timestamp="1589445852740">
+    <state width="1877" height="352" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589464877004" />
+    <state width="1877" height="352" key="GridCell.Tab.1.left" timestamp="1589464877004">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589445852740" />
-    <state width="1877" height="352" key="GridCell.Tab.1.right" timestamp="1589445852740">
+    <state width="1877" height="352" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589464877004" />
+    <state width="1877" height="352" key="GridCell.Tab.1.right" timestamp="1589464877004">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589445852740" />
+    <state width="1877" height="352" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589464877004" />
     <state width="1561" height="262" key="GridCell.Tab.2.bottom" timestamp="1586853101029">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -1087,10 +1085,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="498" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1589445552535" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1589382438781">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1589446770543">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1589382438781" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1589446770543" />
     <state x="1173" y="284" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1587278220904">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -1103,10 +1101,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1587885546973" />
-    <state x="816" y="361" width="672" height="678" key="search.everywhere.popup" timestamp="1589361801640">
+    <state x="816" y="361" width="672" height="678" key="search.everywhere.popup" timestamp="1589512663653">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="816" y="361" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1589361801640" />
+    <state x="816" y="361" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1589512663653" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
