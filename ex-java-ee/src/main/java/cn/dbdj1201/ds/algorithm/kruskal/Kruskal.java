@@ -1,21 +1,24 @@
 package cn.dbdj1201.ds.algorithm.kruskal;
 
 import java.util.Arrays;
+import java.util.concurrent.atomic.AtomicInteger;
 
 /**
  * @author tyz1201
  * @datetime 2020-05-15 10:50
+ * kruskal算法
+ * 应用场景：公交站问题。
  **/
 public class Kruskal {
 
     private int edgeNum;    //边的个数
-    private char[] vertex;  //顶点数组
-    private int[][] matrix; //邻接矩阵
+    private final char[] vertex;  //顶点数组
+    private final int[][] matrix; //邻接矩阵
     private static final int INF = Integer.MAX_VALUE;
 
     public static void main(String[] args) {
+        //初始化图
         char[] vertexs = {'A', 'B', 'C', 'D', 'E', 'F', 'G'};
-        //克鲁斯卡尔算法的邻接矩阵
         int[][] matrix = {
                 {0, 12, INF, INF, INF, 16, 14},
                 {12, 0, 10, INF, INF, 7, INF},
@@ -25,15 +28,14 @@ public class Kruskal {
                 {16, 7, 6, INF, 2, 0, 9},
                 {14, INF, INF, INF, 8, 9, 0}};
 
-        //创建KruskalCase 对象实例
         Kruskal kruskal = new Kruskal(vertexs, matrix);
-        //输出构建的
 //        kruskal.print();
-//        kruskal.kruskal();
-        EData[] edges = kruskal.getEdges();
-        kruskal.sortEdge(edges);
-        System.out.println(Arrays.toString(edges));
+        kruskal.kruskal();
+//        EData[] edges = kruskal.getEdges();
+//        kruskal.sortEdge(edges);
+//        System.out.println(Arrays.toString(edges));
     }
+
 
     public Kruskal(char[] vertex, int[][] matrix) {
 //        this.vertex = vertex;
@@ -50,7 +52,7 @@ public class Kruskal {
 //                    edgeNum++;
 //            }
 //        }
-
+        //顶点跟自身的边不计算成边数目
         for (int i = 0; i < vlen; i++) {
             for (int j = i + 1; j < vlen; j++) {
                 if (this.matrix[i][j] != INF)
@@ -65,7 +67,7 @@ public class Kruskal {
         }
     }
 
-    //边排序
+    //边按权排序
     private void sortEdge(EData[] edges) {
         for (int i = 0; i < edges.length - 1; i++) {
             for (int j = 0; j < edges.length - 1 - i; j++) {
@@ -90,12 +92,7 @@ public class Kruskal {
         return -1;
     }
 
-    /**
-     * 获取图中的边，放到EData数组中
-     * 通过matrix邻接矩阵来获取
-     *
-     * @return
-     */
+    //将邻接矩阵中的边解析到边数组
     private EData[] getEdges() {
         int index = 0;
         EData[] edges = new EData[edgeNum];
@@ -110,7 +107,7 @@ public class Kruskal {
     }
 
     /**
-     * 获取下标为i的顶点的终点
+     * 获取下标为i的顶点的终点，通过两个顶点的终点是否一致判断是否形成了回路
      *
      * @param ends 记录了各个顶点对应的终点是哪个。ends这个数组是在遍历过程中，逐步形成
      * @param i    顶点下标
@@ -136,11 +133,34 @@ public class Kruskal {
 
         sortEdge(edges);
 
-        for (EData edge : edges) {
-
+        for (int i = 0; i < edgeNum; i++) {
+            //边的两个顶点
+            int p1 = getPosition(edges[i].start);
+            int p2 = getPosition(edges[i].end);
+            //若当前边的两个顶点的终点是同一个，说明，目前的最小生成树产生了回路，该边就被放弃。
+            int m = getEnd(ends, p1);
+            System.out.println(Arrays.toString(ends));
+            int n = getEnd(ends, p2);
+            if (m != n) {
+                ends[m] = n;//设置m在已有最小生成树的终点
+//                ends[n] =n; //为啥可以不写。
+                results[index++] = edges[i];
+            }
         }
 
+        //打印选定的边
+        AtomicInteger sum = new AtomicInteger();
+        Arrays.stream(results).forEach(result -> {
+
+            if (result != null) {
+                System.out.println(result);
+                sum.addAndGet(result.weight);
+            }
+
+        });
+        System.out.println(sum.get());
     }
+
 }
 
 //边的对象实例，包含边的权值，以及两个顶点
