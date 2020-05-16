@@ -32,6 +32,8 @@ public class Dijkstra {
 
         graph.dijkstra(6);
         graph.showResult();
+
+        System.out.println('a'-20);
     }
 }
 
