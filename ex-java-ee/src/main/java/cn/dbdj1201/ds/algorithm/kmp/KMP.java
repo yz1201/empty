@@ -79,6 +79,7 @@ public class KMP {
                 return i + 1 - j;  //为啥+1？因为此时i还未处理，j已经+1
         }
         return -1;
+
     }
 
     //获取子串的部分匹配表,背？

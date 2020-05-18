@@ -2,6 +2,7 @@ package cn.dbdj1201.ds.algorithm.floyd;
 
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -27,7 +28,9 @@ public class Floyd {
         matrix[6] = new int[]{2, 3, N, N, 4, 6, 0};
 
         Graph graph = new Graph(vertex.length, matrix, vertex);
+        graph.showGraph();
         graph.floyd();
+        System.out.println("======================");
         graph.showGraph();
     }
 }
@@ -53,7 +56,7 @@ class Graph {
     }
 
     public void showGraph() {
-//        char[] vertex = {'A', 'B', 'C', 'D', 'E', 'F', 'G'};
+        char[] vertex = {'A', 'B', 'C', 'D', 'E', 'F', 'G'};
         System.out.println("距离矩阵");
         for (int[] ints : this.disMatrix) {
             System.out.println(Arrays.toString(ints));
@@ -62,7 +65,11 @@ class Graph {
         System.out.println("=======================");
         System.out.println("前驱顶点矩阵");
         for (int[] ints : this.preMatrix) {
-            System.out.println(Arrays.toString(ints));
+//            System.out.println(Arrays.toString(ints));
+            Stream.of(ints).forEach(arr -> {
+                Arrays.stream(arr).forEach(num -> System.out.print(vertex[num] + " "));
+                System.out.println();
+            });
         }
     }
 

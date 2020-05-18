@@ -15,7 +15,7 @@ public class SortDemo {
 //        bubbling(arr);
 //        System.out.println(Arrays.toString(arr));
 //        System.out.println(times);
-        insert(arr);
+        quick(arr, 0, arr.length - 1);
         System.out.println(Arrays.toString(arr));
     }
 
@@ -117,6 +117,50 @@ public class SortDemo {
             }
 
         }
+    }
+
+    /*
+    快速排序 时间复杂度 线性对数阶 最坏平方阶，不稳定排序
+    */
+    public static void quick(int[] arr, int left, int right) {
+        int l = left;
+        int r = right;
+        int pivot = arr[(left + right) / 2];
+        int temp;
+        while (l < r) {
+
+            //定位到非法数
+            while (arr[l] < pivot)
+                l++;
+            while (arr[r] > pivot)
+                r--;
+
+            if (l >= r)
+                break;
+            //交互
+            temp = arr[r];
+            arr[r] = arr[l];
+            arr[l] = temp;
+            //防止有相同数导致的死循环
+            if (arr[l] == pivot)
+                r--;
+            if (arr[r] == pivot)
+                l++;
+        }
+
+        //防止栈溢出
+        if (l == r) {
+            l++;
+            r--;
+        }
+
+        //向左递归
+        if (left < r)
+            quick(arr, left, r);
+        //向右递归
+        if (right > l)
+            quick(arr, l, right);
+
     }
 
 }

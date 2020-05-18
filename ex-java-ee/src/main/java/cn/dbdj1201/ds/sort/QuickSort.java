@@ -11,6 +11,7 @@ public class QuickSort {
 
     public static void main(String[] args) {
         int[] arr = {5, 7, 6, 2, 1, 4};
+//        int[] arr = {1, 1, 1, 1, 1, 1};
         quick(arr, 0, arr.length - 1);
         System.out.println(Arrays.toString(arr));
     }
@@ -48,19 +49,19 @@ public class QuickSort {
             if (arr[r] == pivot)
                 l++;
 
-            //如果左指针右指针重合，各自移动一位。
-            if (l == r) {
-                l++;
-                r--;
-            }
-
-            //左半部分递归
-            if (left < r)
-                quick(arr, left, r);
-            //右半部分递归
-            if (right > l)
-                quick(arr, l, right);
-
         }
+
+        //如果左指针右指针重合，各自移动一位。
+        if (l == r) {
+            l++;
+            r--;
+        }
+
+        //左半部分递归
+        if (left < r)
+            quick(arr, left, r);
+        //右半部分递归
+        if (right > l)
+            quick(arr, l, right);
     }
 }
