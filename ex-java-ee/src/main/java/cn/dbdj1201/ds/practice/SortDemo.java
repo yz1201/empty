@@ -160,7 +160,6 @@ public class SortDemo {
         //向右递归
         if (right > l)
             quick(arr, l, right);
-
     }
 
 }

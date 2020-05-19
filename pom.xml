@@ -22,6 +22,7 @@
         <module>sc-auth</module>
         <module>sc-cart</module>
         <module>sc-order</module>
+        <module>concurrent-programing</module>
     </modules>
 
 

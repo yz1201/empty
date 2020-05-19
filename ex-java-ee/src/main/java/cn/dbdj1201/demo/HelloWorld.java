@@ -6,13 +6,14 @@ package cn.dbdj1201.demo;
  **/
 public class HelloWorld {
     public static void main(String[] args) {
-        System.out.println(Integer.toBinaryString(-1));
-        int n = -1;
-        while (n != 0) {
-            n = n << 1;
-            System.out.println(n);
-            System.out.println(Integer.toBinaryString(n));
-            System.out.println("===========================================");
-        }
+//        System.out.println(Integer.toBinaryString(-1));
+//        int n = -1;
+//        while (n != 0) {
+//            n = n << 1;
+//            System.out.println(n);
+//            System.out.println(Integer.toBinaryString(n));
+//            System.out.println("===========================================");
+//        }
+
     }
 }

@@ -2,9 +2,6 @@ package cn.dbdj1201.itcast.day03.work;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 import java.util.Scanner;
 
 import static java.util.concurrent.TimeUnit.SECONDS;
