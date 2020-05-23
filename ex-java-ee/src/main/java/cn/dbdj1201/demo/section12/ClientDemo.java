@@ -17,7 +17,7 @@ public class ClientDemo {
 
         os.write("hello,tcp,我来了".getBytes());
 
-        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(s.getOutputStream()));
+//        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(s.getOutputStream()));
 
         //接收服务器反馈
         InputStream is = s.getInputStream();
