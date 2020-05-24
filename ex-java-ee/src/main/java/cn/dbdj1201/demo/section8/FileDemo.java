@@ -13,7 +13,7 @@ public class FileDemo {
 
     public static void main(String[] args) {
 //        testCreate();
-        printAllFiles(new File(FILE_URL + "\\test1"));
+        printAllFiles(new File(FILE_URL + "\\test1\\test4"));
     }
 
     private static void testDefinate() {
@@ -84,6 +84,7 @@ public class FileDemo {
 //            });
 //
 //        }
+        System.out.println(Arrays.toString(files));
 
         Arrays.stream(files).forEach(file1 -> {
             if (file1.isDirectory()) {
