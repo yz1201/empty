@@ -18,8 +18,8 @@ spring:
         max-wait: -1
 sc:
   sms:
-    accessKeyId: LTAI4FjbDHM6WjcpXjHUYSyY # 你自己的accessKeyId
-    accessKeySecret: KACZ9K09rwkURaLKg6RrmhJmcZI8zY # 你自己的AccessKeySecret
+    accessKeyId:  # 你自己的accessKeyId
+    accessKeySecret:  # 你自己的AccessKeySecret
     signName: ShoppingCity # 签名名称
     verifyCodeTemplate: SMS_186953758 # 模板名称
 
