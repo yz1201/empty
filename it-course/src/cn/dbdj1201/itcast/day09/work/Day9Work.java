@@ -12,7 +12,7 @@ public class Day9Work {
 
     public static void main(String[] args) throws ParseException {
 //        question1();
-//        question2();
+        question2();
     }
 
     /*

@@ -6,6 +6,7 @@ import java.lang.reflect.Proxy;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Iterator;
+import java.util.List;
 
 /**
  * @author tyz1201
@@ -14,7 +15,7 @@ import java.util.Iterator;
 public class Test4 {
     public static void main(String[] args) throws NoSuchMethodException {
         // 使用动态代理技术代理ArrayList集合，使 remove 方法能够删除集合中所有与方法参数相同的元素
-        Collection<String> arrayList = new ArrayList<>();
+        ArrayList<String> arrayList = new ArrayList<>();
         arrayList.add("a");
         arrayList.add("b");
         arrayList.add("c");
@@ -23,7 +24,7 @@ public class Test4 {
         arrayList.add("a");
 
         //增强remove方法
-        Collection<String> listProxy = (Collection<String>) Proxy.newProxyInstance(arrayList.getClass().getClassLoader(), arrayList.getClass().getInterfaces(),
+        Collection<String> listProxy = (List<String>) Proxy.newProxyInstance(arrayList.getClass().getClassLoader(), arrayList.getClass().getInterfaces(),
                 (proxy, method, args1) -> {
                     //迭代器删除元素
                     if ("remove".equals(method.getName())) {
