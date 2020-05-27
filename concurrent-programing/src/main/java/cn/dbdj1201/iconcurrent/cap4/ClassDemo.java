@@ -26,6 +26,12 @@ public class ClassDemo {
         synchronized (o) {
             System.out.println(ClassLayout.parseInstance(o).toPrintable());
         }
+
+        new Thread(()->{
+            synchronized (o){
+                System.out.println(ClassLayout.parseInstance(o).toPrintable());
+            }
+        }).start();
     }
 }
 
