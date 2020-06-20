@@ -22,29 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed85c090-aefa-43e3-acbf-d3f7dd4a1eb7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/algorithm/kruskal/Kruskal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/algorithm/prim/Prim.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/algorithm/prim/prim1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/algorithm/prim/prim2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/algorithm/prim/prim3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/algorithm/prim/prim4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/algorithm/prim/prim5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/resources/study/ds/algorithm/greedy/greedy1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/resources/study/ds/algorithm/greedy/greedy2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/resources/study/ds/algorithm/greedy/greedy3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/resources/study/ds/algorithm/greedy/greedy4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/resources/study/ds/algorithm/greedy/greedy5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/resources/study/ds/algorithm/greedy/greedy6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/resources/study/ds/algorithm/greedy/greedy7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex-java-ee/src/main/resources/study/ds/algorithm/greedy/greedy8.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/algorithm/kmp/KMP.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/algorithm/kmp/KMP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/practice/SortDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/practice/SortDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/sort/InsertSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/sort/InsertSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/sort/RadixSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex-java-ee/src/main/java/cn/dbdj1201/ds/sort/RadixSort.java" afterDir="false" />
-    </list>
+    <list default="true" id="ed85c090-aefa-43e3-acbf-d3f7dd4a1eb7" name="Default Changelist" comment="ds -Algorithm -st kmp greedy" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -95,6 +73,7 @@
       <MavenImportingSettings>
         <option name="downloadDocsAutomatically" value="true" />
         <option name="downloadSourcesAutomatically" value="true" />
+        <option name="importAutomatically" value="true" />
         <option name="jdkForImporter" value="#JAVA_HOME" />
         <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
@@ -145,11 +124,8 @@
     <property name="project.structure.side.proportion" value="0.24597701" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="ts.external.directory.path" value="F:\IntelliJ IDEA 2019.2.4\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
-  </component>
-  <component name="ReactorSettings">
-    <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -162,17 +138,8 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\maven_project\empty\ex-user-manage\src\main\resources\static" />
-      <recent name="F:\maven_project\empty\ex-java-ee\src\main\resources\study" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="cn.dbdj1201.es" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="cn.dbdj1201.itcast.day01.demo" />
-      <recent name="cn.dbdj1201.sc.search.client" />
-      <recent name="cn.dbdj1201.sc.upload.config" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\maven_project\empty\ex-java-ee\src\main\java\cn\dbdj1201\ds\algorithm\prim" />
@@ -180,6 +147,15 @@
       <recent name="F:\maven_project\empty\ex-java-ee\src\main\resources\study\ds\algorithm" />
       <recent name="F:\maven_project\empty\ex-java-ee\src\main\resources\study\ds\itree" />
       <recent name="F:\maven_project\empty\ex-java-ee\src\main\resources\study\ds" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.dbdj1201.itcast.day01.demo" />
+      <recent name="cn.dbdj1201.sc.search.client" />
+      <recent name="cn.dbdj1201.sc.upload.config" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\maven_project\empty\ex-user-manage\src\main\resources\static" />
+      <recent name="F:\maven_project\empty\ex-java-ee\src\main\resources\study" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -416,6 +392,8 @@
       <item itemvalue="Application.SortDemo" />
       <item itemvalue="Application.InsertSort" />
       <item itemvalue="Application.GreedyDemo" />
+      <item itemvalue="Application.Prim" />
+      <item itemvalue="Application.Kruskal" />
       <item itemvalue="Spring Boot.ScGoodWebApplication" />
       <item itemvalue="Spring Boot.ScSearchApplication" />
       <item itemvalue="Spring Boot.ScAuthApplication" />
@@ -430,8 +408,6 @@
       <item itemvalue="Spring Boot.ScUploadApplication" />
       <item itemvalue="Spring Boot.EsApplication" />
       <item itemvalue="Spring Boot.CrawlerApplication" />
-      <item itemvalue="Application.Prim" />
-      <item itemvalue="Application.Kruskal" />
     </list>
     <recent_temporary>
       <list>
@@ -442,6 +418,18 @@
         <item itemvalue="Application.InsertSort" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SpringBootOptions">
     <option name="showAdditionalConfigNotification" value="false" />
@@ -554,6 +542,8 @@
       <workItem from="1589381712186" duration="751000" />
       <workItem from="1589415687351" duration="36980000" />
       <workItem from="1589503408475" duration="11579000" />
+      <workItem from="1592467558291" duration="159000" />
+      <workItem from="1592535856996" duration="789000" />
     </task>
     <task id="LOCAL-00023" summary="shopping city -st sc-search  thymeleaf item details">
       <created>1585541346201</created>
@@ -902,19 +892,20 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="crawler -st" />
@@ -1013,9 +1004,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="682" y="351" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1586962260183" />
-    <state x="483" y="112" key="CommitChangelistDialog2" timestamp="1589446754899">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1592467714508">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1592467714508" />
     <state x="483" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1589446754899" />
     <state x="740" y="209" key="FileChooserDialogImpl" timestamp="1589445552635">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -1077,9 +1069,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="600" y="217" key="NewModule_or_Project.wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1587351453767" />
-    <state x="440" y="94" key="SettingsEditor" timestamp="1586962609946">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="181" y="0" key="SettingsEditor" timestamp="1592467585870">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="181" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1592467585870" />
     <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1586962609946" />
     <state width="498" height="498" key="SwitcherDM" timestamp="1589445552535">
       <screen x="0" y="0" width="1920" height="1040" />
