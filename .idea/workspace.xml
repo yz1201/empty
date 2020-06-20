@@ -22,7 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed85c090-aefa-43e3-acbf-d3f7dd4a1eb7" name="Default Changelist" comment="ds -Algorithm -st kmp greedy" />
+    <list default="true" id="ed85c090-aefa-43e3-acbf-d3f7dd4a1eb7" name="Default Changelist" comment="ds -Algorithm -st kmp greedy">
+      <change afterPath="$PROJECT_DIR$/concurrent-programing/src/main/java/cn/dbdj1201/iconcurrent/cap5/Test062001.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,6 +58,26 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="dbdj1201_done" />
+              </list>
+            </value>
+          </entry>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="origin/dbdj1201branch" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
@@ -544,6 +566,7 @@
       <workItem from="1589503408475" duration="11579000" />
       <workItem from="1592467558291" duration="159000" />
       <workItem from="1592535856996" duration="789000" />
+      <workItem from="1592618023271" duration="206000" />
     </task>
     <task id="LOCAL-00023" summary="shopping city -st sc-search  thymeleaf item details">
       <created>1585541346201</created>
@@ -1004,10 +1027,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="682" y="351" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1586962260183" />
-    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1592467714508">
+    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1592618285050">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1592467714508" />
+    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1592618285050" />
     <state x="483" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1589446754899" />
     <state x="740" y="209" key="FileChooserDialogImpl" timestamp="1589445552635">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -1078,9 +1101,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="498" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1589445552535" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1589446770543">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="350" y="65" key="Vcs.Push.Dialog.v2" timestamp="1592618245061">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="350" y="65" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1592618245061" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1589446770543" />
     <state x="1173" y="284" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1587278220904">
       <screen x="0" y="0" width="1920" height="1040" />
