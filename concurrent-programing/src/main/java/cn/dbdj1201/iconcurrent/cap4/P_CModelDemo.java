@@ -49,7 +49,7 @@ class MessageQueue {
     public Message take() {
         synchronized (list) {
             while (list.isEmpty()) {
-                try {
+                try {    
                     log.debug("队列为空，暂停售卖");
                     list.wait();
                 } catch (InterruptedException e) {
