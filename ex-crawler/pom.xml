@@ -20,7 +20,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
-        <spring.starter.version>2.2.6.RELEASE</spring.starter.version>
+        <spring.starter.version>2.5.12</spring.starter.version>
         <mapper.starter.version>2.1.5</mapper.starter.version>
         <mybatis.starter.version>2.1.2</mybatis.starter.version>
         <druid.starter.version>1.1.9</druid.starter.version>
