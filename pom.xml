@@ -44,7 +44,7 @@
         <mybatis.starter.version>2.1.2</mybatis.starter.version>
         <fastDFS.client.version>1.27.2</fastDFS.client.version>
         <druid.starter.version>1.1.9</druid.starter.version>
-        <mysql.version>8.0.19</mysql.version>
+        <mysql.version>8.0.28</mysql.version>
         <pageHelper.starter.version>1.2.13</pageHelper.starter.version>
         <sc.latest.version>1.0.0-SNAPSHOT</sc.latest.version>
     </properties>
